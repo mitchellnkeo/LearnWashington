@@ -94,12 +94,12 @@ sources:
     accessedAt: "2026-09-20"
 
 media:
-  - url: /media/seattle-elliott-bay.jpg
+  - url: /media/jimi-hendrix-1968.jpg
     mediaType: image
-    title: Aerial view of Elliott Bay, Seattle
-    creator: Dcoetzee
-    sourceUrl: https://commons.wikimedia.org/wiki/File:Aerial_view_of_Elliot_Bay,_Seattle.jpg
-    license: Public domain (author dedication)
-    licenseUrl: https://creativecommons.org/publicdomain/mark/1.0/
-    altText: Aerial view of Elliott Bay and downtown Seattle, the city where Jimi Hendrix was born.
-    creditLine: Aerial photograph of Elliott Bay, Seattle, released to the public domain by the photographer, March 17, 2009. No public-domain portrait of Hendrix is available.
+    title: Promotional photo of the Jimi Hendrix Experience
+    creator: Warner/Reprise Records
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Jimi_Hendrix_experience_1968.jpg
+    license: Public domain in the United States (published without copyright notice)
+    licenseUrl: https://commons.wikimedia.org/wiki/Template:PD-US-no_notice
+    altText: Black-and-white 1968 Warner/Reprise publicity photograph of Jimi Hendrix.
+    creditLine: Warner/Reprise promotional photograph of the Jimi Hendrix Experience, circulated about 1968 without a copyright notice. Public domain in the United States.

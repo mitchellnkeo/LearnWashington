@@ -15,7 +15,4 @@ URLs are also stored on each story's `media` record.
 | `elwha-glines-canyon.jpg` | Elwha River | Janis Burger, NPS, 4 May 2013 | U.S. government work | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Glines_canyon_dam_removal_elwha_river_project_5_4_13_NPS_J_burger_(16705309863).jpg) |
 | `fort-vancouver.jpg` | Fort Vancouver | National Park Service, 22 July 2009 | U.S. government work | [Wikimedia Commons / NPGallery](https://commons.wikimedia.org/wiki/File:Bastion_and_Stockade_Wall_(57abe4a7-cdef-076c-be78-312c6640bfae).jpg) |
 | `cascadia-subduction-zone.jpg` | Cascadia | USGS Pacific Coastal and Marine Science Center | U.S. government work | [USGS media](https://www.usgs.gov/media/images/cascadia-megathrust-fault-map) |
-| `seattle-elliott-bay.jpg` | Jimi Hendrix in Seattle | Dcoetzee, 17 March 2009 | Public-domain dedication | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Aerial_view_of_Elliot_Bay,_Seattle.jpg) |
-
-The Hendrix card uses a Seattle / Elliott Bay aerial, not a portrait. Photographs
-of Hendrix himself remain under copyright.
+| `jimi-hendrix-1968.jpg` | Jimi Hendrix in Seattle | Warner/Reprise Records, about 1968 | U.S. public domain (published without copyright notice) | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Jimi_Hendrix_experience_1968.jpg) |
