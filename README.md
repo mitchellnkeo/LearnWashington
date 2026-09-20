@@ -61,13 +61,16 @@ Map views are shareable with `?lat=&lng=&zoom=&category=&story=`. `GET /api/map/
 
 Search (`GET /api/search?q=`), Surprise Me (`GET /api/discovery/random?excludeStoryIds=`), related stories (`GET /api/stories/:slug/related`), and nearby (`GET /api/discovery/nearby?lat=&lng=&radiusKm=`) are live. Search and Surprise Me sit on the map; related links appear on the postcard. Nearby is an API for later UI.
 
+Every published story is also on [`/stories`](http://localhost:3000/stories), a server-rendered list with category, region, and search filters. That page is the non-map path for readers and crawlers.
+
 ## Scripts
 
 | Command | What it does |
 | --- | --- |
 | `pnpm dev` | Next.js dev server |
 | `pnpm build` | Production build |
-| `pnpm test` | Workspace tests |
+| `pnpm test` | Workspace unit tests |
+| `pnpm --filter @fwty/web test:e2e` | Playwright journeys + axe on `/stories` |
 | `pnpm lint` | Workspace lint |
 | `pnpm typecheck` | Workspace TypeScript |
 | `pnpm content:check` | Validate YAML stories (schema, gates, geometry) |

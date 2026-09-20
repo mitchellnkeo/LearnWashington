@@ -25,7 +25,7 @@ export function SearchCommand({
   const [busy, setBusy] = useState(false);
 
   const hits = useMemo<SearchHit[]>(() => {
-    if (!results) {
+    if (!results || query.trim().length < 2) {
       return [];
     }
 
@@ -54,7 +54,7 @@ export function SearchCommand({
         label: category.name,
       })),
     ];
-  }, [results]);
+  }, [query, results]);
 
   useEffect(() => {
     function onKeyDown(event: KeyboardEvent) {
@@ -72,8 +72,6 @@ export function SearchCommand({
   useEffect(() => {
     const q = query.trim();
     if (q.length < 2) {
-      setResults(null);
-      setBusy(false);
       return;
     }
 

@@ -2,7 +2,8 @@
 
 import { type MapBBox } from "@fwty/shared";
 import dynamic from "next/dynamic";
-import { useCallback, useEffect, useMemo, useState } from "react";
+import Link from "next/link";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { CategoryFilter } from "@/components/explore/CategoryFilter";
 import { SearchCommand } from "@/components/explore/SearchCommand";
@@ -34,6 +35,8 @@ export function ExploreMap({
   const [viewport, setViewport] = useState<{ bbox?: MapBBox; zoom?: number }>({
     zoom: view.zoom,
   });
+  const [announcement, setAnnouncement] = useState("");
+  const announcedRef = useRef(false);
 
   const initialView = useMemo(() => {
     if (view.lat === undefined || view.lng === undefined || view.zoom === undefined) {
@@ -150,38 +153,65 @@ export function ExploreMap({
     [story],
   );
 
+  useEffect(() => {
+    if (!announcedRef.current) {
+      announcedRef.current = true;
+      if (!story) {
+        return;
+      }
+    }
+    setAnnouncement(
+      story
+        ? `Opened ${story.title}. Map moved to that location.`
+        : "Postcard closed.",
+    );
+  }, [story]);
+
   return (
     <div className="relative h-dvh w-full">
-      <WashingtonMap
-        stories={stories}
-        selectedSlug={selectedSlug}
-        selectedCenter={selectedCenter}
-        initialView={initialView}
-        onSelectSlug={selectSlug}
-        onViewChange={onViewChange}
-      />
-      <div className="pointer-events-none absolute top-4 right-4 left-4 z-30 max-w-sm rounded border border-[var(--rule)] bg-[var(--paper)]/95 px-4 py-3 shadow-sm md:right-auto">
-        <p className="text-xs tracking-[0.18em] text-[var(--muted)] uppercase">
-          From Washington
-        </p>
-        <p className="serif text-2xl leading-tight">To You</p>
-        <p className="mt-1 text-sm text-[var(--muted)]">
-          Explore Washington, one story at a time.
-        </p>
-        <div className="pointer-events-auto mt-3 space-y-2">
-          <SearchCommand
-            onSelectStory={openStory}
-            onSelectCategory={(slug) => selectCategory(slug)}
-          />
-          <SurpriseButton onSelectStory={openStory} onError={setError} />
-          <CategoryFilter category={category} onSelect={selectCategory} />
+      <div inert={Boolean(story)}>
+        <WashingtonMap
+          stories={stories}
+          selectedSlug={selectedSlug}
+          selectedCenter={selectedCenter}
+          initialView={initialView}
+          onSelectSlug={selectSlug}
+          onViewChange={onViewChange}
+        />
+        <div className="pointer-events-none absolute top-4 right-4 left-4 z-30 max-w-sm rounded border border-[var(--rule)] bg-[var(--paper)]/95 px-4 py-3 shadow-sm md:right-auto">
+          <p className="text-xs tracking-[0.18em] text-[var(--muted)] uppercase">
+            From Washington
+          </p>
+          <p className="serif text-2xl leading-tight">To You</p>
+          <p className="mt-1 text-sm text-[var(--muted)]">
+            Explore Washington, one story at a time.
+          </p>
+          <p className="pointer-events-auto mt-2 text-sm">
+            <Link href="/stories" className="underline underline-offset-2">
+              Browse all stories
+            </Link>
+          </p>
+          <div className="pointer-events-auto mt-3 space-y-2">
+            <SurpriseButton onSelectStory={openStory} onError={setError} />
+            <SearchCommand
+              onSelectStory={openStory}
+              onSelectCategory={(slug) => selectCategory(slug)}
+            />
+            <CategoryFilter category={category} onSelect={selectCategory} />
+          </div>
         </div>
       </div>
       {error ? (
-        <p className="absolute bottom-4 left-4 z-10 rounded bg-[var(--paper)] px-3 py-2 text-sm shadow">
+        <p
+          role="alert"
+          className="absolute bottom-4 left-4 z-10 rounded bg-[var(--paper)] px-3 py-2 text-sm shadow"
+        >
           {error}
         </p>
       ) : null}
+      <div className="sr-only" aria-live="polite" aria-atomic="true">
+        {announcement}
+      </div>
       <PostcardDrawer
         story={story}
         onClose={() => selectSlug(null)}

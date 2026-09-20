@@ -28,7 +28,7 @@ export default async function HomePage() {
   const stories = await loadMapStories();
 
   return (
-    <main className="h-dvh overflow-hidden">
+    <main id="main-content" className="h-dvh overflow-hidden overscroll-none">
       <h1 className="sr-only">From Washington To You</h1>
       <Suspense fallback={<div className="h-dvh bg-[var(--paper)]" />}>
         <ExploreMap initialStories={stories} />

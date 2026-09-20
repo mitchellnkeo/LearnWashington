@@ -355,11 +355,13 @@ export function WashingtonMap({
       return;
     }
 
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     map.easeTo({
       center,
       zoom: Math.max(map.getZoom(), 8.5),
+      duration: reduceMotion ? 0 : 800,
     });
   }, [selectedCenter, selectedSlug]);
 
-  return <div ref={containerRef} className="h-full w-full" />;
+  return <div ref={containerRef} className="h-full w-full touch-none" />;
 }

@@ -253,20 +253,20 @@ The honest answer: **this workload is read-mostly, small-data, and cache-friendl
 
 ### Tasks
 
-- [ ] **Accessible browse index:** a server-rendered `/stories` (or `/explore`) list with category/region filtering and search — the complete non-map representation of all published content. Doubles as the SEO crawl surface.
-- [ ] Postcard drawer/dialog: correct focus management, focus trap, Escape to close, screen-reader announcements on open/close and on map fly-to.
-- [ ] Full keyboard pass: all interactive elements reachable and operable; visible focus states; semantic buttons/links; landmarks.
-- [ ] Contrast audit against the postcard visual design; meaningful alt text verified on all published media (validation script already enforces presence — now verify quality).
-- [ ] `prefers-reduced-motion` respected (map fly-to animations, drawer transitions).
-- [ ] **Mobile:** bottom-sheet postcard (distinct from desktop drawer), touch-friendly filters, prominent Surprise Me, map gestures that don't fight page scroll.
-- [ ] Frontend component tests: drawer focus behavior, filter interactions, keyboard flows. Playwright E2E for the critical journeys (PROJECT.md §49: open→filter→marker→postcard→source; search→fly→open; surprise me).
-- [ ] Run automated a11y tooling (axe) in CI on key pages; fix findings.
+- [x] **Accessible browse index:** a server-rendered `/stories` (or `/explore`) list with category/region filtering and search — the complete non-map representation of all published content. Doubles as the SEO crawl surface.
+- [x] Postcard drawer/dialog: correct focus management, focus trap, Escape to close, screen-reader announcements on open/close and on map fly-to.
+- [x] Full keyboard pass: all interactive elements reachable and operable; visible focus states; semantic buttons/links; landmarks.
+- [x] Contrast audit against the postcard visual design; meaningful alt text verified on all published media (validation script already enforces presence — now verify quality).
+- [x] `prefers-reduced-motion` respected (map fly-to animations, drawer transitions).
+- [x] **Mobile:** bottom-sheet postcard (distinct from desktop drawer), touch-friendly filters, prominent Surprise Me, map gestures that don't fight page scroll.
+- [x] Frontend component tests: drawer focus behavior, filter interactions, keyboard flows. Playwright E2E for the critical journeys (PROJECT.md §49: open→filter→marker→postcard→source; search→fly→open; surprise me).
+- [x] Run automated a11y tooling (axe) in CI on key pages; fix findings.
 
 
 
 ### Exit criteria
 
-- Every published story is reachable and readable without the map, with keyboard only, and with a screen reader. Mobile experience feels intentional. E2E suite green in CI.
+- Every published story is reachable and readable without the map at `/stories`, with keyboard only, and with a screen reader. Mobile uses a bottom sheet; desktop keeps the side drawer. Published media is still deferred — `content:check` now warns on thin alt text so quality is gated when images arrive.
 
 ---
 

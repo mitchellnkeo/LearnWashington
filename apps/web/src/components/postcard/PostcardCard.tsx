@@ -38,7 +38,9 @@ export function PostcardCard({
       <p className="text-xs tracking-[0.18em] text-[var(--muted)] uppercase">
         From Washington · To You
       </p>
-      <h1 className="serif mt-3 text-3xl leading-tight">{story.title}</h1>
+      <h1 id="postcard-title" className="serif mt-3 text-3xl leading-tight">
+        {story.title}
+      </h1>
       <p className="mt-2 text-sm text-[var(--muted)]">
         {story.locationLabel}
         {story.dateLabel ? ` · ${story.dateLabel}` : ""}

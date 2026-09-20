@@ -65,6 +65,22 @@ export type MapStoriesFilter = {
   categories?: string[];
 };
 
+export type StoriesBrowseFilter = {
+  q?: string;
+  category?: string;
+  region?: string;
+};
+
+export type PublishedStorySummary = {
+  slug: string;
+  title: string;
+  hook: string;
+  locationLabel: string;
+  dateLabel: string | null;
+  region: string | null;
+  categories: { slug: string; name: string }[];
+};
+
 function asGeometry<T extends GeoJsonGeometry>(value: T | string): T {
   return typeof value === "string" ? (JSON.parse(value) as T) : value;
 }
@@ -167,6 +183,104 @@ export async function listPublishedMapStories(
       },
     };
   });
+}
+
+export async function listPublishedStories(
+  sql: postgres.Sql,
+  filter: StoriesBrowseFilter = {},
+): Promise<PublishedStorySummary[]> {
+  const categoryFilter = filter.category
+    ? sql`and exists (
+        select 1
+        from story_categories sc
+        join categories c on c.id = sc.category_id
+        where sc.story_id = s.id
+          and c.slug = ${filter.category}
+      )`
+    : sql``;
+
+  const regionFilter = filter.region ? sql`and p.region = ${filter.region}` : sql``;
+
+  const searchFilter = filter.q
+    ? sql`and (
+        s.title % ${filter.q}
+        or s.hook % ${filter.q}
+        or p.name % ${filter.q}
+        or to_tsvector('english', s.title || ' ' || s.hook)
+          @@ websearch_to_tsquery('english', ${filter.q})
+      )`
+    : sql``;
+
+  const rows = await sql<
+    {
+      slug: string;
+      title: string;
+      hook: string;
+      date_label: string | null;
+      place_name: string | null;
+      county: string | null;
+      region: string | null;
+      categories: { slug: string; name: string }[] | string;
+    }[]
+  >`
+    select
+      s.slug,
+      s.title,
+      s.hook,
+      s.date_label,
+      p.name as place_name,
+      p.county,
+      p.region,
+      coalesce(
+        (
+          select json_agg(json_build_object('slug', c.slug, 'name', c.name) order by c.sort_order)
+          from story_categories sc
+          join categories c on c.id = sc.category_id
+          where sc.story_id = s.id
+        ),
+        '[]'::json
+      ) as categories
+    from stories s
+    left join places p on p.id = s.primary_place_id
+    where s.status = 'PUBLISHED'
+      and s.verification_status in ('VERIFIED', 'DISPUTED')
+      ${categoryFilter}
+      ${regionFilter}
+      ${searchFilter}
+    order by s.title
+  `;
+
+  return rows.map((row) => {
+    const categories =
+      typeof row.categories === "string"
+        ? (JSON.parse(row.categories) as { slug: string; name: string }[])
+        : row.categories;
+    const locationParts = [row.place_name, row.county].filter(Boolean);
+
+    return {
+      slug: row.slug,
+      title: row.title,
+      hook: row.hook,
+      locationLabel: locationParts.join(" · ") || "Washington",
+      dateLabel: row.date_label,
+      region: row.region,
+      categories,
+    };
+  });
+}
+
+export async function listPublishedRegions(sql: postgres.Sql): Promise<string[]> {
+  const rows = await sql<{ region: string }[]>`
+    select distinct p.region
+    from places p
+    join stories s on s.primary_place_id = p.id
+    where s.status = 'PUBLISHED'
+      and s.verification_status in ('VERIFIED', 'DISPUTED')
+      and p.region is not null
+    order by p.region
+  `;
+
+  return rows.map((row) => row.region);
 }
 
 export async function getPublishedStoryBySlug(

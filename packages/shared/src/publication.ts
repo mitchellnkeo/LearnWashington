@@ -166,11 +166,20 @@ export function checkSeedStory(story: SeedStory): ContentIssue[] {
   }
 
   for (const [index, media] of story.media.entries()) {
-    if (!media.altText.trim()) {
+    const alt = media.altText.trim();
+    if (!alt) {
       issues.push({
         code: "missing-alt-text",
         message: `Media ${index + 1} is missing alt text.`,
         level: "error",
+      });
+      continue;
+    }
+    if (alt.split(/\s+/).length < 4 || alt.length < 12) {
+      issues.push({
+        code: "thin-alt-text",
+        message: `Media ${index + 1} alt text should describe the image in a short phrase.`,
+        level: "warning",
       });
     }
   }

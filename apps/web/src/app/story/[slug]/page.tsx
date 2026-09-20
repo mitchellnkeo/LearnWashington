@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getPublishedStoryBySlug } from "@fwty/database";
 import { PostcardCard } from "@/components/postcard/PostcardCard";
+import { SiteHeader } from "@/components/site/SiteHeader";
 import { getSql } from "@/lib/db";
 import { getServerEnv } from "@/lib/env";
 
@@ -58,15 +59,22 @@ export default async function StoryPage({ params }: PageProps) {
   }
 
   return (
-    <main className="mx-auto min-h-dvh max-w-2xl px-6 py-10">
-      <p className="text-sm">
-        <Link href={`/?story=${story.slug}`} className="underline underline-offset-2">
-          Back to the map
-        </Link>
-      </p>
-      <div className="mt-8">
-        <PostcardCard story={story} showPermalink={false} />
-      </div>
-    </main>
+    <>
+      <SiteHeader />
+      <main id="main-content" className="mx-auto min-h-dvh max-w-2xl px-6 py-10">
+        <p className="text-sm">
+          <Link href={`/?story=${story.slug}`} className="underline underline-offset-2">
+            Open on the map
+          </Link>
+          {" · "}
+          <Link href="/stories" className="underline underline-offset-2">
+            All stories
+          </Link>
+        </p>
+        <div className="mt-8">
+          <PostcardCard story={story} showPermalink={false} />
+        </div>
+      </main>
+    </>
   );
 }

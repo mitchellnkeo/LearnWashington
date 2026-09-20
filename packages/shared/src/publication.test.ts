@@ -167,4 +167,24 @@ describe("checkSeedStory", () => {
     expect(issues.some((issue) => issue.code === "unknown-claim-source")).toBe(true);
     expect(issues.some((issue) => issue.code === "duplicate-claim-source")).toBe(true);
   });
+
+  it("warns when media alt text is only a label", () => {
+    const issues = checkSeedStory(
+      story({
+        media: [
+          {
+            url: "https://example.com/photo.jpg",
+            mediaType: "image",
+            creator: "USGS",
+            sourceUrl: "https://www.usgs.gov/",
+            license: "public-domain",
+            altText: "Volcano",
+            creditLine: "USGS",
+          },
+        ],
+      }),
+    );
+
+    expect(issues.some((issue) => issue.code === "thin-alt-text")).toBe(true);
+  });
 });

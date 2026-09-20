@@ -36,3 +36,12 @@ jobs:
         run: pnpm build
         env:
           WEB_ORIGIN: http://localhost:3000
+
+      - name: Install Playwright
+        run: pnpm --filter @fwty/web exec playwright install --with-deps chromium
+
+      - name: End-to-end
+        run: pnpm --filter @fwty/web test:e2e
+        env:
+          CI: true
+          WEB_ORIGIN: http://127.0.0.1:3000

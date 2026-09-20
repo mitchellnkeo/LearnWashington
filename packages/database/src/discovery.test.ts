@@ -8,6 +8,7 @@ import {
   searchPublishedContent,
 } from "./discovery";
 import { loadRepoEnv } from "./env";
+import { listPublishedStories } from "./queries";
 
 const runSpatial = process.env.RUN_SPATIAL_TESTS === "1";
 if (runSpatial) {
@@ -78,5 +79,17 @@ describe.skipIf(!runSpatial || !databaseUrl)("discovery queries", () => {
 
     expect(nearby[0]?.slug).toBe("jimi-hendrix-seattle");
     expect(nearby.some((story) => story.slug === "dry-falls")).toBe(false);
+  });
+
+  it("lists published stories by category and region", async () => {
+    const music = await listPublishedStories(sql, { category: "music-culture" });
+    expect(music.map((story) => story.slug)).toEqual(["jimi-hendrix-seattle"]);
+
+    const basin = await listPublishedStories(sql, { region: "Columbia Basin" });
+    expect(basin.map((story) => story.slug).sort()).toEqual([
+      "dry-falls",
+      "grand-coulee-dam",
+      "hanford-b-reactor",
+    ]);
   });
 });

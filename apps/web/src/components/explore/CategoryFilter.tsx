@@ -17,6 +17,7 @@ export function CategoryFilter({
     >
       <button
         type="button"
+        aria-pressed={!category}
         onClick={() => onSelect(null)}
         className={`min-h-11 shrink-0 rounded-full border px-3 text-sm ${
           category
@@ -30,6 +31,7 @@ export function CategoryFilter({
         <button
           key={item.slug}
           type="button"
+          aria-pressed={category === item.slug}
           onClick={() => onSelect(item.slug)}
           className={`min-h-11 shrink-0 rounded-full border px-3 text-sm ${
             category === item.slug
