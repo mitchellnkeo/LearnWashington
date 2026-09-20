@@ -107,3 +107,9 @@ sources:
     sourceType: government
     tier: S
     accessedAt: "2026-09-20"
+
+relatedStories:
+  - slug: cascadia-subduction-zone
+    relationshipType: same-arc
+  - slug: mount-rainier
+    relationshipType: same-arc

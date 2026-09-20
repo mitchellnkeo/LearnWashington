@@ -7,9 +7,11 @@ import type { StoryPostcard } from "@/lib/story-types";
 export function PostcardDrawer({
   story,
   onClose,
+  onSelectStory,
 }: {
   story: StoryPostcard | null;
   onClose: () => void;
+  onSelectStory?: (slug: string) => void;
 }) {
   const closeRef = useRef<HTMLButtonElement>(null);
 
@@ -59,7 +61,7 @@ export function PostcardDrawer({
           </button>
         </div>
         <div id="postcard-title">
-          <PostcardCard story={story} />
+          <PostcardCard story={story} onSelectStory={onSelectStory} />
         </div>
       </aside>
     </div>

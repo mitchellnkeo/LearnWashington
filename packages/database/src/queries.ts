@@ -1,4 +1,5 @@
 import type postgres from "postgres";
+import { listRelatedPublishedStories, type RelatedStory } from "./discovery";
 
 export type GeoJsonPoint = {
   type: "Point";
@@ -51,6 +52,7 @@ export type StoryPostcard = {
   longitude: number;
   categories: { slug: string; name: string }[];
   sources: StorySource[];
+  related: RelatedStory[];
 };
 
 export type MapStoriesFilter = {
@@ -242,6 +244,7 @@ export async function getPublishedStoryBySlug(
     order by src.id, src.tier
   `;
 
+  const related = await listRelatedPublishedStories(sql, slug);
   const [longitude, latitude] = asPoint(story.geometry).coordinates;
   const locationParts = [story.place_name, story.county].filter(Boolean);
 
@@ -258,6 +261,7 @@ export async function getPublishedStoryBySlug(
     latitude,
     longitude,
     categories,
+    related,
     sources: sources.map((source) => ({
       title: source.title,
       publisher: source.publisher,

@@ -230,18 +230,18 @@ The honest answer: **this workload is read-mostly, small-data, and cache-friendl
 
 ### Tasks
 
-- [ ] **Category filters:** touch-friendly filter UI; filters combine with map state; reflected in URL params.
-- [ ] **Search** (`GET /api/search?q=`): Postgres FTS + `pg_trgm` across story titles/hooks, places, tags, categories; grouped response (stories/places/tags); search UI with keyboard navigation; selecting a result flies the map and opens the postcard.
-- [ ] **Surprise Me** (`GET /api/discovery/random`): random eligible published story with recent-repeat avoidance (client sends `excludeStoryIds`); fly-to + open postcard; prominent button (especially on mobile).
-- [ ] **Related stories:** manually curated `related_stories` rows (typed relationships); postcard shows related links; clicking navigates map + card. No auto-published AI similarity (PROJECT.md §35).
-- [ ] **Nearby discovery groundwork** (post-MVP feature, architected now per PROJECT.md §34): `GET /api/discovery/nearby` implemented with `ST_DWithin`, simple distance ranking — cheap to build once spatial schema exists; UI exposure can wait.
-- [ ] API integration tests: search relevance basics, random eligibility rules, filter combinations, related retrieval.
+- [x] **Category filters:** touch-friendly filter UI; filters combine with map state; reflected in URL params.
+- [x] **Search** (`GET /api/search?q=`): Postgres FTS + `pg_trgm` across story titles/hooks, places, tags, categories; grouped response (stories/places/tags); search UI with keyboard navigation; selecting a result flies the map and opens the postcard.
+- [x] **Surprise Me** (`GET /api/discovery/random`): random eligible published story with recent-repeat avoidance (client sends `excludeStoryIds`); fly-to + open postcard; prominent button (especially on mobile).
+- [x] **Related stories:** manually curated `related_stories` rows (typed relationships); postcard shows related links; clicking navigates map + card. No auto-published AI similarity (PROJECT.md §35).
+- [x] **Nearby discovery groundwork** (post-MVP feature, architected now per PROJECT.md §34): `GET /api/discovery/nearby` implemented with `ST_DWithin`, simple distance ranking — cheap to build once spatial schema exists; UI exposure can wait.
+- [x] API integration tests: search relevance basics, random eligibility rules, filter combinations, related retrieval.
 
 
 
 ### Exit criteria
 
-- The full core loop works: see place → filter → open postcard → check source → follow related story → search → surprise me. Each action shareable via URL where meaningful.
+- The full core loop works: see place → filter → open postcard → check source → follow related story → search → surprise me. Each action shareable via URL where meaningful. Nearby is an API only (`GET /api/discovery/nearby`); the “around here” UI stays Phase 8.
 
 ---
 

@@ -7,6 +7,13 @@ export type StorySource = {
   publicationDate: string | null;
 };
 
+export type RelatedStory = {
+  slug: string;
+  title: string;
+  hook: string;
+  relationshipType: string | null;
+};
+
 export type StoryPostcard = {
   slug: string;
   title: string;
@@ -19,6 +26,14 @@ export type StoryPostcard = {
   longitude: number;
   categories: { slug: string; name: string }[];
   sources: StorySource[];
+  related: RelatedStory[];
+};
+
+export type SearchResults = {
+  stories: { slug: string; title: string; hook: string; category: string | null }[];
+  places: { slug: string; name: string; storySlug: string }[];
+  tags: { slug: string; name: string; storySlug: string }[];
+  categories: { slug: string; name: string }[];
 };
 
 export type MapShapeGeometry =

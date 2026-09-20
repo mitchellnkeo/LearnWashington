@@ -1,9 +1,12 @@
 "use client";
 
-import { MVP_CATEGORIES, type MapBBox } from "@fwty/shared";
+import { type MapBBox } from "@fwty/shared";
 import dynamic from "next/dynamic";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { CategoryFilter } from "@/components/explore/CategoryFilter";
+import { SearchCommand } from "@/components/explore/SearchCommand";
+import { SurpriseButton } from "@/components/explore/SurpriseButton";
 import { PostcardDrawer } from "@/components/postcard/PostcardDrawer";
 import { mapStoriesUrl, readMapView, writeMapView } from "@/lib/map-url";
 import type { MapStoriesResponse, StoryPostcard } from "@/lib/story-types";
@@ -50,6 +53,13 @@ export function ExploreMap({
   const selectSlug = useCallback(
     (slug: string | null) => {
       replaceQuery({ story: slug });
+    },
+    [replaceQuery],
+  );
+
+  const openStory = useCallback(
+    (slug: string) => {
+      replaceQuery({ category: null, story: slug });
     },
     [replaceQuery],
   );
@@ -135,17 +145,22 @@ export function ExploreMap({
   );
 
   const story = loadedStory?.slug === selectedSlug ? loadedStory : null;
+  const selectedCenter = useMemo<[number, number] | undefined>(
+    () => (story ? [story.longitude, story.latitude] : undefined),
+    [story],
+  );
 
   return (
     <div className="relative h-dvh w-full">
       <WashingtonMap
         stories={stories}
         selectedSlug={selectedSlug}
+        selectedCenter={selectedCenter}
         initialView={initialView}
         onSelectSlug={selectSlug}
         onViewChange={onViewChange}
       />
-      <div className="pointer-events-none absolute top-4 left-4 z-30 max-w-xs rounded border border-[var(--rule)] bg-[var(--paper)]/95 px-4 py-3 shadow-sm">
+      <div className="pointer-events-none absolute top-4 right-4 left-4 z-30 max-w-sm rounded border border-[var(--rule)] bg-[var(--paper)]/95 px-4 py-3 shadow-sm md:right-auto">
         <p className="text-xs tracking-[0.18em] text-[var(--muted)] uppercase">
           From Washington
         </p>
@@ -153,32 +168,13 @@ export function ExploreMap({
         <p className="mt-1 text-sm text-[var(--muted)]">
           Explore Washington, one story at a time.
         </p>
-        <div className="pointer-events-auto mt-3 flex flex-wrap gap-1.5">
-          <button
-            type="button"
-            onClick={() => selectCategory(null)}
-            className={`rounded border px-2 py-1 text-xs ${
-              category
-                ? "border-[var(--rule)] text-[var(--muted)]"
-                : "border-[var(--ink)] text-[var(--ink)]"
-            }`}
-          >
-            All
-          </button>
-          {MVP_CATEGORIES.map((item) => (
-            <button
-              key={item.slug}
-              type="button"
-              onClick={() => selectCategory(item.slug)}
-              className={`rounded border px-2 py-1 text-xs ${
-                category === item.slug
-                  ? "border-[var(--ink)] text-[var(--ink)]"
-                  : "border-[var(--rule)] text-[var(--muted)]"
-              }`}
-            >
-              {item.name}
-            </button>
-          ))}
+        <div className="pointer-events-auto mt-3 space-y-2">
+          <SearchCommand
+            onSelectStory={openStory}
+            onSelectCategory={(slug) => selectCategory(slug)}
+          />
+          <SurpriseButton onSelectStory={openStory} onError={setError} />
+          <CategoryFilter category={category} onSelect={selectCategory} />
         </div>
       </div>
       {error ? (
@@ -186,7 +182,11 @@ export function ExploreMap({
           {error}
         </p>
       ) : null}
-      <PostcardDrawer story={story} onClose={() => selectSlug(null)} />
+      <PostcardDrawer
+        story={story}
+        onClose={() => selectSlug(null)}
+        onSelectStory={openStory}
+      />
     </div>
   );
 }

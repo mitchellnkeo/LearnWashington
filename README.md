@@ -59,6 +59,8 @@ A story appears on the map and at `/story/:slug` only when `status` is `PUBLISHE
 
 Map views are shareable with `?lat=&lng=&zoom=&category=&story=`. `GET /api/map/stories` accepts the same `bbox`, `categories`, and `zoom` query so viewport filtering can turn on without changing the contract. Optional `geometryFile` on a story points at official GeoJSON in `data/geometries/` (line or polygon); the marker is still the point-on-surface.
 
+Search (`GET /api/search?q=`), Surprise Me (`GET /api/discovery/random?excludeStoryIds=`), related stories (`GET /api/stories/:slug/related`), and nearby (`GET /api/discovery/nearby?lat=&lng=&radiusKm=`) are live. Search and Surprise Me sit on the map; related links appear on the postcard. Nearby is an API for later UI.
+
 ## Scripts
 
 | Command | What it does |

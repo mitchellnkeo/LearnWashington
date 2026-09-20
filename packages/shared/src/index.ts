@@ -1,4 +1,5 @@
 export * from "./date-label";
+export * from "./discovery";
 export * from "./enums";
 export * from "./geo";
 export * from "./map-query";

@@ -14,12 +14,22 @@ function formatReviewed(value: string | null) {
   }).format(new Date(value));
 }
 
+function relationshipLabel(value: string | null) {
+  if (!value) {
+    return "Related";
+  }
+
+  return value.replace(/[-_]/g, " ");
+}
+
 export function PostcardCard({
   story,
   showPermalink = true,
+  onSelectStory,
 }: {
   story: StoryPostcard;
   showPermalink?: boolean;
+  onSelectStory?: (slug: string) => void;
 }) {
   const reviewed = formatReviewed(story.lastReviewedAt);
 
@@ -73,6 +83,39 @@ export function PostcardCard({
           </p>
         ) : null}
       </section>
+      {story.related.length > 0 ? (
+        <section className="mt-8 border-t border-[var(--rule)] pt-5">
+          <h2 className="text-sm font-semibold tracking-wide uppercase">
+            Related stories
+          </h2>
+          <ul className="mt-3 space-y-3">
+            {story.related.map((related) => (
+              <li key={related.slug}>
+                <p className="text-xs tracking-wide text-[var(--muted)] uppercase">
+                  {relationshipLabel(related.relationshipType)}
+                </p>
+                {onSelectStory ? (
+                  <button
+                    type="button"
+                    onClick={() => onSelectStory(related.slug)}
+                    className="text-left text-[var(--ink)] underline decoration-[var(--rule)] underline-offset-2 hover:decoration-[var(--ink)]"
+                  >
+                    {related.title}
+                  </button>
+                ) : (
+                  <Link
+                    href={`/story/${related.slug}`}
+                    className="text-[var(--ink)] underline decoration-[var(--rule)] underline-offset-2 hover:decoration-[var(--ink)]"
+                  >
+                    {related.title}
+                  </Link>
+                )}
+                <p className="text-sm text-[var(--muted)]">{related.hook}</p>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ) : null}
       {showPermalink ? (
         <p className="mt-6 text-sm">
           <Link

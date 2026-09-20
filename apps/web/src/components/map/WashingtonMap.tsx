@@ -19,6 +19,7 @@ import "maplibre-gl/dist/maplibre-gl.css";
 type WashingtonMapProps = {
   stories: MapStoriesResponse;
   selectedSlug: string | null;
+  selectedCenter?: [number, number];
   initialView?: { center: [number, number]; zoom: number };
   onSelectSlug: (slug: string) => void;
   onViewChange?: (view: {
@@ -71,6 +72,7 @@ function markerCollection(stories: MapStoriesResponse) {
 export function WashingtonMap({
   stories,
   selectedSlug,
+  selectedCenter,
   initialView,
   onSelectSlug,
   onViewChange,
@@ -348,15 +350,16 @@ export function WashingtonMap({
     const feature = storiesRef.current.features.find(
       (item) => item.properties.slug === selectedSlug,
     );
-    if (!feature) {
+    const center = feature?.geometry.coordinates ?? selectedCenter;
+    if (!center) {
       return;
     }
 
     map.easeTo({
-      center: feature.geometry.coordinates,
+      center,
       zoom: Math.max(map.getZoom(), 8.5),
     });
-  }, [selectedSlug]);
+  }, [selectedCenter, selectedSlug]);
 
   return <div ref={containerRef} className="h-full w-full" />;
 }
