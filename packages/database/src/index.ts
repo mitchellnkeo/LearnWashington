@@ -21,6 +21,7 @@ export {
   type MapStoryFeature,
   type PublishedStorySummary,
   type StoriesBrowseFilter,
+  type StoryMedia,
   type StoryPostcard,
   type StorySource,
 } from "./queries";

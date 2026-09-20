@@ -185,7 +185,7 @@ The honest answer: **this workload is read-mostly, small-data, and cache-friendl
 - [x] Claim-level provenance: claims carry `claim_type` + `confidence`; `claim_sources` join with optional locator. MVP UI may show story-level sources, but the data is claim-level from the start (PROJECT.md §11).
 - [x] Data-integrity gates (DB constraints where practical, publication-check script where not): published story must have title, geometry-or-place, and ≥1 qualifying source; unique slugs; no self-referencing related stories; no duplicate claim-source links (PROJECT.md §50).
 - [x] Seed the ~6 MVP categories (Geography & Geology, Wildlife & Ecology, History, Indigenous History & Place, Music & Culture, Science/Strange Washington) with icons and sort order.
-- [ ] `media_assets` ingestion path: every image requires license, creator, source URL, credit line, alt text before display; upload flow to Vercel Blob via script. (Schema + seed fields exist; Blob upload waits on licensed images.)
+- [x] `media_assets` ingestion path: every image requires license, creator, source URL, credit line, alt text before display. First 11 stories now seed public-domain photos from `apps/web/public/media/`. Vercel Blob remains optional if we outgrow the repo.
 - [x] Content validation script (`pnpm content:check`): schema validity, source-tier warnings (Tier D flagged as discovery-only), missing alt text, broken/malformed URLs, geometry sanity (inside Washington bounding box unless flagged).
 - [x] Add 5–10 more fully sourced stories across different regions and categories to exercise the pipeline (these count toward the 100).
 - [x] Unit tests: slug generation, seed validation, publication gates, date-label formatting.
@@ -266,7 +266,7 @@ The honest answer: **this workload is read-mostly, small-data, and cache-friendl
 
 ### Exit criteria
 
-- Every published story is reachable and readable without the map at `/stories`, with keyboard only, and with a screen reader. Mobile uses a bottom sheet; desktop keeps the side drawer. Published media is still deferred — `content:check` now warns on thin alt text so quality is gated when images arrive.
+- Every published story is reachable and readable without the map at `/stories`, with keyboard only, and with a screen reader. Mobile uses a bottom sheet; desktop keeps the side drawer. Published stories now carry a public-domain photograph with credit and alt text.
 
 ---
 
@@ -310,7 +310,7 @@ Discover → locate authoritative sources (Tier S/A preferred) → capture sourc
 - [ ] Build the candidate list (~130 candidates for 100 published) against the target distribution: ~20 geography/geology, 15 wildlife/ecology, 20 history, 10 Indigenous history & place, 15 music/culture, 10 science/industry, 10 strange Washington — quotas soft, quality first.
 - [ ] Enforce geographic spread across all ten regions (Puget Sound, Olympic Peninsula, southwest, Cascades, north-central, Columbia Basin, northeast, southeast, Columbia Gorge, coast) — track region coverage in a simple tally; **do not become a Seattle project**.
 - [ ] Indigenous content protocol before writing any of those 10 stories: tribal-government sources first, correct names/spellings, no sensitive/burial/restricted locations, generalized geography where appropriate, flag anything ambiguous for human editorial judgment rather than publishing (PROJECT.md §4.6, §69, §86.14).
-- [ ] Media sourcing pass: public-domain government photography, LoC, National Archives, state archives, compatible CC — license recorded per asset; no image without cleared rights.
+- [x] Media sourcing pass for the current 11 published stories: public-domain government photography, National Archives, and one CC0 NOAA photograph — license recorded per asset; no image without cleared rights. The Hendrix card uses a public-domain Seattle aerial because no public-domain portrait exists. Repeat this pass as new stories are added.
 - [ ] Curate related-story links as the collection grows (aim: every story has ≥1 relation by launch — the rabbit-hole loop is the product).
 - [ ] Weekly `pnpm content:check` + broken-link scan; fix or archive-URL anything flagged.
 

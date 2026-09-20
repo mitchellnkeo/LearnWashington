@@ -1,8 +1,48 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { trackEvent } from "@/lib/analytics";
-import type { StoryPostcard } from "@/lib/story-types";
+import type { StoryMedia, StoryPostcard } from "@/lib/story-types";
+
+function PostcardPhoto({ media, slug }: { media: StoryMedia; slug: string }) {
+  return (
+    <figure className="mb-5">
+      <div className="relative aspect-[3/2] overflow-hidden rounded-sm bg-[var(--rule)]">
+        <Image
+          src={media.url}
+          alt={media.altText}
+          fill
+          className="object-cover"
+          sizes="(max-width: 768px) 100vw, 28rem"
+          priority
+        />
+      </div>
+      {media.creditLine ? (
+        <figcaption className="mt-2 text-xs leading-relaxed text-[var(--muted)]">
+          {media.sourceUrl ? (
+            <a
+              href={media.sourceUrl}
+              target="_blank"
+              rel="noreferrer"
+              onClick={() =>
+                trackEvent("source_clicked", {
+                  slug,
+                  publisher: media.creator ?? "photo-credit",
+                })
+              }
+              className="underline decoration-[var(--rule)] underline-offset-2 hover:decoration-[var(--ink)]"
+            >
+              {media.creditLine}
+            </a>
+          ) : (
+            media.creditLine
+          )}
+        </figcaption>
+      ) : null}
+    </figure>
+  );
+}
 
 function formatReviewed(value: string | null) {
   if (!value) {
@@ -36,8 +76,11 @@ export function PostcardCard({
 }) {
   const reviewed = formatReviewed(story.lastReviewedAt);
 
+  const photo = story.media[0];
+
   return (
     <article className="flex flex-col">
+      {photo ? <PostcardPhoto media={photo} slug={story.slug} /> : null}
       <p className="text-xs tracking-[0.18em] text-[var(--muted)] uppercase">
         From Washington · To You
       </p>

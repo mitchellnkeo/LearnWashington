@@ -89,6 +89,17 @@ sources:
     publicationDate: "2025-07-01"
     accessedAt: "2026-09-20"
 
+media:
+  - url: /media/dry-falls.jpg
+    mediaType: image
+    title: Dry Falls, near Coulee City, Washington
+    creator: U.S. Bureau of Reclamation
+    sourceUrl: https://catalog.archives.gov/id/294037
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.usa.gov/government-works
+    altText: Historic black-and-white view of the Dry Falls cliff and coulee lakes near Coulee City, photographed for the Columbia Basin Project in 1935.
+    creditLine: Photograph from Bureau of Reclamation Columbia Basin Project albums, National Archives 294037, 1935. Public domain.
+
 relatedStories:
   - slug: grand-coulee-dam
     relationshipType: same-landscape

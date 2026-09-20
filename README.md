@@ -40,6 +40,7 @@ apps/web              Next.js App Router (UI + /api)
 packages/database     Drizzle schema, migrations, seed, content:check
 packages/shared       Zod schemas and domain constants
 data/stories/         One YAML file per story
+apps/web/public/media Public-domain postcard photographs (credits in CREDITS.md)
 ```
 
 ## Add a story
@@ -48,7 +49,8 @@ data/stories/         One YAML file per story
 2. Every claim needs at least one source already listed on the story. Use a real URL. Prefer Tier S/A/B (government, tribal, academic, archive). Tier D is discovery-only and will warn.
 3. Coordinates must be inside the Washington bounding box unless you set `allowOutsideWashington: true`.
 4. Do not invent dates, citations, or coordinates. If precision is geologic or unknown, say so with `datePrecision` and an explicit `dateLabel`.
-5. Validate, then ingest:
+5. Images must be public domain or CC0, with creator, source URL, license, credit line, and descriptive alt text. Store the file in `apps/web/public/media/` and point `media.url` at `/media/filename.jpg`.
+6. Validate, then ingest:
 
 ```bash
 pnpm content:check

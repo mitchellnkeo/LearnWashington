@@ -97,3 +97,14 @@ sources:
     sourceType: government
     tier: S
     accessedAt: "2026-09-20"
+
+media:
+  - url: /media/southern-resident-orcas.jpg
+    mediaType: image
+    title: Southern Resident killer whales in the Salish Sea
+    creator: Candice Emmons, NOAA Northwest Fisheries Science Center
+    sourceUrl: https://www.washington.edu/news/2026/06/24/decades-long-dataset-shows-which-orcas-are-most-at-home-in-puget-sound/
+    license: Public domain (CC0)
+    licenseUrl: https://creativecommons.org/publicdomain/zero/1.0/
+    altText: Southern Resident killer whales swimming together at the surface of the Salish Sea.
+    creditLine: Photograph by Candice Emmons, NOAA Northwest Fisheries Science Center, taken under NOAA Fisheries Permit 781-1824. CC0 public domain.

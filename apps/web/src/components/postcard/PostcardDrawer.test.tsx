@@ -37,7 +37,11 @@ describe("PostcardDrawer", () => {
     expect(close).toHaveFocus();
 
     await user.tab();
-    expect(screen.getByRole("link", { name: "U.S. Geological Survey" })).toHaveFocus();
+    expect(
+      screen.getByRole("link", {
+        name: "Photograph by Steve Redman, National Park Service. Public domain.",
+      }),
+    ).toHaveFocus();
   });
 
   it("keeps the postcard body in a scrollable region", () => {

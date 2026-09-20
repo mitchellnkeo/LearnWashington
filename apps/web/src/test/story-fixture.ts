@@ -29,4 +29,19 @@ export const rainierPostcard: StoryPostcard = {
       relationshipType: "same-arc",
     },
   ],
+  media: [
+    {
+      url: "/media/mount-rainier-bench-lake.jpg",
+      title: "Mount Rainier reflecting in Bench Lake",
+      creator: "Steve Redman, National Park Service",
+      sourceUrl:
+        "https://commons.wikimedia.org/wiki/File:Mt_Rainier_reflecting_in_Bench_Lake._Early_September_2015._(d69f6e3857a44dfc91cc332c1ea5077a).JPG",
+      license: "Public domain (U.S. government work)",
+      licenseUrl: "https://www.nps.gov/aboutus/disclaimer.htm",
+      altText:
+        "Snow-covered Mount Rainier reflected in the still water of Bench Lake.",
+      creditLine:
+        "Photograph by Steve Redman, National Park Service. Public domain.",
+    },
+  ],
 };

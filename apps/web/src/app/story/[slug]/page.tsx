@@ -47,6 +47,9 @@ export async function generateMetadata({
       title: story.title,
       description: story.hook,
       type: "article",
+      images: story.media[0]
+        ? [{ url: story.media[0].url, alt: story.media[0].altText }]
+        : undefined,
     },
   };
 }

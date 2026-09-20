@@ -107,6 +107,17 @@ sources:
 
 geometryFile: elwha-river.geojson
 
+media:
+  - url: /media/elwha-glines-canyon.jpg
+    mediaType: image
+    title: Glines Canyon Dam during removal
+    creator: Janis Burger, National Park Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Glines_canyon_dam_removal_elwha_river_project_5_4_13_NPS_J_burger_(16705309863).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: Remaining concrete of Glines Canyon Dam on the Elwha River during demolition in May 2013, with river water passing through the breach.
+    creditLine: Photograph by Janis Burger, National Park Service, May 4, 2013. Public domain.
+
 relatedStories:
   - slug: hoh-rain-forest
     relationshipType: same-park

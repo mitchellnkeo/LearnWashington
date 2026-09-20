@@ -89,6 +89,17 @@ sources:
     publicationDate: "2022-08-01"
     accessedAt: "2026-09-20"
 
+media:
+  - url: /media/cascadia-subduction-zone.jpg
+    mediaType: image
+    title: Cascadia megathrust fault map
+    creator: U.S. Geological Survey
+    sourceUrl: https://www.usgs.gov/media/images/cascadia-megathrust-fault-map
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+    altText: Topographic and bathymetric map of the Cascadia subduction zone, with the megathrust fault marked offshore from Vancouver Island to northern California.
+    creditLine: Map by the U.S. Geological Survey, Pacific Coastal and Marine Science Center. Public domain.
+
 relatedStories:
   - slug: mount-st-helens-1980-eruption
     relationshipType: same-arc

@@ -82,6 +82,17 @@ sources:
     tier: S
     accessedAt: "2026-09-20"
 
+media:
+  - url: /media/hoh-rain-forest.jpg
+    mediaType: image
+    title: Mossy logs in the Hoh Rain Forest
+    creator: Olympic National Park, National Park Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Hoh_Rainforest,_mossy_log_tree_NPS_Photo_(16680304244).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: Moss-covered fallen logs and living trees in the Hoh Rain Forest of Olympic National Park.
+    creditLine: Photograph by Olympic National Park, National Park Service. Public domain.
+
 relatedStories:
   - slug: elwha-river-restoration
     relationshipType: same-park

@@ -38,8 +38,16 @@ export const seedClaimSchema = z.object({
   sources: z.array(seedClaimSourceSchema).min(1),
 });
 
+const mediaUrlSchema = z
+  .string()
+  .min(1)
+  .refine(
+    (value) => value.startsWith("/media/") || URL.canParse(value),
+    "Expected an absolute URL or a /media/ path",
+  );
+
 export const seedMediaSchema = z.object({
-  url: z.string().url(),
+  url: mediaUrlSchema,
   mediaType: z.enum(["image", "audio", "video"]),
   title: z.string().min(1).optional(),
   creator: z.string().min(1),

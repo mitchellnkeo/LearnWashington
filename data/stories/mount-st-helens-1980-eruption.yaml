@@ -108,6 +108,17 @@ sources:
     tier: S
     accessedAt: "2026-09-20"
 
+media:
+  - url: /media/mount-st-helens-1980.jpg
+    mediaType: image
+    title: Eruption column from May 18, 1980
+    creator: Austin Post, U.S. Geological Survey
+    sourceUrl: https://www.usgs.gov/media/images/eruption-column-may-18-1980-mount-st-helens-eruption
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+    altText: Gray eruption column rising from Mount St. Helens on May 18, 1980, with the collapsed north flank visible below the plume.
+    creditLine: Photograph by Austin Post, U.S. Geological Survey, May 18, 1980. Public domain.
+
 relatedStories:
   - slug: cascadia-subduction-zone
     relationshipType: same-arc

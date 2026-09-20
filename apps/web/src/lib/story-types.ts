@@ -14,6 +14,17 @@ export type RelatedStory = {
   relationshipType: string | null;
 };
 
+export type StoryMedia = {
+  url: string;
+  title: string | null;
+  creator: string | null;
+  sourceUrl: string | null;
+  license: string | null;
+  licenseUrl: string | null;
+  altText: string;
+  creditLine: string | null;
+};
+
 export type StoryPostcard = {
   slug: string;
   title: string;
@@ -27,6 +38,7 @@ export type StoryPostcard = {
   categories: { slug: string; name: string }[];
   sources: StorySource[];
   related: RelatedStory[];
+  media: StoryMedia[];
 };
 
 export type SearchResults = {

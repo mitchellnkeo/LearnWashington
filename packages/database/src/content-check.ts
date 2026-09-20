@@ -1,4 +1,5 @@
-import { readdir, readFile } from "node:fs/promises";
+import { access, readdir, readFile } from "node:fs/promises";
+import { constants } from "node:fs";
 import { resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { parse } from "yaml";
@@ -63,6 +64,21 @@ async function checkStoryDirectory(directory: string): Promise<StoryCheckResult[
     }
 
     const issues = checkSeedStory(story);
+    for (const media of story.media) {
+      if (!media.url.startsWith("/media/")) {
+        continue;
+      }
+      const mediaPath = resolve(repoRoot, "apps/web/public", media.url.slice(1));
+      try {
+        await access(mediaPath, constants.F_OK);
+      } catch {
+        issues.push({
+          code: "missing-media-file",
+          message: `Media file ${media.url} is not in apps/web/public/media.`,
+          level: "error",
+        });
+      }
+    }
     const previous = slugs.get(story.slug);
     if (previous) {
       issues.push({

@@ -93,6 +93,17 @@ sources:
     tier: S
     accessedAt: "2026-09-20"
 
+media:
+  - url: /media/grand-coulee-dam.jpg
+    mediaType: image
+    title: Aerial view of Grand Coulee Dam
+    creator: U.S. Bureau of Reclamation
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Grand_coulee_dam_aerial_2.jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.usa.gov/government-works
+    altText: Aerial view of Grand Coulee Dam spanning the Columbia River, with Lake Roosevelt behind the spillway.
+    creditLine: Photograph by the U.S. Bureau of Reclamation. Public domain.
+
 relatedStories:
   - slug: dry-falls
     relationshipType: same-landscape

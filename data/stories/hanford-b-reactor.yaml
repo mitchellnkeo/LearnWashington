@@ -94,3 +94,14 @@ sources:
     sourceType: government
     tier: S
     accessedAt: "2026-09-20"
+
+media:
+  - url: /media/hanford-b-reactor.jpg
+    mediaType: image
+    title: Hanford B Reactor area, 1944
+    creator: U.S. Army Corps of Engineers
+    sourceUrl: https://catalog.archives.gov/id/7260603
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.usa.gov/government-works
+    altText: Aerial photograph of the Hanford B Reactor area in 1944, showing the reactor building and surrounding wartime industrial site.
+    creditLine: Photograph by the U.S. Army Corps of Engineers, National Archives 7260603, 1944. Public domain.

@@ -40,6 +40,17 @@ export type StorySource = {
   publicationDate: string | null;
 };
 
+export type StoryMedia = {
+  url: string;
+  title: string | null;
+  creator: string | null;
+  sourceUrl: string | null;
+  license: string | null;
+  licenseUrl: string | null;
+  altText: string;
+  creditLine: string | null;
+};
+
 export type StoryPostcard = {
   slug: string;
   title: string;
@@ -53,6 +64,7 @@ export type StoryPostcard = {
   categories: { slug: string; name: string }[];
   sources: StorySource[];
   related: RelatedStory[];
+  media: StoryMedia[];
 };
 
 export type MapStoriesFilter = {
@@ -79,6 +91,7 @@ export type PublishedStorySummary = {
   dateLabel: string | null;
   region: string | null;
   categories: { slug: string; name: string }[];
+  image: { url: string; altText: string } | null;
 };
 
 function asGeometry<T extends GeoJsonGeometry>(value: T | string): T {
@@ -221,6 +234,7 @@ export async function listPublishedStories(
       county: string | null;
       region: string | null;
       categories: { slug: string; name: string }[] | string;
+      image: { url: string; altText: string } | string | null;
     }[]
   >`
     select
@@ -239,7 +253,15 @@ export async function listPublishedStories(
           where sc.story_id = s.id
         ),
         '[]'::json
-      ) as categories
+      ) as categories,
+      (
+        select json_build_object('url', m.url, 'altText', m.alt_text)
+        from media_assets m
+        where m.story_id = s.id
+          and m.media_type = 'image'
+        order by m.id
+        limit 1
+      ) as image
     from stories s
     left join places p on p.id = s.primary_place_id
     where s.status = 'PUBLISHED'
@@ -255,6 +277,10 @@ export async function listPublishedStories(
       typeof row.categories === "string"
         ? (JSON.parse(row.categories) as { slug: string; name: string }[])
         : row.categories;
+    const image =
+      typeof row.image === "string"
+        ? (JSON.parse(row.image) as { url: string; altText: string })
+        : row.image;
     const locationParts = [row.place_name, row.county].filter(Boolean);
 
     return {
@@ -265,6 +291,7 @@ export async function listPublishedStories(
       dateLabel: row.date_label,
       region: row.region,
       categories,
+      image,
     };
   });
 }
@@ -359,6 +386,33 @@ export async function getPublishedStoryBySlug(
   `;
 
   const related = await listRelatedPublishedStories(sql, slug);
+  const media = await sql<
+    {
+      url: string;
+      title: string | null;
+      creator: string | null;
+      source_url: string | null;
+      license: string | null;
+      license_url: string | null;
+      alt_text: string;
+      credit_line: string | null;
+    }[]
+  >`
+    select
+      m.url,
+      m.title,
+      m.creator,
+      m.source_url,
+      m.license,
+      m.license_url,
+      m.alt_text,
+      m.credit_line
+    from media_assets m
+    join stories s on s.id = m.story_id
+    where s.slug = ${slug}
+      and m.media_type = 'image'
+    order by m.id
+  `;
   const [longitude, latitude] = asPoint(story.geometry).coordinates;
   const locationParts = [story.place_name, story.county].filter(Boolean);
 
@@ -383,6 +437,16 @@ export async function getPublishedStoryBySlug(
       tier: source.tier,
       sourceType: source.source_type,
       publicationDate: source.publication_date,
+    })),
+    media: media.map((item) => ({
+      url: item.url,
+      title: item.title,
+      creator: item.creator,
+      sourceUrl: item.source_url,
+      license: item.license,
+      licenseUrl: item.license_url,
+      altText: item.alt_text,
+      creditLine: item.credit_line,
     })),
   };
 }
