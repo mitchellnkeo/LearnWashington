@@ -1,10 +1,26 @@
 @import "tailwindcss";
 
 :root {
-  --paper: #f4efe6;
-  --ink: #2b261f;
-  --muted: #534c42;
-  --rule: #c9bfb0;
+  /* Surfaces: warm canvas, raised card, soft forest tint */
+  --paper: #faf5e9;
+  --card: #fffdf7;
+  --sage: #eaf0e2;
+
+  /* Text */
+  --ink: #1f2a22;
+  --muted: #4f5c4c;
+
+  /* Brand */
+  --evergreen: #1f4d36;
+  --evergreen-deep: #163a28;
+  --evergreen-tint: #dde8dd;
+  --bark: #6d4a2f;
+  --amber: #d98a2b;
+  --amber-tint: #f8e6c9;
+
+  /* Lines */
+  --rule: #ddd2b9;
+  --rule-strong: #bfae8d;
 }
 
 html,
@@ -21,14 +37,117 @@ h1,
 h2,
 .serif {
   font-family: var(--font-serif), ui-serif, Georgia, serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
 }
 
+::selection {
+  background: var(--amber-tint);
+  color: var(--ink);
+}
+
+/* Faint contour lines, like a topo map under the page. */
+.topo {
+  background-image:
+    repeating-radial-gradient(
+      circle at 12% 110%,
+      transparent 0 26px,
+      rgba(31, 77, 54, 0.07) 26px 27px
+    ),
+    repeating-radial-gradient(
+      circle at 88% -15%,
+      transparent 0 32px,
+      rgba(31, 77, 54, 0.06) 32px 33px
+    );
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 1rem;
+}
+
+/* Offset shadow reads printed and handmade rather than glassy. */
+.card-raised {
+  box-shadow: 4px 4px 0 var(--evergreen-tint);
+}
+
+.eyebrow {
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.trail-rule {
+  border: 0;
+  border-top: 2px dashed var(--rule-strong);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 2.75rem;
+  padding: 0 1rem;
+  border-radius: 999px;
+  border: 2px solid transparent;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.btn-primary {
+  background: var(--evergreen);
+  border-color: var(--evergreen-deep);
+  color: var(--card);
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: var(--evergreen-deep);
+}
+
+.btn-quiet {
+  background: var(--card);
+  border-color: var(--rule-strong);
+  color: var(--ink);
+}
+
+.btn-quiet:hover {
+  background: var(--sage);
+}
+
+.btn:disabled {
+  opacity: 0.6;
+}
+
+.field {
+  min-height: 2.75rem;
+  width: 100%;
+  border-radius: 0.75rem;
+  border: 1.5px solid var(--rule-strong);
+  background: var(--card);
+  padding: 0 0.75rem;
+  color: var(--ink);
+}
+
+.field::placeholder {
+  color: var(--muted);
+}
+
+/* Cap the height so the words stay above the fold, and letterbox rather than
+   crop so faces and horizons survive. */
 .postcard-photo {
   display: block;
   width: 100%;
   height: auto;
+  max-height: 20rem;
   object-fit: contain;
-  object-position: top center;
+  object-position: center;
+}
+
+.postcard-photo-thumb {
+  max-height: 14rem;
 }
 
 .sr-only {
@@ -53,9 +172,12 @@ h2,
   top: 0.75rem;
   z-index: 80;
   transform: translateY(-160%);
-  border: 1px solid var(--ink);
-  background: var(--paper);
-  padding: 0.5rem 0.75rem;
+  border-radius: 999px;
+  border: 2px solid var(--evergreen-deep);
+  background: var(--evergreen);
+  color: var(--card);
+  padding: 0.5rem 1rem;
+  font-weight: 600;
 }
 
 .skip-link:focus {
@@ -63,7 +185,7 @@ h2,
 }
 
 :focus-visible {
-  outline: 2px solid var(--ink);
+  outline: 2px solid var(--evergreen);
   outline-offset: 2px;
 }
 

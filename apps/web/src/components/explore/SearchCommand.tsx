@@ -66,7 +66,9 @@ export function SearchCommand({
     const controller = new AbortController();
     const timer = window.setTimeout(() => {
       setBusy(true);
-      fetch(`/api/search?q=${encodeURIComponent(q)}`, { signal: controller.signal })
+      fetch(`/api/search?q=${encodeURIComponent(q)}`, {
+        signal: controller.signal,
+      })
         .then(async (response) => {
           if (!response.ok) {
             throw new Error("Search failed.");
@@ -127,7 +129,9 @@ export function SearchCommand({
         aria-expanded={showList}
         aria-controls={listId}
         aria-autocomplete="list"
-        aria-activedescendant={showList && hits[active] ? `${listId}-${active}` : undefined}
+        aria-activedescendant={
+          showList && hits[active] ? `${listId}-${active}` : undefined
+        }
         onChange={(event) => {
           setQuery(event.target.value);
           setOpen(true);
@@ -146,7 +150,9 @@ export function SearchCommand({
             setActive((index) => (index + 1) % Math.max(hits.length, 1));
           } else if (event.key === "ArrowUp") {
             event.preventDefault();
-            setActive((index) => (index - 1 + hits.length) % Math.max(hits.length, 1));
+            setActive(
+              (index) => (index - 1 + hits.length) % Math.max(hits.length, 1),
+            );
           } else if (event.key === "Enter" && hits[active]) {
             event.preventDefault();
             choose(hits[active]);
@@ -154,19 +160,23 @@ export function SearchCommand({
             setOpen(false);
           }
         }}
-        className="w-full rounded border border-[var(--rule)] bg-[var(--paper)] px-3 py-2.5 text-sm"
+        className="field py-2.5 text-sm"
       />
       {showList ? (
         <ul
           id={listId}
           role="listbox"
-          className="absolute top-full right-0 left-0 z-40 mt-1 max-h-72 overflow-y-auto rounded border border-[var(--rule)] bg-[var(--paper)] shadow-lg"
+          className="absolute top-full right-0 left-0 z-40 mt-1.5 max-h-72 overflow-y-auto rounded-xl border-2 border-[var(--rule-strong)] bg-[var(--card)] py-1 shadow-lg"
         >
           {hits.length === 0 && !busy ? (
-            <li className="px-3 py-2 text-sm text-[var(--muted)]">No matches yet.</li>
+            <li className="px-3 py-2 text-sm text-[var(--muted)]">
+              No matches yet.
+            </li>
           ) : null}
           {busy && hits.length === 0 ? (
-            <li className="px-3 py-2 text-sm text-[var(--muted)]">Searching…</li>
+            <li className="px-3 py-2 text-sm text-[var(--muted)]">
+              Searching…
+            </li>
           ) : null}
           {hits.map((hit, index) => (
             <li key={`${hit.kind}-${hit.slug}`} role="none">
@@ -178,13 +188,11 @@ export function SearchCommand({
                 onMouseEnter={() => setActive(index)}
                 onClick={() => choose(hit)}
                 className={`flex w-full flex-col items-start px-3 py-2.5 text-left text-sm ${
-                  index === active ? "bg-[var(--rule)]/50" : ""
+                  index === active ? "bg-[var(--sage)]" : ""
                 }`}
               >
-                <span className="text-[0.65rem] tracking-[0.16em] text-[var(--muted)] uppercase">
-                  {hit.kind}
-                </span>
-                <span>{hit.label}</span>
+                <span className="eyebrow">{hit.kind}</span>
+                <span className="font-semibold">{hit.label}</span>
               </button>
             </li>
           ))}

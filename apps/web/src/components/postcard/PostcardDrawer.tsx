@@ -34,7 +34,9 @@ export function PostcardDrawer({
     }
 
     lastFocusRef.current =
-      document.activeElement instanceof HTMLElement ? document.activeElement : null;
+      document.activeElement instanceof HTMLElement
+        ? document.activeElement
+        : null;
     closeRef.current?.focus();
 
     function onKeyDown(event: KeyboardEvent) {
@@ -84,22 +86,23 @@ export function PostcardDrawer({
       />
       <aside
         ref={panelRef}
-        className="pointer-events-auto relative mb-[4.75rem] flex max-h-[calc(80vh-4.75rem)] w-full flex-col overflow-hidden rounded-t-2xl border-t border-[var(--rule)] bg-[var(--paper)] shadow-2xl md:mb-0 md:h-full md:max-h-none md:w-[26rem] md:rounded-none md:border-t-0 md:border-l"
+        className="pointer-events-auto relative mb-[4.75rem] flex max-h-[calc(80vh-4.75rem)] w-full flex-col overflow-hidden rounded-t-2xl border-t-4 border-[var(--evergreen)] bg-[var(--card)] shadow-2xl md:mb-0 md:h-full md:max-h-none md:w-[26rem] md:rounded-none md:border-t-0 md:border-l-4"
         role="dialog"
         aria-modal="true"
         aria-labelledby="postcard-title"
       >
-        <div className="shrink-0 px-5 pt-5">
+        <div className="shrink-0 px-5 pt-4">
           <div
-            className="mx-auto mb-3 h-1.5 w-12 rounded-full bg-[var(--rule)] md:hidden"
+            className="mx-auto mb-3 h-1.5 w-12 rounded-full bg-[var(--rule-strong)] md:hidden"
             aria-hidden="true"
           />
-          <div className="mb-4 flex justify-end">
+          <div className="mb-4 flex items-center justify-between gap-3">
+            <p className="eyebrow">Postcard</p>
             <button
               ref={closeRef}
               type="button"
               onClick={onClose}
-              className="min-h-11 rounded border border-[var(--rule)] px-3 text-sm"
+              className="btn btn-quiet px-3 text-sm"
             >
               Close
             </button>

@@ -3,6 +3,23 @@
 import { MVP_CATEGORIES } from "@fwty/shared";
 import { trackEvent } from "@/lib/analytics";
 
+const CHIP_BASE =
+  "flex min-h-11 shrink-0 items-center gap-2 rounded-full border-2 px-3.5 text-sm font-semibold";
+const CHIP_ON =
+  "border-[var(--evergreen-deep)] bg-[var(--evergreen)] text-[var(--card)]";
+const CHIP_OFF =
+  "border-[var(--rule-strong)] bg-[var(--card)] text-[var(--ink)] hover:bg-[var(--sage)]";
+
+function Dot({ color }: { color: string }) {
+  return (
+    <span
+      aria-hidden="true"
+      className="h-2.5 w-2.5 rounded-full"
+      style={{ background: color }}
+    />
+  );
+}
+
 export function CategoryFilter({
   category,
   onSelect,
@@ -29,32 +46,29 @@ export function CategoryFilter({
           trackEvent("category_selected", { category: "all" });
           onSelect(null);
         }}
-        className={`min-h-11 shrink-0 rounded-full border px-3 text-sm ${
-          category
-            ? "border-[var(--rule)] text-[var(--muted)]"
-            : "border-[var(--ink)] text-[var(--ink)]"
-        }`}
+        className={`${CHIP_BASE} ${category ? CHIP_OFF : CHIP_ON}`}
       >
+        <Dot color={category ? "var(--bark)" : "var(--amber)"} />
         All
       </button>
-      {MVP_CATEGORIES.map((item) => (
-        <button
-          key={item.slug}
-          type="button"
-          aria-pressed={category === item.slug}
-          onClick={() => {
-            trackEvent("category_selected", { category: item.slug });
-            onSelect(item.slug);
-          }}
-          className={`min-h-11 shrink-0 rounded-full border px-3 text-sm ${
-            category === item.slug
-              ? "border-[var(--ink)] text-[var(--ink)]"
-              : "border-[var(--rule)] text-[var(--muted)]"
-          }`}
-        >
-          {item.name}
-        </button>
-      ))}
+      {MVP_CATEGORIES.map((item) => {
+        const active = category === item.slug;
+        return (
+          <button
+            key={item.slug}
+            type="button"
+            aria-pressed={active}
+            onClick={() => {
+              trackEvent("category_selected", { category: item.slug });
+              onSelect(item.slug);
+            }}
+            className={`${CHIP_BASE} ${active ? CHIP_ON : CHIP_OFF}`}
+          >
+            <Dot color={active ? "var(--amber)" : item.color} />
+            {item.name}
+          </button>
+        );
+      })}
     </div>
   );
 }

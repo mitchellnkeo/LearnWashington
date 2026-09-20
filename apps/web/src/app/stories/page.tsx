@@ -1,4 +1,8 @@
-import { MVP_CATEGORIES, parseStoriesBrowseQuery } from "@fwty/shared";
+import {
+  DEFAULT_CATEGORY_COLOR,
+  MVP_CATEGORIES,
+  parseStoriesBrowseQuery,
+} from "@fwty/shared";
 import { listPublishedRegions, listPublishedStories } from "@fwty/database";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -17,6 +21,13 @@ export const metadata: Metadata = {
 type PageProps = {
   searchParams: Promise<{ q?: string; category?: string; region?: string }>;
 };
+
+function categoryColor(slug: string) {
+  return (
+    MVP_CATEGORIES.find((item) => item.slug === slug)?.color ??
+    DEFAULT_CATEGORY_COLOR
+  );
+}
 
 async function loadCatalog(searchParams: URLSearchParams) {
   const filter = parseStoriesBrowseQuery(searchParams);
@@ -54,119 +65,135 @@ export default async function StoriesPage({ searchParams }: PageProps) {
   return (
     <>
       <SiteHeader />
-      <main id="main-content" className="mx-auto min-h-dvh max-w-3xl px-6 py-10">
-        <h1 className="serif text-4xl leading-tight">Stories</h1>
-        <p className="mt-2 text-[var(--muted)]">
-          The full catalog, readable without the map. Filter by category, region, or
-          search.
-        </p>
-
-        <form
-          method="get"
-          action="/stories"
-          className="mt-6 grid gap-3 rounded border border-[var(--rule)] bg-[var(--paper)] p-4 md:grid-cols-4"
-          role="search"
-        >
-          <label className="md:col-span-2">
-            <span className="mb-1 block text-xs tracking-[0.16em] text-[var(--muted)] uppercase">
-              Search
-            </span>
-            <input
-              type="search"
-              name="q"
-              defaultValue={filter.q ?? ""}
-              placeholder="Rainier, orcas, Grand Coulee…"
-              className="min-h-11 w-full rounded border border-[var(--rule)] bg-[var(--paper)] px-3 text-sm"
-            />
-          </label>
-          <label>
-            <span className="mb-1 block text-xs tracking-[0.16em] text-[var(--muted)] uppercase">
-              Category
-            </span>
-            <select
-              name="category"
-              defaultValue={filter.category ?? ""}
-              className="min-h-11 w-full rounded border border-[var(--rule)] bg-[var(--paper)] px-3 text-sm"
-            >
-              <option value="">All</option>
-              {MVP_CATEGORIES.map((category) => (
-                <option key={category.slug} value={category.slug}>
-                  {category.name}
-                </option>
-              ))}
-            </select>
-          </label>
-          <label>
-            <span className="mb-1 block text-xs tracking-[0.16em] text-[var(--muted)] uppercase">
-              Region
-            </span>
-            <select
-              name="region"
-              defaultValue={filter.region ?? ""}
-              className="min-h-11 w-full rounded border border-[var(--rule)] bg-[var(--paper)] px-3 text-sm"
-            >
-              <option value="">All</option>
-              {regions.map((region) => (
-                <option key={region} value={region}>
-                  {region}
-                </option>
-              ))}
-            </select>
-          </label>
-          <div className="flex items-end md:col-span-4">
-            <button
-              type="submit"
-              className="min-h-11 rounded border border-[var(--ink)] bg-[var(--ink)] px-4 text-sm text-[var(--paper)]"
-            >
-              Apply filters
-            </button>
+      <main id="main-content" className="min-h-dvh">
+        <div className="topo border-b border-[var(--rule)]">
+          <div className="mx-auto max-w-3xl px-6 py-10">
+            <h1 className="serif text-4xl leading-tight">Stories</h1>
+            <p className="mt-2 max-w-xl text-[var(--muted)]">
+              The whole collection, readable without the map. Filter by category
+              or region, or search for the place you have been wondering about.
+            </p>
           </div>
-        </form>
+        </div>
 
-        {stories.length === 0 ? (
-          <p className="mt-10 text-[var(--muted)]">No published stories match.</p>
-        ) : (
-          <ul className="mt-10 space-y-6">
-            {stories.map((story) => (
-              <li key={story.slug} className="border-t border-[var(--rule)] pt-6">
-                {story.image ? (
-                  <div className="mb-3 max-w-md overflow-hidden rounded-sm bg-[var(--rule)]">
-                    <img
-                      src={story.image.url}
-                      alt={story.image.altText}
-                      className="postcard-photo"
-                    />
+        <div className="mx-auto max-w-3xl px-6 py-10">
+          <form
+            method="get"
+            action="/stories"
+            className="card card-raised grid gap-4 p-5 md:grid-cols-4"
+            role="search"
+          >
+            <label className="md:col-span-2">
+              <span className="eyebrow mb-1.5 block">Search</span>
+              <input
+                type="search"
+                name="q"
+                defaultValue={filter.q ?? ""}
+                placeholder="Rainier, orcas, Grand Coulee…"
+                className="field text-sm"
+              />
+            </label>
+            <label>
+              <span className="eyebrow mb-1.5 block">Category</span>
+              <select
+                name="category"
+                defaultValue={filter.category ?? ""}
+                className="field text-sm"
+              >
+                <option value="">All</option>
+                {MVP_CATEGORIES.map((category) => (
+                  <option key={category.slug} value={category.slug}>
+                    {category.name}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <label>
+              <span className="eyebrow mb-1.5 block">Region</span>
+              <select
+                name="region"
+                defaultValue={filter.region ?? ""}
+                className="field text-sm"
+              >
+                <option value="">All</option>
+                {regions.map((region) => (
+                  <option key={region} value={region}>
+                    {region}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <div className="flex items-end md:col-span-4">
+              <button type="submit" className="btn btn-primary text-sm">
+                Apply filters
+              </button>
+            </div>
+          </form>
+
+          {stories.length === 0 ? (
+            <p className="mt-10 text-[var(--muted)]">
+              No published stories match.
+            </p>
+          ) : (
+            <ul className="mt-10 space-y-6">
+              {stories.map((story) => (
+                <li
+                  key={story.slug}
+                  className="card card-raised overflow-hidden"
+                >
+                  {story.image ? (
+                    <div className="border-b border-[var(--rule)] bg-[var(--sage)]">
+                      <img
+                        src={story.image.url}
+                        alt={story.image.altText}
+                        className="postcard-photo postcard-photo-thumb"
+                      />
+                    </div>
+                  ) : null}
+                  <div className="p-5">
+                    <h2 className="serif text-2xl leading-tight">
+                      <Link
+                        href={`/story/${story.slug}`}
+                        className="underline decoration-[var(--rule-strong)] underline-offset-4 hover:decoration-[var(--evergreen)]"
+                      >
+                        {story.title}
+                      </Link>
+                    </h2>
+                    <p className="mt-1 text-sm text-[var(--muted)]">
+                      {story.locationLabel}
+                      {story.dateLabel ? ` · ${story.dateLabel}` : ""}
+                      {story.region ? ` · ${story.region}` : ""}
+                    </p>
+                    <p className="mt-3">{story.hook}</p>
+                    <ul className="mt-4 flex flex-wrap gap-2">
+                      {story.categories.map((category) => (
+                        <li
+                          key={category.slug}
+                          className="flex items-center gap-2 rounded-full border border-[var(--rule-strong)] px-3 py-1 text-xs font-semibold"
+                        >
+                          <span
+                            aria-hidden="true"
+                            className="h-2 w-2 rounded-full"
+                            style={{ background: categoryColor(category.slug) }}
+                          />
+                          {category.name}
+                        </li>
+                      ))}
+                    </ul>
+                    <p className="mt-4">
+                      <Link
+                        href={`/?story=${story.slug}`}
+                        className="btn btn-quiet text-sm"
+                      >
+                        Open on the map
+                      </Link>
+                    </p>
                   </div>
-                ) : null}
-                <h2 className="serif text-2xl leading-tight">
-                  <Link
-                    href={`/story/${story.slug}`}
-                    className="underline decoration-[var(--rule)] underline-offset-2 hover:decoration-[var(--ink)]"
-                  >
-                    {story.title}
-                  </Link>
-                </h2>
-                <p className="mt-1 text-sm text-[var(--muted)]">
-                  {story.locationLabel}
-                  {story.dateLabel ? ` · ${story.dateLabel}` : ""}
-                  {story.region ? ` · ${story.region}` : ""}
-                </p>
-                <p className="mt-2">{story.hook}</p>
-                <p className="mt-2 text-sm text-[var(--muted)]">
-                  {story.categories.map((category) => category.name).join(" · ")}
-                </p>
-                <p className="mt-3 text-sm">
-                  <Link
-                    href={`/?story=${story.slug}`}
-                    className="underline underline-offset-2"
-                  >
-                    Open on the map
-                  </Link>
-                </p>
-              </li>
-            ))}
-          </ul>
-        )}
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
       </main>
     </>
   );

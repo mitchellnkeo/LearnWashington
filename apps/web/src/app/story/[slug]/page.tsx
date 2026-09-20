@@ -65,19 +65,23 @@ export default async function StoryPage({ params }: PageProps) {
   return (
     <>
       <SiteHeader />
-      <main id="main-content" className="mx-auto min-h-dvh max-w-2xl px-6 py-10">
-        <p className="text-sm">
-          <Link href={`/?story=${story.slug}`} className="underline underline-offset-2">
-            Open on the map
-          </Link>
-          {" · "}
-          <Link href="/stories" className="underline underline-offset-2">
-            All stories
-          </Link>
-        </p>
-        <div className="mt-8">
-          <StoryViewed slug={story.slug} />
-          <PostcardCard story={story} showPermalink={false} />
+      <main id="main-content" className="topo min-h-dvh">
+        <div className="mx-auto max-w-2xl px-6 py-8">
+          <nav aria-label="Story" className="flex flex-wrap gap-2 text-sm">
+            <Link
+              href={`/?story=${story.slug}`}
+              className="btn btn-quiet text-sm"
+            >
+              Open on the map
+            </Link>
+            <Link href="/stories" className="btn btn-quiet text-sm">
+              All stories
+            </Link>
+          </nav>
+          <div className="card card-raised mt-6 p-6 md:p-8">
+            <StoryViewed slug={story.slug} />
+            <PostcardCard story={story} showPermalink={false} />
+          </div>
         </div>
       </main>
     </>

@@ -76,31 +76,36 @@ export const MVP_CATEGORIES = [
     slug: "geography-geology",
     name: "Geography & Geology",
     icon: "mountain",
-    color: "#6b4f3a",
+    color: "#7b5230",
   },
   {
     slug: "wildlife-ecology",
     name: "Wildlife & Ecology",
     icon: "leaf",
-    color: "#3f5d3f",
+    color: "#2f6b43",
   },
-  { slug: "history", name: "History", icon: "landmark", color: "#8a3b2a" },
+  { slug: "history", name: "History", icon: "landmark", color: "#a8412a" },
   {
     slug: "indigenous-history-place",
     name: "Indigenous History & Place",
     icon: "sun",
-    color: "#a35a2a",
+    color: "#c07a2c",
   },
-  { slug: "music-culture", name: "Music & Culture", icon: "music", color: "#4a3d63" },
+  {
+    slug: "music-culture",
+    name: "Music & Culture",
+    icon: "music",
+    color: "#5b4a8a",
+  },
   {
     slug: "science-strange",
     name: "Science / Strange Washington",
     icon: "flask",
-    color: "#3d4f63",
+    color: "#2f6478",
   },
 ] as const;
 
-export const DEFAULT_CATEGORY_COLOR = "#8a3b2a";
+export const DEFAULT_CATEGORY_COLOR = "#a8412a";
 
 export const QUALIFYING_SOURCE_TIERS = ["S", "A", "B"] as const;
 

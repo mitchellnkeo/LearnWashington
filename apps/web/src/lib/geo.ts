@@ -5,5 +5,4 @@ export const WASHINGTON_BOUNDS: [[number, number], [number, number]] = [
 
 export const WASHINGTON_CENTER: [number, number] = [-120.74, 47.4];
 
-export const DEFAULT_MAP_STYLE =
-  "https://tiles.openfreemap.org/styles/positron";
+export const DEFAULT_MAP_STYLE = "https://tiles.openfreemap.org/styles/liberty";
