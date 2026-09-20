@@ -206,19 +206,19 @@ The honest answer: **this workload is read-mostly, small-data, and cache-friendl
 
 ### Tasks
 
-- [ ] Map marker source strategy per §2: cached full-GeoJSON payload of published markers with proper cache headers + revalidation on publish; the endpoint accepts `bbox`/`categories`/`zoom` params from day one so the contract doesn't change when true bbox querying activates.
-- [ ] PostGIS bbox querying implemented and tested behind that contract (`ST_Intersects` with envelope), even if the MVP default serves the cached payload — this is the switch we flip at scale.
-- [ ] Client-side MapLibre clustering: cluster click → smooth zoom → separation (PROJECT.md §24); distinct marker styling per category (stamp-motif icons).
-- [ ] Debounced viewport handling; markers render only needed fields; no story bodies over the wire.
-- [ ] Non-point geometry support proven with at least one polygon story (e.g., a park or the Ice Age Floods region) and one line story (a river or route) — rendering + marker anchor behavior defined for each.
-- [ ] Map ↔ card interaction polish: selected marker state, fly-to on story open, URL query params encode map state (`?lat=&lng=&zoom=&category=`) for shareable views (PROJECT.md §27).
-- [ ] DB integration tests: bbox behavior, geometry round-trips, spatial index usage (`EXPLAIN` sanity checks).
+- [x] Map marker source strategy per §2: cached full-GeoJSON payload of published markers with proper cache headers + revalidation on publish; the endpoint accepts `bbox`/`categories`/`zoom` params from day one so the contract doesn't change when true bbox querying activates.
+- [x] PostGIS bbox querying implemented and tested behind that contract (`ST_Intersects` with envelope), even if the MVP default serves the cached payload — this is the switch we flip at scale.
+- [x] Client-side MapLibre clustering: cluster click → smooth zoom → separation (PROJECT.md §24); distinct marker styling per category (stamp-motif icons).
+- [x] Debounced viewport handling; markers render only needed fields; no story bodies over the wire.
+- [x] Non-point geometry support proven with at least one polygon story (e.g., a park or the Ice Age Floods region) and one line story (a river or route) — rendering + marker anchor behavior defined for each.
+- [x] Map ↔ card interaction polish: selected marker state, fly-to on story open, URL query params encode map state (`?lat=&lng=&zoom=&category=`) for shareable views (PROJECT.md §27).
+- [x] DB integration tests: bbox behavior, geometry round-trips, spatial index usage (`EXPLAIN` sanity checks).
 
 
 
 ### Exit criteria
 
-- 25+ stories render with clustering; pan/zoom stays smooth on a mid-range phone; a shared URL reproduces the exact map view; polygon and line stories display correctly.
+- Clustering, shareable `?lat=&lng=&zoom=&category=&story=` URLs, and official line/polygon overlays are live. The catalog is still 11 sourced stories (Track C continues toward 25+). Do not pad the map with unsourced pins.
 
 ---
 

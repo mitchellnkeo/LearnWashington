@@ -1,6 +1,7 @@
 export * from "./date-label";
 export * from "./enums";
 export * from "./geo";
+export * from "./map-query";
 export * from "./publication";
 export * from "./schemas";
 export * from "./seed-schema";

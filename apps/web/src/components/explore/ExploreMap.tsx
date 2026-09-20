@@ -1,9 +1,11 @@
 "use client";
 
+import { MVP_CATEGORIES, type MapBBox } from "@fwty/shared";
 import dynamic from "next/dynamic";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { PostcardDrawer } from "@/components/postcard/PostcardDrawer";
+import { mapStoriesUrl, readMapView, writeMapView } from "@/lib/map-url";
 import type { MapStoriesResponse, StoryPostcard } from "@/lib/story-types";
 
 const WashingtonMap = dynamic(
@@ -20,23 +22,74 @@ export function ExploreMap({
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
-  const selectedSlug = searchParams.get("story");
+  const view = readMapView(searchParams);
+  const selectedSlug = view.story ?? null;
+  const category = view.category;
+  const [stories, setStories] = useState(initialStories);
   const [loadedStory, setLoadedStory] = useState<StoryPostcard | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [viewport, setViewport] = useState<{ bbox?: MapBBox; zoom?: number }>({
+    zoom: view.zoom,
+  });
 
-  const selectSlug = useCallback(
-    (slug: string | null) => {
-      const params = new URLSearchParams(searchParams.toString());
-      if (slug) {
-        params.set("story", slug);
-      } else {
-        params.delete("story");
-      }
-      const query = params.toString();
+  const initialView = useMemo(() => {
+    if (view.lat === undefined || view.lng === undefined || view.zoom === undefined) {
+      return undefined;
+    }
+    return { center: [view.lng, view.lat] as [number, number], zoom: view.zoom };
+  }, [view.lat, view.lng, view.zoom]);
+
+  const replaceQuery = useCallback(
+    (next: Parameters<typeof writeMapView>[1]) => {
+      const query = writeMapView(searchParams, next);
       router.replace(query ? `${pathname}?${query}` : pathname, { scroll: false });
     },
     [pathname, router, searchParams],
   );
+
+  const selectSlug = useCallback(
+    (slug: string | null) => {
+      replaceQuery({ story: slug });
+    },
+    [replaceQuery],
+  );
+
+  const selectCategory = useCallback(
+    (nextCategory: string | null) => {
+      replaceQuery({ category: nextCategory, story: null });
+    },
+    [replaceQuery],
+  );
+
+  useEffect(() => {
+    const controller = new AbortController();
+    fetch(
+      mapStoriesUrl({
+        bbox: viewport.bbox,
+        category,
+        zoom: viewport.zoom,
+      }),
+      { signal: controller.signal },
+    )
+      .then(async (response) => {
+        if (!response.ok) {
+          throw new Error("Could not load map stories.");
+        }
+        return (await response.json()) as MapStoriesResponse;
+      })
+      .then((payload) => {
+        setStories(payload);
+        setError(null);
+      })
+      .catch((caught: unknown) => {
+        if (caught instanceof DOMException && caught.name === "AbortError") {
+          return;
+        }
+        setError("The map could not refresh.");
+      });
+
+    return () => controller.abort();
+  }, [category, viewport.bbox, viewport.zoom]);
 
   useEffect(() => {
     if (!selectedSlug) {
@@ -69,16 +122,30 @@ export function ExploreMap({
     };
   }, [selectedSlug]);
 
+  const onViewChange = useCallback(
+    (next: { center: [number, number]; zoom: number; bbox: MapBBox }) => {
+      setViewport({ bbox: next.bbox, zoom: next.zoom });
+      replaceQuery({
+        lat: next.center[1],
+        lng: next.center[0],
+        zoom: next.zoom,
+      });
+    },
+    [replaceQuery],
+  );
+
   const story = loadedStory?.slug === selectedSlug ? loadedStory : null;
 
   return (
     <div className="relative h-dvh w-full">
       <WashingtonMap
-        stories={initialStories}
+        stories={stories}
         selectedSlug={selectedSlug}
+        initialView={initialView}
         onSelectSlug={selectSlug}
+        onViewChange={onViewChange}
       />
-      <div className="pointer-events-none absolute top-4 left-4 z-10 max-w-xs rounded border border-[var(--rule)] bg-[var(--paper)]/95 px-4 py-3 shadow-sm">
+      <div className="pointer-events-none absolute top-4 left-4 z-30 max-w-xs rounded border border-[var(--rule)] bg-[var(--paper)]/95 px-4 py-3 shadow-sm">
         <p className="text-xs tracking-[0.18em] text-[var(--muted)] uppercase">
           From Washington
         </p>
@@ -86,8 +153,35 @@ export function ExploreMap({
         <p className="mt-1 text-sm text-[var(--muted)]">
           Explore Washington, one story at a time.
         </p>
+        <div className="pointer-events-auto mt-3 flex flex-wrap gap-1.5">
+          <button
+            type="button"
+            onClick={() => selectCategory(null)}
+            className={`rounded border px-2 py-1 text-xs ${
+              category
+                ? "border-[var(--rule)] text-[var(--muted)]"
+                : "border-[var(--ink)] text-[var(--ink)]"
+            }`}
+          >
+            All
+          </button>
+          {MVP_CATEGORIES.map((item) => (
+            <button
+              key={item.slug}
+              type="button"
+              onClick={() => selectCategory(item.slug)}
+              className={`rounded border px-2 py-1 text-xs ${
+                category === item.slug
+                  ? "border-[var(--ink)] text-[var(--ink)]"
+                  : "border-[var(--rule)] text-[var(--muted)]"
+              }`}
+            >
+              {item.name}
+            </button>
+          ))}
+        </div>
       </div>
-      {error && selectedSlug ? (
+      {error ? (
         <p className="absolute bottom-4 left-4 z-10 rounded bg-[var(--paper)] px-3 py-2 text-sm shadow">
           {error}
         </p>

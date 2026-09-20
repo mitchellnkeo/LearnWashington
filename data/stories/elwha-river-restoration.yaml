@@ -96,6 +96,16 @@ sources:
     sourceType: tribal
     tier: S
     accessedAt: "2026-09-20"
+  - id: usgs-elwha-sites
+    title: USGS site inventory for Elwha River streamgages
+    publisher: U.S. Geological Survey
+    url: https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=wa&siteName=Elwha&siteStatus=all&siteType=ST
+    sourceType: dataset
+    tier: S
+    accessedAt: "2026-09-20"
+    notes: Display line connects official USGS main-stem gage coordinates from upstream to the mouth.
+
+geometryFile: elwha-river.geojson
 
 relatedStories:
   - slug: hoh-rain-forest

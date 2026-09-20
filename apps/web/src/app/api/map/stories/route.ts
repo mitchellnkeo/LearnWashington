@@ -1,3 +1,7 @@
+import {
+  isMapQueryIssue,
+  parseMapStoriesQuery,
+} from "@fwty/shared";
 import { listPublishedMapStories } from "@fwty/database";
 import { NextResponse } from "next/server";
 import { apiError } from "@/lib/api-error";
@@ -6,11 +10,21 @@ import { getSql } from "@/lib/db";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-export async function GET() {
+export async function GET(request: Request) {
+  const parsed = parseMapStoriesQuery(new URL(request.url).searchParams);
+  if (isMapQueryIssue(parsed)) {
+    return apiError(400, "INVALID_MAP_QUERY", parsed.message, {
+      field: parsed.field,
+    });
+  }
+
   const sql = getSql();
 
   try {
-    const features = await listPublishedMapStories(sql);
+    const features = await listPublishedMapStories(sql, {
+      bbox: parsed.bbox,
+      categories: parsed.categories,
+    });
     return NextResponse.json(
       { type: "FeatureCollection", features },
       {

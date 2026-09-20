@@ -8,9 +8,11 @@ import {
   type ContentIssue,
   type SeedStory,
 } from "@fwty/shared";
+import { resolveStoryGeometry } from "./story-files";
 
 const repoRoot = resolve(fileURLToPath(new URL(".", import.meta.url)), "../../..");
 const storiesDir = resolve(repoRoot, "data/stories");
+const geometriesDir = resolve(repoRoot, "data/geometries");
 
 type StoryCheckResult = {
   file: string;
@@ -42,7 +44,24 @@ async function checkStoryDirectory(directory: string): Promise<StoryCheckResult[
       continue;
     }
 
-    const story: SeedStory = parsed.data;
+    let story: SeedStory = parsed.data;
+    try {
+      story = await resolveStoryGeometry(story, geometriesDir);
+    } catch (error) {
+      results.push({
+        file,
+        slug: parsed.data.slug,
+        issues: [
+          {
+            code: "invalid-geometry-file",
+            message: error instanceof Error ? error.message : "Could not load geometry file.",
+            level: "error",
+          },
+        ],
+      });
+      continue;
+    }
+
     const issues = checkSeedStory(story);
     const previous = slugs.get(story.slug);
     if (previous) {

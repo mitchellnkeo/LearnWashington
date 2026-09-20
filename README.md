@@ -57,6 +57,8 @@ pnpm db:seed
 
 A story appears on the map and at `/story/:slug` only when `status` is `PUBLISHED` and `verificationStatus` is `VERIFIED` or `DISPUTED`.
 
+Map views are shareable with `?lat=&lng=&zoom=&category=&story=`. `GET /api/map/stories` accepts the same `bbox`, `categories`, and `zoom` query so viewport filtering can turn on without changing the contract. Optional `geometryFile` on a story points at official GeoJSON in `data/geometries/` (line or polygon); the marker is still the point-on-surface.
+
 ## Scripts
 
 | Command | What it does |

@@ -1,5 +1,18 @@
 import type postgres from "postgres";
 
+export type GeoJsonPoint = {
+  type: "Point";
+  coordinates: [number, number];
+};
+
+export type GeoJsonShape =
+  | { type: "LineString"; coordinates: [number, number][] }
+  | { type: "MultiLineString"; coordinates: [number, number][][] }
+  | { type: "Polygon"; coordinates: [number, number][][] }
+  | { type: "MultiPolygon"; coordinates: [number, number][][][] };
+
+export type GeoJsonGeometry = GeoJsonPoint | GeoJsonShape;
+
 export type MapStoryFeature = {
   type: "Feature";
   geometry: {
@@ -11,6 +24,9 @@ export type MapStoryFeature = {
     slug: string;
     title: string;
     category: string | null;
+    icon: string | null;
+    geometryType: string;
+    shape: GeoJsonShape | null;
   };
 };
 
@@ -37,25 +53,66 @@ export type StoryPostcard = {
   sources: StorySource[];
 };
 
-type GeoJsonPoint = {
-  type: "Point";
-  coordinates: [number, number];
+export type MapStoriesFilter = {
+  bbox?: {
+    west: number;
+    south: number;
+    east: number;
+    north: number;
+  };
+  categories?: string[];
 };
 
+function asGeometry<T extends GeoJsonGeometry>(value: T | string): T {
+  return typeof value === "string" ? (JSON.parse(value) as T) : value;
+}
+
 function asPoint(value: GeoJsonPoint | string): GeoJsonPoint {
-  return typeof value === "string" ? (JSON.parse(value) as GeoJsonPoint) : value;
+  return asGeometry(value);
+}
+
+function normalizeGeometryType(value: string): string {
+  return value.replace(/^ST_/, "");
 }
 
 export async function listPublishedMapStories(
   sql: postgres.Sql,
+  filter: MapStoriesFilter = {},
 ): Promise<MapStoryFeature[]> {
+  const categoryFilter =
+    filter.categories && filter.categories.length > 0
+      ? sql`and exists (
+          select 1
+          from story_categories sc
+          join categories c on c.id = sc.category_id
+          where sc.story_id = s.id
+            and c.slug = any(${filter.categories})
+        )`
+      : sql``;
+
+  const bboxFilter = filter.bbox
+    ? sql`and ST_Intersects(
+        coalesce(s.geometry, p.geometry),
+        ST_MakeEnvelope(
+          ${filter.bbox.west},
+          ${filter.bbox.south},
+          ${filter.bbox.east},
+          ${filter.bbox.north},
+          4326
+        )
+      )`
+    : sql``;
+
   const rows = await sql<
     {
       id: string;
       slug: string;
       title: string;
       category: string | null;
+      icon: string | null;
       geometry: GeoJsonPoint;
+      shape: GeoJsonGeometry | GeoJsonShape;
+      geometry_type: string;
     }[]
   >`
     select
@@ -70,26 +127,44 @@ export async function listPublishedMapStories(
         order by c.sort_order
         limit 1
       ) as category,
+      (
+        select c.icon
+        from story_categories sc
+        join categories c on c.id = sc.category_id
+        where sc.story_id = s.id
+        order by c.sort_order
+        limit 1
+      ) as icon,
       ST_AsGeoJSON(
         ST_PointOnSurface(coalesce(s.geometry, p.geometry))
-      )::json as geometry
+      )::json as geometry,
+      ST_AsGeoJSON(coalesce(s.geometry, p.geometry))::json as shape,
+      GeometryType(coalesce(s.geometry, p.geometry)) as geometry_type
     from stories s
     left join places p on p.id = s.primary_place_id
     where s.status = 'PUBLISHED'
       and s.verification_status in ('VERIFIED', 'DISPUTED')
       and coalesce(s.geometry, p.geometry) is not null
+      ${categoryFilter}
+      ${bboxFilter}
   `;
 
-  return rows.map((row) => ({
-    type: "Feature",
-    geometry: asPoint(row.geometry),
-    properties: {
-      id: row.id,
-      slug: row.slug,
-      title: row.title,
-      category: row.category,
-    },
-  }));
+  return rows.map((row) => {
+    const geometryType = normalizeGeometryType(row.geometry_type);
+    return {
+      type: "Feature",
+      geometry: asPoint(row.geometry),
+      properties: {
+        id: row.id,
+        slug: row.slug,
+        title: row.title,
+        category: row.category,
+        icon: row.icon,
+        geometryType,
+        shape: geometryType === "Point" ? null : asGeometry<GeoJsonShape>(row.shape as GeoJsonShape),
+      },
+    };
+  });
 }
 
 export async function getPublishedStoryBySlug(

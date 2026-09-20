@@ -8,6 +8,8 @@
   },
   "scripts": {
     "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:spatial": "RUN_SPATIAL_TESTS=1 vitest run src/spatial.test.ts",
     "migrate": "tsx src/migrate.ts",
     "seed": "tsx src/seed.ts",
     "content:check": "tsx src/content-check.ts",
@@ -23,6 +25,7 @@
   "devDependencies": {
     "drizzle-kit": "^0.31.4",
     "tsx": "^4.20.5",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
   }
 }

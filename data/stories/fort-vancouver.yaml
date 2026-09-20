@@ -104,3 +104,13 @@ sources:
     sourceType: government
     tier: S
     accessedAt: "2026-09-20"
+  - id: nps-fova-boundary
+    title: National Park Service Boundaries — Fort Vancouver
+    publisher: National Park Service
+    url: https://services1.arcgis.com/fBc8EJBxQRMcHlei/ArcGIS/rest/services/National_Park_Service_Boundaries/FeatureServer/0
+    sourceType: dataset
+    tier: S
+    accessedAt: "2026-09-20"
+    notes: Display polygon is the official FOVA unit clipped to Washington.
+
+geometryFile: fort-vancouver.geojson

@@ -21,16 +21,27 @@ export type StoryPostcard = {
   sources: StorySource[];
 };
 
+export type MapShapeGeometry =
+  | { type: "LineString"; coordinates: [number, number][] }
+  | { type: "MultiLineString"; coordinates: [number, number][][] }
+  | { type: "Polygon"; coordinates: [number, number][][] }
+  | { type: "MultiPolygon"; coordinates: [number, number][][][] };
+
+export type MapStoryFeature = {
+  type: "Feature";
+  geometry: { type: "Point"; coordinates: [number, number] };
+  properties: {
+    id: string;
+    slug: string;
+    title: string;
+    category: string | null;
+    icon: string | null;
+    geometryType: string;
+    shape: MapShapeGeometry | null;
+  };
+};
+
 export type MapStoriesResponse = {
   type: "FeatureCollection";
-  features: Array<{
-    type: "Feature";
-    geometry: { type: "Point"; coordinates: [number, number] };
-    properties: {
-      id: string;
-      slug: string;
-      title: string;
-      category: string | null;
-    };
-  }>;
+  features: MapStoryFeature[];
 };

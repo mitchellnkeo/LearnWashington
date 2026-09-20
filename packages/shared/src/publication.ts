@@ -1,6 +1,6 @@
 import { MVP_CATEGORIES, QUALIFYING_SOURCE_TIERS } from "./enums";
 import { dateMatchesPrecision } from "./date-label";
-import { isInsideWashington } from "./geo";
+import { isInsideWashington, walkPositions } from "./geo";
 import { claimSourceId, type SeedStory } from "./seed-schema";
 
 export type ContentIssue = {
@@ -9,7 +9,9 @@ export type ContentIssue = {
   level: "error" | "warning";
 };
 
-const knownCategorySlugs = new Set(MVP_CATEGORIES.map((category) => category.slug));
+const knownCategorySlugs = new Set<string>(
+  MVP_CATEGORIES.map((category) => category.slug),
+);
 
 export function isPubliclyQueryable(story: {
   status: string;
@@ -111,6 +113,22 @@ export function checkSeedStory(story: SeedStory): ContentIssue[] {
       message: `${story.location.name} is outside the Washington bounding box. Set allowOutsideWashington if that is intentional.`,
       level: "error",
     });
+  }
+
+  if (story.geometry && !story.allowOutsideWashington) {
+    let outside = false;
+    walkPositions(story.geometry.coordinates, (longitude, latitude) => {
+      if (!isInsideWashington(latitude, longitude)) {
+        outside = true;
+      }
+    });
+    if (outside) {
+      issues.push({
+        code: "geometry-outside-washington",
+        message: `${story.slug} geometry leaves the Washington bounding box. Set allowOutsideWashington if that is intentional.`,
+        level: "error",
+      });
+    }
   }
 
   for (const source of story.sources) {

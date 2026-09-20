@@ -86,6 +86,18 @@ export const seedStorySchema = z.object({
       }),
     )
     .default([]),
+  geometryFile: z.string().min(1).optional(),
+  geometry: z
+    .object({
+      type: z.enum([
+        "LineString",
+        "MultiLineString",
+        "Polygon",
+        "MultiPolygon",
+      ]),
+      coordinates: z.array(z.unknown()).min(1),
+    })
+    .optional(),
 });
 
 export type SeedStory = z.infer<typeof seedStorySchema>;

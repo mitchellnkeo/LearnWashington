@@ -12,9 +12,11 @@ import {
 } from "@fwty/shared";
 import { createSqlClient } from "./client";
 import { requireDatabaseUrl } from "./env";
+import { resolveStoryGeometry, storyGeometryJson } from "./story-files";
 
 const repoRoot = resolve(fileURLToPath(new URL(".", import.meta.url)), "../../..");
 const storiesDir = resolve(repoRoot, "data/stories");
+const geometriesDir = resolve(repoRoot, "data/geometries");
 
 const sql = createSqlClient(requireDatabaseUrl());
 const relatedLinks: { slug: string; relatedSlug: string; relationshipType?: string }[] =
@@ -38,7 +40,10 @@ await sql.begin(async (tx) => {
 
   for (const file of files) {
     const raw = await readFile(resolve(storiesDir, file), "utf8");
-    const story = seedStorySchema.parse(parse(raw));
+    const story = await resolveStoryGeometry(
+      seedStorySchema.parse(parse(raw)),
+      geometriesDir,
+    );
     const issues = checkSeedStory(story).filter((issue) => issue.level === "error");
     if (issues.length > 0) {
       throw new Error(
@@ -87,7 +92,11 @@ await sql.begin(async (tx) => {
         ${story.endDate ?? null},
         ${story.datePrecision ?? null},
         ${story.dateLabel ?? null},
-        ST_SetSRID(ST_MakePoint(${story.location.longitude}, ${story.location.latitude}), 4326),
+        ${
+          storyGeometryJson(story)
+            ? tx`ST_SetSRID(ST_GeomFromGeoJSON(${storyGeometryJson(story)}), 4326)`
+            : tx`ST_SetSRID(ST_MakePoint(${story.location.longitude}, ${story.location.latitude}), 4326)`
+        },
         ${story.featured ?? false},
         ${story.status === "PUBLISHED" ? new Date().toISOString() : null},
         ${story.lastReviewedAt ?? null}

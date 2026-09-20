@@ -72,17 +72,35 @@ export const DATE_PRECISIONS = [
 export type DatePrecision = (typeof DATE_PRECISIONS)[number];
 
 export const MVP_CATEGORIES = [
-  { slug: "geography-geology", name: "Geography & Geology", icon: "mountain" },
-  { slug: "wildlife-ecology", name: "Wildlife & Ecology", icon: "leaf" },
-  { slug: "history", name: "History", icon: "landmark" },
+  {
+    slug: "geography-geology",
+    name: "Geography & Geology",
+    icon: "mountain",
+    color: "#6b4f3a",
+  },
+  {
+    slug: "wildlife-ecology",
+    name: "Wildlife & Ecology",
+    icon: "leaf",
+    color: "#3f5d3f",
+  },
+  { slug: "history", name: "History", icon: "landmark", color: "#8a3b2a" },
   {
     slug: "indigenous-history-place",
     name: "Indigenous History & Place",
     icon: "sun",
+    color: "#a35a2a",
   },
-  { slug: "music-culture", name: "Music & Culture", icon: "music" },
-  { slug: "science-strange", name: "Science / Strange Washington", icon: "flask" },
+  { slug: "music-culture", name: "Music & Culture", icon: "music", color: "#4a3d63" },
+  {
+    slug: "science-strange",
+    name: "Science / Strange Washington",
+    icon: "flask",
+    color: "#3d4f63",
+  },
 ] as const;
+
+export const DEFAULT_CATEGORY_COLOR = "#8a3b2a";
 
 export const QUALIFYING_SOURCE_TIERS = ["S", "A", "B"] as const;
 
