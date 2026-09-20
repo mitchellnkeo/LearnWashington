@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getPublishedStoryBySlug } from "@fwty/database";
+import { StoryViewed } from "@/components/analytics/StoryViewed";
 import { PostcardCard } from "@/components/postcard/PostcardCard";
 import { SiteHeader } from "@/components/site/SiteHeader";
 import { getSql } from "@/lib/db";
@@ -72,6 +73,7 @@ export default async function StoryPage({ params }: PageProps) {
           </Link>
         </p>
         <div className="mt-8">
+          <StoryViewed slug={story.slug} />
           <PostcardCard story={story} showPermalink={false} />
         </div>
       </main>

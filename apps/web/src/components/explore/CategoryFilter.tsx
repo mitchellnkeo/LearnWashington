@@ -1,6 +1,7 @@
 "use client";
 
 import { MVP_CATEGORIES } from "@fwty/shared";
+import { trackEvent } from "@/lib/analytics";
 
 export function CategoryFilter({
   category,
@@ -24,7 +25,10 @@ export function CategoryFilter({
       <button
         type="button"
         aria-pressed={!category}
-        onClick={() => onSelect(null)}
+        onClick={() => {
+          trackEvent("category_selected", { category: "all" });
+          onSelect(null);
+        }}
         className={`min-h-11 shrink-0 rounded-full border px-3 text-sm ${
           category
             ? "border-[var(--rule)] text-[var(--muted)]"
@@ -38,7 +42,10 @@ export function CategoryFilter({
           key={item.slug}
           type="button"
           aria-pressed={category === item.slug}
-          onClick={() => onSelect(item.slug)}
+          onClick={() => {
+            trackEvent("category_selected", { category: item.slug });
+            onSelect(item.slug);
+          }}
           className={`min-h-11 shrink-0 rounded-full border px-3 text-sm ${
             category === item.slug
               ? "border-[var(--ink)] text-[var(--ink)]"

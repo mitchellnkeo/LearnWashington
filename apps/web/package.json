@@ -15,6 +15,8 @@
     "@fwty/database": "workspace:*",
     "@fwty/shared": "workspace:*",
     "@sentry/nextjs": "^10.8.0",
+    "@vercel/analytics": "^2.0.1",
+    "@vercel/speed-insights": "^2.0.0",
     "dotenv": "^16.6.1",
     "maplibre-gl": "^5.9.0",
     "next": "^16.3.4",

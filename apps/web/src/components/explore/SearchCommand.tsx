@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useId, useMemo, useRef, useState } from "react";
+import { trackEvent } from "@/lib/analytics";
 import type { SearchResults } from "@/lib/story-types";
 
 type SearchHit =
@@ -93,6 +94,10 @@ export function SearchCommand({
   }, [query]);
 
   function choose(hit: SearchHit) {
+    trackEvent("search_used", {
+      kind: hit.kind,
+      q: query.trim().slice(0, 40),
+    });
     if (hit.kind === "category") {
       onSelectCategory(hit.slug);
     } else if (hit.kind === "story") {

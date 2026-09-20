@@ -80,3 +80,5 @@ Every published story is also on [`/stories`](http://localhost:3000/stories), a 
 ## Production notes
 
 Supabase (pooler `DATABASE_URL`, direct `DIRECT_URL`) and the Vercel project are already live. Optional: Sentry (`SENTRY_DSN` / `NEXT_PUBLIC_SENTRY_DSN`). Media upload to Vercel Blob is still deferred until we have licensed images.
+
+Analytics is **Vercel Web Analytics** plus Speed Insights — no Google Analytics, no cookies. Custom events (`story_opened`, `source_clicked`, `surprise_me_clicked`, and the rest) answer editorial questions. Turn Web Analytics on in the Vercel project dashboard after deploy.

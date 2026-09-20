@@ -6,6 +6,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { ExplorerChrome } from "@/components/explore/ExplorerChrome";
 import { PostcardDrawer } from "@/components/postcard/PostcardDrawer";
+import { trackEvent } from "@/lib/analytics";
 import { mapStoriesUrl, readMapView, writeMapView } from "@/lib/map-url";
 import type { MapStoriesResponse, StoryPostcard } from "@/lib/story-types";
 
@@ -165,6 +166,9 @@ export function ExploreMap({
         ? `Opened ${story.title}. Map moved to that location.`
         : "Postcard closed.",
     );
+    if (story) {
+      trackEvent("story_opened", { slug: story.slug, surface: "map" });
+    }
   }, [story]);
 
   return (

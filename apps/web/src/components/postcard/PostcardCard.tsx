@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { trackEvent } from "@/lib/analytics";
 import type { StoryPostcard } from "@/lib/story-types";
 
 function formatReviewed(value: string | null) {
@@ -71,6 +74,12 @@ export function PostcardCard({
                 href={source.url}
                 target="_blank"
                 rel="noreferrer"
+                onClick={() =>
+                  trackEvent("source_clicked", {
+                    slug: story.slug,
+                    publisher: source.publisher,
+                  })
+                }
                 className="text-[var(--ink)] underline decoration-[var(--rule)] underline-offset-2 hover:decoration-[var(--ink)]"
               >
                 {source.publisher}
@@ -99,7 +108,13 @@ export function PostcardCard({
                 {onSelectStory ? (
                   <button
                     type="button"
-                    onClick={() => onSelectStory(related.slug)}
+                    onClick={() => {
+                      trackEvent("related_story_clicked", {
+                        from: story.slug,
+                        to: related.slug,
+                      });
+                      onSelectStory(related.slug);
+                    }}
                     className="text-left text-[var(--ink)] underline decoration-[var(--rule)] underline-offset-2 hover:decoration-[var(--ink)]"
                   >
                     {related.title}
@@ -107,6 +122,12 @@ export function PostcardCard({
                 ) : (
                   <Link
                     href={`/story/${related.slug}`}
+                    onClick={() =>
+                      trackEvent("related_story_clicked", {
+                        from: story.slug,
+                        to: related.slug,
+                      })
+                    }
                     className="text-[var(--ink)] underline decoration-[var(--rule)] underline-offset-2 hover:decoration-[var(--ink)]"
                   >
                     {related.title}

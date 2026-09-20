@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { trackEvent } from "@/lib/analytics";
 import { readSurpriseExcludes, rememberSurpriseSlug } from "@/lib/surprise";
 
 export function SurpriseButton({
@@ -30,6 +31,7 @@ export function SurpriseButton({
       }
       const payload = (await response.json()) as { slug: string };
       rememberSurpriseSlug(payload.slug);
+      trackEvent("surprise_me_clicked", { slug: payload.slug });
       onSelectStory(payload.slug);
     } catch {
       onError("Surprise Me could not find a story.");
