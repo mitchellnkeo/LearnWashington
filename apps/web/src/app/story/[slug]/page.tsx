@@ -65,7 +65,7 @@ export default async function StoryPage({ params }: PageProps) {
   return (
     <>
       <SiteHeader />
-      <main id="main-content" className="topo min-h-dvh">
+      <main id="main-content" className="min-h-dvh">
         <div className="mx-auto max-w-2xl px-6 py-8">
           <nav aria-label="Story" className="flex flex-wrap gap-2 text-sm">
             <Link
@@ -78,7 +78,7 @@ export default async function StoryPage({ params }: PageProps) {
               All stories
             </Link>
           </nav>
-          <div className="card card-raised mt-6 p-6 md:p-8">
+          <div className="card plaque mt-6 p-6 md:p-8">
             <StoryViewed slug={story.slug} />
             <PostcardCard story={story} showPermalink={false} />
           </div>

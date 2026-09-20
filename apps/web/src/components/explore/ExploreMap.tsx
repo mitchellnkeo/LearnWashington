@@ -192,7 +192,7 @@ export function ExploreMap({
       {error ? (
         <p
           role="alert"
-          className="absolute bottom-24 left-4 z-10 rounded-xl border-2 border-[var(--rule-strong)] bg-[var(--card)] px-3 py-2 text-sm font-semibold shadow md:bottom-4 md:left-28"
+          className="absolute bottom-24 left-4 z-10 border-2 border-[var(--ink)] bg-[var(--sun)] px-3 py-2 text-sm font-bold md:bottom-4 md:left-28"
         >
           {error}
         </p>

@@ -1,26 +1,23 @@
 @import "tailwindcss";
 
+/* Palette drawn from public, named sources:
+   - Manila paper and flat inks from WPA National Park posters (public domain)
+   - Trail-sign green and blaze orange from US Forest Service / trail markers
+   - Goldfinch yellow as a classroom highlighter, close to National Geographic gold
+   Token names stay short so components do not invent a second system. */
 :root {
-  /* Surfaces: warm canvas, raised card, soft forest tint */
-  --paper: #faf5e9;
-  --card: #fffdf7;
-  --sage: #eaf0e2;
-
-  /* Text */
-  --ink: #1f2a22;
-  --muted: #4f5c4c;
-
-  /* Brand */
-  --evergreen: #1f4d36;
-  --evergreen-deep: #163a28;
-  --evergreen-tint: #dde8dd;
-  --bark: #6d4a2f;
-  --amber: #d98a2b;
-  --amber-tint: #f8e6c9;
-
-  /* Lines */
-  --rule: #ddd2b9;
-  --rule-strong: #bfae8d;
+  --paper: #f3e6c4;
+  --card: #fff8e7;
+  --khaki: #e7d7a8;
+  --ink: #1c2833;
+  --muted: #5c584d;
+  --park: #3b7a4a;
+  --park-deep: #2c5a37;
+  --blaze: #e85d04;
+  --sun: #f4d35e;
+  --sky: #3d7ea6;
+  --rule: #c9b58a;
+  --rule-strong: #a89262;
 }
 
 html,
@@ -36,85 +33,78 @@ body {
 h1,
 h2,
 .serif {
-  font-family: var(--font-serif), ui-serif, Georgia, serif;
-  font-weight: 600;
-  letter-spacing: -0.01em;
+  font-family: var(--font-display), ui-serif, Georgia, serif;
+  font-weight: 400;
+  letter-spacing: 0;
 }
 
 ::selection {
-  background: var(--amber-tint);
+  background: var(--sun);
   color: var(--ink);
-}
-
-/* Faint contour lines, like a topo map under the page. */
-.topo {
-  background-image:
-    repeating-radial-gradient(
-      circle at 12% 110%,
-      transparent 0 26px,
-      rgba(31, 77, 54, 0.07) 26px 27px
-    ),
-    repeating-radial-gradient(
-      circle at 88% -15%,
-      transparent 0 32px,
-      rgba(31, 77, 54, 0.06) 32px 33px
-    );
 }
 
 .card {
   background: var(--card);
-  border: 1px solid var(--rule);
-  border-radius: 1rem;
+  border: 1px solid var(--rule-strong);
 }
 
-/* Offset shadow reads printed and handmade rather than glassy. */
-.card-raised {
-  box-shadow: 4px 4px 0 var(--evergreen-tint);
+.plaque {
+  border-top: 6px solid var(--park);
 }
 
-.eyebrow {
-  font-size: 0.7rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--muted);
+.kicker {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--park-deep);
 }
 
-.trail-rule {
-  border: 0;
-  border-top: 2px dashed var(--rule-strong);
+.lede {
+  font-size: 1.125rem;
+  font-style: italic;
+  line-height: 1.5;
+  background: var(--sun);
+  padding: 0.35rem 0.55rem;
 }
 
 .btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 0.4rem;
   min-height: 2.75rem;
-  padding: 0 1rem;
-  border-radius: 999px;
-  border: 2px solid transparent;
-  font-weight: 600;
+  padding: 0 0.9rem;
+  border: 2px solid var(--ink);
+  font-weight: 700;
   line-height: 1;
 }
 
 .btn-primary {
-  background: var(--evergreen);
-  border-color: var(--evergreen-deep);
+  background: var(--park);
+  border-color: var(--park-deep);
   color: var(--card);
 }
 
 .btn-primary:hover:not(:disabled) {
-  background: var(--evergreen-deep);
+  background: var(--park-deep);
 }
 
 .btn-quiet {
   background: var(--card);
-  border-color: var(--rule-strong);
   color: var(--ink);
 }
 
 .btn-quiet:hover {
-  background: var(--sage);
+  background: var(--khaki);
+}
+
+.btn-blaze {
+  background: var(--blaze);
+  border-color: #b54403;
+  color: #fff8e7;
+}
+
+.btn-blaze:hover:not(:disabled) {
+  background: #c44d03;
 }
 
 .btn:disabled {
@@ -124,10 +114,9 @@ h2,
 .field {
   min-height: 2.75rem;
   width: 100%;
-  border-radius: 0.75rem;
-  border: 1.5px solid var(--rule-strong);
+  border: 2px solid var(--rule-strong);
   background: var(--card);
-  padding: 0 0.75rem;
+  padding: 0 0.7rem;
   color: var(--ink);
 }
 
@@ -135,8 +124,23 @@ h2,
   color: var(--muted);
 }
 
-/* Cap the height so the words stay above the fold, and letterbox rather than
-   crop so faces and horizons survive. */
+.specimen {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.75rem;
+  padding: 0 0.55rem 0 0.45rem;
+  border: 1px solid var(--rule-strong);
+  background: var(--card);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.specimen-swatch {
+  width: 0.35rem;
+  height: 1rem;
+  margin-right: 0.45rem;
+}
+
 .postcard-photo {
   display: block;
   width: 100%;
@@ -172,12 +176,11 @@ h2,
   top: 0.75rem;
   z-index: 80;
   transform: translateY(-160%);
-  border-radius: 999px;
-  border: 2px solid var(--evergreen-deep);
-  background: var(--evergreen);
-  color: var(--card);
-  padding: 0.5rem 1rem;
-  font-weight: 600;
+  border: 2px solid var(--ink);
+  background: var(--sun);
+  color: var(--ink);
+  padding: 0.5rem 0.85rem;
+  font-weight: 700;
 }
 
 .skip-link:focus {
@@ -185,8 +188,8 @@ h2,
 }
 
 :focus-visible {
-  outline: 2px solid var(--evergreen);
-  outline-offset: 2px;
+  outline: 2px solid var(--blaze);
+  outline-offset: 3px;
 }
 
 @media (prefers-reduced-motion: reduce) {

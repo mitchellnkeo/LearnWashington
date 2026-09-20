@@ -86,18 +86,18 @@ export function PostcardDrawer({
       />
       <aside
         ref={panelRef}
-        className="pointer-events-auto relative mb-[4.75rem] flex max-h-[calc(80vh-4.75rem)] w-full flex-col overflow-hidden rounded-t-2xl border-t-4 border-[var(--evergreen)] bg-[var(--card)] shadow-2xl md:mb-0 md:h-full md:max-h-none md:w-[26rem] md:rounded-none md:border-t-0 md:border-l-4"
+        className="pointer-events-auto relative mb-[4.75rem] flex max-h-[calc(80vh-4.75rem)] w-full flex-col overflow-hidden border-t-8 border-[var(--park)] bg-[var(--card)] shadow-lg md:mb-0 md:h-full md:max-h-none md:w-[26rem] md:border-t-0 md:border-l-8"
         role="dialog"
         aria-modal="true"
         aria-labelledby="postcard-title"
       >
         <div className="shrink-0 px-5 pt-4">
           <div
-            className="mx-auto mb-3 h-1.5 w-12 rounded-full bg-[var(--rule-strong)] md:hidden"
+            className="mx-auto mb-3 h-1.5 w-12 bg-[var(--rule-strong)] md:hidden"
             aria-hidden="true"
           />
           <div className="mb-4 flex items-center justify-between gap-3">
-            <p className="eyebrow">Postcard</p>
+            <p className="kicker">Postcard</p>
             <button
               ref={closeRef}
               type="button"

@@ -13,21 +13,6 @@ function categoryColor(slug: string) {
   );
 }
 
-function IconPin() {
-  return (
-    <svg viewBox="0 0 24 24" aria-hidden="true" className="h-4 w-4 shrink-0">
-      <path
-        d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11z"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.75"
-        strokeLinejoin="round"
-      />
-      <circle cx="12" cy="10" r="2.5" fill="currentColor" />
-    </svg>
-  );
-}
-
 function PostcardPhoto({ media, slug }: { media: StoryMedia; slug: string }) {
   const [failed, setFailed] = useState(false);
 
@@ -36,8 +21,8 @@ function PostcardPhoto({ media, slug }: { media: StoryMedia; slug: string }) {
   }
 
   return (
-    <figure className="mb-6">
-      <div className="overflow-hidden rounded-2xl border-2 border-[var(--rule-strong)] bg-[var(--sage)]">
+    <figure className="mb-5">
+      <div className="border border-[var(--rule-strong)] bg-[var(--khaki)]">
         <img
           src={media.url}
           alt={media.altText}
@@ -46,7 +31,7 @@ function PostcardPhoto({ media, slug }: { media: StoryMedia; slug: string }) {
         />
       </div>
       {media.creditLine ? (
-        <figcaption className="mt-2 px-1 text-xs leading-relaxed text-[var(--muted)]">
+        <figcaption className="mt-2 text-xs leading-relaxed text-[var(--muted)]">
           {media.sourceUrl ? (
             <a
               href={media.sourceUrl}
@@ -58,7 +43,7 @@ function PostcardPhoto({ media, slug }: { media: StoryMedia; slug: string }) {
                   publisher: media.creator ?? "photo-credit",
                 })
               }
-              className="underline decoration-[var(--rule-strong)] underline-offset-2 hover:decoration-[var(--evergreen)]"
+              className="underline decoration-[var(--rule-strong)] underline-offset-2 hover:decoration-[var(--park)]"
             >
               {media.creditLine}
             </a>
@@ -68,18 +53,6 @@ function PostcardPhoto({ media, slug }: { media: StoryMedia; slug: string }) {
         </figcaption>
       ) : null}
     </figure>
-  );
-}
-
-function SectionHeading({ children }: { children: React.ReactNode }) {
-  return (
-    <h2 className="flex items-center gap-2 text-sm font-bold tracking-wide text-[var(--evergreen)] uppercase">
-      <span
-        aria-hidden="true"
-        className="h-3 w-3 rounded-full border-2 border-[var(--amber)]"
-      />
-      {children}
-    </h2>
   );
 }
 
@@ -120,21 +93,16 @@ export function PostcardCard({
   return (
     <article className="flex flex-col">
       {photo ? <PostcardPhoto media={photo} slug={story.slug} /> : null}
-      <p className="eyebrow">From Washington · To You</p>
-      <h1 id="postcard-title" className="serif mt-2 text-3xl leading-tight">
+      <p className="kicker">From Washington to you</p>
+      <h1 id="postcard-title" className="serif mt-1 text-3xl leading-tight">
         {story.title}
       </h1>
-      <p className="mt-2 flex items-center gap-1.5 text-sm text-[var(--muted)]">
-        <IconPin />
-        <span>
-          {story.locationLabel}
-          {story.dateLabel ? ` · ${story.dateLabel}` : ""}
-        </span>
+      <p className="mt-2 text-sm text-[var(--muted)]">
+        {story.locationLabel}
+        {story.dateLabel ? ` · ${story.dateLabel}` : ""}
       </p>
 
-      <p className="mt-4 rounded-xl border-l-4 border-[var(--amber)] bg-[var(--sage)] px-4 py-3 text-base font-semibold">
-        {story.hook}
-      </p>
+      <p className="lede mt-4">{story.hook}</p>
 
       <div className="mt-4 space-y-3 text-[1rem] leading-relaxed text-[var(--ink)]">
         {story.bodyMd
@@ -147,13 +115,10 @@ export function PostcardCard({
 
       <ul className="mt-5 flex flex-wrap gap-2">
         {story.categories.map((category) => (
-          <li
-            key={category.slug}
-            className="flex items-center gap-2 rounded-full border border-[var(--rule-strong)] bg-[var(--card)] px-3 py-1 text-xs font-semibold"
-          >
+          <li key={category.slug} className="specimen">
             <span
               aria-hidden="true"
-              className="h-2 w-2 rounded-full"
+              className="specimen-swatch"
               style={{ background: categoryColor(category.slug) }}
             />
             {category.name}
@@ -161,16 +126,12 @@ export function PostcardCard({
         ))}
       </ul>
 
-      <section className="mt-8">
-        <hr className="trail-rule mb-5" />
-        <SectionHeading>Sources ({story.sources.length})</SectionHeading>
+      <section className="mt-8 border-t-2 border-[var(--park)] pt-4">
+        <h2 className="serif text-xl">Sources ({story.sources.length})</h2>
         <ul className="mt-3 space-y-3">
           {story.sources.map((source) => (
-            <li
-              key={source.url}
-              className="rounded-xl border border-[var(--rule)] bg-[var(--card)] p-3"
-            >
-              <p className="eyebrow">
+            <li key={source.url} className="border border-[var(--rule)] p-3">
+              <p className="kicker">
                 {source.sourceType} · Tier {source.tier}
               </p>
               <a
@@ -183,7 +144,7 @@ export function PostcardCard({
                     publisher: source.publisher,
                   })
                 }
-                className="font-semibold text-[var(--evergreen)] underline decoration-[var(--rule-strong)] underline-offset-2 hover:decoration-[var(--evergreen)]"
+                className="font-bold text-[var(--park-deep)] underline decoration-[var(--rule-strong)] underline-offset-2 hover:decoration-[var(--park)]"
               >
                 {source.publisher}
               </a>
@@ -199,16 +160,12 @@ export function PostcardCard({
       </section>
 
       {story.related.length > 0 ? (
-        <section className="mt-8">
-          <hr className="trail-rule mb-5" />
-          <SectionHeading>Keep wandering</SectionHeading>
+        <section className="mt-8 border-t-2 border-[var(--park)] pt-4">
+          <h2 className="serif text-xl">Keep wandering</h2>
           <ul className="mt-3 space-y-3">
             {story.related.map((related) => (
-              <li
-                key={related.slug}
-                className="rounded-xl border border-[var(--rule)] bg-[var(--card)] p-3"
-              >
-                <p className="eyebrow">
+              <li key={related.slug} className="border border-[var(--rule)] p-3">
+                <p className="kicker">
                   {relationshipLabel(related.relationshipType)}
                 </p>
                 {onSelectStory ? (
@@ -221,7 +178,7 @@ export function PostcardCard({
                       });
                       onSelectStory(related.slug);
                     }}
-                    className="text-left font-semibold text-[var(--evergreen)] underline decoration-[var(--rule-strong)] underline-offset-2 hover:decoration-[var(--evergreen)]"
+                    className="text-left font-bold text-[var(--park-deep)] underline decoration-[var(--rule-strong)] underline-offset-2 hover:decoration-[var(--park)]"
                   >
                     {related.title}
                   </button>
@@ -234,7 +191,7 @@ export function PostcardCard({
                         to: related.slug,
                       })
                     }
-                    className="font-semibold text-[var(--evergreen)] underline decoration-[var(--rule-strong)] underline-offset-2 hover:decoration-[var(--evergreen)]"
+                    className="font-bold text-[var(--park-deep)] underline decoration-[var(--rule-strong)] underline-offset-2 hover:decoration-[var(--park)]"
                   >
                     {related.title}
                   </Link>

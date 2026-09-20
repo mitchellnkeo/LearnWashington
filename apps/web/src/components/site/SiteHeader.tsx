@@ -1,39 +1,39 @@
 import Link from "next/link";
 
-function TreeMark() {
+function BlazeMark() {
   return (
-    <svg viewBox="0 0 24 24" aria-hidden="true" className="h-7 w-7 shrink-0">
-      <path d="M12 3 7 10h3l-4 6h5v5h2v-5h5l-4-6h3z" fill="currentColor" />
+    <svg viewBox="0 0 24 24" aria-hidden="true" className="h-6 w-6 shrink-0">
+      <rect
+        x="7"
+        y="7"
+        width="10"
+        height="10"
+        transform="rotate(45 12 12)"
+        fill="var(--blaze)"
+      />
     </svg>
   );
 }
 
 export function SiteHeader() {
   return (
-    <header className="bg-[var(--evergreen)] text-[var(--card)]">
-      <div className="mx-auto flex max-w-3xl flex-wrap items-center justify-between gap-3 px-6 py-4">
-        <Link href="/" className="flex items-center gap-2.5">
-          <TreeMark />
-          <span className="serif text-xl leading-tight">
+    <header className="border-b-8 border-[var(--park)] bg-[var(--card)]">
+      <div className="mx-auto flex max-w-3xl flex-wrap items-center justify-between gap-3 px-6 py-3">
+        <Link href="/" className="flex items-center gap-2">
+          <BlazeMark />
+          <span className="serif text-[1.35rem] leading-none">
             From Washington To You
           </span>
         </Link>
-        <nav aria-label="Primary" className="flex gap-2 text-sm font-semibold">
-          <Link
-            href="/"
-            className="rounded-full border border-[var(--card)]/40 px-3.5 py-1.5 hover:bg-[var(--evergreen-deep)]"
-          >
+        <nav aria-label="Primary" className="flex gap-5 text-sm font-bold">
+          <Link href="/" className="underline-offset-4 hover:underline">
             Map
           </Link>
-          <Link
-            href="/stories"
-            className="rounded-full border border-[var(--card)]/40 px-3.5 py-1.5 hover:bg-[var(--evergreen-deep)]"
-          >
+          <Link href="/stories" className="underline-offset-4 hover:underline">
             Stories
           </Link>
         </nav>
       </div>
-      <div className="h-1.5 bg-[var(--amber)]" aria-hidden="true" />
     </header>
   );
 }

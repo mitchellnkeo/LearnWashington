@@ -66,8 +66,8 @@ export default async function StoriesPage({ searchParams }: PageProps) {
     <>
       <SiteHeader />
       <main id="main-content" className="min-h-dvh">
-        <div className="topo border-b border-[var(--rule)]">
-          <div className="mx-auto max-w-3xl px-6 py-10">
+        <div className="border-b-2 border-[var(--park)]">
+          <div className="mx-auto max-w-3xl px-6 py-8">
             <h1 className="serif text-4xl leading-tight">Stories</h1>
             <p className="mt-2 max-w-xl text-[var(--muted)]">
               The whole collection, readable without the map. Filter by category
@@ -80,11 +80,11 @@ export default async function StoriesPage({ searchParams }: PageProps) {
           <form
             method="get"
             action="/stories"
-            className="card card-raised grid gap-4 p-5 md:grid-cols-4"
+            className="card plaque grid gap-4 p-5 md:grid-cols-4"
             role="search"
           >
             <label className="md:col-span-2">
-              <span className="eyebrow mb-1.5 block">Search</span>
+              <span className="kicker mb-1.5 block">Search</span>
               <input
                 type="search"
                 name="q"
@@ -94,7 +94,7 @@ export default async function StoriesPage({ searchParams }: PageProps) {
               />
             </label>
             <label>
-              <span className="eyebrow mb-1.5 block">Category</span>
+              <span className="kicker mb-1.5 block">Category</span>
               <select
                 name="category"
                 defaultValue={filter.category ?? ""}
@@ -109,7 +109,7 @@ export default async function StoriesPage({ searchParams }: PageProps) {
               </select>
             </label>
             <label>
-              <span className="eyebrow mb-1.5 block">Region</span>
+              <span className="kicker mb-1.5 block">Region</span>
               <select
                 name="region"
                 defaultValue={filter.region ?? ""}
@@ -137,12 +137,9 @@ export default async function StoriesPage({ searchParams }: PageProps) {
           ) : (
             <ul className="mt-10 space-y-6">
               {stories.map((story) => (
-                <li
-                  key={story.slug}
-                  className="card card-raised overflow-hidden"
-                >
+                <li key={story.slug} className="card overflow-hidden">
                   {story.image ? (
-                    <div className="border-b border-[var(--rule)] bg-[var(--sage)]">
+                    <div className="border-b border-[var(--rule)] bg-[var(--khaki)]">
                       <img
                         src={story.image.url}
                         alt={story.image.altText}
@@ -154,7 +151,7 @@ export default async function StoriesPage({ searchParams }: PageProps) {
                     <h2 className="serif text-2xl leading-tight">
                       <Link
                         href={`/story/${story.slug}`}
-                        className="underline decoration-[var(--rule-strong)] underline-offset-4 hover:decoration-[var(--evergreen)]"
+                        className="underline decoration-[var(--rule-strong)] underline-offset-4 hover:decoration-[var(--park)]"
                       >
                         {story.title}
                       </Link>
@@ -167,14 +164,13 @@ export default async function StoriesPage({ searchParams }: PageProps) {
                     <p className="mt-3">{story.hook}</p>
                     <ul className="mt-4 flex flex-wrap gap-2">
                       {story.categories.map((category) => (
-                        <li
-                          key={category.slug}
-                          className="flex items-center gap-2 rounded-full border border-[var(--rule-strong)] px-3 py-1 text-xs font-semibold"
-                        >
+                        <li key={category.slug} className="specimen">
                           <span
                             aria-hidden="true"
-                            className="h-2 w-2 rounded-full"
-                            style={{ background: categoryColor(category.slug) }}
+                            className="specimen-swatch"
+                            style={{
+                              background: categoryColor(category.slug),
+                            }}
                           />
                           {category.name}
                         </li>

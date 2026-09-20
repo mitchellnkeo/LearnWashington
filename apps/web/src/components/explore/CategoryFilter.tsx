@@ -4,17 +4,16 @@ import { MVP_CATEGORIES } from "@fwty/shared";
 import { trackEvent } from "@/lib/analytics";
 
 const CHIP_BASE =
-  "flex min-h-11 shrink-0 items-center gap-2 rounded-full border-2 px-3.5 text-sm font-semibold";
-const CHIP_ON =
-  "border-[var(--evergreen-deep)] bg-[var(--evergreen)] text-[var(--card)]";
+  "flex min-h-11 shrink-0 items-center border-2 px-3 text-sm font-bold";
+const CHIP_ON = "border-[var(--ink)] bg-[var(--park)] text-[var(--card)]";
 const CHIP_OFF =
-  "border-[var(--rule-strong)] bg-[var(--card)] text-[var(--ink)] hover:bg-[var(--sage)]";
+  "border-[var(--rule-strong)] bg-[var(--card)] text-[var(--ink)] hover:bg-[var(--khaki)]";
 
-function Dot({ color }: { color: string }) {
+function Swatch({ color }: { color: string }) {
   return (
     <span
       aria-hidden="true"
-      className="h-2.5 w-2.5 rounded-full"
+      className="specimen-swatch"
       style={{ background: color }}
     />
   );
@@ -48,7 +47,7 @@ export function CategoryFilter({
         }}
         className={`${CHIP_BASE} ${category ? CHIP_OFF : CHIP_ON}`}
       >
-        <Dot color={category ? "var(--bark)" : "var(--amber)"} />
+        <Swatch color={category ? "var(--rule-strong)" : "var(--sun)"} />
         All
       </button>
       {MVP_CATEGORIES.map((item) => {
@@ -64,7 +63,7 @@ export function CategoryFilter({
             }}
             className={`${CHIP_BASE} ${active ? CHIP_ON : CHIP_OFF}`}
           >
-            <Dot color={active ? "var(--amber)" : item.color} />
+            <Swatch color={item.color} />
             {item.name}
           </button>
         );

@@ -1,17 +1,19 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import { Fraunces, Nunito_Sans } from "next/font/google";
+import { Atkinson_Hyperlegible, Calistoga } from "next/font/google";
 import "./globals.css";
 
-const serif = Fraunces({
+const display = Calistoga({
   subsets: ["latin"],
-  variable: "--font-serif",
+  weight: "400",
+  variable: "--font-display",
   display: "swap",
 });
 
-const sans = Nunito_Sans({
+const sans = Atkinson_Hyperlegible({
   subsets: ["latin"],
+  weight: ["400", "700"],
   variable: "--font-sans",
   display: "swap",
 });
@@ -28,7 +30,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${serif.variable} ${sans.variable}`}>
+    <html lang="en" className={`${display.variable} ${sans.variable}`}>
       <body className="min-h-dvh antialiased">
         <a href="#main-content" className="skip-link">
           Skip to content

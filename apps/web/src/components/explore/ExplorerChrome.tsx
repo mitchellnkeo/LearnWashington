@@ -22,7 +22,6 @@ function IconSearch() {
         fill="none"
         stroke="currentColor"
         strokeWidth="1.75"
-        strokeLinecap="round"
       />
     </svg>
   );
@@ -52,36 +51,25 @@ function IconLayers() {
         fill="none"
         stroke="currentColor"
         strokeWidth="1.75"
-        strokeLinejoin="round"
       />
       <path
         d="m4 12 8 4 8-4"
         fill="none"
         stroke="currentColor"
         strokeWidth="1.75"
-        strokeLinejoin="round"
       />
       <path
         d="m4 16 8 4 8-4"
         fill="none"
         stroke="currentColor"
         strokeWidth="1.75"
-        strokeLinejoin="round"
       />
     </svg>
   );
 }
 
-function IconTree() {
-  return (
-    <svg viewBox="0 0 24 24" aria-hidden="true" className="h-6 w-6">
-      <path d="M12 3 7 10h3l-4 6h5v5h2v-5h5l-4-6h3z" fill="currentColor" />
-    </svg>
-  );
-}
-
 const TOOL_BASE =
-  "flex min-h-12 min-w-12 flex-col items-center justify-center gap-0.5 rounded-xl px-1 text-[0.65rem] font-bold";
+  "flex min-h-12 min-w-12 flex-col items-center justify-center gap-0.5 px-1 text-[0.65rem] font-bold";
 
 export function ExplorerChrome({
   category,
@@ -128,7 +116,7 @@ export function ExplorerChrome({
       <button
         type="button"
         onClick={() => setOpen(true)}
-        className={`${TOOL_BASE} text-[var(--evergreen)] hover:bg-[var(--sage)]`}
+        className={`${TOOL_BASE} text-[var(--ink)] hover:bg-[var(--khaki)]`}
       >
         <IconSearch />
         Search
@@ -140,8 +128,8 @@ export function ExplorerChrome({
         onClick={() => setOpen((current) => !current)}
         className={`${TOOL_BASE} ${
           exploreActive
-            ? "bg-[var(--evergreen)] text-[var(--card)]"
-            : "text-[var(--evergreen)] hover:bg-[var(--sage)]"
+            ? "bg-[var(--park)] text-[var(--card)]"
+            : "text-[var(--ink)] hover:bg-[var(--khaki)]"
         }`}
       >
         <IconLayers />
@@ -149,7 +137,7 @@ export function ExplorerChrome({
       </button>
       <Link
         href="/stories"
-        className={`${TOOL_BASE} text-[var(--evergreen)] hover:bg-[var(--sage)]`}
+        className={`${TOOL_BASE} text-[var(--ink)] hover:bg-[var(--khaki)]`}
       >
         <IconCompass />
         List
@@ -162,25 +150,19 @@ export function ExplorerChrome({
       <div className="pointer-events-auto flex flex-col-reverse md:h-full md:flex-row md:items-start">
         <nav
           aria-label="Explore Washington"
-          className="flex items-center justify-around gap-1 rounded-t-2xl border-2 border-b-0 border-[var(--rule-strong)] bg-[var(--card)] px-2 py-2 md:w-[4.5rem] md:flex-col md:justify-start md:gap-1.5 md:rounded-2xl md:border-b-2 md:py-3 md:shadow-[4px_4px_0_var(--evergreen-tint)]"
+          className="flex items-center justify-around gap-1 border-2 border-b-0 border-[var(--ink)] bg-[var(--card)] px-1 py-1 md:w-[4.25rem] md:flex-col md:justify-start md:border-b-2 md:py-2"
         >
-          <span
-            className="hidden text-[var(--evergreen)] md:block"
-            aria-hidden="true"
-          >
-            <IconTree />
-          </span>
           {tools}
         </nav>
 
         {open ? (
           <section
             id="explorer-panel"
-            className="topo max-h-[50vh] overflow-y-auto border-2 border-[var(--rule-strong)] bg-[var(--card)] p-4 md:ml-3 md:max-h-[calc(100dvh-2rem)] md:w-72 md:rounded-2xl md:shadow-[4px_4px_0_var(--evergreen-tint)]"
+            className="plaque max-h-[50vh] overflow-y-auto border-2 border-[var(--ink)] bg-[var(--card)] p-4 md:ml-3 md:max-h-[calc(100dvh-2rem)] md:w-72"
           >
             <div className="flex items-start justify-between gap-3">
               <div>
-                <p className="eyebrow">From Washington</p>
+                <p className="kicker">From Washington</p>
                 <p className="serif text-2xl leading-tight">To You</p>
               </div>
               <button
@@ -194,7 +176,7 @@ export function ExplorerChrome({
             <p className="mt-2 text-sm text-[var(--muted)]">
               Search, filter, or jump to a story. The map stays the main view.
             </p>
-            <hr className="trail-rule my-4" />
+            <hr className="my-4 border-[var(--rule-strong)]" />
             <div ref={searchHostRef} className="space-y-4">
               <SearchCommand
                 onSelectStory={(slug) => {

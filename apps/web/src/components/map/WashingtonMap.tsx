@@ -227,10 +227,10 @@ export function WashingtonMap({
         source: MARKER_SOURCE,
         filter: ["has", "point_count"],
         paint: {
-          "circle-color": "#1f4d36",
+          "circle-color": "#3b7a4a",
           "circle-radius": 16,
           "circle-stroke-width": 3,
-          "circle-stroke-color": "#fffdf7",
+          "circle-stroke-color": "#fff8e7",
         },
       });
 
@@ -244,7 +244,7 @@ export function WashingtonMap({
           "text-size": 12,
         },
         paint: {
-          "text-color": "#fffdf7",
+          "text-color": "#fff8e7",
         },
       });
 
@@ -270,8 +270,8 @@ export function WashingtonMap({
           "circle-stroke-color": [
             "case",
             ["boolean", ["feature-state", "selected"], false],
-            "#d98a2b",
-            "#fffdf7",
+            "#e85d04",
+            "#fff8e7",
           ],
         },
       });

@@ -166,7 +166,7 @@ export function SearchCommand({
         <ul
           id={listId}
           role="listbox"
-          className="absolute top-full right-0 left-0 z-40 mt-1.5 max-h-72 overflow-y-auto rounded-xl border-2 border-[var(--rule-strong)] bg-[var(--card)] py-1 shadow-lg"
+          className="absolute top-full right-0 left-0 z-40 mt-1 max-h-72 overflow-y-auto border-2 border-[var(--ink)] bg-[var(--card)] py-1"
         >
           {hits.length === 0 && !busy ? (
             <li className="px-3 py-2 text-sm text-[var(--muted)]">
@@ -188,11 +188,11 @@ export function SearchCommand({
                 onMouseEnter={() => setActive(index)}
                 onClick={() => choose(hit)}
                 className={`flex w-full flex-col items-start px-3 py-2.5 text-left text-sm ${
-                  index === active ? "bg-[var(--sage)]" : ""
+                  index === active ? "bg-[var(--sun)]" : ""
                 }`}
               >
-                <span className="eyebrow">{hit.kind}</span>
-                <span className="font-semibold">{hit.label}</span>
+                <span className="kicker">{hit.kind}</span>
+                <span className="font-bold">{hit.label}</span>
               </button>
             </li>
           ))}
