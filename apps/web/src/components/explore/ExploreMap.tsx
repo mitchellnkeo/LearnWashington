@@ -169,7 +169,7 @@ export function ExploreMap({
 
   return (
     <div className="relative h-dvh w-full">
-      <div inert={Boolean(story)}>
+      <div className="absolute inset-0" inert={Boolean(story)}>
         <WashingtonMap
           stories={stories}
           selectedSlug={selectedSlug}
