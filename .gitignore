@@ -1,0 +1,44 @@
+# dependencies
+node_modules
+.pnpm-store
+
+# next / build
+.next
+out
+dist
+build
+*.tsbuildinfo
+
+# env / secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# vercel
+.vercel
+
+# testing / coverage
+coverage
+playwright-report
+test-results
+
+# logs / debug
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# os / editor
+.DS_Store
+.idea
+.vscode/*
+!.vscode/extensions.json
+*.swp
+
+# drizzle generated journals stay; local data does not
+docker/data
+
+# sentry
+.sentryclirc

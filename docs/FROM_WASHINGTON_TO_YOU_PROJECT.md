@@ -1,4 +1,5 @@
 # From Washington To You
+
 ## Project Charter, Product Scope, Architecture, and AI Development Guide
 
 > **Project name:** From Washington To You  
@@ -33,6 +34,8 @@ When implementation choices conflict with this document, prefer the simplest sol
 Do **not** turn this project into a generic GIS dashboard, tourism directory, social network, or AI-generated trivia site.
 
 ---
+
+
 
 # 2. Product Vision
 
@@ -85,6 +88,8 @@ AI is a research and writing assistant, not an authority.
 
 # 4. Core Product Principles
 
+
+
 ## 4.1 Source-first
 
 No published factual content without evidence.
@@ -94,6 +99,8 @@ A source should be stored as structured data, not embedded only as prose.
 Where reasonable, evidence should exist at the **claim level**, not merely at the story level.
 
 ---
+
+
 
 ## 4.2 Curiosity over comprehensiveness
 
@@ -106,6 +113,8 @@ Initial target:
 **100–250 high-quality postcards.**
 
 ---
+
+
 
 ## 4.3 Storytelling over raw data
 
@@ -124,6 +133,8 @@ Better:
 The original source should remain available from the postcard.
 
 ---
+
+
 
 ## 4.4 Geographic discovery
 
@@ -146,6 +157,8 @@ Avoid assigning artificially precise coordinates to stories that are regional.
 
 ---
 
+
+
 ## 4.5 Clear uncertainty
 
 Not every historical or scientific claim is equally certain.
@@ -162,6 +175,8 @@ The UI should not present disputed or approximate facts as certain.
 
 ---
 
+
+
 ## 4.6 Respectful treatment of Indigenous knowledge
 
 Indigenous history and culture must not be treated as novelty trivia.
@@ -177,6 +192,8 @@ For Indigenous-related content:
 - do not publish culturally sensitive information merely because it is technically public.
 
 ---
+
+
 
 ## 4.7 Delight without sensationalism
 
@@ -195,31 +212,41 @@ A "Weird Washington" category is welcome, but claims must still be sourced and c
 
 ---
 
+
+
 # 5. Target Users
 
 Primary audiences:
 
 ### Washington residents
+
 People curious about the places around them.
 
 ### Visitors
+
 People who want context beyond standard tourism recommendations.
 
 ### Students and educators
+
 People looking for accessible, source-backed Washington information.
 
 ### Outdoor enthusiasts
+
 People interested in geology, ecology, wildlife, rivers, mountains, forests, and public lands.
 
 ### History and culture enthusiasts
+
 People interested in local history, music, architecture, industry, and community stories.
 
 ### Casual explorers
+
 People who simply want to click "Surprise Me" and learn something interesting.
 
 The site should not require domain expertise.
 
 ---
+
+
 
 # 6. Core Experience
 
@@ -242,6 +269,8 @@ Users should be able to:
 The experience should reward exploration rather than make the user configure a complicated search interface.
 
 ---
+
+
 
 # 7. Primary Content Categories
 
@@ -284,6 +313,8 @@ Do not over-engineer the taxonomy during the MVP.
 Use tags for fine-grained classification.
 
 ---
+
+
 
 # 8. The Postcard
 
@@ -334,6 +365,8 @@ Avoid sounding like encyclopedia boilerplate.
 
 ---
 
+
+
 # 9. Source Hierarchy
 
 Use the following editorial hierarchy.
@@ -365,6 +398,8 @@ Examples:
 - tribal cultural departments and official tribal publications
 - original laws, treaties, surveys, maps, reports, photographs, recordings, and archival material
 
+
+
 ## Tier A — Academic
 
 Examples:
@@ -376,6 +411,8 @@ Examples:
 - Pacific Northwest National Laboratory;
 - established research institutes.
 
+
+
 ## Tier B — Cultural institution
 
 Examples:
@@ -385,6 +422,8 @@ Examples:
 - archives;
 - historical societies;
 - institutional oral-history collections.
+
+
 
 ## Tier C — Reputable secondary sources
 
@@ -422,6 +461,8 @@ They should normally be replaced with stronger sources before publication.
 - claims with no identifiable origin.
 
 ---
+
+
 
 # 10. Source Data Requirements
 
@@ -465,6 +506,8 @@ Long-term, support:
 - publication numbers.
 
 ---
+
+
 
 # 11. Claims and Evidence
 
@@ -520,6 +563,8 @@ MVP may display sources at the story level while still storing claim-level relat
 
 ---
 
+
+
 # 12. Core Domain Model
 
 Preferred entities:
@@ -563,6 +608,8 @@ related_stories
 
 ---
 
+
+
 # 13. Geographic Model
 
 Use **PostgreSQL + PostGIS**.
@@ -591,6 +638,8 @@ For distance calculations, transform appropriately or use PostGIS geography func
 Do not calculate geographic distance manually in JavaScript.
 
 ---
+
+
 
 # 14. Suggested Database Schema
 
@@ -719,6 +768,8 @@ weight REAL NULL
 
 ---
 
+
+
 # 15. Content Status Workflow
 
 Stories should move through an editorial lifecycle:
@@ -767,6 +818,8 @@ Only verified or deliberately labeled disputed content should be publicly visibl
 
 ---
 
+
+
 # 16. Media and Copyright
 
 Do not assume images found on the internet may be reused.
@@ -794,6 +847,8 @@ Do not download or republish copyrighted photography without permission.
 Remote linking should also comply with the source's terms.
 
 ---
+
+
 
 # 17. Recommended Technology Stack
 
@@ -829,6 +884,8 @@ PROJECT.md
 
 ---
 
+
+
 # 18. Frontend
 
 Recommended:
@@ -861,6 +918,8 @@ MapLibre provides:
 Do not use Leaflet as the primary renderer if vector tiles, large numbers of features, or rich map transitions are central to the experience.
 
 ---
+
+
 
 # 19. Backend
 
@@ -903,6 +962,8 @@ Prefer domain-based modules over one enormous controllers/services directory.
 
 ---
 
+
+
 # 20. Database Tooling
 
 Recommended:
@@ -926,6 +987,8 @@ The database should remain deployable to any managed PostgreSQL provider with Po
 Avoid provider-specific database features unless justified.
 
 ---
+
+
 
 # 21. Search
 
@@ -962,6 +1025,8 @@ Response groups:
 ```
 
 ---
+
+
 
 # 22. API Design
 
@@ -1019,6 +1084,8 @@ Use GeoJSON where practical.
 
 ---
 
+
+
 # 23. Bounding-Box Loading
 
 Do not fetch every story in Washington on every map interaction.
@@ -1048,6 +1115,8 @@ Debounce map viewport queries.
 
 ---
 
+
+
 # 24. Marker Clustering
 
 The initial application should support clustering.
@@ -1066,6 +1135,8 @@ Cluster interaction:
 3. cluster separates into more localized stories.
 
 ---
+
+
 
 # 25. Frontend Application Structure
 
@@ -1102,6 +1173,8 @@ Avoid giant components.
 
 ---
 
+
+
 # 26. Major UI Components
 
 Potential components:
@@ -1130,6 +1203,8 @@ TimelineControl is post-MVP unless needed earlier.
 
 ---
 
+
+
 # 27. URL Design
 
 Every important story should have a permanent URL.
@@ -1152,6 +1227,8 @@ Map state may be encoded in query parameters:
 This allows users to share a view.
 
 ---
+
+
 
 # 28. SEO and Discoverability
 
@@ -1178,6 +1255,8 @@ Story metadata should include:
 
 ---
 
+
+
 # 29. Accessibility
 
 Accessibility is a first-class requirement.
@@ -1201,6 +1280,8 @@ Provide an accessible list/search representation of stories.
 
 ---
 
+
+
 # 30. Responsive Design
 
 Mobile is important.
@@ -1223,6 +1304,8 @@ Do not shrink a desktop layout into mobile.
 Design mobile interaction intentionally.
 
 ---
+
+
 
 # 31. Visual Direction
 
@@ -1266,6 +1349,8 @@ Visual design should remain readable and modern.
 
 ---
 
+
+
 # 32. Map Basemap
 
 The basemap should be visually quiet.
@@ -1283,6 +1368,8 @@ Prefer:
 Do not let commercial map labels overpower the stories.
 
 ---
+
+
 
 # 33. "Surprise Me"
 
@@ -1313,6 +1400,8 @@ Behavior:
 Do not repeat the same few stories continuously.
 
 ---
+
+
 
 # 34. "What's Interesting Around Here?"
 
@@ -1351,6 +1440,8 @@ Eventually rank by:
 
 ---
 
+
+
 # 35. Related Stories
 
 A story may link to other stories.
@@ -1378,6 +1469,8 @@ Later, graph-based recommendations may be added.
 Do not let AI-generated similarity automatically publish relationships without review.
 
 ---
+
+
 
 # 36. Timeline
 
@@ -1423,6 +1516,8 @@ even though internal filtering uses an approximate numeric representation.
 
 ---
 
+
+
 # 37. Data Ingestion Strategy
 
 There are two fundamentally different content sources.
@@ -1454,6 +1549,8 @@ Datasets provide context and candidates.
 Editorial content determines what becomes a story.
 
 ---
+
+
 
 # 38. Research Workflow
 
@@ -1495,6 +1592,8 @@ AI may assist with:
 AI must not be treated as evidence.
 
 ---
+
+
 
 # 39. Content Seed Format
 
@@ -1541,6 +1640,8 @@ Use schema validation before inserting seed files.
 
 ---
 
+
+
 # 40. Admin / Editorial Tooling
 
 Do not build a full CMS before the public experience works.
@@ -1567,6 +1668,8 @@ Later admin features:
 
 ---
 
+
+
 # 41. Suggested MVP
 
 The MVP should prove that exploring the map is enjoyable.
@@ -1588,6 +1691,8 @@ The MVP should prove that exploring the map is enjoyable.
 - basic analytics;
 - production deployment.
 
+
+
 ## MVP categories
 
 Start with approximately six:
@@ -1602,6 +1707,8 @@ Start with approximately six:
 Expand later.
 
 ---
+
+
 
 # 42. MVP Content Distribution
 
@@ -1638,6 +1745,8 @@ Avoid accidentally making this a Seattle-only project.
 
 ---
 
+
+
 # 43. Out of Scope for MVP
 
 Do not build these initially:
@@ -1667,17 +1776,22 @@ These may be considered later.
 
 ---
 
+
+
 # 44. Potential Phase 2 Features
 
 After MVP validation:
 
 ### Timeline
+
 Explore Washington through time.
 
 ### Nearby discovery
+
 Click anywhere and discover nearby stories.
 
 ### "Take Me Somewhere"
+
 Random map exploration.
 
 ### Collections
@@ -1695,22 +1809,31 @@ Examples:
 - Aviation;
 - Famous Trees.
 
+
+
 ### Story relationships
+
 Rabbit-hole exploration.
 
 ### Regional guides
+
 Curated geographic collections.
 
 ### Classroom mode
+
 Shareable collections for teachers.
 
 ### Historical map overlays
+
 Compare historical and modern geography.
 
 ### Thematic scientific layers
+
 Geology, watersheds, habitat, wildfire history.
 
 ---
+
+
 
 # 45. Potential Phase 3 Features
 
@@ -1729,6 +1852,8 @@ Only if product demand exists:
 - partnerships with museums, libraries, parks, tribes, and universities.
 
 ---
+
+
 
 # 46. Security
 
@@ -1750,6 +1875,8 @@ Because MVP is mostly read-only, keep the public attack surface small.
 
 ---
 
+
+
 # 47. Performance
 
 Targets:
@@ -1769,17 +1896,23 @@ Measure before optimizing.
 
 ---
 
+
+
 # 48. Caching
 
 Potential caching strategy:
 
 ### Browser / CDN
+
 - static assets;
 - source images where permitted;
 - category metadata;
 - story pages.
 
+
+
 ### API
+
 Cache:
 
 - featured stories;
@@ -1790,11 +1923,14 @@ Map bounds are dynamic and may not be worth aggressively caching during MVP.
 
 ---
 
+
+
 # 49. Testing
 
 Minimum testing layers:
 
 ## Unit tests
+
 - validation;
 - slug generation;
 - source rules;
@@ -1802,7 +1938,10 @@ Minimum testing layers:
 - date formatting;
 - content utilities.
 
+
+
 ## API integration tests
+
 - story retrieval;
 - map bounds;
 - category filters;
@@ -1810,18 +1949,27 @@ Minimum testing layers:
 - search;
 - source relationships.
 
+
+
 ## Database tests
+
 - PostGIS bounding-box behavior;
 - distance queries;
 - constraints.
 
+
+
 ## Frontend tests
+
 - postcard interaction;
 - filters;
 - keyboard controls;
 - accessible dialogs/drawers.
 
+
+
 ## E2E
+
 Use Playwright for critical journeys:
 
 ```text
@@ -1844,6 +1992,8 @@ Click Surprise Me
 
 ---
 
+
+
 # 50. Data Integrity Rules
 
 Database constraints should enforce as much editorial quality as practical.
@@ -1862,6 +2012,8 @@ Examples:
 Some publication checks may live in application logic if database constraints become unwieldy.
 
 ---
+
+
 
 # 51. Observability
 
@@ -1882,6 +2034,8 @@ GET /health
 Do not log sensitive request data unnecessarily.
 
 ---
+
+
 
 # 52. Analytics
 
@@ -1912,6 +2066,8 @@ Questions analytics should answer:
 Do not optimize for addictive behavior.
 
 ---
+
+
 
 # 53. Environment Variables
 
@@ -1945,6 +2101,8 @@ Never commit real credentials.
 
 ---
 
+
+
 # 54. Local Development
 
 Preferred:
@@ -1975,6 +2133,8 @@ Example:
 
 ---
 
+
+
 # 55. Coding Standards
 
 Cursor should follow these rules.
@@ -1987,6 +2147,8 @@ Cursor should follow these rules.
 - validate external data;
 - do not use type assertions to silence genuine uncertainty.
 
+
+
 ## React
 
 - functional components;
@@ -1996,6 +2158,8 @@ Cursor should follow these rules.
 - avoid unnecessary global state;
 - avoid effect-driven state when derived state will work.
 
+
+
 ## Backend
 
 - thin route handlers;
@@ -2003,6 +2167,8 @@ Cursor should follow these rules.
 - domain logic in services;
 - database access isolated;
 - consistent error structure.
+
+
 
 ## Database
 
@@ -2012,6 +2178,8 @@ Cursor should follow these rules.
 - use transactions for multi-step writes.
 
 ---
+
+
 
 # 56. API Error Format
 
@@ -2042,6 +2210,8 @@ Do not leak stack traces in production.
 
 ---
 
+
+
 # 57. Slugs and IDs
 
 Use UUIDs internally.
@@ -2061,6 +2231,8 @@ mount-st-helens-1980-eruption
 URLs should never depend on database integer IDs.
 
 ---
+
+
 
 # 58. Dates and Historical Precision
 
@@ -2083,6 +2255,8 @@ Store precision separately.
 For BCE, geological, or approximate dates, use a representation appropriate to the domain rather than forcing everything into SQL `DATE`.
 
 ---
+
+
 
 # 59. Place Names
 
@@ -2113,6 +2287,8 @@ Avoid presenting a single place-name origin as settled when scholarship or commu
 
 ---
 
+
+
 # 60. Geographic Regions
 
 Do not rely solely on counties.
@@ -2135,6 +2311,8 @@ Never infer cultural boundaries from county borders.
 
 ---
 
+
+
 # 61. Scientific Data Presentation
 
 When using modeled or sampled scientific data, clearly distinguish:
@@ -2154,6 +2332,8 @@ A species range is not the same as a confirmed observation.
 The UI and editorial copy should make that distinction clear.
 
 ---
+
+
 
 # 62. Content Voice
 
@@ -2186,6 +2366,8 @@ Bad:
 
 ---
 
+
+
 # 63. Citation UX
 
 Every postcard should expose its sources without requiring a separate research workflow.
@@ -2216,6 +2398,8 @@ External source links should open intentionally and safely.
 
 ---
 
+
+
 # 64. Source Health
 
 Long-term automated task:
@@ -2229,6 +2413,8 @@ Long-term automated task:
 A broken URL should not automatically invalidate a claim, but it should trigger review.
 
 ---
+
+
 
 # 65. Editorial Audit Trail
 
@@ -2249,6 +2435,8 @@ created_at
 For MVP, Git history of seed files may provide enough provenance.
 
 ---
+
+
 
 # 66. Preferred Authoritative Source Families
 
@@ -2274,6 +2462,8 @@ Research should preferentially search the following domains and institutions.
 - Eastern Washington University
 - tribal governments and official tribal cultural resources
 
+
+
 ## Federal
 
 - USGS
@@ -2298,6 +2488,8 @@ Source quality matters more than domain suffix alone.
 A `.gov` page may summarize rather than substantiate a claim; the best source may be an underlying report or dataset.
 
 ---
+
+
 
 # 67. AI Rules for Cursor
 
@@ -2327,6 +2519,8 @@ Do not fabricate:
 - source titles;
 - publication identifiers.
 
+
+
 ## When writing seed content
 
 Every factual seed story must include sources.
@@ -2353,6 +2547,8 @@ Avoid:
 
 ---
 
+
+
 # 68. AI-Assisted Research Rules
 
 An AI research tool may produce a candidate like:
@@ -2376,6 +2572,8 @@ AI-generated summaries should never be treated as the authoritative source.
 
 ---
 
+
+
 # 69. Ethical Constraints
 
 Do not publish exact locations for information that could create harm.
@@ -2395,6 +2593,8 @@ Editorial safety overrides the desire for map precision.
 
 ---
 
+
+
 # 70. Privacy
 
 Do not collect precise user location unless a feature requires it and the user intentionally enables it.
@@ -2409,6 +2609,8 @@ For "near me":
 Do not create user-location histories for the MVP.
 
 ---
+
+
 
 # 71. Deployment
 
@@ -2432,6 +2634,8 @@ Avoid designing architecture around one vendor.
 
 ---
 
+
+
 # 72. CI/CD
 
 GitHub Actions should eventually run:
@@ -2452,6 +2656,8 @@ Database migrations should be explicit and observable.
 
 ---
 
+
+
 # 73. Git Practices
 
 Use conventional, focused commits.
@@ -2470,7 +2676,11 @@ Avoid committing generated build output unless required.
 
 ---
 
+
+
 # 74. Initial Repository Milestones
+
+
 
 ## Milestone 0 — Foundation
 
@@ -2485,12 +2695,16 @@ Avoid committing generated build output unless required.
 - shared environment config;
 - basic CI.
 
+
+
 ## Milestone 1 — First Map
 
 - MapLibre renders Washington;
 - bounds constrained sensibly;
 - sample GeoJSON marker;
 - responsive map layout.
+
+
 
 ## Milestone 2 — Story Domain
 
@@ -2501,12 +2715,16 @@ Avoid committing generated build output unless required.
 - story API;
 - postcard UI.
 
+
+
 ## Milestone 3 — Spatial API
 
 - bounding-box query;
 - marker loading;
 - clustering;
 - map-to-card interaction.
+
+
 
 ## Milestone 4 — Discovery
 
@@ -2515,6 +2733,8 @@ Avoid committing generated build output unless required.
 - Surprise Me;
 - related stories.
 
+
+
 ## Milestone 5 — Editorial Quality
 
 - 100 researched postcards;
@@ -2522,6 +2742,8 @@ Avoid committing generated build output unless required.
 - media attribution;
 - accessibility review;
 - mobile polish.
+
+
 
 ## Milestone 6 — Production
 
@@ -2532,6 +2754,8 @@ Avoid committing generated build output unless required.
 - public launch.
 
 ---
+
+
 
 # 75. Suggested First Development Slice
 
@@ -2557,6 +2781,8 @@ Do not create twenty tables and zero visible product.
 
 ---
 
+
+
 # 76. Example First Story
 
 Use a well-documented topic such as Mount St. Helens for the first end-to-end development story.
@@ -2576,6 +2802,8 @@ The purpose is to exercise:
 Do not insert unsourced factual placeholder content into production fixtures.
 
 ---
+
+
 
 # 77. Definition of Done for a Published Story
 
@@ -2599,6 +2827,8 @@ A story is publishable when:
 
 ---
 
+
+
 # 78. Definition of Done for a Feature
 
 A feature is complete when:
@@ -2616,6 +2846,8 @@ A feature is complete when:
 - performance is reasonable.
 
 ---
+
+
 
 # 79. Avoid These Architectural Traps
 
@@ -2635,6 +2867,8 @@ Do not:
 - overfit the architecture to the first 100 stories.
 
 ---
+
+
 
 # 80. Future Knowledge Graph
 
@@ -2684,6 +2918,8 @@ PostgreSQL is sufficient.
 
 ---
 
+
+
 # 81. Future Public API
 
 A future public API could expose the dataset for education and research.
@@ -2708,6 +2944,8 @@ Potential uses:
 Do not commit to this before the internal API is stable.
 
 ---
+
+
 
 # 82. Product Identity
 
@@ -2738,6 +2976,8 @@ unless the owner explicitly changes direction.
 
 ---
 
+
+
 # 83. Product Success
 
 Early success is not measured by number of markers.
@@ -2754,6 +2994,8 @@ Better measures:
 - the content remains accurate as it grows.
 
 ---
+
+
 
 # 84. Long-Term Vision
 
@@ -2795,6 +3037,8 @@ The sources provide trust.
 
 ---
 
+
+
 # 85. Immediate Build Order
 
 Cursor should start here unless instructed otherwise:
@@ -2824,6 +3068,8 @@ Cursor should start here unless instructed otherwise:
 
 ---
 
+
+
 # 86. Cursor Working Agreement
 
 When asked to implement a feature:
@@ -2845,17 +3091,23 @@ When asked to implement a feature:
 
 ---
 
+
+
 # 87. One-Sentence Architecture Summary
 
 > **From Washington To You is a React/MapLibre client backed by a TypeScript API and PostgreSQL/PostGIS database, serving geographically indexed, source-backed stories whose factual claims maintain explicit provenance.**
 
 ---
 
+
+
 # 88. One-Sentence Product Summary
 
 > **From Washington To You is a playful, postcard-inspired interactive atlas that helps people discover the geography, history, wildlife, science, music, culture, and hidden stories of Washington State—with sources attached to every story.**
 
 ---
+
+
 
 # 89. Final Rule
 
@@ -2868,3 +3120,4 @@ When there is tension between **technical cleverness** and **maintainability**, 
 And when there is uncertainty about a fact:
 
 > **Do not publish it as fact until the evidence supports it.**
+

@@ -1,0 +1,109 @@
+slug: mount-st-helens-1980-eruption
+title: Mount St. Helens
+hook: On a clear May morning, the north side of the mountain gave way.
+body: |
+  Before 1980, Mount St. Helens rose as a steep, symmetrical cone in the
+  southern Cascades of Skamania County. That shape ended on May 18.
+
+  At 8:32 a.m. Pacific Daylight Time, a magnitude 5.1 earthquake accompanied
+  the collapse of the volcano's bulging north flank. The landslide was the
+  largest debris avalanche on Earth in recorded history. Most of it turned
+  west down the North Fork Toutle River for about 14 miles.
+
+  Removal of that flank released pressure inside the volcano. A lateral blast
+  roared north through what had been dense forest, and a Plinian eruption
+  then ran for about nine hours. The debris avalanche took the upper 1,300
+  feet of the summit and left a horseshoe-shaped crater.
+
+  Ash blew east across Washington. Spokane, about 250 miles away, went dark
+  in daytime. The mountain is still there — lower, open to the north, and
+  one of five Washington volcanoes the state lists as high or very high
+  threat. The sources below are the public USGS and Washington Geological
+  Survey record of what happened.
+status: PUBLISHED
+verificationStatus: VERIFIED
+featured: true
+startDate: "1980-05-18"
+datePrecision: day
+dateLabel: May 18, 1980
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Mount St. Helens
+  slug: mount-st-helens
+  placeType: volcano
+  latitude: 46.2
+  longitude: -122.18
+  county: Skamania County
+  region: Cascades
+
+categories:
+  - geography-geology
+  - history
+
+tags:
+  - volcano
+  - cascades
+  - eruption
+
+claims:
+  - text: >
+      Mount St. Helens is in Skamania County, Washington, at 46.2° N, 122.18° W.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usgs-msh-volcano
+  - text: >
+      On May 18, 1980, at 8:32 a.m. PDT, a magnitude 5.1 earthquake accompanied
+      collapse of the volcano's north flank as a debris avalanche — the largest
+      on Earth in recorded history — that traveled about 23 km (14 mi) down the
+      North Fork Toutle River.
+    claimType: historical
+    confidence: verified
+    sources:
+      - usgs-msh-1980-eruption
+  - text: >
+      During the 1980 eruption, a huge debris avalanche removed the upper 400 m
+      (1,300 ft) of the summit and left a horseshoe-shaped crater.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - usgs-msh-volcano
+  - text: >
+      Prevailing winds carried ash eastward and caused complete darkness in
+      Spokane, Washington, 400 km (250 mi) from the volcano.
+    claimType: historical
+    confidence: verified
+    sources:
+      - usgs-msh-1980-eruption
+  - text: >
+      Washington lists five volcanoes as high or very high threat potential,
+      including Mount St. Helens.
+    claimType: factual
+    confidence: verified
+    sources:
+      - wa-dnr-volcanoes-lahars
+
+sources:
+  - id: usgs-msh-volcano
+    title: Mount St. Helens
+    publisher: U.S. Geological Survey
+    url: https://www.usgs.gov/volcanoes/mount-st.-helens
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: usgs-msh-1980-eruption
+    title: 1980 Cataclysmic Eruption
+    publisher: U.S. Geological Survey
+    url: https://www.usgs.gov/volcanoes/mount-st.-helens/science/1980-cataclysmic-eruption
+    sourceType: government
+    tier: S
+    publicationDate: "2023-11-07"
+    accessedAt: "2026-09-20"
+  - id: wa-dnr-volcanoes-lahars
+    title: Volcanoes and Lahars
+    publisher: Washington Department of Natural Resources
+    url: https://www.dnr.wa.gov/programs-and-services/geology/geologic-hazards/volcanoes-and-lahars
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"

@@ -1,0 +1,27 @@
+{
+  "name": "@fwty/database",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "migrate": "tsx src/migrate.ts",
+    "seed": "tsx src/seed.ts",
+    "generate": "drizzle-kit generate"
+  },
+  "dependencies": {
+    "@fwty/shared": "workspace:*",
+    "dotenv": "^16.6.1",
+    "drizzle-orm": "^0.44.5",
+    "postgres": "^3.4.7",
+    "yaml": "^2.8.1"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.4",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}

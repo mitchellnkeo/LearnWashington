@@ -1,0 +1,22 @@
+{
+  "name": "from-washington-to-you",
+  "private": true,
+  "packageManager": "pnpm@8.8.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @fwty/web dev",
+    "build": "pnpm --filter @fwty/web build",
+    "lint": "pnpm -r --if-present lint",
+    "typecheck": "pnpm -r --if-present typecheck",
+    "test": "pnpm -r --if-present test",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "db:migrate": "pnpm --filter @fwty/database migrate",
+    "db:seed": "pnpm --filter @fwty/database seed"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}

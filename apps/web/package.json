@@ -1,0 +1,33 @@
+{
+  "name": "@fwty/web",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "sh -c 'ulimit -n 10240; next dev --hostname 127.0.0.1 --port 3000'",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fwty/database": "workspace:*",
+    "@fwty/shared": "workspace:*",
+    "@sentry/nextjs": "^10.8.0",
+    "dotenv": "^16.6.1",
+    "maplibre-gl": "^5.9.0",
+    "next": "^16.3.4",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "zod": "^4.1.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.12",
+    "@types/node": "^24.3.0",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "eslint": "^9.34.0",
+    "eslint-config-next": "^16.3.4",
+    "tailwindcss": "^4.1.12",
+    "typescript": "^5.9.2"
+  }
+}

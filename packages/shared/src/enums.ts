@@ -1,0 +1,81 @@
+export const STORY_STATUSES = [
+  "IDEA",
+  "RESEARCHING",
+  "DRAFT",
+  "FACT_CHECK",
+  "READY",
+  "PUBLISHED",
+  "NEEDS_REVIEW",
+  "ARCHIVED",
+] as const;
+
+export type StoryStatus = (typeof STORY_STATUSES)[number];
+
+export const VERIFICATION_STATUSES = [
+  "UNVERIFIED",
+  "PARTIALLY_VERIFIED",
+  "VERIFIED",
+  "DISPUTED",
+] as const;
+
+export type VerificationStatus = (typeof VERIFICATION_STATUSES)[number];
+
+export const SOURCE_TIERS = ["S", "A", "B", "C", "D"] as const;
+
+export type SourceTier = (typeof SOURCE_TIERS)[number];
+
+export const SOURCE_TYPES = [
+  "government",
+  "tribal",
+  "academic",
+  "archive",
+  "museum",
+  "book",
+  "journalism",
+  "dataset",
+  "primary_document",
+  "other",
+] as const;
+
+export type SourceType = (typeof SOURCE_TYPES)[number];
+
+export const CLAIM_TYPES = [
+  "factual",
+  "historical",
+  "scientific",
+  "interpretive",
+] as const;
+
+export type ClaimType = (typeof CLAIM_TYPES)[number];
+
+export const CONFIDENCE_LEVELS = [
+  "verified",
+  "strongly_supported",
+  "uncertain",
+  "disputed",
+  "approximate",
+] as const;
+
+export type ConfidenceLevel = (typeof CONFIDENCE_LEVELS)[number];
+
+export const DATE_PRECISIONS = [
+  "day",
+  "month",
+  "year",
+  "decade",
+  "century",
+  "approximate",
+  "geologic",
+  "unknown",
+] as const;
+
+export type DatePrecision = (typeof DATE_PRECISIONS)[number];
+
+export const MVP_CATEGORIES = [
+  { slug: "geography-geology", name: "Geography & Geology" },
+  { slug: "wildlife-ecology", name: "Wildlife & Ecology" },
+  { slug: "history", name: "History" },
+  { slug: "indigenous-history-place", name: "Indigenous History & Place" },
+  { slug: "music-culture", name: "Music & Culture" },
+  { slug: "science-strange", name: "Science / Strange Washington" },
+] as const;
