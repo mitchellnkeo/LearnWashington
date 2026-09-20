@@ -163,6 +163,7 @@ export function WashingtonMap({
     map.on("moveend", emitView);
 
     return () => {
+      emitView.cancel();
       map.remove();
       mapRef.current = null;
     };

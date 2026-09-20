@@ -44,6 +44,9 @@ export function ExploreMap({
 
   const replaceQuery = useCallback(
     (next: Parameters<typeof writeMapView>[1]) => {
+      if (pathname !== "/") {
+        return;
+      }
       const query = writeMapView(searchParams, next);
       router.replace(query ? `${pathname}?${query}` : pathname, { scroll: false });
     },
@@ -175,13 +178,13 @@ export function ExploreMap({
           onSelectSlug={selectSlug}
           onViewChange={onViewChange}
         />
-        <ExplorerChrome
-          category={category}
-          onSelectCategory={selectCategory}
-          onSelectStory={openStory}
-          onError={setError}
-        />
       </div>
+      <ExplorerChrome
+        category={category}
+        onSelectCategory={selectCategory}
+        onSelectStory={openStory}
+        onError={setError}
+      />
       {error ? (
         <p
           role="alert"

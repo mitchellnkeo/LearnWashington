@@ -84,7 +84,7 @@ export function PostcardDrawer({
       />
       <aside
         ref={panelRef}
-        className="pointer-events-auto relative flex max-h-[80vh] w-full flex-col overflow-hidden rounded-t-2xl border-t border-[var(--rule)] bg-[var(--paper)] shadow-2xl md:h-full md:max-h-none md:w-[26rem] md:rounded-none md:border-t-0 md:border-l"
+        className="pointer-events-auto relative mb-[4.75rem] flex max-h-[calc(80vh-4.75rem)] w-full flex-col overflow-hidden rounded-t-2xl border-t border-[var(--rule)] bg-[var(--paper)] shadow-2xl md:mb-0 md:h-full md:max-h-none md:w-[26rem] md:rounded-none md:border-t-0 md:border-l"
         role="dialog"
         aria-modal="true"
         aria-labelledby="postcard-title"

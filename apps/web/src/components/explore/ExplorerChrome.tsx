@@ -112,7 +112,7 @@ export function ExplorerChrome({
   );
 
   return (
-    <div className="pointer-events-none absolute inset-x-0 bottom-0 z-30 md:inset-auto md:top-4 md:bottom-4 md:left-4">
+    <div className="pointer-events-none absolute inset-x-0 bottom-0 z-40 md:inset-auto md:top-4 md:bottom-4 md:left-4">
       <div className="pointer-events-auto flex flex-col-reverse md:h-full md:flex-row md:items-stretch">
         <nav
           aria-label="Explore Washington"

@@ -1,15 +1,29 @@
+type Debounced<Args extends unknown[]> = ((...args: Args) => void) & {
+  cancel: () => void;
+};
+
 export function debounce<Args extends unknown[]>(
   fn: (...args: Args) => void,
   waitMs: number,
-): (...args: Args) => void {
+): Debounced<Args> {
   let timer: ReturnType<typeof setTimeout> | undefined;
 
-  return (...args: Args) => {
+  const wrapped = ((...args: Args) => {
     if (timer) {
       clearTimeout(timer);
     }
     timer = setTimeout(() => {
+      timer = undefined;
       fn(...args);
     }, waitMs);
+  }) as Debounced<Args>;
+
+  wrapped.cancel = () => {
+    if (timer) {
+      clearTimeout(timer);
+      timer = undefined;
+    }
   };
+
+  return wrapped;
 }
