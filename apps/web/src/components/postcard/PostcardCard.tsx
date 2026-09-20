@@ -18,7 +18,7 @@ function PostcardPhoto({ media, slug }: { media: StoryMedia; slug: string }) {
         <img
           src={media.url}
           alt={media.altText}
-          className="block h-auto w-full"
+          className="postcard-photo"
           onError={() => setFailed(true)}
         />
       </div>

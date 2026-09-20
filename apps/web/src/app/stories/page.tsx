@@ -134,7 +134,7 @@ export default async function StoriesPage({ searchParams }: PageProps) {
                     <img
                       src={story.image.url}
                       alt={story.image.altText}
-                      className="block h-auto w-full"
+                      className="postcard-photo"
                     />
                   </div>
                 ) : null}
