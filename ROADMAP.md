@@ -94,7 +94,7 @@ Checked 2026-09-06 — **available**:
 | fromwashingtontoyou.us  | $7.99    | Available |
 
 
-**Purchased 2026-09:** `fromwashingtontoyou.com` at Porkbun. DNS stays at Porkbun until Phase 7, then point the apex + `www` at Vercel (A/CNAME or Porkbun nameservers → Vercel). Optional defensive `.org` is still available.
+**Purchased 2026-09:** `fromwashingtontoyou.com` at Porkbun. Apex ALIAS + `www` CNAME point at `cname.vercel-dns.com`. Certificates issued; `www` 308s to the apex. Optional defensive `.org` is still available.
 
 ---
 
@@ -132,7 +132,7 @@ The honest answer: **this workload is read-mostly, small-data, and cache-friendl
 - [x] Docker Compose file kept as an optional offline PostGIS fallback (not the default).
 - [x] First migration: enable `postgis` and `pg_trgm` extensions.
 - [x] Create a Supabase project; enable nothing extra in the dashboard (migration adds PostGIS); put pooler `DATABASE_URL` and direct `DIRECT_URL` in `.env.local` and later in Vercel.
-- [ ] Create Vercel project, link the repo, confirm preview deployments on PRs.
+- [x] Create Vercel project, link the repo, confirm preview deployments on PRs.
 - [x] Tooling: ESLint, Prettier, `typecheck`/`lint`/`test`/`build` root scripts orchestrating the workspace.
 - [x] GitHub Actions CI on PRs: install → lint → typecheck → test → build (PROJECT.md §72). Production deploy gated on green checks.
 - [x] Set up Sentry (DSN in env vars only) and a `GET /api/health` route.
@@ -180,15 +180,15 @@ The honest answer: **this workload is read-mostly, small-data, and cache-friendl
 
 ### Tasks
 
-- [ ] Full editorial lifecycle on stories: `status` (IDEA → RESEARCHING → DRAFT → FACT_CHECK → READY → PUBLISHED → NEEDS_REVIEW → ARCHIVED) and independent `verification_status` (UNVERIFIED / PARTIALLY_VERIFIED / VERIFIED / DISPUTED). Only PUBLISHED + verified (or deliberately labeled disputed) content is publicly queryable — enforce in the query layer, not per-callsite.
-- [ ] Date handling: `start_date`, `end_date`, `date_precision` (day/month/year/decade/century/approximate/geologic/unknown), `date_label` — never fabricate precision (PROJECT.md §36, §58).
-- [ ] Claim-level provenance: claims carry `claim_type` + `confidence`; `claim_sources` join with optional locator. MVP UI may show story-level sources, but the data is claim-level from the start (PROJECT.md §11).
-- [ ] Data-integrity gates (DB constraints where practical, publication-check script where not): published story must have title, geometry-or-place, and ≥1 qualifying source; unique slugs; no self-referencing related stories; no duplicate claim-source links (PROJECT.md §50).
-- [ ] Seed the ~6 MVP categories (Geography & Geology, Wildlife & Ecology, History, Indigenous History & Place, Music & Culture, Science/Strange Washington) with icons and sort order.
-- [ ] `media_assets` ingestion path: every image requires license, creator, source URL, credit line, alt text before display; upload flow to Vercel Blob via script.
-- [ ] Content validation script (`pnpm content:check`): schema validity, source-tier warnings (Tier D flagged as discovery-only), missing alt text, broken/malformed URLs, geometry sanity (inside Washington bounding box unless flagged).
-- [ ] Add 5–10 more fully sourced stories across different regions and categories to exercise the pipeline (these count toward the 100).
-- [ ] Unit tests: slug generation, seed validation, publication gates, date-label formatting.
+- [x] Full editorial lifecycle on stories: `status` (IDEA → RESEARCHING → DRAFT → FACT_CHECK → READY → PUBLISHED → NEEDS_REVIEW → ARCHIVED) and independent `verification_status` (UNVERIFIED / PARTIALLY_VERIFIED / VERIFIED / DISPUTED). Only PUBLISHED + verified (or deliberately labeled disputed) content is publicly queryable — enforce in the query layer, not per-callsite.
+- [x] Date handling: `start_date`, `end_date`, `date_precision` (day/month/year/decade/century/approximate/geologic/unknown), `date_label` — never fabricate precision (PROJECT.md §36, §58).
+- [x] Claim-level provenance: claims carry `claim_type` + `confidence`; `claim_sources` join with optional locator. MVP UI may show story-level sources, but the data is claim-level from the start (PROJECT.md §11).
+- [x] Data-integrity gates (DB constraints where practical, publication-check script where not): published story must have title, geometry-or-place, and ≥1 qualifying source; unique slugs; no self-referencing related stories; no duplicate claim-source links (PROJECT.md §50).
+- [x] Seed the ~6 MVP categories (Geography & Geology, Wildlife & Ecology, History, Indigenous History & Place, Music & Culture, Science/Strange Washington) with icons and sort order.
+- [ ] `media_assets` ingestion path: every image requires license, creator, source URL, credit line, alt text before display; upload flow to Vercel Blob via script. (Schema + seed fields exist; Blob upload waits on licensed images.)
+- [x] Content validation script (`pnpm content:check`): schema validity, source-tier warnings (Tier D flagged as discovery-only), missing alt text, broken/malformed URLs, geometry sanity (inside Washington bounding box unless flagged).
+- [x] Add 5–10 more fully sourced stories across different regions and categories to exercise the pipeline (these count toward the 100).
+- [x] Unit tests: slug generation, seed validation, publication gates, date-label formatting.
 
 
 
@@ -332,7 +332,7 @@ Discover → locate authoritative sources (Tier S/A preferred) → capture sourc
 
 ### Tasks
 
-- [ ] Attach `fromwashingtontoyou.com` to the Vercel project (apex + `www` redirect, automatic SSL). If bought elsewhere, point nameservers/A-records at Vercel.
+- [x] Attach `fromwashingtontoyou.com` to the Vercel project (apex + `www` redirect, automatic SSL). If bought elsewhere, point nameservers/A-records at Vercel.
 - [ ] Set canonical host, update `WEB_ORIGIN`/metadata base URLs, re-verify Open Graph rendering on the real domain (test share cards on major platforms).
 - [ ] Submit sitemap to Google Search Console + Bing Webmaster Tools; verify indexing of a handful of story URLs.
 - [ ] Final pre-launch checklist: E2E green, error tracking quiet, analytics flowing, 100 stories published, rollback tested once on purpose.

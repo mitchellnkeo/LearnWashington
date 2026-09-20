@@ -15,6 +15,13 @@
       "when": 1758380000000,
       "tag": "0001_story_domain",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1758381000000,
+      "tag": "0002_publication_gates",
+      "breakpoints": true
     }
   ]
 }

@@ -1,0 +1,111 @@
+slug: mount-rainier
+title: Mount Rainier
+hook: The highest Cascade peak is also the most threatening volcano in the range — not for lava, but for mud.
+body: |
+  Mount Rainier is the highest peak in the Cascade Range: 4,392 meters, or
+  14,410 feet. USGS places it in Pierce County at 46.853° N, 121.76° W. It is
+  a stratovolcano of andesite to dacite. The last magmatic eruption was about
+  1,000 years ago.
+
+  The National Volcano Early Warning System rates its threat potential as
+  Very High. USGS calls it the most threatening volcano in the Cascades
+  because of its height, hydrothermal alteration, icecap, glacier-fed valleys,
+  and the suburbs of Seattle and Tacoma downstream.
+
+  The greatest risk is lahars — volcanic mudflows. They can start in an
+  eruption or when weakened rock collapses, even without an eruption. Past
+  lahars have reached the Puget Sound lowlands. The last large one, the
+  Electron Mudflow, came off the west flank about 500 years ago with no known
+  triggering eruption. The sources below are the public USGS record of the
+  mountain and its hazards.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1000-01-01"
+datePrecision: approximate
+dateLabel: last eruption about 1,000 years ago
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Mount Rainier
+  slug: mount-rainier
+  placeType: volcano
+  latitude: 46.853
+  longitude: -121.76
+  county: Pierce County
+  region: Cascades
+
+categories:
+  - geography-geology
+  - science-strange
+
+tags:
+  - volcano
+  - lahar
+  - cascades
+
+claims:
+  - text: >
+      Mount Rainier is the highest peak in the Cascade Range at 4,392 m
+      (14,410 ft), located in Pierce County, Washington, at 46.853° N,
+      121.76° W. USGS classifies it as a stratovolcano of andesite to dacite
+      with Very High threat potential.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usgs-mount-rainier
+  - text: >
+      The last magmatic eruption was about 1,000 years ago. During an eruption
+      5,600 years ago the once-higher edifice collapsed to form a large crater
+      open to the northeast; later eruptions rebuilt the summit.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - usgs-mount-rainier
+  - text: >
+      Because of its elevation, hydrothermal alteration, icecap, glacier-fed
+      valleys, and proximity to Seattle-Tacoma suburbs, USGS describes Mount
+      Rainier as the most threatening volcano in the Cascades. The greatest
+      risk is huge lahars, which can be triggered by collapse or magma-water-ice
+      interaction rather than by an eruption itself.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - usgs-rainier-hazards
+  - text: >
+      Geologists have found evidence for at least nine large lahars from Mount
+      Rainier in the last 5,600 years that reached the Puget Lowlands. The most
+      recent large lahar, the Electron Mudflow of about 1500 A.D., was caused
+      by a landslide off the west flank with no known eruptive trigger.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - usgs-rainier-lahar-monitoring
+
+sources:
+  - id: usgs-mount-rainier
+    title: Mount Rainier
+    publisher: U.S. Geological Survey
+    url: https://www.usgs.gov/volcanoes/mount-rainier
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: usgs-rainier-hazards
+    title: Volcanic Hazards at Mount Rainier
+    publisher: U.S. Geological Survey
+    url: https://www.usgs.gov/volcanoes/mount-rainier/science/volcanic-hazards-mount-rainier
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: usgs-rainier-lahar-monitoring
+    title: Monitoring Lahars at Mount Rainier
+    publisher: U.S. Geological Survey
+    url: https://www.usgs.gov/volcanoes/mount-rainier/science/monitoring-lahars-mount-rainier
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+relatedStories:
+  - slug: mount-st-helens-1980-eruption
+    relationshipType: same-arc
+  - slug: cascadia-subduction-zone
+    relationshipType: same-arc

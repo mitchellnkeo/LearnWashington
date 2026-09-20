@@ -1,0 +1,94 @@
+slug: dry-falls
+title: Dry Falls
+hook: A 3.5-mile cliff in the Grand Coulee is the lip of a waterfall that once dwarfed Niagara.
+body: |
+  Dry Falls is a dry waterfall complex in Grant County, now part of Sun
+  Lakes-Dry Falls State Park and a National Natural Landmark on the Ice Age
+  Floods National Geologic Trail.
+
+  The National Park Service describes the Great Cataract Group around Dry Falls
+  as 3.5 miles wide and 400 feet tall — about four times larger than Niagara
+  Falls. Ice Age floodwaters, hundreds of feet deep, eroded the Grand Coulee
+  and walked the waterfall's lip about 18 miles upstream from its original
+  position near Soap Lake.
+
+  Washington's geological survey dates the last flowing water at Dry Falls to
+  about 17,000 to 15,000 years ago. In the 1920s, J Harlen Bretz argued that
+  huge glacial floods carved this country. Peers first dismissed the idea.
+  Later work showed he was largely right. The sources below are NPS and
+  Washington Geological Survey public accounts of the falls.
+status: PUBLISHED
+verificationStatus: VERIFIED
+datePrecision: geologic
+dateLabel: about 17,000–15,000 years ago
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Dry Falls
+  slug: dry-falls
+  placeType: landform
+  latitude: 47.6046
+  longitude: -119.3475
+  county: Grant County
+  region: Columbia Basin
+
+categories:
+  - geography-geology
+
+tags:
+  - ice-age
+  - scablands
+  - coulee
+
+claims:
+  - text: >
+      The Great Cataract Group around Dry Falls was 3.5 miles (5.6 km) wide and
+      400 feet (122 m) tall, about four times larger than Niagara Falls.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - nps-iafl-brochure
+  - text: >
+      During the floods, water hundreds of feet deep eroded the canyon
+      upstream, and recession of the waterfall's lip carved a canyon 18 miles
+      (29 km) upstream from the fall's original location at Soap Lake.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - nps-iafl-brochure
+  - text: >
+      Washington Geological Survey states that researchers agree Dry Falls was
+      last active with flowing water between 17,000 and 15,000 years ago.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - wa-dnr-dry-falls-poster
+  - text: >
+      In the 1920s, geologist J Harlen Bretz inferred that Dry Falls was
+      created by enormous glacial floods. Peers initially dismissed the idea;
+      later work showed Bretz's hypothesis was largely correct.
+    claimType: historical
+    confidence: verified
+    sources:
+      - wa-dnr-dry-falls-poster
+
+sources:
+  - id: nps-iafl-brochure
+    title: Ice Age Floods National Geologic Trail Park Brochure
+    publisher: National Park Service
+    url: https://www.nps.gov/iafl/planyourvisit/park-brochure.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: wa-dnr-dry-falls-poster
+    title: Dry Falls — Iconic Landmark of Washington’s Ice Age Floods
+    publisher: Washington Department of Natural Resources
+    url: https://www.dnr.wa.gov/sites/default/files/2025-07/ger_poster_dry_falls_2025.pdf
+    sourceType: government
+    tier: S
+    publicationDate: "2025-07-01"
+    accessedAt: "2026-09-20"
+
+relatedStories:
+  - slug: grand-coulee-dam
+    relationshipType: same-landscape

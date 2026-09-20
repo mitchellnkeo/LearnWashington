@@ -1,0 +1,87 @@
+slug: hoh-rain-forest
+title: Hoh Rain Forest
+hook: Pacific storms drop 12 to 14 feet of rain a year on one of the last primeval temperate rain forests in the lower 48.
+body: |
+  On the west side of the Olympic Peninsula, the Quinault, Queets, Hoh, and
+  Bogachiel valleys hold some of the most spectacular remaining temperate rain
+  forest in the contiguous United States. Those forests once stretched from
+  southern Oregon to southeast Alaska. Little now remains outside protected
+  land.
+
+  Storms off the Pacific drop most of their moisture on these west-facing
+  valleys. The National Park Service reports 140 to 167 inches of precipitation
+  a year — 12 to 14 feet. Winters stay mild. Summer highs rarely exceed 80°F.
+  Sitka spruce and western hemlock dominate. Many trees are hundreds of years
+  old and can reach 250 feet.
+
+  Mosses, ferns, and lichens grow on trunks and branches. Roosevelt elk keep
+  the understory open. The Hoh visitor area is about 90 miles west of Port
+  Angeles. The sources below are Olympic National Park's public description of
+  the forest.
+status: PUBLISHED
+verificationStatus: VERIFIED
+datePrecision: unknown
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Hoh Rain Forest
+  slug: hoh-rain-forest
+  placeType: forest
+  latitude: 47.861
+  longitude: -123.935
+  county: Jefferson County
+  region: Olympic Peninsula
+
+categories:
+  - wildlife-ecology
+  - geography-geology
+
+tags:
+  - olympic
+  - rainforest
+  - elk
+
+claims:
+  - text: >
+      The Quinault, Queets, Hoh, and Bogachiel valleys are some of the most
+      spectacular examples of primeval temperate rain forest in the lower 48
+      states. These forests once stretched from southern Oregon to southeast
+      Alaska, but little remains outside of protected areas.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - nps-olym-temperate-rain-forests
+  - text: >
+      Precipitation in Olympic's rain forest ranges from 140 to 167 inches
+      (12 to 14 feet) every year, and summertime highs rarely exceed 80°F.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - nps-olym-temperate-rain-forests
+  - text: >
+      The Hoh Rain Forest visitor area is about 90 miles west of Port Angeles
+      and is one of the park's most popular destinations.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-olym-visiting-hoh
+
+sources:
+  - id: nps-olym-temperate-rain-forests
+    title: Temperate Rain Forests
+    publisher: National Park Service
+    url: https://www.nps.gov/olym/learn/nature/temperate-rain-forests.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: nps-olym-visiting-hoh
+    title: Visiting the Hoh Rain Forest
+    publisher: National Park Service
+    url: https://www.nps.gov/olym/planyourvisit/visiting-the-hoh.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+relatedStories:
+  - slug: elwha-river-restoration
+    relationshipType: same-park

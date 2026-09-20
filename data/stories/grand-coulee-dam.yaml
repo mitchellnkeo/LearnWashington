@@ -1,0 +1,98 @@
+slug: grand-coulee-dam
+title: Grand Coulee Dam
+hook: A Depression-era dam turned the Columbia into irrigation, power, and a 151-mile lake.
+body: |
+  On July 16, 1933, the first stake went in for Grand Coulee Dam. The Bureau of
+  Reclamation ran a nine-year Public Works Administration project to build what
+  was then the largest structure in the world. The first concrete was poured in
+  December 1935. Seventy-seven people died during construction of the original
+  dam.
+
+  The first generator entered service on October 4, 1941. The last concrete
+  was placed on December 12, 1941, and Reclamation accepted the dam on
+  January 1, 1942. Lake Roosevelt now extends 151 miles upstream to the
+  Canadian border, with 600 miles of shoreline and 82,000 acres of surface.
+
+  The dam irrigates about 600,000 acres in the Columbia Basin Project, generates
+  hydropower, and helps control Columbia River floods. The sources below are
+  the Bureau of Reclamation's public construction and project record.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1933-07-16"
+endDate: "1942-01-01"
+datePrecision: day
+dateLabel: 1933–1942
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Grand Coulee Dam
+  slug: grand-coulee-dam
+  placeType: dam
+  latitude: 47.957
+  longitude: -118.977
+  county: Grant County
+  region: Columbia Basin
+
+categories:
+  - history
+  - geography-geology
+
+tags:
+  - columbia-river
+  - hydropower
+  - irrigation
+
+claims:
+  - text: >
+      On July 16, 1933, the first stake was driven, beginning a nine-year
+      construction project to build the largest structure in the world at the
+      time. The first concrete was poured in December 1935, and 77 lives were
+      lost during construction of the original dam.
+    claimType: historical
+    confidence: verified
+    sources:
+      - usbr-grand-coulee-construction
+  - text: >
+      On October 4, 1941, the first generator was placed into service. The last
+      concrete was placed December 12, 1941, and the Bureau of Reclamation
+      accepted the dam on January 1, 1942.
+    claimType: historical
+    confidence: verified
+    sources:
+      - usbr-columbia-basin-history
+  - text: >
+      Grand Coulee Dam forms Lake Roosevelt, extending 151 miles upstream to
+      the Canadian border, with a 600-mile shoreline and a surface area of
+      82,000 acres. The dam provides water to irrigate approximately 600,000
+      acres in the Columbia Basin Project.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usbr-grand-coulee-history
+
+sources:
+  - id: usbr-grand-coulee-construction
+    title: Grand Coulee Dam Construction History
+    publisher: U.S. Bureau of Reclamation
+    url: https://www.usbr.gov/pn/grandcoulee/history/construction/
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: usbr-grand-coulee-history
+    title: Grand Coulee Dam History
+    publisher: U.S. Bureau of Reclamation
+    url: https://www.usbr.gov/pn/grandcoulee/history/index.html
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: usbr-columbia-basin-history
+    title: The Columbia Basin Project
+    publisher: U.S. Bureau of Reclamation
+    url: https://www.usbr.gov/pn/grandcoulee/pubs/cbhistory.pdf
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+relatedStories:
+  - slug: dry-falls
+    relationshipType: same-landscape

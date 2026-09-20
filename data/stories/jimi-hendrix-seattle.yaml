@@ -1,0 +1,94 @@
+slug: jimi-hendrix-seattle
+title: Jimi Hendrix in Seattle
+hook: The guitarist who rewrote rock was born in a Seattle hospital and is remembered in the neighborhood where he grew up.
+body: |
+  Jimi Hendrix was born Johnny Allen Hendrix at 10:15 a.m. on November 27,
+  1942, at Seattle's King County Hospital. His father later renamed him James
+  Marshall. He grew up in the city's Central District.
+
+  The Library of Congress added the Jimi Hendrix Experience's 1967 debut,
+  Are You Experienced, to the National Recording Registry in 2005. The
+  registry essay calls it one of the quintessential statements of psychedelic
+  rock and one of the most groundbreaking guitar albums of the rock era,
+  including "Purple Haze," "Hey Joe," and "The Wind Cries Mary."
+
+  Seattle Parks placed Jimi Hendrix Park next to the Northwest African
+  American Museum, near where he grew up. Phase 1, designated Little Wing,
+  opened in fall 2016 with a timeline of his life and career. The sources
+  below are the Library of Congress registry record and the city's park page.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1942-11-27"
+datePrecision: day
+dateLabel: born 1942
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Jimi Hendrix Park
+  slug: jimi-hendrix-park
+  placeType: park
+  latitude: 47.589
+  longitude: -122.303
+  county: King County
+  region: Puget Sound
+
+categories:
+  - music-culture
+
+tags:
+  - seattle
+  - rock
+  - central-district
+
+claims:
+  - text: >
+      Jimi Hendrix was born Johnny Allen Hendrix at 10:15 a.m. on November 27,
+      1942, at Seattle's King County Hospital, and was later renamed James
+      Marshall by his father.
+    claimType: historical
+    confidence: verified
+    sources:
+      - hendrix-official-biography
+  - text: >
+      The Jimi Hendrix Experience's 1967 album Are You Experienced was added
+      to the Library of Congress National Recording Registry in 2005. The
+      registry describes it as one of the quintessential statements of
+      psychedelic rock and one of the most groundbreaking guitar albums of
+      the rock era.
+    claimType: factual
+    confidence: verified
+    sources:
+      - loc-nrr-2005
+  - text: >
+      Jimi Hendrix Park is located next to the Northwest African American
+      Museum in Seattle's Central District, near where Hendrix grew up.
+      Phase 1 of the park, designated Little Wing, was completed in fall 2016
+      and includes a chronological timeline of his life and career.
+    claimType: factual
+    confidence: verified
+    sources:
+      - seattle-hendrix-park
+
+sources:
+  - id: loc-nrr-2005
+    title: National Recording Registry — 2005
+    publisher: Library of Congress
+    url: https://www.loc.gov/programs/national-recording-preservation-board/recording-registry/registry-by-induction-years/2005/
+    sourceType: government
+    tier: S
+    publicationDate: "2006-04-06"
+    accessedAt: "2026-09-20"
+  - id: seattle-hendrix-park
+    title: Jimi Hendrix Park
+    publisher: City of Seattle Parks and Recreation
+    url: https://www.seattle.gov/parks/parks/jimi-hendrix-park
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: hendrix-official-biography
+    title: Jimi Hendrix Biography
+    publisher: Experience Hendrix, L.L.C.
+    url: https://www.jimihendrix.com/biography/
+    sourceType: other
+    tier: B
+    accessedAt: "2026-09-20"

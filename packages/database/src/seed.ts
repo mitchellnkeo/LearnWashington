@@ -2,7 +2,14 @@ import { readdir, readFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { parse } from "yaml";
-import { MVP_CATEGORIES, seedStorySchema, slugify } from "@fwty/shared";
+import {
+  checkSeedStory,
+  claimSourceId,
+  claimSourceLocator,
+  MVP_CATEGORIES,
+  seedStorySchema,
+  slugify,
+} from "@fwty/shared";
 import { createSqlClient } from "./client";
 import { requireDatabaseUrl } from "./env";
 
@@ -10,14 +17,17 @@ const repoRoot = resolve(fileURLToPath(new URL(".", import.meta.url)), "../../..
 const storiesDir = resolve(repoRoot, "data/stories");
 
 const sql = createSqlClient(requireDatabaseUrl());
+const relatedLinks: { slug: string; relatedSlug: string; relationshipType?: string }[] =
+  [];
 
 await sql.begin(async (tx) => {
   for (const [index, category] of MVP_CATEGORIES.entries()) {
     await tx`
-      insert into categories (slug, name, sort_order)
-      values (${category.slug}, ${category.name}, ${index})
+      insert into categories (slug, name, icon, sort_order)
+      values (${category.slug}, ${category.name}, ${category.icon}, ${index})
       on conflict (slug) do update
       set name = excluded.name,
+          icon = excluded.icon,
           sort_order = excluded.sort_order
     `;
   }
@@ -29,6 +39,12 @@ await sql.begin(async (tx) => {
   for (const file of files) {
     const raw = await readFile(resolve(storiesDir, file), "utf8");
     const story = seedStorySchema.parse(parse(raw));
+    const issues = checkSeedStory(story).filter((issue) => issue.level === "error");
+    if (issues.length > 0) {
+      throw new Error(
+        `${file} failed publication checks:\n${issues.map((issue) => `- ${issue.message}`).join("\n")}`,
+      );
+    }
 
     await tx`
       insert into places (slug, name, place_type, geometry, county, region)
@@ -56,7 +72,7 @@ await sql.begin(async (tx) => {
     await tx`
       insert into stories (
         slug, title, hook, body_md, status, verification_status,
-        primary_place_id, start_date, date_precision, date_label,
+        primary_place_id, start_date, end_date, date_precision, date_label,
         geometry, featured, published_at, last_reviewed_at
       )
       values (
@@ -68,6 +84,7 @@ await sql.begin(async (tx) => {
         ${story.verificationStatus},
         ${place.id},
         ${story.startDate ?? null},
+        ${story.endDate ?? null},
         ${story.datePrecision ?? null},
         ${story.dateLabel ?? null},
         ST_SetSRID(ST_MakePoint(${story.location.longitude}, ${story.location.latitude}), 4326),
@@ -83,6 +100,7 @@ await sql.begin(async (tx) => {
           verification_status = excluded.verification_status,
           primary_place_id = excluded.primary_place_id,
           start_date = excluded.start_date,
+          end_date = excluded.end_date,
           date_precision = excluded.date_precision,
           date_label = excluded.date_label,
           geometry = excluded.geometry,
@@ -99,6 +117,7 @@ await sql.begin(async (tx) => {
     await tx`delete from story_tags where story_id = ${saved.id}`;
     await tx`delete from story_sources where story_id = ${saved.id}`;
     await tx`delete from claims where story_id = ${saved.id}`;
+    await tx`delete from related_stories where story_id = ${saved.id}`;
 
     for (const categorySlug of story.categories) {
       const [category] = await tx<{ id: string }[]>`
@@ -182,19 +201,67 @@ await sql.begin(async (tx) => {
         )
         returning id
       `;
-      for (const sourceSlug of claim.sources) {
+      for (const claimSource of claim.sources) {
+        const sourceSlug = claimSourceId(claimSource);
         const sourceId = sourceIds.get(sourceSlug);
         if (!sourceId) {
           throw new Error(`Claim source not in story: ${sourceSlug}`);
         }
         await tx`
-          insert into claim_sources (claim_id, source_id)
-          values (${savedClaim.id}, ${sourceId})
+          insert into claim_sources (claim_id, source_id, locator)
+          values (${savedClaim.id}, ${sourceId}, ${claimSourceLocator(claimSource)})
         `;
       }
     }
 
+    await tx`delete from media_assets where story_id = ${saved.id}`;
+    for (const media of story.media) {
+      await tx`
+        insert into media_assets (
+          story_id, url, media_type, title, creator, source_url,
+          license, license_url, alt_text, credit_line
+        )
+        values (
+          ${saved.id},
+          ${media.url},
+          ${media.mediaType},
+          ${media.title ?? null},
+          ${media.creator},
+          ${media.sourceUrl},
+          ${media.license},
+          ${media.licenseUrl ?? null},
+          ${media.altText},
+          ${media.creditLine}
+        )
+      `;
+    }
+
+    relatedLinks.push(
+      ...story.relatedStories.map((related) => ({
+        slug: story.slug,
+        relatedSlug: related.slug,
+        relationshipType: related.relationshipType,
+      })),
+    );
+
     console.log(`Seeded ${story.slug}`);
+  }
+
+  for (const link of relatedLinks) {
+    const [story] = await tx<{ id: string }[]>`
+      select id from stories where slug = ${link.slug}
+    `;
+    const [relatedStory] = await tx<{ id: string }[]>`
+      select id from stories where slug = ${link.relatedSlug}
+    `;
+    if (!story || !relatedStory) {
+      throw new Error(`Related story not found: ${link.slug} → ${link.relatedSlug}`);
+    }
+    await tx`
+      insert into related_stories (story_id, related_story_id, relationship_type)
+      values (${story.id}, ${relatedStory.id}, ${link.relationshipType ?? null})
+      on conflict do nothing
+    `;
   }
 });
 

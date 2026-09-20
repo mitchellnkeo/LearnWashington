@@ -1,0 +1,96 @@
+slug: cascadia-subduction-zone
+title: Cascadia Subduction Zone
+hook: A quiet plate boundary runs from California to British Columbia — and under Washington.
+body: |
+  The Cascadia subduction zone is a 1,300-kilometer tectonic boundary. Offshore,
+  the Juan de Fuca and Gorda plates converge with North America and slide
+  beneath the continent. USGS maps the zone from northern California to
+  southern British Columbia, from well offshore into eastern Washington and
+  Oregon.
+
+  The interface is a megathrust fault. Stress builds there until the fault
+  slips. Subduction-zone earthquakes are the largest on Earth and can exceed
+  magnitude 9. They are also known to generate large tsunamis.
+
+  Cascadia is unusual among textbook subduction zones for its extraordinarily
+  low instrumentally recorded earthquake rates. Seven of its volcanoes have
+  erupted since the start of the 18th century. The sources below are the public
+  USGS record of the plate boundary and its marine geohazards.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1700-01-01"
+datePrecision: century
+dateLabel: 18th century to present
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Washington coast
+  slug: washington-pacific-coast
+  placeType: coast
+  latitude: 47.904
+  longitude: -124.635
+  county: Clallam County
+  region: Olympic Coast
+
+categories:
+  - geography-geology
+  - science-strange
+
+tags:
+  - earthquake
+  - tsunami
+  - subduction
+
+claims:
+  - text: >
+      The Cascadia subduction zone extends from northern California to southern
+      British Columbia, from well offshore to eastern Washington and Oregon.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - usgs-cascadia-overview
+  - text: >
+      The Pacific Northwest is home to a 1,300 km-long tectonic boundary between
+      the Juan de Fuca and Gorda oceanic plates and the North America
+      continental plate.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - usgs-cascadia-marine-geohazards
+  - text: >
+      Subduction zone earthquakes are the largest on Earth, reaching magnitudes
+      in excess of magnitude 9, and are known to generate large tsunamis.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - usgs-cascadia-marine-geohazards
+  - text: >
+      Cascadia has extraordinarily low earthquake rates, and seven of its
+      volcanoes have erupted since the start of the 18th century.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - usgs-cascadia-overview
+
+sources:
+  - id: usgs-cascadia-overview
+    title: Cascadia
+    publisher: U.S. Geological Survey
+    url: https://www.usgs.gov/special-topics/subduction-zone-science/science/cascadia
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: usgs-cascadia-marine-geohazards
+    title: Cascadia Subduction Zone Marine Geohazards
+    publisher: U.S. Geological Survey
+    url: https://www.usgs.gov/centers/pcmsc/science/cascadia-subduction-zone-marine-geohazards
+    sourceType: government
+    tier: S
+    publicationDate: "2022-08-01"
+    accessedAt: "2026-09-20"
+
+relatedStories:
+  - slug: mount-st-helens-1980-eruption
+    relationshipType: same-arc
+  - slug: mount-rainier
+    relationshipType: same-arc

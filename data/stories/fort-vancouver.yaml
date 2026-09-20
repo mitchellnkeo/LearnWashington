@@ -1,0 +1,106 @@
+slug: fort-vancouver
+title: Fort Vancouver
+hook: A Hudson's Bay Company depot on the Columbia became the colonial capital of the Pacific Northwest — then an Army post.
+body: |
+  The London-based Hudson's Bay Company established Fort Vancouver in 1825 as
+  headquarters of its interior fur trade. The first stockade stood on a bluff
+  northeast of today's reconstruction. In 1829 the company tore it down and
+  rebuilt on the plain beside the Columbia, where the National Park Service
+  reconstruction now sits.
+
+  From there the company ran the Columbia Department — Washington, Oregon,
+  Idaho, parts of Montana, northern California, British Columbia, and southern
+  Alaska. Vancouver was the principal colonial settlement in the Pacific
+  Northwest and a center of industry, trade, and law.
+
+  The Oregon Treaty of 1846 set the boundary at the 49th parallel and left the
+  fort inside U.S. territory. In 1849 the U.S. Army established a post on the
+  ridge above the stockade, later called Vancouver Barracks. The company
+  abandoned Fort Vancouver in 1860 and moved its remaining operations to
+  British Columbia. Fire destroyed the original fort in 1866. The sources
+  below are the National Park Service history of the site.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1825-01-01"
+endDate: "1860-01-01"
+datePrecision: year
+dateLabel: 1825–1860
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Fort Vancouver
+  slug: fort-vancouver
+  placeType: historic_site
+  latitude: 45.622
+  longitude: -122.662
+  county: Clark County
+  region: Columbia Gorge
+
+categories:
+  - history
+
+tags:
+  - fur-trade
+  - columbia-river
+  - hudsons-bay-company
+
+claims:
+  - text: >
+      The Hudson's Bay Company established Fort Vancouver in 1825 as headquarters
+      of the company's interior fur trade. The first fort stood on a bluff
+      northeast of the current site and was relocated to the river plain in 1829.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-fova-hbc
+      - nps-fova-place
+  - text: >
+      Fort Vancouver was the administrative headquarters and supply depot for
+      the Hudson's Bay Company's Columbia Department, which included the
+      modern-day states of Washington, Oregon, and Idaho, parts of Montana,
+      northern California, British Columbia, and southern Alaska.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-fova-place
+      - nps-fova-hbc
+  - text: >
+      The Oregon Treaty of 1846 set the boundary at the 49th parallel and
+      placed the fort inside U.S. territory. In 1849 the U.S. Army established
+      Vancouver Barracks adjacent to the fort.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-fova-place
+      - nps-fova-barracks
+  - text: >
+      In 1860 the Hudson's Bay Company abandoned Fort Vancouver and moved its
+      operations to British Columbia. The original fort was destroyed by fire
+      in 1866.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-fova-place
+
+sources:
+  - id: nps-fova-hbc
+    title: The Hudson's Bay Company's Fort Vancouver
+    publisher: National Park Service
+    url: https://www.nps.gov/fova/learn/historyculture/hbcfort1.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: nps-fova-place
+    title: Fort Vancouver
+    publisher: National Park Service
+    url: https://www.nps.gov/places/fortvancouver.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: nps-fova-barracks
+    title: Vancouver Barracks
+    publisher: National Park Service
+    url: https://www.nps.gov/fova/learn/historyculture/vb.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"

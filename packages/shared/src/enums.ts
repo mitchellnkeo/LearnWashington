@@ -72,10 +72,25 @@ export const DATE_PRECISIONS = [
 export type DatePrecision = (typeof DATE_PRECISIONS)[number];
 
 export const MVP_CATEGORIES = [
-  { slug: "geography-geology", name: "Geography & Geology" },
-  { slug: "wildlife-ecology", name: "Wildlife & Ecology" },
-  { slug: "history", name: "History" },
-  { slug: "indigenous-history-place", name: "Indigenous History & Place" },
-  { slug: "music-culture", name: "Music & Culture" },
-  { slug: "science-strange", name: "Science / Strange Washington" },
+  { slug: "geography-geology", name: "Geography & Geology", icon: "mountain" },
+  { slug: "wildlife-ecology", name: "Wildlife & Ecology", icon: "leaf" },
+  { slug: "history", name: "History", icon: "landmark" },
+  {
+    slug: "indigenous-history-place",
+    name: "Indigenous History & Place",
+    icon: "sun",
+  },
+  { slug: "music-culture", name: "Music & Culture", icon: "music" },
+  { slug: "science-strange", name: "Science / Strange Washington", icon: "flask" },
 ] as const;
+
+export const QUALIFYING_SOURCE_TIERS = ["S", "A", "B"] as const;
+
+export type QualifyingSourceTier = (typeof QUALIFYING_SOURCE_TIERS)[number];
+
+export const WASHINGTON_BOUNDS = {
+  west: -124.9,
+  south: 45.5,
+  east: -116.7,
+  north: 49.05,
+} as const;

@@ -1,0 +1,96 @@
+slug: hanford-b-reactor
+title: Hanford B Reactor
+hook: In eleven months, the Manhattan Project built the world's first full-scale plutonium reactor on the Columbia.
+body: |
+  B Reactor sits on the Hanford Site in Benton County. The Department of Energy
+  calls it the world's first full-scale plutonium production reactor. DuPont
+  built it for the Manhattan Project from experimental work by Enrico Fermi in
+  Chicago and tests at Oak Ridge.
+
+  Construction began in October 1943. Fuel was loaded on September 13, 1944.
+  The reactor went critical at 10:48 p.m. on September 26, 1944 — eleven
+  months after work started. The first plutonium left Hanford for Los Alamos
+  in February 1945 and was used in the Trinity test and, later, the bomb
+  dropped on Nagasaki.
+
+  The reactor was shut down in 1946, restarted in 1948, and closed for good in
+  February 1968. It is a National Historic Landmark and part of Manhattan
+  Project National Historical Park. This postcard records the public DOE and
+  Hanford Site history, not a judgment of the war.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1943-10-01"
+endDate: "1968-02-01"
+datePrecision: month
+dateLabel: 1943–1968
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: B Reactor
+  slug: hanford-b-reactor
+  placeType: historic_site
+  latitude: 46.630
+  longitude: -119.647
+  county: Benton County
+  region: Columbia Basin
+
+categories:
+  - history
+  - science-strange
+
+tags:
+  - manhattan-project
+  - columbia-river
+  - world-war-ii
+
+claims:
+  - text: >
+      The B Reactor National Historic Landmark at the Hanford Site was the
+      world's first full-scale plutonium production reactor, designed and built
+      by the DuPont company for the Manhattan Project.
+    claimType: historical
+    confidence: verified
+    sources:
+      - doe-b-reactor-fact-sheet
+      - hanford-b-reactor
+  - text: >
+      Construction began in October 1943. Fuel was loaded on September 13,
+      1944, and B Reactor went critical at 10:48 p.m. on September 26, 1944.
+    claimType: historical
+    confidence: verified
+    sources:
+      - doe-b-reactor-fact-sheet
+  - text: >
+      The first plutonium was shipped from Hanford to Los Alamos in February
+      1945. B Reactor produced plutonium used in the Trinity Test and in the
+      atomic bomb dropped on Nagasaki.
+    claimType: historical
+    confidence: verified
+    sources:
+      - doe-b-reactor-fact-sheet
+      - hanford-b-reactor
+  - text: >
+      B Reactor was shut down at the end of 1946, restarted in 1948, and shut
+      down in February 1968. It is a National Historic Landmark within
+      Manhattan Project National Historical Park.
+    claimType: historical
+    confidence: verified
+    sources:
+      - hanford-b-reactor
+
+sources:
+  - id: doe-b-reactor-fact-sheet
+    title: The B Reactor
+    publisher: U.S. Department of Energy
+    url: https://www.energy.gov/sites/default/files/2020/07/f76/B%20Reactor%20Fact%20Sheet%207.9%20Final.pdf
+    sourceType: government
+    tier: S
+    publicationDate: "2020-07-09"
+    accessedAt: "2026-09-20"
+  - id: hanford-b-reactor
+    title: B Reactor
+    publisher: Hanford Site / U.S. Department of Energy
+    url: https://www.hanford.gov/page.cfm/BReactor
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"

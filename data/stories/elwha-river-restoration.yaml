@@ -1,0 +1,102 @@
+slug: elwha-river-restoration
+title: Elwha River restoration
+hook: The largest dam removal in U.S. history gave the Elwha back to salmon — and to the people who lived along it.
+body: |
+  For millennia the Elwha ran from the Olympic Mountains to the Strait of Juan
+  de Fuca. Eleven varieties of salmon and trout spawned in it. Those fish were
+  a food source for the Lower Elwha Klallam Tribe living along the banks.
+
+  Two dams went in during the early 1900s to power Port Angeles. The Elwha Dam
+  stood 105 feet high at river mile 4.9 and was built in 1910–12. Glines Canyon
+  Dam, 210 feet high at river mile 13.5, was built in 1927. Together they
+  blocked salmon, trapped sediment, and flooded tribal homelands and cultural
+  sites.
+
+  Congress passed the Elwha River Ecosystem and Fisheries Restoration Act in
+  1992. After two decades of planning, the largest dam removal in U.S. history
+  began on September 17, 2011. Six months later the Elwha Dam was gone. Glines
+  Canyon Dam followed in 2014. The river now runs free again from the mountains
+  to the strait. The Tribe remains a partner in the restoration that followed.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "2011-09-17"
+endDate: "2014-01-01"
+datePrecision: day
+dateLabel: 2011–2014
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Elwha River
+  slug: elwha-river
+  placeType: river
+  latitude: 48.095
+  longitude: -123.557
+  county: Clallam County
+  region: Olympic Peninsula
+
+categories:
+  - indigenous-history-place
+  - wildlife-ecology
+  - history
+
+tags:
+  - salmon
+  - dam-removal
+  - olympic
+
+claims:
+  - text: >
+      The Elwha River was an ideal habitat for anadromous fish, with eleven
+      varieties of salmon and trout spawning in its waters. Those fish
+      historically served as an important food source for the Lower Elwha
+      Klallam Tribe living along its banks.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-elwha-restoration
+  - text: >
+      Construction of the Elwha and Glines Canyon dams in the early 1900s
+      blocked salmon migration, disrupted downstream sediment, and flooded
+      historic homelands and cultural sites of the Lower Elwha Klallam Tribe.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-elwha-restoration
+      - lekt-river-restoration
+  - text: >
+      Elwha Dam stood 105 feet high at river mile 4.9 and was constructed in
+      1910–12. Glines Canyon Dam stood 210 feet high at river mile 13.5 and
+      was constructed in 1927.
+    claimType: factual
+    confidence: verified
+    sources:
+      - lekt-river-restoration
+  - text: >
+      In 1992 Congress passed the Elwha River Ecosystem and Fisheries
+      Restoration Act. The largest dam removal in U.S. history began on
+      September 17, 2011. The Elwha Dam was gone six months later; Glines
+      Canyon Dam followed in 2014.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-elwha-restoration
+
+sources:
+  - id: nps-elwha-restoration
+    title: Elwha River Restoration
+    publisher: National Park Service
+    url: https://www.nps.gov/olym/learn/nature/elwha-ecosystem-restoration.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: lekt-river-restoration
+    title: Elwha River Restoration — an overview
+    publisher: Lower Elwha Klallam Tribe
+    url: https://www.elwha.org/departments/natural-resources/river-restoration/
+    sourceType: tribal
+    tier: S
+    accessedAt: "2026-09-20"
+
+relatedStories:
+  - slug: hoh-rain-forest
+    relationshipType: same-park

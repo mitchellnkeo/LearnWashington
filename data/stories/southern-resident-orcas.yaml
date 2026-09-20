@@ -1,0 +1,99 @@
+slug: southern-resident-orcas
+title: Southern Resident killer whales
+hook: Three family pods still spend summers in Puget Sound. There are only a few dozen left.
+body: |
+  Southern Resident killer whales are a distinct population of orcas that range
+  from central California to southeast Alaska. NOAA Fisheries listed them as
+  endangered under the Endangered Species Act on November 18, 2005. They are
+  also considered depleted under the Marine Mammal Protection Act.
+
+  The population is three family groups — J, K, and L pods. They spend several
+  months of summer and fall in Washington's Puget Sound. A 1974 count, the
+  first year individuals were tallied after captures for marine parks, recorded
+  71 whales. The population peaked at 97 in 1996. The 2024 census numbered 73.
+
+  Inland waters of Washington were designated critical habitat in 2006. In
+  2021 NOAA expanded that designation to include coastal waters off Washington,
+  Oregon, and California. The sources below are NOAA Fisheries' public listing
+  and stock-assessment record.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "2005-11-18"
+datePrecision: day
+dateLabel: listed 2005
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Haro Strait
+  slug: haro-strait
+  placeType: waterway
+  latitude: 48.55
+  longitude: -123.17
+  county: San Juan County
+  region: Salish Sea
+
+categories:
+  - wildlife-ecology
+
+tags:
+  - orca
+  - puget-sound
+  - endangered
+
+claims:
+  - text: >
+      The Southern Resident killer whale Distinct Population Segment was listed
+      as endangered under the Endangered Species Act on November 18, 2005, and
+      is considered depleted under the Marine Mammal Protection Act.
+    claimType: factual
+    confidence: verified
+    sources:
+      - noaa-srkw
+  - text: >
+      Southern Resident killer whales spend several months of the summer and
+      fall each year in Washington State's Puget Sound and are composed of
+      J, K, and L pods.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - noaa-srkw
+  - text: >
+      The population consisted of 71 whales in 1974, peaked at 97 animals in
+      1996, and most recently numbered 73 whales in the 2024 census.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - noaa-srkw
+      - noaa-srkw-stock-assessment-2024
+  - text: >
+      NOAA Fisheries designated inland waters of Washington as critical habitat
+      in 2006 and in 2021 expanded the designation to include coastal waters
+      off Washington, Oregon, and California.
+    claimType: factual
+    confidence: verified
+    sources:
+      - noaa-srkw-critical-habitat
+
+sources:
+  - id: noaa-srkw
+    title: Southern Resident Killer Whale (Orcinus orca)
+    publisher: NOAA Fisheries
+    url: https://www.fisheries.noaa.gov/west-coast/endangered-species-conservation/southern-resident-killer-whale-orcinus-orca
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: noaa-srkw-stock-assessment-2024
+    title: U.S. Pacific Marine Mammal Stock Assessment — Killer Whale
+    publisher: NOAA Fisheries
+    url: https://www.fisheries.noaa.gov/s3/2026-04/final_2024-mmsar_killer-whale.pdf
+    sourceType: government
+    tier: S
+    publicationDate: "2024-01-01"
+    accessedAt: "2026-09-20"
+  - id: noaa-srkw-critical-habitat
+    title: Critical Habitat for Southern Resident Killer Whales
+    publisher: NOAA Fisheries
+    url: https://www.fisheries.noaa.gov/west-coast/endangered-species-conservation/critical-habitat-southern-resident-killer-whales
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"

@@ -14,7 +14,8 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "db:migrate": "pnpm --filter @fwty/database migrate",
-    "db:seed": "pnpm --filter @fwty/database seed"
+    "db:seed": "pnpm --filter @fwty/database seed",
+    "content:check": "pnpm --filter @fwty/database content:check"
   },
   "devDependencies": {
     "prettier": "^3.6.2"

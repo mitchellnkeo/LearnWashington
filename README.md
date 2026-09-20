@@ -5,7 +5,7 @@ Explore Washington, one story at a time. A source-backed, postcard-inspired atla
 Product source of truth: [`docs/FROM_WASHINGTON_TO_YOU_PROJECT.md`](docs/FROM_WASHINGTON_TO_YOU_PROJECT.md)  
 Build order: [`ROADMAP.md`](ROADMAP.md)
 
-**Public domain:** [fromwashingtontoyou.com](https://fromwashingtontoyou.com) (registered at Porkbun). DNS attaches to Vercel in Phase 7.
+**Live:** [fromwashingtontoyou.com](https://fromwashingtontoyou.com) (Porkbun DNS → Vercel). Production app: [from-washington-to-you.vercel.app](https://from-washington-to-you.vercel.app).
 
 ## Local setup
 
@@ -37,11 +37,25 @@ We use Supabase as hosted Postgres + PostGIS only. No Auth, Realtime, or Storage
 
 ```text
 apps/web              Next.js App Router (UI + /api)
-packages/database     Drizzle schema, migrations, client
+packages/database     Drizzle schema, migrations, seed, content:check
 packages/shared       Zod schemas and domain constants
-data/                 Story seed files (Phase 1)
-scripts/              Ingestion and validation (Phase 1)
+data/stories/         One YAML file per story
 ```
+
+## Add a story
+
+1. Copy an existing file in `data/stories/` and give it a new slug.
+2. Every claim needs at least one source already listed on the story. Use a real URL. Prefer Tier S/A/B (government, tribal, academic, archive). Tier D is discovery-only and will warn.
+3. Coordinates must be inside the Washington bounding box unless you set `allowOutsideWashington: true`.
+4. Do not invent dates, citations, or coordinates. If precision is geologic or unknown, say so with `datePrecision` and an explicit `dateLabel`.
+5. Validate, then ingest:
+
+```bash
+pnpm content:check
+pnpm db:seed
+```
+
+A story appears on the map and at `/story/:slug` only when `status` is `PUBLISHED` and `verificationStatus` is `VERIFIED` or `DISPUTED`.
 
 ## Scripts
 
@@ -52,13 +66,10 @@ scripts/              Ingestion and validation (Phase 1)
 | `pnpm test` | Workspace tests |
 | `pnpm lint` | Workspace lint |
 | `pnpm typecheck` | Workspace TypeScript |
+| `pnpm content:check` | Validate YAML stories (schema, gates, geometry) |
 | `pnpm db:migrate` | Apply Drizzle migrations |
 | `pnpm db:seed` | Ingest YAML stories from `data/stories/` |
 
-## Still needed for production
+## Production notes
 
-1. Create a Supabase project, paste pooler + direct URIs into `.env.local`, run `pnpm db:migrate`.
-2. Create a Vercel project with root directory `apps/web` (include files outside the root directory).
-3. Set `DATABASE_URL` (pooler) and `DIRECT_URL` (direct) in Vercel env vars.
-4. Optional: create a Sentry project and set `SENTRY_DSN` / `NEXT_PUBLIC_SENTRY_DSN`.
-5. Point Porkbun DNS at Vercel when launching (Phase 7) — do not do this until a production deploy exists.
+Supabase (pooler `DATABASE_URL`, direct `DIRECT_URL`) and the Vercel project are already live. Optional: Sentry (`SENTRY_DSN` / `NEXT_PUBLIC_SENTRY_DSN`). Media upload to Vercel Blob is still deferred until we have licensed images.
