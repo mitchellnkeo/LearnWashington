@@ -84,26 +84,34 @@ export function PostcardDrawer({
       />
       <aside
         ref={panelRef}
-        className="pointer-events-auto relative max-h-[72vh] w-full rounded-t-2xl border-t border-[var(--rule)] bg-[var(--paper)] p-5 shadow-2xl md:max-h-none md:w-[26rem] md:rounded-none md:border-t-0 md:border-l"
+        className="pointer-events-auto relative flex max-h-[80vh] w-full flex-col overflow-hidden rounded-t-2xl border-t border-[var(--rule)] bg-[var(--paper)] shadow-2xl md:h-full md:max-h-none md:w-[26rem] md:rounded-none md:border-t-0 md:border-l"
         role="dialog"
         aria-modal="true"
         aria-labelledby="postcard-title"
       >
-        <div
-          className="mx-auto mb-3 h-1.5 w-12 rounded-full bg-[var(--rule)] md:hidden"
-          aria-hidden="true"
-        />
-        <div className="mb-4 flex justify-end">
-          <button
-            ref={closeRef}
-            type="button"
-            onClick={onClose}
-            className="min-h-11 rounded border border-[var(--rule)] px-3 text-sm"
-          >
-            Close
-          </button>
+        <div className="shrink-0 px-5 pt-5">
+          <div
+            className="mx-auto mb-3 h-1.5 w-12 rounded-full bg-[var(--rule)] md:hidden"
+            aria-hidden="true"
+          />
+          <div className="mb-4 flex justify-end">
+            <button
+              ref={closeRef}
+              type="button"
+              onClick={onClose}
+              className="min-h-11 rounded border border-[var(--rule)] px-3 text-sm"
+            >
+              Close
+            </button>
+          </div>
         </div>
-        <PostcardCard story={story} onSelectStory={onSelectStory} />
+        <div
+          className="min-h-0 flex-1 overflow-y-auto overscroll-contain px-5 pb-8 touch-pan-y"
+          onWheel={(event) => event.stopPropagation()}
+          onTouchMove={(event) => event.stopPropagation()}
+        >
+          <PostcardCard story={story} onSelectStory={onSelectStory} />
+        </div>
       </aside>
     </div>
   );

@@ -39,4 +39,14 @@ describe("PostcardDrawer", () => {
     await user.tab();
     expect(screen.getByRole("link", { name: "U.S. Geological Survey" })).toHaveFocus();
   });
+
+  it("keeps the postcard body in a scrollable region", () => {
+    const { container } = render(
+      <PostcardDrawer story={rainierPostcard} onClose={vi.fn()} />,
+    );
+    const scroller = container.querySelector(".overflow-y-auto");
+    expect(scroller).toBeTruthy();
+    expect(scroller).toHaveTextContent("Mount Rainier");
+    expect(scroller).toHaveTextContent("Sources");
+  });
 });

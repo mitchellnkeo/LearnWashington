@@ -34,7 +34,7 @@ export function PostcardCard({
   const reviewed = formatReviewed(story.lastReviewedAt);
 
   return (
-    <article className="flex h-full flex-col">
+    <article className="flex flex-col">
       <p className="text-xs tracking-[0.18em] text-[var(--muted)] uppercase">
         From Washington · To You
       </p>
