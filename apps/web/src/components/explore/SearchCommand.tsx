@@ -57,19 +57,6 @@ export function SearchCommand({
   }, [query, results]);
 
   useEffect(() => {
-    function onKeyDown(event: KeyboardEvent) {
-      if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k") {
-        event.preventDefault();
-        inputRef.current?.focus();
-        setOpen(true);
-      }
-    }
-
-    window.addEventListener("keydown", onKeyDown);
-    return () => window.removeEventListener("keydown", onKeyDown);
-  }, []);
-
-  useEffect(() => {
     const q = query.trim();
     if (q.length < 2) {
       return;

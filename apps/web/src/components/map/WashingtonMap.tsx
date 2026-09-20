@@ -119,7 +119,7 @@ export function WashingtonMap({
 
     map.addControl(
       new maplibregl.NavigationControl({ showCompass: false }),
-      "top-left",
+      "top-right",
     );
     mapRef.current = map;
 

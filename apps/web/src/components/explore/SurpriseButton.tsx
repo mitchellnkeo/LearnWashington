@@ -6,9 +6,11 @@ import { readSurpriseExcludes, rememberSurpriseSlug } from "@/lib/surprise";
 export function SurpriseButton({
   onSelectStory,
   onError,
+  compact = false,
 }: {
   onSelectStory: (slug: string) => void;
   onError: (message: string) => void;
+  compact?: boolean;
 }) {
   const [busy, setBusy] = useState(false);
 
@@ -41,9 +43,14 @@ export function SurpriseButton({
       type="button"
       onClick={() => void surprise()}
       disabled={busy}
-      className="min-h-11 w-full rounded border border-[var(--ink)] bg-[var(--ink)] px-3 text-sm text-[var(--paper)] disabled:opacity-60"
+      aria-label="Surprise Me"
+      className={
+        compact
+          ? "flex min-h-12 min-w-12 flex-col items-center justify-center gap-0.5 rounded text-[0.65rem] tracking-wide text-[var(--ink)] disabled:opacity-60"
+          : "min-h-11 w-full rounded border border-[var(--ink)] bg-[var(--ink)] px-3 text-sm text-[var(--paper)] disabled:opacity-60"
+      }
     >
-      {busy ? "Finding a story…" : "Surprise Me"}
+      {compact ? (busy ? "…" : "Surprise") : busy ? "Finding a story…" : "Surprise Me"}
     </button>
   );
 }

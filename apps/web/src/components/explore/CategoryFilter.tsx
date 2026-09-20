@@ -5,13 +5,19 @@ import { MVP_CATEGORIES } from "@fwty/shared";
 export function CategoryFilter({
   category,
   onSelect,
+  wrap = false,
 }: {
   category: string | null | undefined;
   onSelect: (next: string | null) => void;
+  wrap?: boolean;
 }) {
   return (
     <div
-      className="-mx-1 flex gap-2 overflow-x-auto px-1 pb-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+      className={
+        wrap
+          ? "flex flex-wrap gap-2"
+          : "-mx-1 flex gap-2 overflow-x-auto px-1 pb-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+      }
       role="group"
       aria-label="Story categories"
     >
