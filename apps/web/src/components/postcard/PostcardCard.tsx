@@ -1,21 +1,25 @@
 "use client";
 
-import Image from "next/image";
+import { useState } from "react";
 import Link from "next/link";
 import { trackEvent } from "@/lib/analytics";
 import type { StoryMedia, StoryPostcard } from "@/lib/story-types";
 
 function PostcardPhoto({ media, slug }: { media: StoryMedia; slug: string }) {
+  const [failed, setFailed] = useState(false);
+
+  if (failed) {
+    return null;
+  }
+
   return (
     <figure className="mb-5">
-      <div className="relative aspect-[3/2] overflow-hidden rounded-sm bg-[var(--rule)]">
-        <Image
+      <div className="overflow-hidden rounded-sm bg-[var(--rule)]">
+        <img
           src={media.url}
           alt={media.altText}
-          fill
-          className="object-cover"
-          sizes="(max-width: 768px) 100vw, 28rem"
-          priority
+          className="block h-auto w-full"
+          onError={() => setFailed(true)}
         />
       </div>
       {media.creditLine ? (

@@ -1,7 +1,6 @@
 import { MVP_CATEGORIES, parseStoriesBrowseQuery } from "@fwty/shared";
 import { listPublishedRegions, listPublishedStories } from "@fwty/database";
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { SiteHeader } from "@/components/site/SiteHeader";
 import { getSql } from "@/lib/db";
@@ -131,13 +130,11 @@ export default async function StoriesPage({ searchParams }: PageProps) {
             {stories.map((story) => (
               <li key={story.slug} className="border-t border-[var(--rule)] pt-6">
                 {story.image ? (
-                  <div className="relative mb-3 aspect-[16/9] max-w-md overflow-hidden rounded-sm bg-[var(--rule)]">
-                    <Image
+                  <div className="mb-3 max-w-md overflow-hidden rounded-sm bg-[var(--rule)]">
+                    <img
                       src={story.image.url}
                       alt={story.image.altText}
-                      fill
-                      className="object-cover"
-                      sizes="(max-width: 768px) 100vw, 28rem"
+                      className="block h-auto w-full"
                     />
                   </div>
                 ) : null}
