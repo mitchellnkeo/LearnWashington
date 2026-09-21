@@ -1,0 +1,107 @@
+slug: smith-minor-islands-aquatic-reserve
+title: Smith and Minor Islands Aquatic Reserve
+hook: DNR’s largest aquatic reserve holds Washington’s largest bull kelp bed, five miles off Whidbey Island.
+body: |
+  Washington DNR designated Smith and Minor Islands Aquatic Reserve in
+  2010. The reserve covers 36,308 acres of state-owned aquatic land
+  from the Whidbey Island shoreline west around Smith and Minor
+  Islands. DNR calls it the largest reserve in its system and says the
+  waters west of Smith Island hold the largest bull kelp bed in
+  Washington.
+
+  Bull kelp here is an annual plant that can grow up to 40 feet in a
+  single season. DNR says the layered canopy shelters tiny shrimp and
+  young rockfish. Winter storms tear kelp ashore; a new generation
+  grows the next spring. Smith and Minor Islands lie about five miles
+  off western Whidbey and are managed by the U.S. Fish and Wildlife
+  Service as part of San Juan Islands National Wildlife Refuge. To
+  protect nesting seabirds and marine mammals, the islands are closed
+  year-round and visitors must stay 200 yards from shore.
+
+  DNR lists tufted puffins, rhinoceros auklets, glaucous-winged gulls,
+  double-crested cormorants, and pigeon guillemots among the nesting
+  birds, and harbor seals, elephant seals, and Stellar sea lions on
+  the beaches and sand bars. This pin is Smith Island. The source
+  below is the Washington Department of Natural Resources reserve page.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "2010-01-01"
+datePrecision: year
+dateLabel: designated 2010
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Smith Island
+  slug: smith-island
+  placeType: island
+  latitude: 48.318988
+  longitude: -122.8418419
+  county: Island County
+  region: Puget Sound
+
+categories:
+  - wildlife-ecology
+  - science-strange
+
+tags:
+  - kelp
+  - dnr
+  - aquatic-reserve
+
+claims:
+  - text: >
+      DNR says Smith and Minor Islands Aquatic Reserve was designated
+      in 2010, covers 36,308 acres of state-owned aquatic land, and is
+      the largest reserve in DNR’s system.
+    claimType: factual
+    confidence: verified
+    sources:
+      - dnr-smith-minor
+  - text: >
+      DNR says the waters west of Smith Island hold the largest bull
+      kelp bed in Washington, and that bull kelp is an annual plant
+      that can grow up to 40 feet in a single season.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - dnr-smith-minor
+  - text: >
+      DNR says Smith and Minor Islands lie about five miles off western
+      Whidbey Island, are managed by USFWS as part of San Juan Islands
+      National Wildlife Refuge, and are closed to public entry, with
+      visitors required to stay 200 yards from shore.
+    claimType: factual
+    confidence: verified
+    sources:
+      - dnr-smith-minor
+  - text: >
+      USGS Geographic Names lists Smith Island, an island in Island
+      County, at 48.318988° N, 122.8418419° W (GNIS 1533058).
+    claimType: factual
+    confidence: verified
+    sources:
+      - usgs-gnis-smith-island
+
+sources:
+  - id: dnr-smith-minor
+    title: Smith and Minor Islands Aquatic Reserve
+    publisher: Washington Department of Natural Resources
+    url: https://dnr.wa.gov/aquatic-reserves/smith-and-minor-islands-aquatic-reserve
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: usgs-gnis-smith-island
+    title: Smith Island (GNIS 1533058)
+    publisher: U.S. Geological Survey
+    url: https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1533058
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+relatedStories:
+  - slug: san-juan-islands-nwr
+    relationshipType: nearby
+  - slug: protection-island
+    relationshipType: nearby
+  - slug: olympic-coast-national-marine-sanctuary
+    relationshipType: same-arc

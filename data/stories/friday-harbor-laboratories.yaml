@@ -96,6 +96,17 @@ sources:
     tier: S
     accessedAt: "2026-09-21"
 
+media:
+  - url: /media/friday-harbor-laboratories.jpg
+    mediaType: image
+    title: Puget Sound Marine Biological Station, Friday Harbor
+    creator: T. C. Frye
+    sourceUrl: https://commons.wikimedia.org/wiki/File:FMIB_41441_Puget_Sound_Marine_Biological_Stateion,_Friday_Harbor,_Washington.jpeg
+    license: Public domain
+    licenseUrl: https://commons.wikimedia.org/wiki/Template:PD-UWASH-FMIB
+    altText: Historic shoreline buildings of the University of Washington marine station at Friday Harbor.
+    creditLine: Photograph by T. C. Frye, 1915, from Nature and Science on the Pacific Coast. Freshwater and Marine Image Bank, University of Washington. Public domain.
+
 relatedStories:
   - slug: san-juan-islands-nwr
     relationshipType: nearby

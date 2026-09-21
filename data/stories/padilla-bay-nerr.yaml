@@ -1,0 +1,134 @@
+slug: padilla-bay-nerr
+title: Padilla Bay Reserve
+hook: A NOAA estuary reserve on the Skagit delta that protects one of the largest eelgrass beds in the contiguous United States.
+body: |
+  NOAA designated Padilla Bay a National Estuarine Research Reserve in
+  1980. The reserve covers 11,966 acres on the saltwater edge of the
+  Skagit River delta, eight miles long and three miles across. NOAA
+  says it protects one of the largest eelgrass beds in the contiguous
+  United States, nearly 8,000 acres. The Washington Department of
+  Ecology manages the site day to day. NOAA’s Office for Coastal
+  Management provides funding, national guidance, and technical
+  assistance.
+
+  Ecology’s Padilla Bay page places the reserve just north of Bay View
+  in Skagit County and calls the meadow the second largest on North
+  America’s Pacific Coast. Eelgrass here is a nursery for juvenile
+  salmon, crab, and herring. NOAA lists herring, smelt, salmon,
+  flatfish, Dungeness crab, ducks, eagles, shorebirds, peregrine
+  falcons, harbor seals, and river otters among the animals the
+  habitats support.
+
+  In September 2023, Ecology used a $2,332,854 NOAA award to acquire
+  74.5 acres of tidal marsh and farmland on Samish Island. NOAA says
+  the purchase is part of a broader effort to restore up to 105 acres
+  of tidal marsh, and that the land sits near a former Samish Indian
+  Nation village. The sources below are NOAA and Washington Department
+  of Ecology pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1980-01-01"
+datePrecision: year
+dateLabel: designated 1980
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Padilla Bay
+  slug: padilla-bay
+  placeType: bay
+  latitude: 48.51597222
+  longitude: -122.53336111
+  county: Skagit County
+  region: Puget Sound
+
+categories:
+  - wildlife-ecology
+  - science-strange
+
+tags:
+  - eelgrass
+  - noaa
+  - estuary
+
+claims:
+  - text: >
+      NOAA says Padilla Bay National Estuarine Research Reserve was
+      designated in 1980, covers 11,966 acres, and protects one of the
+      largest eelgrass beds in the contiguous United States, nearly
+      8,000 acres.
+    claimType: factual
+    confidence: verified
+    sources:
+      - noaa-padilla-nerr
+  - text: >
+      NOAA describes the reserve as eight miles long and three miles
+      across at the saltwater edge of the Skagit River delta, and lists
+      herring, smelt, salmon, flatfish, Dungeness crab, ducks, eagles,
+      shorebirds, peregrine falcons, harbor seals, and river otters
+      among the animals its habitats support.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - noaa-padilla-nerr
+  - text: >
+      Ecology says the reserve sits just north of Bay View in Skagit
+      County and that its eelgrass meadow, more than 8,000 acres, is
+      the second largest on North America’s Pacific Coast.
+    claimType: factual
+    confidence: verified
+    sources:
+      - ecology-padilla
+  - text: >
+      NOAA says a $2,332,854 award let Ecology acquire 74.5 acres of
+      tidal marsh and farmland on Samish Island in September 2023 as
+      part of a broader effort to restore up to 105 acres, near a
+      former Samish Indian Nation village.
+    claimType: factual
+    confidence: verified
+    sources:
+      - noaa-padilla-marsh
+  - text: >
+      USGS Geographic Names lists Padilla Bay, a bay in Skagit County,
+      at 48.51597222° N, 122.53336111° W (GNIS 1524138).
+    claimType: factual
+    confidence: verified
+    sources:
+      - usgs-gnis-padilla-bay
+
+sources:
+  - id: noaa-padilla-nerr
+    title: Padilla Bay National Estuarine Research Reserve
+    publisher: National Oceanic and Atmospheric Administration
+    url: https://coast.noaa.gov/nerrs/reserves/padilla-bay.html
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: ecology-padilla
+    title: Padilla Bay National Estuarine Research Reserve
+    publisher: Washington State Department of Ecology
+    url: https://padillabay.gov/
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: noaa-padilla-marsh
+    title: Restoring Padilla Bay’s Vital Tidal Marsh
+    publisher: National Oceanic and Atmospheric Administration
+    url: https://coast.noaa.gov/states/stories/vital-tidal-marsh.html
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: usgs-gnis-padilla-bay
+    title: Padilla Bay (GNIS 1524138)
+    publisher: U.S. Geological Survey
+    url: https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1524138
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+relatedStories:
+  - slug: friday-harbor-laboratories
+    relationshipType: nearby
+  - slug: san-juan-islands-nwr
+    relationshipType: nearby
+  - slug: olympia-oyster
+    relationshipType: same-arc

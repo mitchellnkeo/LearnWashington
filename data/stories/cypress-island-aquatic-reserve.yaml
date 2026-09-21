@@ -1,0 +1,107 @@
+slug: cypress-island-aquatic-reserve
+title: Cypress Island Aquatic Reserve
+hook: Six thousand acres of state-owned water around the largest undeveloped island in the San Juans, ringed with bull kelp and pocket beaches.
+body: |
+  Washington DNR says Cypress Island is the largest relatively
+  undeveloped island in the San Juan Islands. In 2007, 6,065 acres of
+  state-owned aquatic lands around the island were designated as
+  Cypress Island Aquatic Reserve. The water reserve complements the
+  5,100-acre Cypress Island Natural Resources Conservation Area and
+  the 1,100-acre Cypress Island Highlands Natural Area Preserve.
+
+  The island has nearly 20 miles of natural shoreline. Juvenile
+  Chinook, coho, and chum salmon use its pocket beaches and protected
+  embayments. DNR says strong currents, steep subtidal slopes, and
+  shallow rocky reefs support rockfish, lingcod, and kelp greenling.
+  Bull kelp beds ringing the island shelter crabs and sea stars and
+  feed loons, scoters, and grebes. Minke whales and harbor porpoises
+  use Rosario Strait on the west side.
+
+  DNR’s at-a-glance list names lingcod, salmon, rockfish, minke
+  whales, and bald eagles as significant species, and rocky reefs,
+  bull kelp, eelgrass, and protected embayments as important habitats.
+  This pin is Cypress Island. The source below is the Washington
+  Department of Natural Resources reserve page.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "2007-01-01"
+datePrecision: year
+dateLabel: designated 2007
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Cypress Island
+  slug: cypress-island
+  placeType: island
+  latitude: 48.57416667
+  longitude: -122.70555556
+  county: Skagit County
+  region: San Juan Islands
+
+categories:
+  - wildlife-ecology
+  - science-strange
+
+tags:
+  - kelp
+  - dnr
+  - aquatic-reserve
+
+claims:
+  - text: >
+      DNR says Cypress Island is the largest relatively undeveloped
+      island in the San Juan Islands, and that 6,065 acres of
+      state-owned aquatic lands around it were designated as an
+      aquatic reserve in 2007.
+    claimType: factual
+    confidence: verified
+    sources:
+      - dnr-cypress
+  - text: >
+      DNR says the aquatic reserve complements a 5,100-acre Natural
+      Resources Conservation Area and the 1,100-acre Cypress Island
+      Highlands Natural Area Preserve.
+    claimType: factual
+    confidence: verified
+    sources:
+      - dnr-cypress
+  - text: >
+      DNR says the island has nearly 20 miles of natural shoreline
+      used by juvenile Chinook, coho, and chum salmon, with rocky
+      reefs for rockfish, lingcod, and kelp greenling and bull kelp
+      beds used by crabs, sea stars, loons, scoters, and grebes.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - dnr-cypress
+  - text: >
+      USGS Geographic Names lists Cypress Island, an island in Skagit
+      County, at 48.57416667° N, 122.70555556° W (GNIS 1504308).
+    claimType: factual
+    confidence: verified
+    sources:
+      - usgs-gnis-cypress-island
+
+sources:
+  - id: dnr-cypress
+    title: Cypress Island Aquatic Reserve
+    publisher: Washington Department of Natural Resources
+    url: https://dnr.wa.gov/aquatic-reserves/cypress-island-aquatic-reserve
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: usgs-gnis-cypress-island
+    title: Cypress Island (GNIS 1504308)
+    publisher: U.S. Geological Survey
+    url: https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1504308
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+relatedStories:
+  - slug: san-juan-islands-nwr
+    relationshipType: nearby
+  - slug: friday-harbor-laboratories
+    relationshipType: nearby
+  - slug: padilla-bay-nerr
+    relationshipType: nearby

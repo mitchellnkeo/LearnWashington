@@ -104,6 +104,17 @@ sources:
     tier: S
     accessedAt: "2026-09-21"
 
+media:
+  - url: /media/columbia-basin-pygmy-rabbit.jpg
+    mediaType: image
+    title: Columbia Basin pygmy rabbit
+    creator: H. Ulmscheider, Bureau of Land Management, and R. Dixon, Idaho Department of Fish and Game
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Columbia_Basin_Pygmy_Rabbit.jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.fws.gov/help/policies.html
+    altText: A Columbia Basin pygmy rabbit sitting in dry grass.
+    creditLine: Photograph by H. Ulmscheider, Bureau of Land Management, and R. Dixon, Idaho Department of Fish and Game, 11 May 2011. Public domain.
+
 relatedStories:
   - slug: columbia-nwr
     relationshipType: nearby

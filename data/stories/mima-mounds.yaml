@@ -97,6 +97,17 @@ sources:
     tier: S
     accessedAt: "2026-09-21"
 
+media:
+  - url: /media/mima-mounds.jpg
+    mediaType: image
+    title: Mima Mounds from 1941 USGS aerial photography
+    creator: U.S. Geological Survey
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Mima_Mounds_Natural_Area_Preserve,_Thurston_County,_Washington,_June_11,_1941_(cropped).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.usgs.gov/information-policies-and-instructions/usgs-visual-identity-system
+    altText: A 1941 aerial photograph showing the dimpled prairie mounds of Mima Mounds Natural Area Preserve.
+    creditLine: U.S. Geological Survey aerial photograph, 11 June 1941. Public domain.
+
 relatedStories:
   - slug: olympia-earthquake-1949
     relationshipType: nearby
