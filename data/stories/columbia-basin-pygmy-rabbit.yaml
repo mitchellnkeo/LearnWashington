@@ -1,0 +1,113 @@
+slug: columbia-basin-pygmy-rabbit
+title: Columbia Basin Pygmy Rabbit
+hook: North America’s smallest rabbit survives in Washington as a distinct, endangered sagebrush population that WDFW is still putting back on the land.
+body: |
+  WDFW says the pygmy rabbit is the smallest rabbit in North America,
+  up to almost 12 inches long and 16 ounces. It is the only North
+  American rabbit known to dig its own burrows. Big sagebrush is about
+  90 percent of the winter diet. The Columbia Basin population is
+  geographically and genetically distinct. WDFW says it has been
+  isolated from the rest of the species for at least 10,000 years.
+
+  The population is state and federally endangered. By 2001 as few as
+  16 rabbits were known in Washington. A captive-breeding program
+  began, and since 2011 more than 2,000 rabbits have been released at
+  Sagebrush Flat and Chester Butte wildlife areas and at Beezley Hills.
+  As of 2021 WDFW knew wild rabbits only at Sagebrush Flat in southern
+  Douglas County and Beezley Hills in northern Grant County. The Pearl
+  Hill Fire in 2020 erased a third reintroduction near Jameson Lake.
+
+  Recovery partners named by WDFW include USFWS, Washington State
+  University, the Oregon Zoo, and The Nature Conservancy. This pin is
+  Sagebrush Flat. The sources below are Washington Department of Fish
+  and Wildlife pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "2011-01-01"
+datePrecision: year
+dateLabel: wild releases since 2011
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Sagebrush Flat
+  slug: sagebrush-flat
+  placeType: wildlife_area
+  latitude: 47.446526
+  longitude: -119.6897672
+  county: Douglas County
+  region: Columbia Basin
+
+categories:
+  - wildlife-ecology
+  - science-strange
+
+tags:
+  - pygmy-rabbit
+  - shrubsteppe
+  - wdfw
+
+claims:
+  - text: >
+      WDFW says the pygmy rabbit is the smallest rabbit in North
+      America, the only North American rabbit known to dig its own
+      burrows, and that big sagebrush makes up about 90 percent of its
+      winter diet.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - wdfw-pygmy-rabbit
+  - text: >
+      WDFW says the Columbia Basin population is geographically and
+      genetically distinct, isolated for at least 10,000 years, and
+      listed as state and federally endangered.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - wdfw-pygmy-rabbit
+  - text: >
+      WDFW says as few as 16 rabbits were known in 2001, that more than
+      2,000 have been released since 2011, and that by 2021 wild
+      rabbits were known only at Sagebrush Flat and Beezley Hills after
+      the 2020 Pearl Hill Fire removed a third site.
+    claimType: factual
+    confidence: verified
+    sources:
+      - wdfw-pygmy-rabbit
+  - text: >
+      USGS Geographic Names lists Sagebrush Flat, a flat in Douglas
+      County, at 47.446526° N, 119.6897672° W (GNIS 1507994).
+    claimType: factual
+    confidence: verified
+    sources:
+      - usgs-gnis-sagebrush-flat
+
+sources:
+  - id: wdfw-pygmy-rabbit
+    title: Pygmy rabbit (Columbia Basin population)
+    publisher: Washington Department of Fish and Wildlife
+    url: https://wdfw.wa.gov/species-habitats/species/brachylagus-idahoensis
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: wdfw-sagebrush-flat
+    title: Sagebrush Flat Wildlife Area
+    publisher: Washington Department of Fish and Wildlife
+    url: https://wdfw.wa.gov/places-to-go/wildlife-areas/sagebrush-flat-wildlife-area
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: usgs-gnis-sagebrush-flat
+    title: Sagebrush Flat (GNIS 1507994)
+    publisher: U.S. Geological Survey
+    url: https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1507994
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+relatedStories:
+  - slug: columbia-nwr
+    relationshipType: nearby
+  - slug: hanford-reach
+    relationshipType: same-arc
+  - slug: gray-wolves-washington
+    relationshipType: same-arc

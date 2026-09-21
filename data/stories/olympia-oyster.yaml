@@ -1,0 +1,96 @@
+slug: olympia-oyster
+title: Olympia Oyster
+hook: Washington’s only native oyster was cut to a remnant of its old beds. WDFW and partners are putting shell, and oysters, back.
+body: |
+  WDFW says the Olympia oyster, Ostrea lurida, is Washington’s only
+  native oyster. Adults are usually 5 to 7 centimeters long. From about
+  1850 through the early 1900s, heavy harvest and conversion of natural
+  beds into farms nearly wiped the species out here. By 2012, WDFW
+  says as little as 5 percent of historical oyster-bed habitat
+  remained.
+
+  In 2012 WDFW named 19 priority restoration sites in Puget Sound. The
+  1998 rebuilding plan was not funded as a WDFW project, so much of
+  the field work has been done with the Puget Sound Restoration Fund
+  and other partners. WDFW says those partners reached a 10-year goal
+  of restoring 100 acres of Olympia oyster habitat by 2020. The
+  oysters brood larvae inside the shell for 10 to 12 days, a trait
+  WDFW links to some resilience to ocean acidification.
+
+  WDFW photographs recovering beds at Discovery Bay. This pin is that
+  bay. The sources below are Washington Department of Fish and
+  Wildlife pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "2012-01-01"
+datePrecision: year
+dateLabel: 19 priority sites named 2012
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Discovery Bay
+  slug: discovery-bay
+  placeType: bay
+  latitude: 47.99676
+  longitude: -122.87711
+  county: Jefferson County
+  region: Olympic Peninsula
+
+categories:
+  - wildlife-ecology
+  - science-strange
+
+tags:
+  - oyster
+  - puget-sound
+  - wdfw
+
+claims:
+  - text: >
+      WDFW says the Olympia oyster is Washington’s only native oyster,
+      usually 5 to 7 centimeters long, and that heavy harvest from
+      about 1850 through the early 1900s left as little as 5 percent of
+      historical bed habitat by 2012.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - wdfw-olympia-oyster
+  - text: >
+      WDFW says it identified 19 priority Puget Sound restoration sites
+      in 2012, and that partners reached a goal of restoring 100 acres
+      of Olympia oyster habitat by 2020.
+    claimType: factual
+    confidence: verified
+    sources:
+      - wdfw-olympia-oyster
+  - text: >
+      USGS Geographic Names lists Discovery Bay, a bay in Jefferson
+      County, at 47.99676° N, 122.87711° W (GNIS 1524586).
+    claimType: factual
+    confidence: verified
+    sources:
+      - usgs-gnis-discovery-bay
+
+sources:
+  - id: wdfw-olympia-oyster
+    title: Olympia oyster
+    publisher: Washington Department of Fish and Wildlife
+    url: https://wdfw.wa.gov/species-habitats/species/ostrea-lurida
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: usgs-gnis-discovery-bay
+    title: Discovery Bay (GNIS 1524586)
+    publisher: U.S. Geological Survey
+    url: https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1524586
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+relatedStories:
+  - slug: hood-canal-hypoxia
+    relationshipType: same-arc
+  - slug: dungeness-spit
+    relationshipType: nearby
+  - slug: protection-island
+    relationshipType: nearby

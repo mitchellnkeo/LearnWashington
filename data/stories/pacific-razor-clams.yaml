@@ -1,0 +1,106 @@
+slug: pacific-razor-clams
+title: Pacific Razor Clams
+hook: WDFW has managed Washington’s coastal razor-clam digs since 1929, counting every beach before anyone is allowed to shovel.
+body: |
+  WDFW says Washington has actively managed the coastal recreational
+  razor-clam fishery since 1929. Pacific razor clams live mainly on
+  intertidal ocean beaches from about a +3-foot tide to a −2-foot tide.
+  The state divides harvest into five management beaches: Long Beach,
+  Twin Harbors, Copalis, Mocrocks, and Kalaloch.
+
+  Each summer, biologists estimate clams under 3 inches (pre-recruits)
+  and 3 inches or longer (recruits). A total allowable catch then uses
+  a 30 to 40 percent harvest rate on recruit-sized clams, except at
+  Kalaloch, where the rate is fixed at 25.4 percent. North of Grays
+  Harbor, WDFW co-manages Copalis, Mocrocks, and Kalaloch with coastal
+  tribes, including the Quinault Indian Nation, and splits that catch
+  50/50. No beach opens until the Department of Health clears marine
+  toxin tests, especially for domoic acid.
+
+  This pin is Copalis Beach, the reach from the north jetty of Grays
+  Harbor to the Copalis River. The sources below are Washington
+  Department of Fish and Wildlife and USGS pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1929-01-01"
+datePrecision: year
+dateLabel: state management since 1929
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Copalis Beach
+  slug: copalis-beach
+  placeType: beach
+  latitude: 47.1206596
+  longitude: -124.1722005
+  county: Grays Harbor County
+  region: Coast
+
+categories:
+  - wildlife-ecology
+  - science-strange
+
+tags:
+  - razor-clam
+  - wdfw
+  - coast
+
+claims:
+  - text: >
+      WDFW says Washington has managed the coastal recreational
+      razor-clam fishery since 1929 and divides harvest into Long
+      Beach, Twin Harbors, Copalis, Mocrocks, and Kalaloch.
+    claimType: factual
+    confidence: verified
+    sources:
+      - wdfw-razor-clams
+  - text: >
+      WDFW says summer assessments estimate pre-recruit and recruit
+      clams, then set a total allowable catch using a 30 to 40 percent
+      harvest rate, except 25.4 percent at Kalaloch, and that beaches
+      north of Grays Harbor are co-managed 50/50 with coastal tribes
+      including the Quinault Indian Nation.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - wdfw-razor-clams
+  - text: >
+      WDFW says no beach opens until Washington Department of Health
+      toxin tests, especially for domoic acid, show the clams are safe
+      to eat.
+    claimType: factual
+    confidence: verified
+    sources:
+      - wdfw-razor-clams
+  - text: >
+      USGS Geographic Names lists Copalis Beach Census Designated
+      Place, Grays Harbor County, at 47.1206596° N, 124.1722005° W
+      (GNIS 2407656).
+    claimType: factual
+    confidence: verified
+    sources:
+      - usgs-gnis-copalis-beach
+
+sources:
+  - id: wdfw-razor-clams
+    title: Razor clam seasons and beaches
+    publisher: Washington Department of Fish and Wildlife
+    url: https://wdfw.wa.gov/fishing/shellfishing-regulations/razor-clams
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: usgs-gnis-copalis-beach
+    title: Copalis Beach Census Designated Place (GNIS 2407656)
+    publisher: U.S. Geological Survey
+    url: https://edits.nationalmap.gov/apps/gaz-domestic/public/gaz-record/2407656
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+relatedStories:
+  - slug: copalis-ghost-forest
+    relationshipType: nearby
+  - slug: kalaloch
+    relationshipType: nearby
+  - slug: grays-harbor-nwr
+    relationshipType: nearby

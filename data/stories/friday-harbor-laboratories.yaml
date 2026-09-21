@@ -1,0 +1,105 @@
+slug: friday-harbor-laboratories
+title: Friday Harbor Laboratories
+hook: UW’s marine station on San Juan Island has run since 1903, on a 490-acre biological preserve in some of the richest cold water on the coast.
+body: |
+  The University of Washington lists Friday Harbor Laboratories as its
+  marine field station, started in 1903, in the College of the
+  Environment. UW says the station sits at the water’s edge on San Juan
+  Island and draws researchers from around the world to work from
+  genomes to ecosystems. Long-running strengths include comparative
+  biomechanics, developmental biology, neurophysiology, genomics, and
+  marine ecology.
+
+  FHL’s own about page describes 490 acres of land, plus marine waters,
+  held as biological preserves. The lab also manages preserves at False
+  Bay and Argyle Lagoon on San Juan Island and at Point George and
+  Cedar Rock on Shaw Island. A tidal range of about three meters
+  exposes rock, sand, and mud. Collecting can reach depths of 300
+  meters. The waters are relatively free from pollution, with swift
+  tideways and quiet bays.
+
+  The street address is 620 University Road, Friday Harbor. This pin is
+  the town of Friday Harbor. The sources below are University of
+  Washington pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1903-01-01"
+datePrecision: year
+dateLabel: station started 1903
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Friday Harbor
+  slug: friday-harbor
+  placeType: town
+  latitude: 48.5342662
+  longitude: -123.0171242
+  county: San Juan County
+  region: San Juan Islands
+
+categories:
+  - science-strange
+  - wildlife-ecology
+
+tags:
+  - university-of-washington
+  - marine-lab
+  - salish-sea
+
+claims:
+  - text: >
+      The University of Washington lists Friday Harbor Laboratories as
+      its marine field station, started in 1903, in the College of the
+      Environment.
+    claimType: factual
+    confidence: verified
+    sources:
+      - uw-fhl-directory
+  - text: >
+      FHL says the 490-acre tract and regional marine waters are
+      biological preserves, that it also manages False Bay, Argyle
+      Lagoon, Point George, and Cedar Rock, and that a tidal range of
+      about three meters and collecting depths to 300 meters expose a
+      rich marine flora and fauna.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - uw-fhl-about
+  - text: >
+      USGS Geographic Names lists Friday Harbor, a populated place in
+      San Juan County, at 48.5342662° N, 123.0171242° W (GNIS 1505051).
+    claimType: factual
+    confidence: verified
+    sources:
+      - usgs-gnis-friday-harbor
+
+sources:
+  - id: uw-fhl-directory
+    title: Friday Harbor Laboratories (FHL)
+    publisher: University of Washington Office of Research
+    url: https://research.washington.edu/shared-research-facilities-resources-directory/facilities-and-resources/friday-harbor-laboratories-fhl/
+    sourceType: academic
+    tier: A
+    accessedAt: "2026-09-21"
+  - id: uw-fhl-about
+    title: About Friday Harbor Laboratories
+    publisher: University of Washington Friday Harbor Laboratories
+    url: https://fhl.uw.edu/about/
+    sourceType: academic
+    tier: A
+    accessedAt: "2026-09-21"
+  - id: usgs-gnis-friday-harbor
+    title: Friday Harbor (GNIS 1505051)
+    publisher: U.S. Geological Survey
+    url: https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1505051
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+relatedStories:
+  - slug: san-juan-islands-nwr
+    relationshipType: nearby
+  - slug: protection-island
+    relationshipType: nearby
+  - slug: southern-resident-orcas
+    relationshipType: same-arc

@@ -1,0 +1,106 @@
+slug: mima-mounds
+title: Mima Mounds
+hook: A Thurston County prairie of unexplained soil hills that DNR set aside in 1976, and that NPS named a National Natural Landmark in 1966.
+body: |
+  Washington DNR established Mima Mounds Natural Area Preserve in 1976
+  to protect rare mima-mound landforms and Puget prairie grasslands.
+  The preserve now covers 756 acres of grassland-covered mounds, forest,
+  and Garry oak woodland and savannah. DNR says it also supports prairie
+  butterflies and birds. In 1966 the National Park Service designated
+  the preserve a National Natural Landmark, one of only 17 such
+  landmarks in Washington.
+
+  DNR’s Washington Geological Survey guide describes the mounds as
+  irregularly spaced hills of silt, sand, and pebbles. Many are a few
+  feet tall and tens of feet wide. The preserve near Littlerock is one
+  of the best places to see them. Features DNR protects here include
+  Roemer’s fescue–white-topped aster grassland and mima-mound
+  topography. The site has been a research station for more than 50
+  years, including studies of mound formation and prairie restoration.
+
+  This pin is Mima Prairie. The sources below are Washington Department
+  of Natural Resources pages. DNR notes interpretive signs about mound
+  hypotheses; this card does not pick a cause.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1976-01-01"
+datePrecision: year
+dateLabel: Natural Area Preserve established 1976
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Mima Prairie
+  slug: mima-prairie
+  placeType: prairie
+  latitude: 46.8889876
+  longitude: -123.0523633
+  county: Thurston County
+  region: Puget Sound
+
+categories:
+  - geography-geology
+  - science-strange
+  - wildlife-ecology
+
+tags:
+  - mima-mounds
+  - prairie
+  - dnr
+
+claims:
+  - text: >
+      DNR says Mima Mounds Natural Area Preserve was established in
+      1976 to protect rare mima-mound landforms and Puget prairie
+      grasslands, now comprises 756 acres, and was designated a
+      National Natural Landmark in 1966, one of 17 in Washington.
+    claimType: factual
+    confidence: verified
+    sources:
+      - dnr-mima-mounds
+  - text: >
+      DNR’s geological guide describes the mounds as irregularly spaced
+      hills of silt, sand, and pebbles, many a few feet tall and tens
+      of feet wide, and names the preserve near Littlerock as one of
+      the best places to see them.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - dnr-mima-guide
+  - text: >
+      USGS Geographic Names lists Mima Prairie, a flat in Thurston
+      County, at 46.8889876° N, 123.0523633° W.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usgs-gnis-mima-prairie
+
+sources:
+  - id: dnr-mima-mounds
+    title: Mima Mounds Natural Area Preserve
+    publisher: Washington Department of Natural Resources
+    url: https://dnr.wa.gov/natural-areas/natural-area-preserves/mima-mounds-natural-area-preserve
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: dnr-mima-guide
+    title: A Guide to the Mima Mounds
+    publisher: Washington Geological Survey, Department of Natural Resources
+    url: https://dnr.wa.gov/sites/default/files/2025-03/ger_mima_mounds_booklet.pdf
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: usgs-gnis-mima-prairie
+    title: Mima Prairie (GNIS 1511617)
+    publisher: U.S. Geological Survey
+    url: https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1511617
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+relatedStories:
+  - slug: olympia-earthquake-1949
+    relationshipType: nearby
+  - slug: billy-frank-jr-nisqually
+    relationshipType: nearby
+  - slug: island-marble-butterfly
+    relationshipType: same-arc

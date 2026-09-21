@@ -1,0 +1,115 @@
+slug: steptoe-butte
+title: Steptoe Butte
+hook: A 3,612-foot Palouse quartzite island that gave geology the word “steptoe,” and that still holds some of the last Palouse prairie in Washington.
+body: |
+  Washington DNR says Steptoe Butte is the origin of the geologic term
+  “steptoe”: an isolated hill of older rock surrounded by a lava flow.
+  The 3,612-foot quartzite butte is a National Natural Landmark for
+  ecology and geology. DNR established a 437-acre Natural Area Preserve
+  around it in 2018 to protect the largest known remaining Palouse
+  prairie in Washington. DNR estimates only about 2 percent of that
+  prairie’s historic range is left, and calls the ecosystem one of the
+  most endangered in the continental United States.
+
+  The preserve is a key site for federally threatened Spalding’s
+  catchfly. DNR also lists three other rare plants, four priority plant
+  associations, and the Giant Palouse earthworm. State Parks says
+  Columbia River basalt covered all but the highest quartzite peaks,
+  and that later Ice Age flood silt and wind-blown loess built the
+  Palouse soils. Parks dedicated the state park on July 4, 1946, and
+  records the Indigenous names Se-empteeta or E-omoshtoss.
+
+  This pin is the butte summit. The sources below are Washington DNR
+  and Washington State Parks pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1946-07-04"
+datePrecision: day
+dateLabel: state park dedicated July 4, 1946
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Steptoe Butte
+  slug: steptoe-butte
+  placeType: summit
+  latitude: 47.0323698
+  longitude: -117.2968506
+  county: Whitman County
+  region: Palouse
+
+categories:
+  - geography-geology
+  - wildlife-ecology
+  - indigenous-history-place
+
+tags:
+  - palouse
+  - prairie
+  - dnr
+
+claims:
+  - text: >
+      DNR says Steptoe Butte is the type locality for the geologic term
+      “steptoe,” a 3,612-foot quartzite butte and National Natural
+      Landmark, and that a 437-acre Natural Area Preserve established
+      in 2018 protects the largest known remaining Palouse prairie in
+      Washington, about 2 percent of the historic range.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - dnr-steptoe-butte
+  - text: >
+      DNR lists the preserve as a key site for federally threatened
+      Spalding’s catchfly and for four rare plants, four priority plant
+      associations, and the Giant Palouse earthworm.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - dnr-steptoe-butte
+  - text: >
+      State Parks says the park was dedicated on July 4, 1946, that
+      Indigenous neighbors have called the butte Se-empteeta or
+      E-omoshtoss, and that Columbia River basalt left the quartzite
+      peak standing above later Palouse loess.
+    claimType: historical
+    confidence: verified
+    sources:
+      - parks-steptoe-history
+  - text: >
+      USGS Geographic Names lists Steptoe Butte, a summit in Whitman
+      County, at 47.0323698° N, 117.2968506° W (GNIS 1508724).
+    claimType: factual
+    confidence: verified
+    sources:
+      - usgs-gnis-steptoe-butte
+
+sources:
+  - id: dnr-steptoe-butte
+    title: Steptoe Butte Natural Area Preserve
+    publisher: Washington Department of Natural Resources
+    url: https://dnr.wa.gov/natural-areas/natural-area-preserves/steptoe-butte-natural-area-preserve
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: parks-steptoe-history
+    title: Steptoe Butte State Park Heritage Site History
+    publisher: Washington State Parks
+    url: https://parks.wa.gov/about/news-center/field-guide-blog/steptoe-butte-state-park-heritage-site-history
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: usgs-gnis-steptoe-butte
+    title: Steptoe Butte (GNIS 1508724)
+    publisher: U.S. Geological Survey
+    url: https://edits.nationalmap.gov/apps/gaz-domestic/public/gaz-record/1508724
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+relatedStories:
+  - slug: palouse-falls
+    relationshipType: nearby
+  - slug: ice-age-floods
+    relationshipType: same-arc
+  - slug: ginkgo-petrified-forest
+    relationshipType: same-arc

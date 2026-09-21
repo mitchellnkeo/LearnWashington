@@ -1,0 +1,84 @@
+slug: goldendale-observatory
+title: Goldendale Observatory
+hook: A state-park observatory in the hills above the Columbia that Parks says houses one of the nation’s largest public telescopes.
+body: |
+  Washington State Parks lists Goldendale Observatory State Park
+  Heritage Site at 1602 Observatory Drive, Goldendale. Parks says the
+  observatory sits in the hills above the Columbia River and houses one
+  of the nation’s largest public telescopes. The official park page
+  prints the site at 45.83868027° N, 120.8151398° W.
+
+  Parks is known here for science programs and dark skies. Afternoon
+  programs use filtered telescopes to look at the Sun. Evening programs
+  show planets, star clusters, nebulae, and galaxies when weather
+  allows. Reservations are required to enter the visitor center and
+  observatory. The grounds may be walked without a show booking.
+
+  This card uses the Parks description of the telescope and programs.
+  It does not add an opening year that Parks does not print on the park
+  page. The source below is Washington State Parks.
+status: PUBLISHED
+verificationStatus: VERIFIED
+datePrecision: unknown
+dateLabel: public observatory, State Parks
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Goldendale Observatory
+  slug: goldendale-observatory
+  placeType: observatory
+  latitude: 45.83868027
+  longitude: -120.8151398
+  county: Klickitat County
+  region: Columbia Gorge
+
+categories:
+  - science-strange
+
+tags:
+  - observatory
+  - astronomy
+  - state-parks
+
+claims:
+  - text: >
+      Washington State Parks says Goldendale Observatory sits in the
+      hills above the Columbia River at 1602 Observatory Drive and
+      houses one of the nation’s largest public telescopes.
+    claimType: factual
+    confidence: verified
+    sources:
+      - parks-goldendale
+  - text: >
+      Parks says afternoon programs use filtered telescopes to view the
+      Sun and evening programs show planets, star clusters, nebulae,
+      and galaxies, and that reservations are required for the visitor
+      center and observatory.
+    claimType: factual
+    confidence: verified
+    sources:
+      - parks-goldendale
+  - text: >
+      The official State Parks page lists the site at 45.83868027° N,
+      120.8151398° W.
+    claimType: factual
+    confidence: verified
+    sources:
+      - parks-goldendale
+
+sources:
+  - id: parks-goldendale
+    title: Goldendale Observatory State Park Heritage Site
+    publisher: Washington State Parks
+    url: https://parks.wa.gov/find-parks/state-parks/goldendale-observatory-state-park-heritage-site
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+relatedStories:
+  - slug: the-dalles-dam
+    relationshipType: nearby
+  - slug: mount-adams
+    relationshipType: nearby
+  - slug: conboy-lake-nwr
+    relationshipType: nearby

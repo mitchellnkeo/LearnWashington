@@ -1,0 +1,96 @@
+slug: pinto-abalone
+title: Pinto Abalone
+hook: A kelp-forest snail Washington listed as endangered in 2019, now the subject of a WDFW–UW hatchery partnership that has put tens of thousands of juveniles back in the water.
+body: |
+  WDFW’s 2025 periodic status review says pinto abalone was listed as
+  endangered in Washington in 2019. The 2019 review blamed low density
+  plus threats that still stood in 2024: kelp-forest loss, disease,
+  changing ocean conditions, illegal harvest, predation, and oil-spill
+  risk. In 2002 WDFW, the University of Washington, the Puget Sound
+  Restoration Fund, and NOAA formed a restoration partnership. The
+  first experimental releases were in 2007.
+
+  Those first trial outplants were at Freshwater Bay. Restoration-scale
+  releases in the San Juan Islands began in 2009. From 2009 through
+  2024 the partnership released more than 60,000 disease-free,
+  genetically diverse juveniles at 37 sites. WDFW issued a state
+  recovery plan in 2022. The 2025 review still recommended endangered
+  status because wild recovery criteria have not been met.
+
+  This pin is Freshwater Bay, the first experimental release site. The
+  sources below are Washington Department of Fish and Wildlife pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "2007-01-01"
+datePrecision: year
+dateLabel: first experimental releases 2007
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Freshwater Bay
+  slug: freshwater-bay
+  placeType: bay
+  latitude: 48.1429562
+  longitude: -123.6047399
+  county: Clallam County
+  region: Olympic Peninsula
+
+categories:
+  - wildlife-ecology
+  - science-strange
+
+tags:
+  - abalone
+  - kelp
+  - wdfw
+
+claims:
+  - text: >
+      WDFW says pinto abalone was listed as endangered in Washington in
+      2019, that WDFW, the University of Washington, the Puget Sound
+      Restoration Fund, and NOAA formed a restoration partnership in
+      2002, and that the first experimental releases were in 2007.
+    claimType: factual
+    confidence: verified
+    sources:
+      - wdfw-pinto-psr
+  - text: >
+      WDFW says a 2007–2008 pilot outplant began at Freshwater Bay,
+      that restoration-scale San Juan Island releases began in 2009,
+      and that more than 60,000 juveniles were released at 37 sites
+      from 2009 through 2024.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - wdfw-pinto-psr
+  - text: >
+      USGS Geographic Names lists Freshwater Bay, a bay in Clallam
+      County, at 48.1429562° N, 123.6047399° W (GNIS 1519807).
+    claimType: factual
+    confidence: verified
+    sources:
+      - usgs-gnis-freshwater-bay
+
+sources:
+  - id: wdfw-pinto-psr
+    title: Periodic Status Review for Pinto Abalone (2025)
+    publisher: Washington Department of Fish and Wildlife
+    url: https://wdfw.wa.gov/sites/default/files/publications/02607/wdfw02607.pdf
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: usgs-gnis-freshwater-bay
+    title: Freshwater Bay (GNIS 1519807)
+    publisher: U.S. Geological Survey
+    url: https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1519807
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+relatedStories:
+  - slug: olympic-coast-national-marine-sanctuary
+    relationshipType: nearby
+  - slug: friday-harbor-laboratories
+    relationshipType: same-arc
+  - slug: elwha-river-restoration
+    relationshipType: nearby
