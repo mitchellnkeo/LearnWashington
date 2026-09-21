@@ -1,0 +1,95 @@
+slug: olympic-national-park-1938
+title: Olympic National Park, 1938
+hook: Franklin Roosevelt signed the park into law on June 29, 1938, after a 1937 visit, on ground first reserved in 1897 and later set aside for Roosevelt elk.
+body: |
+  President Franklin D. Roosevelt signed the act establishing Olympic
+  National Park on June 29, 1938. NPS says the enabling language made it
+  a public park for the benefit and enjoyment of the people. He had
+  visited the Olympics in 1937.
+
+  The ground had an earlier paper trail. President Cleveland created a
+  forest reserve in 1897. President Theodore Roosevelt created Mount
+  Olympus National Monument in 1909 to protect Roosevelt elk. The
+  Pacific coast strip was added to the park in 1953.
+
+  This card is the establishment story. Hurricane Ridge, the Hoh, and
+  the coast are the places that came after. The sources below are the
+  National Park Service history of the park.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1938-06-29"
+datePrecision: day
+dateLabel: June 29, 1938
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Olympic National Park
+  slug: olympic-national-park-1938
+  placeType: national_park
+  latitude: 47.8
+  longitude: -123.7
+  county: Jefferson County
+  region: Olympic Peninsula
+
+categories:
+  - history
+  - geography-geology
+
+tags:
+  - olympic
+  - national-park
+  - "1938"
+
+claims:
+  - text: >
+      NPS says President Franklin D. Roosevelt signed the act establishing
+      Olympic National Park on June 29, 1938, after a 1937 visit, as a
+      public park for the benefit and enjoyment of the people.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-olym-history
+  - text: >
+      NPS says President Cleveland created a forest reserve in 1897,
+      President Theodore Roosevelt created Mount Olympus National Monument
+      in 1909 to protect Roosevelt elk, and the Pacific coast was added to
+      the park in 1953.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-olym-history
+
+sources:
+  - id: nps-olym-history
+    title: History of Olympic National Park
+    publisher: National Park Service
+    url: https://www.nps.gov/olym/learn/historyculture/index.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: nps-olym
+    title: Olympic National Park
+    publisher: National Park Service
+    url: https://www.nps.gov/olym/index.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/olympic-national-park-1938.jpg
+    mediaType: image
+    title: Sunset at Rialto Beach
+    creator: National Park Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Sunset_rialto_beach_scenic_NPS_Photo_(2)_(17287727706).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: Sunset at Rialto Beach on the Olympic coast, land added to the park in 1953.
+    creditLine: Photograph by the National Park Service. The coast strip was added to the park in 1953. Public domain.
+
+relatedStories:
+  - slug: hurricane-ridge
+    relationshipType: same-park
+  - slug: hoh-rain-forest
+    relationshipType: same-park
+  - slug: olympic-marmot
+    relationshipType: same-park

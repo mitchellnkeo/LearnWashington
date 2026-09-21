@@ -1,0 +1,92 @@
+slug: bainbridge-exclusion-memorial
+title: Bainbridge Island Japanese American Exclusion Memorial
+hook: On March 30, 1942, 227 Bainbridge Islanders were the first Japanese Americans taken under Executive Order 9066. A wall at Eagledale dock now names 276 people.
+body: |
+  The Bainbridge Island Japanese American Exclusion Memorial stands at
+  4192 Eagle Harbor Drive, at the old Eagledale ferry dock. President
+  Franklin Roosevelt signed Executive Order 9066 on February 19, 1942.
+  NPS says that on March 30, 1942, 227 people of Japanese ancestry
+  gathered at the dock. They were sent first to Manzanar, then many to
+  Minidoka. Over half returned.
+
+  NPS says they were the first of more than 110,000 people of Japanese
+  ancestry removed from the West Coast, two-thirds of them U.S. citizens,
+  and that the exclusion ultimately involved over 125,000 people. A wall
+  at the memorial names 276. The Japanese phrase on the site is Nidoto
+  Nai Yoni — "Let it not happen again." The memorial is a unit of
+  Minidoka National Historic Site.
+
+  The sources below are the National Park Service place page for the
+  memorial.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1942-03-30"
+datePrecision: day
+dateLabel: March 30, 1942
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Bainbridge Island Japanese American Exclusion Memorial
+  slug: bainbridge-exclusion-memorial
+  placeType: historic_site
+  latitude: 47.618
+  longitude: -122.51
+  county: Kitsap County
+  region: Puget Sound
+
+categories:
+  - history
+
+tags:
+  - world-war-ii
+  - bainbridge
+  - exclusion
+
+claims:
+  - text: >
+      President Roosevelt signed Executive Order 9066 on February 19, 1942.
+      NPS says 227 people of Japanese ancestry gathered at Eagledale dock
+      on March 30, 1942, the first of more than 110,000 people removed from
+      the West Coast — two-thirds of them U.S. citizens — and that the
+      exclusion ultimately involved over 125,000 people.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-bainbridge-memorial
+  - text: >
+      NPS says they were sent first to Manzanar, then many to Minidoka, and
+      that over half returned. A wall names 276 people. The memorial at
+      4192 Eagle Harbor Drive is a unit of Minidoka National Historic Site.
+      The Japanese phrase on the site is Nidoto Nai Yoni.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-bainbridge-memorial
+
+sources:
+  - id: nps-bainbridge-memorial
+    title: The Bainbridge Island Japanese American Exclusion Memorial
+    publisher: National Park Service
+    url: https://www.nps.gov/places/the-bainbridge-island-japanese-american-exclusion-memorial.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/bainbridge-exclusion.jpg
+    mediaType: image
+    title: Bainbridge Islanders leaving for Manzanar, March 30, 1942
+    creator: War Relocation Authority
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Bainbridge_Island_Japanese_Americans_being_transported_to_Manzanar,_March_30,_1942.jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: Japanese Americans from Bainbridge Island boarding a train on March 30, 1942.
+    creditLine: Photograph by the War Relocation Authority, March 30, 1942. Public domain.
+
+relatedStories:
+  - slug: puget-sound-naval-shipyard
+    relationshipType: nearby
+  - slug: washington-statehood-1889
+    relationshipType: same-arc
+  - slug: pig-war
+    relationshipType: nearby

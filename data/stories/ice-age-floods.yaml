@@ -1,0 +1,105 @@
+slug: ice-age-floods
+title: Ice Age Floods
+hook: NPS says that 18,000 to 15,000 years ago an ice dam in northern Idaho failed, sending Glacial Lake Missoula across Washington and down the Columbia.
+body: |
+  The Ice Age Floods National Geologic Trail follows the path of the
+  Missoula Floods. NPS says that 18,000 to 15,000 years ago an ice dam
+  in northern Idaho created Glacial Lake Missoula, stretching 3,000
+  square miles around Missoula, Montana. The dam burst. Floodwaters
+  crossed Washington, ran down the Columbia into Oregon, and reached
+  the Pacific.
+
+  In the 1920s, J Harlen Bretz argued that a catastrophic flood carved
+  the Channeled Scabland. Joseph Pardee of the U.S. Geological Survey
+  later pointed to Glacial Lake Missoula as the source. NPS says the
+  idea was not generally accepted until the late 1970s.
+
+  This card is the trail and the floods. Dry Falls, Drumheller Channels,
+  and Palouse Falls are the place cards. The sources below are the
+  National Park Service Ice Age Floods pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+datePrecision: geologic
+dateLabel: about 18,000–15,000 years ago
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Ice Age Floods National Geologic Trail
+  slug: ice-age-floods
+  placeType: geologic_trail
+  latitude: 47.605
+  longitude: -119.348
+  county: Grant County
+  region: Columbia Basin
+
+categories:
+  - geography-geology
+  - science-strange
+
+tags:
+  - ice-age
+  - scablands
+  - missoula-floods
+
+claims:
+  - text: >
+      NPS says that 18,000 to 15,000 years ago an ice dam in northern Idaho
+      created Glacial Lake Missoula, stretching 3,000 square miles around
+      Missoula, Montana. The dam burst and floodwaters crossed Washington,
+      ran down the Columbia into Oregon, and reached the Pacific.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - nps-iafl
+  - text: >
+      NPS says J Harlen Bretz argued in the 1920s that a catastrophic flood
+      carved the Channeled Scabland, Joseph Pardee later identified Glacial
+      Lake Missoula as the source, and the idea was not generally accepted
+      until the late 1970s.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-iafl-people
+      - nps-iafl-brochure
+
+sources:
+  - id: nps-iafl
+    title: Ice Age Floods National Geologic Trail
+    publisher: National Park Service
+    url: https://www.nps.gov/iafl/index.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: nps-iafl-people
+    title: People
+    publisher: National Park Service
+    url: https://www.nps.gov/iafl/learn/historyculture/people.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: nps-iafl-brochure
+    title: Park Brochure
+    publisher: National Park Service
+    url: https://www.nps.gov/iafl/planyourvisit/park-brochure.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/ice-age-floods.jpg
+    mediaType: image
+    title: Drumheller Channels, Ice Age Floods country
+    creator: Williamborg
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Drumheller_Channels_National_Natural_Landmark.jpg
+    license: Public domain
+    licenseUrl: https://commons.wikimedia.org/wiki/Commons:Licensing
+    altText: Butte-and-basin scabland of the Drumheller Channels, carved by Ice Age floods.
+    creditLine: Photograph by Williamborg, April 18, 2009. Released to the public domain.
+
+relatedStories:
+  - slug: dry-falls
+    relationshipType: same-landscape
+  - slug: drumheller-channels
+    relationshipType: same-landscape
+  - slug: palouse-falls
+    relationshipType: same-landscape

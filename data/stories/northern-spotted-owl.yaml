@@ -1,0 +1,107 @@
+slug: northern-spotted-owl
+title: Northern Spotted Owl
+hook: USFWS listed this old-forest owl as threatened in 1990. It still holds that status, from southwestern British Columbia through Washington and Oregon into northern California.
+body: |
+  The northern spotted owl, Strix occidentalis caurina, is the largest of
+  three spotted-owl subspecies. USFWS says it inhabits structurally
+  complex forests from southwestern British Columbia through Washington
+  and Oregon into northern California. The birds are medium-sized,
+  chocolate brown, with dark eyes and round or irregular white spots.
+
+  USFWS listed the subspecies as threatened on June 26, 1990. The owls
+  are nocturnal perch-and-pounce predators. They primarily eat small
+  forest mammals such as flying squirrels, woodrats, voles, and mice.
+  In 2020 the Service found that reclassification to endangered was
+  warranted but precluded by higher-priority listing work.
+
+  This card does not guess how many pairs remain in Washington. The
+  sources below are the U.S. Fish and Wildlife Service species record
+  and the 1990 listing.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1990-06-26"
+datePrecision: day
+dateLabel: listed threatened June 26, 1990
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Olympic National Forest
+  slug: northern-spotted-owl-habitat
+  placeType: forest
+  latitude: 47.8
+  longitude: -123.7
+  county: Jefferson County
+  region: Olympic Peninsula
+
+categories:
+  - wildlife-ecology
+
+tags:
+  - spotted-owl
+  - endangered-species
+  - old-growth
+
+claims:
+  - text: >
+      USFWS listed the northern spotted owl as threatened on June 26, 1990.
+      The Service describes it as the largest of three spotted-owl
+      subspecies, inhabiting structurally complex forests from southwestern
+      British Columbia through Washington and Oregon into northern
+      California.
+    claimType: factual
+    confidence: verified
+    sources:
+      - fws-nso
+      - fws-nso-listing
+  - text: >
+      USFWS says northern spotted owls are nocturnal perch-and-pounce
+      predators that primarily eat small forest mammals such as flying
+      squirrels, woodrats, voles, and mice. A 2020 finding said
+      reclassification to endangered was warranted but precluded.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - fws-nso
+      - fws-nso-2020-finding
+
+sources:
+  - id: fws-nso
+    title: Northern Spotted Owl (Strix occidentalis caurina)
+    publisher: U.S. Fish and Wildlife Service
+    url: https://www.fws.gov/species/northern-spotted-owl-strix-occidentalis-caurina
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: fws-nso-listing
+    title: Determination of Threatened Status for the Northern Spotted Owl
+    publisher: U.S. Fish and Wildlife Service
+    url: https://www.fws.gov/species-publication-action/etwp-determination-threatened-status-northern-spotted-owl-55-fr-26114
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: fws-nso-2020-finding
+    title: 12-Month Finding for the Northern Spotted Owl
+    publisher: U.S. Fish and Wildlife Service
+    url: https://www.federalregister.gov/documents/2020/12/15/2020-27198/endangered-and-threatened-wildlife-and-plants-12-month-finding-for-the-northern-spotted-owl
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/northern-spotted-owl.jpg
+    mediaType: image
+    title: Northern spotted owl
+    creator: U.S. Fish and Wildlife Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Northern_Spotted_Owl.USFWS.jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.fws.gov/help/policies.html
+    altText: A northern spotted owl perched in a forest, photographed by the U.S. Fish and Wildlife Service.
+    creditLine: Photograph by the U.S. Fish and Wildlife Service. Public domain.
+
+relatedStories:
+  - slug: hoh-rain-forest
+    relationshipType: same-landscape
+  - slug: olympic-national-park-1938
+    relationshipType: nearby
+  - slug: olympic-marmot
+    relationshipType: nearby

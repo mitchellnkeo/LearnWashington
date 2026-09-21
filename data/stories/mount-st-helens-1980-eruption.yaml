@@ -124,3 +124,11 @@ relatedStories:
     relationshipType: same-arc
   - slug: mount-rainier
     relationshipType: same-arc
+  - slug: glacier-peak
+    relationshipType: same-arc
+  - slug: spirit-lake
+    relationshipType: nearby
+  - slug: johnston-ridge-observatory
+    relationshipType: nearby
+  - slug: ape-cave
+    relationshipType: nearby

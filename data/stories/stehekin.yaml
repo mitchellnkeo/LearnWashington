@@ -1,0 +1,86 @@
+slug: stehekin
+title: Stehekin
+hook: A roadless village at the head of Lake Chelan takes its name from Salishan words NPS translates as "the way through," "turning around place," or "mountain tops."
+body: |
+  Stehekin sits at the headwaters of Lake Chelan. NPS says the name is
+  based on a Salishan word meaning "the way through" or "turning around
+  place" in Lushootseed and "mountain tops" in nxa'amxcin. There are no
+  roads to the village. Access is by foot, boat, or plane.
+
+  The village is the hub for Lake Chelan National Recreation Area. NPS
+  lists that unit at 61,949 acres on the Stehekin visit page. From here
+  trails climb into the North Cascades, and the lake itself is the usual
+  way back to Chelan.
+
+  Stehekin is a working community at the end of a long glacial lake, not
+  a drive-up overlook. The source below is the National Park Service
+  Stehekin page.
+status: PUBLISHED
+verificationStatus: VERIFIED
+datePrecision: unknown
+dateLabel: roadless village at the head of Lake Chelan
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Stehekin
+  slug: stehekin
+  placeType: community
+  latitude: 48.309
+  longitude: -120.656
+  county: Chelan County
+  region: North Cascades
+
+categories:
+  - geography-geology
+  - indigenous-history-place
+
+tags:
+  - north-cascades
+  - lake-chelan
+  - stehekin
+
+claims:
+  - text: >
+      NPS says the name Stehekin is based on a Salishan word meaning "the
+      way through" or "turning around place" in Lushootseed and "mountain
+      tops" in nxa'amxcin. There are no roads. Access is by foot, boat, or
+      plane.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-stehekin
+  - text: >
+      NPS calls Stehekin the hub for the 61,949-acre Lake Chelan National
+      Recreation Area and the headwaters of Lake Chelan.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-stehekin
+
+sources:
+  - id: nps-stehekin
+    title: Stehekin
+    publisher: National Park Service
+    url: https://www.nps.gov/noca/planyourvisit/stehekin.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/stehekin.jpg
+    mediaType: image
+    title: Ferry time in Stehekin
+    creator: National Park Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Ferry_time_in_Stehekin_(c53396aee480476fa19ee31529fbc185).JPG
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: A ferry at the dock in roadless Stehekin at the head of Lake Chelan.
+    creditLine: Photograph by the National Park Service. Public domain.
+
+relatedStories:
+  - slug: lake-chelan
+    relationshipType: nearby
+  - slug: north-cascades-national-park
+    relationshipType: same-park
+  - slug: north-cascades-national-park-1968
+    relationshipType: same-park

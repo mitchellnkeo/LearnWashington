@@ -103,3 +103,9 @@ media:
 relatedStories:
   - slug: grand-coulee-dam
     relationshipType: same-landscape
+  - slug: ice-age-floods
+    relationshipType: same-landscape
+  - slug: palouse-falls
+    relationshipType: same-landscape
+  - slug: drumheller-channels
+    relationshipType: same-landscape

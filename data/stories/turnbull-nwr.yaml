@@ -1,0 +1,91 @@
+slug: turnbull-nwr
+title: Turnbull National Wildlife Refuge
+hook: More than 23,000 acres of channeled scablands near Spokane hold pine, wetlands, and the only refuge landscape of its kind in the National Wildlife Refuge System.
+body: |
+  Turnbull National Wildlife Refuge encompasses over 23,000 acres in
+  Spokane County, on the edge of the Columbia River Basin, about a
+  40-minute drive from Spokane. FWS says the Channeled Scablands
+  ecosystem that predominates the refuge is unique within the National
+  Wildlife Refuge System.
+
+  The scablands here were scoured by ice-age floods about 15,000 years
+  ago. Ponderosa pine, wetlands, meadow steppe, and riparian habitat
+  sit close together. FWS established the refuge to protect migratory
+  waterfowl, with a later focus on redhead ducks. Over 200 kinds of
+  birds have been recorded, including 25 species of nesting and
+  migrating waterfowl.
+
+  Mammals on the refuge include moose, Rocky Mountain elk, white-tailed
+  and mule deer, coyote, badger, river otter, and others. The source
+  below is the U.S. Fish and Wildlife Service refuge page.
+status: PUBLISHED
+verificationStatus: VERIFIED
+datePrecision: geologic
+dateLabel: scablands scoured about 15,000 years ago
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Turnbull National Wildlife Refuge
+  slug: turnbull-nwr
+  placeType: refuge
+  latitude: 47.422
+  longitude: -117.527
+  county: Spokane County
+  region: Columbia Basin
+
+categories:
+  - wildlife-ecology
+  - geography-geology
+
+tags:
+  - refuge
+  - scablands
+  - waterfowl
+
+claims:
+  - text: >
+      FWS says Turnbull National Wildlife Refuge encompasses over 23,000
+      acres in eastern Washington on the edge of the Columbia River Basin.
+      The Channeled Scablands ecosystem that predominates the refuge is
+      unique within the National Wildlife Refuge System.
+    claimType: factual
+    confidence: verified
+    sources:
+      - fws-turnbull
+  - text: >
+      FWS says ice-age floods about 15,000 years ago created the landscape.
+      The refuge was established to protect migratory waterfowl, with a later
+      focus on redhead ducks. Over 200 kinds of birds have been recorded,
+      including 25 species of nesting and migrating waterfowl.
+    claimType: factual
+    confidence: verified
+    sources:
+      - fws-turnbull
+
+sources:
+  - id: fws-turnbull
+    title: Turnbull National Wildlife Refuge
+    publisher: U.S. Fish and Wildlife Service
+    url: https://www.fws.gov/refuge/turnbull
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/turnbull-nwr.jpg
+    mediaType: image
+    title: Moose and autumn colors at Turnbull National Wildlife Refuge
+    creator: U.S. Fish and Wildlife Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Moose,_autumn_colors_at_Turnbull_National_Wildlife_Refuge_(53298306384).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.fws.gov/help/policies.html
+    altText: A moose standing among autumn-colored trees and wetland at Turnbull National Wildlife Refuge.
+    creditLine: Photograph by the U.S. Fish and Wildlife Service. Public domain.
+
+relatedStories:
+  - slug: ice-age-floods
+    relationshipType: same-landscape
+  - slug: drumheller-channels
+    relationshipType: same-landscape
+  - slug: dry-falls
+    relationshipType: same-landscape

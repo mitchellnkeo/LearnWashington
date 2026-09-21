@@ -1,0 +1,95 @@
+slug: palouse-falls
+title: Palouse Falls
+hook: A 200-foot drop in a Palouse coulee is the state waterfall, carved when Ice Age floods rerouted a river from the Columbia to the Snake.
+body: |
+  Palouse Falls State Park sits in the channeled scablands, where Ice Age
+  floodwaters carved the Palouse River canyon more than 13,000 years ago.
+  NPS says the falls drop 200 feet (61 meters). Below the lip, the river
+  zigzags about six miles (9.7 kilometers) through a 300-foot (91-meter)
+  coulee.
+
+  The same floods rerouted the ancestral Palouse River from the Columbia
+  to the Snake. In 2014 the falls became Washington's official state
+  waterfall after a bill that began with schoolchildren. Viewpoints are
+  2.3 miles (3.7 kilometers) east of State Route 261.
+
+  The park is a stop on the Ice Age Floods National Geologic Trail. The
+  sources below are the National Park Service accounts of the falls and
+  the trail brochure.
+status: PUBLISHED
+verificationStatus: VERIFIED
+datePrecision: geologic
+dateLabel: carved more than 13,000 years ago
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Palouse Falls
+  slug: palouse-falls
+  placeType: waterfall
+  latitude: 46.663
+  longitude: -118.224
+  county: Franklin County
+  region: Columbia Basin
+
+categories:
+  - geography-geology
+
+tags:
+  - ice-age
+  - waterfall
+  - scablands
+
+claims:
+  - text: >
+      NPS says Ice Age floods carved Palouse Falls more than 13,000 years
+      ago. The falls drop 200 feet (61 m). The river zigzags about 6 miles
+      (9.7 km) through a 300-foot (91 m) coulee. The floods rerouted the
+      ancestral Palouse River from the Columbia to the Snake.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - nps-palouse-falls
+      - nps-iafl-brochure
+  - text: >
+      Palouse Falls became Washington's official state waterfall in 2014
+      from a schoolchildren's bill. NPS places the viewpoints 2.3 miles
+      (3.7 km) east of State Route 261.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-palouse-falls
+
+sources:
+  - id: nps-palouse-falls
+    title: Palouse Falls State Park
+    publisher: National Park Service
+    url: https://www.nps.gov/places/palouse-falls-state-park.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: nps-iafl-brochure
+    title: Ice Age Floods National Geologic Trail Park Brochure
+    publisher: National Park Service
+    url: https://www.nps.gov/iafl/planyourvisit/park-brochure.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/palouse-falls.jpg
+    mediaType: image
+    title: Palouse Falls
+    creator: Dsdugan
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Palouse_Falls.jpg
+    license: Public domain
+    licenseUrl: https://commons.wikimedia.org/wiki/File:Palouse_Falls.jpg
+    altText: Palouse Falls dropping into a basalt coulee.
+    creditLine: Photograph by Dsdugan. Public domain.
+
+relatedStories:
+  - slug: ice-age-floods
+    relationshipType: same-arc
+  - slug: drumheller-channels
+    relationshipType: same-landscape
+  - slug: dry-falls
+    relationshipType: same-landscape

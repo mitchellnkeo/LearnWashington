@@ -1,0 +1,94 @@
+slug: yakima-hops
+title: Yakima Valley Hops
+hook: USDA says Washington grows 71 percent of the nation's hops, and Yakima County alone had 32,488 acres in 2022.
+body: |
+  The U.S. Department of Agriculture's Foreign Agricultural Service
+  reported in 2023 that Washington grows 71 percent of U.S. hops, Idaho
+  16 percent, and Oregon 13 percent. Those three states grow 98 percent
+  of the country's hops. USDA calls the Yakima Valley the heartland of
+  that crop.
+
+  The National Agricultural Statistics Service 2022 Census of Agriculture
+  listed 32,488 acres of hops in Yakima County. The photograph is a 1941
+  Farm Security Administration picture of hop pickers in Yakima County,
+  made by Russell Lee.
+
+  Hops here are a field crop with a long paper trail, not a slogan. The
+  sources below are USDA and the Library of Congress.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "2022-01-01"
+datePrecision: year
+dateLabel: Yakima County hops acreage, 2022
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Yakima Valley
+  slug: yakima-hops
+  placeType: agricultural_region
+  latitude: 46.6
+  longitude: -120.51
+  county: Yakima County
+  region: Yakima Valley
+
+categories:
+  - history
+  - geography-geology
+
+tags:
+  - hops
+  - yakima
+  - agriculture
+
+claims:
+  - text: >
+      USDA's Foreign Agricultural Service reported in 2023 that Washington
+      grows 71 percent of U.S. hops, Idaho 16 percent, and Oregon 13 percent,
+      together 98 percent of the national crop, with the Yakima Valley as
+      the heartland.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usda-fas-hops
+  - text: >
+      The National Agricultural Statistics Service 2022 Census of
+      Agriculture listed 32,488 acres of hops in Yakima County.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usda-nass-2022
+
+sources:
+  - id: usda-fas-hops
+    title: Hops
+    publisher: U.S. Department of Agriculture, Foreign Agricultural Service
+    url: https://www.usda.gov/about-usda/news/blog/2023/09/01/whats-brewing-fas-recognizes-90-years-us-hops-industry-gone-global
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: usda-nass-2022
+    title: 2022 Census of Agriculture, Yakima County
+    publisher: U.S. Department of Agriculture, National Agricultural Statistics Service
+    url: https://www.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/Washington/
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/yakima-hops.jpg
+    mediaType: image
+    title: Hop pickers, Yakima County, 1941
+    creator: Russell Lee, Farm Security Administration
+    sourceUrl: https://www.loc.gov/item/2017815696/
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.loc.gov/legal/
+    altText: Hop pickers in a Yakima County field, photographed by Russell Lee in 1941.
+    creditLine: Photograph by Russell Lee, Farm Security Administration, 1941. Library of Congress. Public domain.
+
+relatedStories:
+  - slug: mount-adams
+    relationshipType: nearby
+  - slug: columbia-basin-project
+    relationshipType: same-arc
+  - slug: hanford-b-reactor
+    relationshipType: nearby

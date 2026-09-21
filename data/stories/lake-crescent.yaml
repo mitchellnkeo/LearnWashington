@@ -1,0 +1,91 @@
+slug: lake-crescent
+title: Lake Crescent
+hook: A glacially carved lake 624 feet deep is so low in nitrogen that NPS says you can see 60 feet down, and it holds two trout found nowhere else.
+body: |
+  Lake Crescent sits on the north Olympic Peninsula. NPS says the lake
+  is glacially carved, 11.8 miles long, and 624 feet (190 meters) deep.
+  The water is low in nitrogen. Clarity reaches about 60 feet.
+
+  Two trout live only here: the Beardslee rainbow and the Crescenti
+  cutthroat. NPS geology pages say a landslide about 7,000 years ago
+  split Lake Crescent from Lake Sutherland.
+
+  The lake is one of the first Olympic waters many visitors see from
+  U.S. 101. The sources below are the National Park Service Lake Crescent
+  brochure and geology page.
+status: PUBLISHED
+verificationStatus: VERIFIED
+datePrecision: geologic
+dateLabel: landslide about 7,000 years ago
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Lake Crescent
+  slug: lake-crescent
+  placeType: lake
+  latitude: 48.058
+  longitude: -123.829
+  county: Clallam County
+  region: Olympic Peninsula
+
+categories:
+  - geography-geology
+  - wildlife-ecology
+
+tags:
+  - olympic
+  - lake
+  - trout
+
+claims:
+  - text: >
+      NPS says Lake Crescent is glacially carved, 11.8 miles long, and
+      624 feet (190 meters) deep, with little nitrogen and clarity to about
+      60 feet. Beardslee and Crescenti trout are endemic to the lake.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - nps-lake-crescent-brochure
+      - nps-olym-geology
+  - text: >
+      NPS says a landslide about 7,000 years ago split Lake Crescent from
+      Lake Sutherland.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - nps-olym-geology
+
+sources:
+  - id: nps-lake-crescent-brochure
+    title: Lake Crescent Area Brochure
+    publisher: National Park Service
+    url: https://www.nps.gov/olym/planyourvisit/lake-crescent-area-brochure.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: nps-olym-geology
+    title: Geology
+    publisher: National Park Service
+    url: https://www.nps.gov/olym/learn/nature/geology.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/lake-crescent.jpg
+    mediaType: image
+    title: Lake Crescent Lodge
+    creator: Olympic National Park, National Park Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Lake_crescnt_lodge_entrance_patriotic_flag_NPS_Photo_(23111085091).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: Lake Crescent Lodge entrance among fir trees in Olympic National Park.
+    creditLine: Photograph by Olympic National Park, National Park Service. Public domain.
+
+relatedStories:
+  - slug: hurricane-ridge
+    relationshipType: nearby
+  - slug: olympic-national-park-1938
+    relationshipType: same-park
+  - slug: elwha-river-restoration
+    relationshipType: nearby

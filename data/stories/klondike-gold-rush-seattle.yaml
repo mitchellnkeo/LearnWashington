@@ -1,0 +1,117 @@
+slug: klondike-gold-rush-seattle
+title: Seattle and the Klondike stampede
+hook: A steamer landed in Elliott Bay with what the papers called a ton of gold. Seattle sold the rest of the rush its outfit.
+body: |
+  Gold was found in August 1896 on a creek that feeds the Klondike River in
+  northwestern Canada. Almost a year later, on July 17, 1897, the steamship
+  Portland docked in Seattle from St. Michael, Alaska, with 68 prospectors
+  and what newspapers called "a ton of gold." A similarly laden ship had
+  reached San Francisco two days earlier.
+
+  Seattle merchants advertised the city as the gateway to the gold fields.
+  The National Park Service says that of about 100,000 people who started
+  north, some 70,000 passed through Seattle. Between July 1897 and March
+  1898 — the peak months — Seattle merchants sold as much as $25 million
+  in goods, up from an estimated $325,000 in all of 1896. The city's
+  population grew to 240,000 by 1910.
+
+  Congress created Klondike Gold Rush National Historical Park on June 30,
+  1976, with units in Washington and Alaska. The Seattle unit occupies the
+  Cadillac Hotel in Pioneer Square, a brick building put up after the 1889
+  fire and standing during the stampede. The sources below are the National
+  Park Service history of Seattle's gold-rush year.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1897-07-17"
+endDate: "1898-03-01"
+datePrecision: day
+dateLabel: stampede of 1897–1898
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Pioneer Square
+  slug: pioneer-square
+  placeType: historic_district
+  latitude: 47.600
+  longitude: -122.332
+  county: King County
+  region: Puget Sound
+
+categories:
+  - history
+
+tags:
+  - seattle
+  - gold-rush
+  - pioneer-square
+
+claims:
+  - text: >
+      On July 17, 1897, the steamship Portland docked in Seattle from St.
+      Michael, Alaska, carrying 68 prospectors and what newspapers called
+      "a ton of gold." A similarly laden ship had arrived in San Francisco
+      two days earlier. Gold had been discovered in August 1896 on a creek
+      feeding the Klondike River.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-klse-history
+      - nps-klse-story
+  - text: >
+      Of about 100,000 people who started for the gold fields, some 70,000
+      passed through Seattle. From July 1897 through March 1898, Seattle
+      merchants sold as much as $25 million in goods, up from an estimated
+      $325,000 in all of 1896. The city reached 240,000 people by 1910.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-klse-story
+      - nps-klse-history
+  - text: >
+      President Gerald Ford signed Public Law 94-323 on June 30, 1976,
+      creating Klondike Gold Rush National Historical Park with sites in
+      Washington and Alaska. The Seattle unit occupies the Cadillac Hotel
+      in Pioneer Square, built after the Great Seattle Fire of 1889.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-klse-faq
+      - nps-klse-history
+
+sources:
+  - id: nps-klse-history
+    title: History & Culture — Klondike Gold Rush, Seattle Unit
+    publisher: National Park Service
+    url: https://www.nps.gov/klse/learn/historyculture/index.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: nps-klse-story
+    title: The Klondike Story
+    publisher: National Park Service
+    url: https://www.nps.gov/klse/learn/historyculture/the-klondike-story.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: nps-klse-faq
+    title: Frequently Asked Questions — Klondike Gold Rush, Seattle Unit
+    publisher: National Park Service
+    url: https://www.nps.gov/klse/faqs.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/klondike-portland.jpg
+    mediaType: image
+    title: Seattle Post-Intelligencer, July 17, 1897
+    creator: Seattle Post-Intelligencer
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Seattle_Post_Intelligencer_newspaper_front_page_for_July_17,_1897,_announcing_the_arrival_of_the_steamer_PORTLAND_in_Seattle_(SEATTLE_2718).jpg
+    license: Public domain in the United States (published 1897)
+    licenseUrl: https://commons.wikimedia.org/wiki/Template:PD-US-expired
+    altText: Front page of the Seattle Post-Intelligencer for July 17, 1897, announcing gold and the steamer Portland.
+    creditLine: Seattle Post-Intelligencer, July 17, 1897. Public domain in the United States.
+
+relatedStories:
+  - slug: jimi-hendrix-seattle
+    relationshipType: nearby

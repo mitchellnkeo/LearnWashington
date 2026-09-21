@@ -1,0 +1,86 @@
+slug: olympic-marmot
+title: Olympic Marmot
+hook: The only marmot that lives nowhere else is a high-meadow squirrel of the Olympic Mountains, and Washington named it the official endemic mammal in 2009.
+body: |
+  The Olympic marmot lives only in the Olympic Mountains. NPS says it is
+  endemic — found nowhere else — and that about 90 percent of its habitat
+  is inside Olympic National Park. The animals use subalpine and alpine
+  meadows above 4,000 feet.
+
+  NPS places the Olympic marmot in the squirrel family. There are
+  15 marmot species worldwide and six in North America. In 2009
+  Washington named the Olympic marmot the official endemic mammal of
+  the state.
+
+  Hurricane Ridge is one of the easier places to look for them when the
+  road is open. The source below is the National Park Service Olympic
+  marmot page.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "2009-01-01"
+datePrecision: year
+dateLabel: named official endemic mammal in 2009
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Olympic Mountains
+  slug: olympic-marmot-range
+  placeType: mountain
+  latitude: 47.97
+  longitude: -123.5
+  county: Clallam County
+  region: Olympic Peninsula
+
+categories:
+  - wildlife-ecology
+
+tags:
+  - marmot
+  - olympic
+  - endemic
+
+claims:
+  - text: >
+      NPS says the Olympic marmot is endemic to the Olympic Mountains and
+      that about 90 percent of its habitat is inside Olympic National Park.
+      The animals use meadows above 4,000 feet.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - nps-olympic-marmot
+  - text: >
+      NPS places the Olympic marmot in the squirrel family. There are
+      15 marmot species worldwide and six in North America. Washington
+      named it the official endemic mammal of the state in 2009.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-olympic-marmot
+
+sources:
+  - id: nps-olympic-marmot
+    title: Olympic Marmot
+    publisher: National Park Service
+    url: https://www.nps.gov/olym/learn/nature/olympic-marmot.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/olympic-marmot.jpg
+    mediaType: image
+    title: Olympic marmot on a rock
+    creator: National Park Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Marmot_rock_profile_NPS_Photo_(17116281479).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: An Olympic marmot in profile on a rock in Olympic National Park.
+    creditLine: Photograph by the National Park Service. Public domain.
+
+relatedStories:
+  - slug: hurricane-ridge
+    relationshipType: nearby
+  - slug: olympic-national-park-1938
+    relationshipType: same-park
+  - slug: hoh-rain-forest
+    relationshipType: same-park

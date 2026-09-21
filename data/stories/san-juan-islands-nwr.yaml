@@ -1,0 +1,90 @@
+slug: san-juan-islands-nwr
+title: San Juan Islands National Wildlife Refuge
+hook: FWS set these rocks, reefs, and islands aside in 1960 for migratory birds. Almost all of them are closed, with a 200-yard buffer for boats.
+body: |
+  San Juan Islands National Wildlife Refuge was established in 1960.
+  In 1975 it was consolidated with Smith Island National Wildlife Refuge
+  (1914), Matia Island National Wildlife Refuge (1937), and Jones Island
+  National Wildlife Refuge (1937). FWS says the purpose is to manage
+  migratory birds under international treaties and the Migratory Bird
+  Conservation Act.
+
+  Except for public-use areas on Matia and Turn Islands, the refuge is
+  closed. Surrounding waters within 200 yards are closed to watercraft.
+  Black oystercatchers, double-crested and pelagic cormorants, rhinoceros
+  auklets, and pigeon guillemots nest on the islands. Harbor and elephant
+  seals use the shorelines.
+
+  The complex is managed from Dungeness National Wildlife Refuge. The
+  source below is the U.S. Fish and Wildlife Service refuge page.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1960-01-01"
+datePrecision: year
+dateLabel: established 1960
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: San Juan Islands National Wildlife Refuge
+  slug: san-juan-islands-nwr
+  placeType: refuge
+  latitude: 48.46
+  longitude: -122.96
+  county: San Juan County
+  region: San Juan Islands
+
+categories:
+  - wildlife-ecology
+
+tags:
+  - refuge
+  - san-juan-islands
+  - seabirds
+
+claims:
+  - text: >
+      FWS says the refuge was established in 1960 and consolidated in 1975
+      with Smith Island NWR (1914), Matia Island NWR (1937), and Jones
+      Island NWR (1937) to manage migratory birds under international
+      treaties and the Migratory Bird Conservation Act.
+    claimType: historical
+    confidence: verified
+    sources:
+      - fws-san-juan-nwr
+  - text: >
+      Except for public-use areas on Matia and Turn Islands, FWS closes the
+      refuge and surrounding waters within 200 yards. Nesting birds include
+      black oystercatchers, cormorants, rhinoceros auklets, and pigeon
+      guillemots. Harbor and elephant seals use the shorelines.
+    claimType: factual
+    confidence: verified
+    sources:
+      - fws-san-juan-nwr
+
+sources:
+  - id: fws-san-juan-nwr
+    title: San Juan Islands National Wildlife Refuge
+    publisher: U.S. Fish and Wildlife Service
+    url: https://www.fws.gov/refuge/san-juan-islands
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/san-juan-islands-nwr.jpg
+    mediaType: image
+    title: Biologist on San Juan Island, Washington
+    creator: USFWS Pacific
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Biologist_on_San_Juan_Island,_Washington_(53726764995).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.fws.gov/help/policies.html
+    altText: A U.S. Fish and Wildlife Service biologist working on a rocky San Juan Island shoreline.
+    creditLine: Photograph by USFWS Pacific. Public domain.
+
+relatedStories:
+  - slug: pig-war
+    relationshipType: nearby
+  - slug: protection-island
+    relationshipType: same-arc
+  - slug: southern-resident-orcas
+    relationshipType: nearby

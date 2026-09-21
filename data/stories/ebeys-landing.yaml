@@ -1,0 +1,101 @@
+slug: ebeys-landing
+title: Ebey's Landing
+hook: Congress made this the first national historical reserve in 1978, a working landscape on Whidbey Island that is mostly still in private hands.
+body: |
+  Ebey's Landing National Historical Reserve covers central Whidbey Island
+  in Island County. The National Parks and Recreation Act of 1978
+  (Public Law 95-625) established it as the first national historical
+  reserve. NPS says the purpose is to protect, preserve, and interpret a
+  continuous record of exploration and American settlement in Puget Sound
+  from the nineteenth century to the present.
+
+  The 2019 foundation document lists 17,572 acres: 13,617 acres of land
+  and 3,955 surface acres of Penn Cove. About 85 percent of the land is
+  privately owned. About 2,023 acres are protected with NPS scenic
+  easements, and 413 acres are owned in fee by the National Park Service.
+  The reserve is named for Isaac Ebey, whom NPS calls the first of these
+  settlers to permanently settle on Whidbey Island.
+
+  A nine-member Trust Board, with representatives from Coupeville, Island
+  County, Washington State Parks, and NPS, manages the reserve. The
+  sources below are the National Park Service record of the reserve.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1978-01-01"
+datePrecision: year
+dateLabel: established 1978
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Ebey's Landing National Historical Reserve
+  slug: ebeys-landing
+  placeType: historic_reserve
+  latitude: 48.193
+  longitude: -122.707
+  county: Island County
+  region: Puget Sound
+
+categories:
+  - history
+  - geography-geology
+
+tags:
+  - whidbey
+  - historic-reserve
+  - puget-sound
+
+claims:
+  - text: >
+      The National Parks and Recreation Act of 1978 (Public Law 95-625)
+      established Ebey's Landing as the first national historical reserve.
+      NPS says it protects a continuous record of exploration and American
+      settlement in Puget Sound from the nineteenth century to the present.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-ebla
+      - nps-ebla-foundation
+  - text: >
+      The 2019 NPS foundation document lists 17,572 acres, including 13,617
+      acres of land and 3,955 surface acres of Penn Cove. About 85 percent
+      of the land is privately owned. About 2,023 acres are under NPS scenic
+      easements, and 413 acres are owned in fee by NPS.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-ebla-foundation
+
+sources:
+  - id: nps-ebla
+    title: Ebey's Landing National Historical Reserve
+    publisher: National Park Service
+    url: https://www.nps.gov/ebla/index.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: nps-ebla-foundation
+    title: Foundation Document for Ebey's Landing National Historical Reserve
+    publisher: National Park Service
+    url: https://www.nps.gov/ebla/learn/management/upload/2019-Foundation-Document-508.pdf
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/ebeys-landing.jpg
+    mediaType: image
+    title: Ebey's Landing National Historical Reserve
+    creator: National Park Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Ebey%27s_Landing_National_Historical_Reserve,_Washington_(b65bfa84-1200-48cd-b4e3-83d91783cf4e).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: Bluff, prairie, and water at Ebey's Landing National Historical Reserve on Whidbey Island.
+    creditLine: Photograph by the National Park Service. Public domain.
+
+relatedStories:
+  - slug: pig-war
+    relationshipType: nearby
+  - slug: dungeness-spit
+    relationshipType: nearby
+  - slug: protection-island
+    relationshipType: nearby

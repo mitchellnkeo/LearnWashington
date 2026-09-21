@@ -1,0 +1,84 @@
+slug: grays-harbor-nwr
+title: Grays Harbor National Wildlife Refuge
+hook: Two percent of Grays Harbor's intertidal flats can hold up to half the harbor's spring shorebirds, especially western sandpipers and dunlin.
+body: |
+  Grays Harbor National Wildlife Refuge occupies Bowerman Basin in
+  Hoquiam. FWS says about 2 percent of the harbor's intertidal habitat
+  can host up to 50 percent of the spring shorebirds. Western sandpipers
+  and dunlin make up about 80 percent of that spring flight.
+
+  Congress authorized the refuge in 1988. The first land, 68 acres, was
+  acquired on August 29, 1990. FWS says 1,408 of 1,851 authorized acres
+  have been acquired, about 1,500 acres in all.
+
+  The basin is a short stop on a long migration. The source below is
+  the U.S. Fish and Wildlife Service refuge page.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1988-01-01"
+datePrecision: year
+dateLabel: authorized 1988
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Grays Harbor National Wildlife Refuge
+  slug: grays-harbor-nwr
+  placeType: refuge
+  latitude: 46.977
+  longitude: -123.97
+  county: Grays Harbor County
+  region: Southwest Washington
+
+categories:
+  - wildlife-ecology
+
+tags:
+  - refuge
+  - shorebirds
+  - grays-harbor
+
+claims:
+  - text: >
+      FWS says about 2 percent of Grays Harbor's intertidal habitat can
+      host up to 50 percent of the spring shorebirds, and that western
+      sandpipers and dunlin make up about 80 percent of the spring flight.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - fws-grays-harbor
+  - text: >
+      Congress authorized the refuge in 1988. The first land, 68 acres, was
+      acquired on August 29, 1990. FWS says 1,408 of 1,851 acres have been
+      acquired, about 1,500 acres.
+    claimType: factual
+    confidence: verified
+    sources:
+      - fws-grays-harbor
+
+sources:
+  - id: fws-grays-harbor
+    title: Grays Harbor National Wildlife Refuge
+    publisher: U.S. Fish and Wildlife Service
+    url: https://www.fws.gov/refuge/grays-harbor
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/grays-harbor-nwr.jpg
+    mediaType: image
+    title: Grays Harbor NWR Shorebird Festival
+    creator: U.S. Fish and Wildlife Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Grays_Harbor_NWR_Shorebird_Festival_(46753040735).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.fws.gov/help/policies.html
+    altText: Shorebirds and visitors at Grays Harbor National Wildlife Refuge.
+    creditLine: Photograph by the U.S. Fish and Wildlife Service. Public domain.
+
+relatedStories:
+  - slug: willapa-nwr
+    relationshipType: nearby
+  - slug: dungeness-spit
+    relationshipType: same-arc
+  - slug: protection-island
+    relationshipType: same-arc

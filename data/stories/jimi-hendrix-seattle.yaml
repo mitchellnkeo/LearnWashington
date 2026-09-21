@@ -103,3 +103,7 @@ media:
     licenseUrl: https://commons.wikimedia.org/wiki/Template:PD-US-no_notice
     altText: Black-and-white 1968 Warner/Reprise publicity photograph of Jimi Hendrix.
     creditLine: Warner/Reprise promotional photograph of the Jimi Hendrix Experience, circulated about 1968 without a copyright notice. Public domain in the United States.
+
+relatedStories:
+  - slug: klondike-gold-rush-seattle
+    relationshipType: nearby

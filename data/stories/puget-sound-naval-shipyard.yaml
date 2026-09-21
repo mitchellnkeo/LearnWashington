@@ -1,0 +1,95 @@
+slug: puget-sound-naval-shipyard
+title: Puget Sound Naval Shipyard
+hook: The Navy bought 145 acres at Bremerton on September 16, 1891. The yard later became the Navy's nuclear-capable shipyard on Puget Sound.
+body: |
+  The Navy established a station at Bremerton on September 16, 1891,
+  with 145 acres purchased through the work of Lieutenant Ambrose B.
+  Wyckoff. Dry Dock 1 opened in 1896. The station became a Navy Yard
+  in 1901.
+
+  During World War II, employment peaked at 32,500. The name Puget
+  Sound Naval Shipyard dates to November 30, 1945. The yard began
+  submarine repair in 1961 and became nuclear-capable in 1965. On
+  May 15, 2003, it was consolidated as Puget Sound Naval Shipyard and
+  Intermediate Maintenance Facility.
+
+  The yard still occupies the Sinclair Inlet waterfront in Kitsap
+  County. The source below is the Navy's public history of the shipyard.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1891-09-16"
+datePrecision: day
+dateLabel: established September 16, 1891
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Puget Sound Naval Shipyard
+  slug: puget-sound-naval-shipyard
+  placeType: historic_site
+  latitude: 47.555
+  longitude: -122.635
+  county: Kitsap County
+  region: Puget Sound
+
+categories:
+  - history
+
+tags:
+  - navy
+  - bremerton
+  - shipyard
+
+claims:
+  - text: >
+      The Navy says the station was established on September 16, 1891, on
+      145 acres associated with Lieutenant Ambrose B. Wyckoff. Dry Dock 1
+      opened in 1896. The station became a Navy Yard in 1901.
+    claimType: historical
+    confidence: verified
+    sources:
+      - navy-psns-history
+  - text: >
+      The Navy lists a World War II employment peak of 32,500, the name
+      Puget Sound Naval Shipyard on November 30, 1945, submarine repair
+      beginning in 1961, nuclear capability in 1965, and consolidation as
+      PSNS & IMF on May 15, 2003.
+    claimType: historical
+    confidence: verified
+    sources:
+      - navy-psns-history
+      - navy-psns-factsheet
+
+sources:
+  - id: navy-psns-history
+    title: PSNS & IMF History
+    publisher: United States Navy
+    url: https://www.navsea.navy.mil/Home/Shipyards/PSNS-IMF/History/
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: navy-psns-factsheet
+    title: Puget Sound Naval Shipyard and Intermediate Maintenance Facility History
+    publisher: United States Navy
+    url: https://www.navsea.navy.mil/Portals/103/Documents/SIOP/PSNSYIMF-History-FS.pdf
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/puget-sound-naval-shipyard.jpg
+    mediaType: image
+    title: Puget Sound Naval Shipyard
+    creator: U.S. Navy / National Archives
+    sourceUrl: https://catalog.archives.gov/id/148728436
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: Ships at Puget Sound Naval Shipyard in Bremerton.
+    creditLine: Photograph from the U.S. Navy, National Archives 148728436. Public domain.
+
+relatedStories:
+  - slug: bainbridge-exclusion-memorial
+    relationshipType: nearby
+  - slug: seattle-fault
+    relationshipType: nearby
+  - slug: ballard-locks
+    relationshipType: nearby

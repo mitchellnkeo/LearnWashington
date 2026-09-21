@@ -1,0 +1,95 @@
+slug: dungeness-spit
+title: Dungeness Spit
+hook: One of the world's longest sand spits shelters a bay President Wilson set aside in 1915 as a refuge, preserve, and breeding ground for native birds.
+body: |
+  Dungeness National Wildlife Refuge occupies a long sand spit in Clallam
+  County. FWS calls Dungeness one of the world's longest sand spits.
+  President Woodrow Wilson established the refuge on January 20, 1915, as
+  a refuge, preserve, and breeding ground for native birds.
+
+  A refuge brochure says the five-mile spit lengthens about 13 feet a
+  year. FWS records 244 bird species, 18 land mammals, and 11 marine
+  mammals. The hike to the lighthouse is five miles one way, about
+  11 miles round trip.
+
+  The spit shelters a bay of eelgrass, tideflats, and quiet water. The
+  sources below are the U.S. Fish and Wildlife Service refuge page and
+  brochure.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1915-01-20"
+datePrecision: day
+dateLabel: established January 20, 1915
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Dungeness National Wildlife Refuge
+  slug: dungeness-spit
+  placeType: refuge
+  latitude: 48.141
+  longitude: -123.144
+  county: Clallam County
+  region: Olympic Peninsula
+
+categories:
+  - wildlife-ecology
+  - geography-geology
+
+tags:
+  - refuge
+  - spit
+  - olympic-peninsula
+
+claims:
+  - text: >
+      FWS calls Dungeness one of the world's longest sand spits. President
+      Woodrow Wilson established the refuge on January 20, 1915, as a
+      refuge, preserve, and breeding ground for native birds.
+    claimType: historical
+    confidence: verified
+    sources:
+      - fws-dungeness
+  - text: >
+      A FWS brochure says the five-mile spit lengthens about 13 feet a year
+      and records 244 bird species, 18 land mammals, and 11 marine mammals.
+      The hike to the lighthouse is five miles one way, about 11 miles
+      round trip.
+    claimType: factual
+    confidence: verified
+    sources:
+      - fws-dungeness-brochure
+
+sources:
+  - id: fws-dungeness
+    title: Dungeness National Wildlife Refuge
+    publisher: U.S. Fish and Wildlife Service
+    url: https://www.fws.gov/refuge/dungeness
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: fws-dungeness-brochure
+    title: Dungeness National Wildlife Refuge Brochure
+    publisher: U.S. Fish and Wildlife Service
+    url: https://www.fws.gov/refuge/dungeness
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/dungeness-spit.jpg
+    mediaType: image
+    title: Dungeness National Wildlife Refuge
+    creator: U.S. Fish and Wildlife Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Dungeness_National_Wildlife_Refuge_(51995412472).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.fws.gov/help/policies.html
+    altText: The long curve of Dungeness Spit sheltering a bay on the Strait of Juan de Fuca.
+    creditLine: Photograph by the U.S. Fish and Wildlife Service. Public domain.
+
+relatedStories:
+  - slug: protection-island
+    relationshipType: nearby
+  - slug: olympic-coast-sea-otters
+    relationshipType: nearby
+  - slug: hurricane-ridge
+    relationshipType: nearby

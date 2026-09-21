@@ -1,0 +1,101 @@
+slug: spirit-lake
+title: Spirit Lake
+hook: The 1980 debris avalanche raised the lake 64 meters, blocked its outlet, and forced a bedrock tunnel so the water would not break out down the Toutle.
+body: |
+  In early 1980, Spirit Lake was the source of the North Fork Toutle River.
+  That changed when the May 18 debris avalanche deposit blocked the outlet
+  and caused the volcano's newly formed crater to become the source of the
+  river. The debris avalanche raised the surface elevation of Spirit Lake
+  64 m (210 ft) and filled its natural outlet to a depth of 84 m (276 ft).
+
+  Without an outlet, runoff from rain and snow caused the lake level to
+  continue to rise, which threatened to breach the unstable blockage. USGS
+  describes Spirit Lake as an intermittent lake that has been repeatedly
+  dammed by volcanic material. It is believed that pyroclastic flows around
+  3,350 years ago first dammed the river to form the lake.
+
+  In November 1982 a pumping station and pipeline were installed to regulate
+  the rising level. In May 1985, the tunnel connecting Spirit Lake and South
+  Coldwater Creek was opened. USGS says that tunnel allows water to drain
+  safely and maintain the lake's water level 100 ft (30 m) below the
+  estimated overtopping level.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1980-05-18"
+datePrecision: day
+dateLabel: raised 64 meters on May 18, 1980
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Spirit Lake
+  slug: spirit-lake
+  placeType: lake
+  latitude: 46.273
+  longitude: -122.135
+  county: Skamania County
+  region: Cascades
+
+categories:
+  - geography-geology
+  - science-strange
+
+tags:
+  - mount-st-helens
+  - lahar
+  - lake
+
+claims:
+  - text: >
+      The May 18, 1980, debris avalanche blocked Spirit Lake's outlet, raised
+      the lake surface 64 m (210 ft), and filled the natural outlet to a depth
+      of 84 m (276 ft). The volcano's new crater then became the source of the
+      North Fork Toutle River.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - usgs-spirit-lake
+  - text: >
+      USGS treats Spirit Lake as intermittent. Pyroclastic flows around
+      3,350 years ago are believed to have first dammed the river to form
+      the lake.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - usgs-spirit-lake
+  - text: >
+      A pumping station and pipeline were installed in November 1982. In May
+      1985 the tunnel from Spirit Lake to South Coldwater Creek opened. USGS
+      says it keeps the lake 100 ft (30 m) below the estimated overtopping
+      level.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usgs-spirit-lake
+
+sources:
+  - id: usgs-spirit-lake
+    title: Lakes and Drainages Around Mount St. Helens
+    publisher: U.S. Geological Survey
+    url: https://www.usgs.gov/volcanoes/mount-st.-helens/science/lakes-and-drainages-around-mount-st-helens
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/spirit-lake.jpg
+    mediaType: image
+    title: Mount St. Helens reflected in Spirit Lake, May 19, 1982
+    creator: Lyn Topinka, U.S. Geological Survey
+    sourceUrl: https://commons.wikimedia.org/wiki/File:MSH82_st_helens_spirit_lake_reflection_05-19-82.jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+    altText: Mount St. Helens and floating timber reflected in Spirit Lake two years after the 1980 eruption.
+    creditLine: Photograph by Lyn Topinka, U.S. Geological Survey, May 19, 1982. Public domain.
+
+relatedStories:
+  - slug: mount-st-helens-1980-eruption
+    relationshipType: same-arc
+  - slug: johnston-ridge-observatory
+    relationshipType: nearby
+  - slug: ape-cave
+    relationshipType: nearby

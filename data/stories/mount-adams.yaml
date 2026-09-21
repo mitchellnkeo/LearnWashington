@@ -1,0 +1,109 @@
+slug: mount-adams
+title: Mount Adams
+hook: Washington's largest active volcano has produced more eruptive material in the past million years than any Cascade stratovolcano except Mount Shasta.
+body: |
+  Mount Adams sits on the Yakama Nations Reserve and in Skamania and Yakima
+  Counties at 46.206° N, 121.49° W. USGS lists it at 3,742 m, or 12,277 ft.
+  It is a stratovolcano of basalt to andesite. The most recent eruption was
+  3,800 years ago. The National Volcano Early Warning System rates its threat
+  potential as High.
+
+  USGS calls it the largest active volcano in Washington State and among the
+  largest in the Cascades. It has produced a larger volume — about 300 km³
+  or 70 mi³ — of eruptive material during the past million years than any
+  other Cascade stratovolcano except Mount Shasta (about 350 km³ or 85 mi³).
+  It lies in the middle of the Mount Adams volcanic field, a 1,250 km²
+  (about 500 mi²) area of at least 120, mostly basaltic volcanoes, active
+  for at least the past one million years.
+
+  Mount Adams itself was active from about 520,000 to about 1,000 years ago
+  and has erupted mostly andesite. Eruptions have occurred from ten vents
+  since the last period of glaciation about 15,000 years ago. About 6,000
+  and 300 years ago, debris avalanches from the southwest face generated
+  clay-rich lahars that swept more than 30 km² (11 mi²) south along the
+  White Salmon River. The summit holds a large section of unstable altered
+  rock that can spawn future debris avalanches and lahars.
+status: PUBLISHED
+verificationStatus: VERIFIED
+datePrecision: geologic
+dateLabel: last eruption 3,800 years ago
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Mount Adams
+  slug: mount-adams
+  placeType: volcano
+  latitude: 46.206
+  longitude: -121.49
+  county: Yakima County
+  region: Cascades
+
+categories:
+  - geography-geology
+  - science-strange
+
+tags:
+  - volcano
+  - lahar
+  - yakama
+
+claims:
+  - text: >
+      Mount Adams is a basalt-to-andesite stratovolcano on the Yakama Nations
+      Reserve and in Skamania and Yakima Counties at 46.206° N, 121.49° W,
+      elevation 3,742 m (12,277 ft). USGS calls it the largest active volcano
+      in Washington. The most recent eruption was 3,800 years ago. Threat
+      potential is High.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usgs-mount-adams
+  - text: >
+      It has produced about 300 km³ (70 mi³) of eruptive material in the past
+      million years, more than any Cascade stratovolcano except Mount Shasta
+      (about 350 km³ or 85 mi³). The Mount Adams volcanic field covers
+      1,250 km² (about 500 mi²) and includes at least 120, mostly basaltic
+      volcanoes.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - usgs-mount-adams
+  - text: >
+      Debris avalanches from the southwest face about 6,000 and 300 years ago
+      generated clay-rich lahars that swept more than 30 km² (11 mi²) south
+      along the White Salmon River. The summit contains unstable altered rock
+      that can spawn future debris avalanches and lahars.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - usgs-mount-adams
+
+sources:
+  - id: usgs-mount-adams
+    title: Mount Adams
+    publisher: U.S. Geological Survey
+    url: https://www.usgs.gov/volcanoes/mount-adams
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/mount-adams.jpg
+    mediaType: image
+    title: Mount Adams
+    creator: R. Iverson, U.S. Geological Survey Cascades Volcano Observatory
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Mount_Adams.jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+    altText: Snow-covered Mount Adams rising above forested ridges.
+    creditLine: Photograph by R. Iverson, U.S. Geological Survey Cascades Volcano Observatory, September 8, 1997. Public domain.
+
+relatedStories:
+  - slug: mount-st-helens-1980-eruption
+    relationshipType: same-arc
+  - slug: mount-rainier
+    relationshipType: same-arc
+  - slug: glacier-peak
+    relationshipType: same-arc
+  - slug: cascadia-subduction-zone
+    relationshipType: same-arc

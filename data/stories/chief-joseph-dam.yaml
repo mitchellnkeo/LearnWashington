@@ -1,0 +1,91 @@
+slug: chief-joseph-dam
+title: Chief Joseph Dam
+hook: The Corps calls this the second-leading hydropower producer in the United States, a 27-unit dam at Bridgeport that backs up 51-mile Rufus Woods Lake.
+body: |
+  Chief Joseph Dam stands on the Columbia River at river mile 545 in
+  Bridgeport. Congress first authorized it as Foster Creek Dam in the
+  River and Harbor Act of 1946, then renamed it Chief Joseph Dam in 1948.
+  Construction began in 1949. Units 1–8 came online in 1955, units 9–16
+  in 1958, and units 17–27 in 1979.
+
+  The dam is 236 feet high and 5,962 feet long. The powerhouse is
+  2,039 feet long. Twenty-seven units produce 2,607 megawatts. The
+  reservoir, Rufus Woods Lake, extends 51 miles upstream. The Corps
+  calls the project the second-leading hydropower producer in the
+  United States, generating about $450 million a year, with about
+  80 percent of the power going to the Everett area.
+
+  The sources below are the Corps Northwestern Division fact sheet.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1949-01-01"
+datePrecision: year
+dateLabel: construction began 1949
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Chief Joseph Dam
+  slug: chief-joseph-dam
+  placeType: dam
+  latitude: 47.995
+  longitude: -119.64
+  county: Douglas County
+  region: Columbia River
+
+categories:
+  - history
+  - geography-geology
+
+tags:
+  - columbia-river
+  - hydropower
+  - dam
+
+claims:
+  - text: >
+      The Corps says the project was authorized as Foster Creek Dam in 1946,
+      renamed Chief Joseph Dam in 1948, and begun in 1949 at Columbia River
+      mile 545 in Bridgeport. Units 1–8 came online in 1955, 9–16 in 1958,
+      and 17–27 in 1979.
+    claimType: historical
+    confidence: verified
+    sources:
+      - usace-chief-joseph
+  - text: >
+      The Corps lists the dam at 236 feet high and 5,962 feet long, with a
+      2,039-foot powerhouse, 27 units, and 2,607 megawatts. Rufus Woods Lake
+      extends 51 miles. The Corps calls it the second-leading hydropower
+      producer in the United States, about $450 million a year, with about
+      80 percent of the power going to the Everett area.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usace-chief-joseph
+
+sources:
+  - id: usace-chief-joseph
+    title: Chief Joseph Dam and Rufus Woods Lake
+    publisher: U.S. Army Corps of Engineers
+    url: https://www.nwd.usace.army.mil/fact-sheets/article/3485145/chief-joseph-dam-and-rufus-woods-lake/
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/chief-joseph-dam.jpg
+    mediaType: image
+    title: Chief Joseph Dam
+    creator: U.S. Army Corps of Engineers
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Chief_Joseph_Dam.jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.usace.army.mil/About/Offices-and-Units/
+    altText: Chief Joseph Dam on the Columbia River near Bridgeport.
+    creditLine: Photograph by the U.S. Army Corps of Engineers. Public domain.
+
+relatedStories:
+  - slug: grand-coulee-dam
+    relationshipType: nearby
+  - slug: bonneville-dam
+    relationshipType: same-arc
+  - slug: lake-roosevelt
+    relationshipType: nearby

@@ -1,0 +1,103 @@
+slug: diablo-lake
+title: Diablo Lake
+hook: The turquoise is not dye. It is rock, ground to flour by ice and held in a reservoir.
+body: |
+  Diablo Lake sits on the Skagit River inside Ross Lake National Recreation
+  Area, part of the North Cascades National Park Service Complex. It is a
+  reservoir. The National Park Service says Ross, Diablo, and Gorge lakes
+  were created by dams of the Skagit Hydroelectric Project, operated by
+  Seattle City Light. Diablo Lake runs about five miles from Diablo Dam
+  to Ross Dam.
+
+  In summer the water turns a hard turquoise. NPS says the color comes from
+  glacial flour — fine rock particles worn off the surrounding mountains by
+  ice, then carried into the lake by glacial streams. The particles refract
+  sunlight. The color is strongest on sunny days in July, August, and
+  September, when seasonal melt is on.
+
+  State Route 20 reaches an overlook at mile 131.7. From there the lake,
+  the surrounding peaks, and Diablo Dam are in view. The sources below are
+  the National Park Service record of the lake and the park complex.
+status: PUBLISHED
+verificationStatus: VERIFIED
+datePrecision: unknown
+dateLabel: reservoir on the Skagit
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Diablo Lake Overlook
+  slug: diablo-lake-overlook
+  placeType: overlook
+  latitude: 48.714
+  longitude: -121.131
+  county: Whatcom County
+  region: North Cascades
+
+categories:
+  - geography-geology
+
+tags:
+  - north-cascades
+  - glacier
+  - skagit
+
+claims:
+  - text: >
+      Diablo Lake is a reservoir on the Skagit River in Ross Lake National
+      Recreation Area. NPS says Ross, Diablo, and Gorge lakes were created
+      by dams of the Skagit Hydroelectric Project, managed by Seattle City
+      Light. Diablo Lake reaches about five miles from Diablo Dam to Ross Dam.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-noca-boat
+      - nps-skagit-nr
+  - text: >
+      In summer the distinctive turquoise color is the result of suspended
+      fine rock particles, called glacial flour, refracting sunlight. The
+      particles enter the lake when ice erodes the surrounding mountains
+      and glacial streams carry the rock into the water. NPS says the color
+      is most vibrant on sunny days in July, August, and September.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - nps-diablo-overlook
+
+sources:
+  - id: nps-diablo-overlook
+    title: Diablo Lake Overlook
+    publisher: National Park Service
+    url: https://www.nps.gov/places/diablo-lake-overlook.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: nps-noca-boat
+    title: Boat-In Camping — North Cascades National Park
+    publisher: National Park Service
+    url: https://www.nps.gov/noca/planyourvisit/boat-in-camping.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: nps-skagit-nr
+    title: Skagit River and Newhalem Creek Hydroelectric Projects (National Register)
+    publisher: National Park Service
+    url: https://npgallery.nps.gov/GetAsset/1c8153c4-444f-45a6-8311-4a5fb1dd20d3
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+    notes: Nomination text describes Diablo Lake as five miles from Diablo Dam to Ross Dam.
+
+media:
+  - url: /media/diablo-lake.jpg
+    mediaType: image
+    title: View from Diablo Lake
+    creator: National Park Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:View_from_Diablo_Lake_(5e16b9e4-8704-4802-9d17-d18d18459e7c).tif
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: Turquoise reservoir water and forested mountains, photographed from Diablo Lake in the North Cascades.
+    creditLine: Photograph by the National Park Service, North Cascades National Park Service Complex. Public domain.
+
+relatedStories:
+  - slug: glacier-peak
+    relationshipType: nearby

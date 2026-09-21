@@ -1,0 +1,89 @@
+slug: ice-harbor-dam
+title: Ice Harbor Dam
+hook: The first of four Lower Snake dams sits at river mile 9.7 near Pasco and backs up 32-mile Lake Sacajawea.
+body: |
+  Ice Harbor Lock and Dam was the first of four dams in the Lower Snake
+  River Project, authorized in the Rivers and Harbors Act of 1945.
+  Construction began in 1956. Three turbine units were operating in 1961.
+  Three more came online in 1976. The Corps lists the project completed
+  in 1962.
+
+  The dam stands at Snake River mile 9.7 near Pasco. It is 141 feet high
+  and 2,822 feet long. Lake Sacajawea extends 32 miles upstream to Lower
+  Monumental Dam. Six units — three at 90 megawatts and three at
+  111 megawatts — total 603 megawatts.
+
+  The dam is one of the eight locks on the Columbia–Snake inland
+  waterway. The source below is the Corps Northwestern Division fact
+  sheet.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1956-01-01"
+datePrecision: year
+dateLabel: construction began 1956
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Ice Harbor Dam
+  slug: ice-harbor-dam
+  placeType: dam
+  latitude: 46.25
+  longitude: -118.88
+  county: Franklin County
+  region: Columbia Basin
+
+categories:
+  - history
+  - geography-geology
+
+tags:
+  - snake-river
+  - hydropower
+  - dam
+
+claims:
+  - text: >
+      The Corps says Ice Harbor was the first of four Lower Snake dams,
+      authorized in the Rivers and Harbors Act of 1945. Construction began
+      in 1956. Three units were operating in 1961, three more in 1976. The
+      project was completed in 1962 at Snake River mile 9.7 near Pasco.
+    claimType: historical
+    confidence: verified
+    sources:
+      - usace-ice-harbor
+  - text: >
+      The Corps lists the dam at 141 feet high and 2,822 feet long. Lake
+      Sacajawea extends 32 miles. Six units — three at 90 megawatts and
+      three at 111 megawatts — total 603 megawatts.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usace-ice-harbor
+
+sources:
+  - id: usace-ice-harbor
+    title: Ice Harbor Dam and Lake Sacajawea
+    publisher: U.S. Army Corps of Engineers
+    url: https://www.nwd.usace.army.mil/fact-sheets/article/3485308/ice-harbor-dam-and-lake-sacajawea/
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/ice-harbor-dam.jpg
+    mediaType: image
+    title: Ice Harbor Dam
+    creator: Environmental Protection Agency, DOCUMERICA
+    sourceUrl: https://catalog.archives.gov/id/548024
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.usace.army.mil/About/Offices-and-Units/
+    altText: Ice Harbor Dam on the Snake River near Pasco.
+    creditLine: Photograph from the Environmental Protection Agency DOCUMERICA file, National Archives 548024. Public domain.
+
+relatedStories:
+  - slug: mcnary-dam
+    relationshipType: nearby
+  - slug: bonneville-dam
+    relationshipType: same-arc
+  - slug: columbia-chinook
+    relationshipType: same-arc

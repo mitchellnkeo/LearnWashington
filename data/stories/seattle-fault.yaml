@@ -1,0 +1,95 @@
+slug: seattle-fault
+title: Seattle Fault
+hook: A roughly 70-kilometer thrust under Seattle can host a magnitude 7 to 7.5 earthquake. USGS says the last large one was close to the year 900.
+body: |
+  The Seattle fault is a north-directed thrust that runs under the city.
+  USGS describes a zone about 70 kilometers long. The agency says the
+  fault can host a magnitude 7 to 7.5 earthquake. High-resolution marine
+  seismic imaging has mapped the zone under Puget Sound.
+
+  The most recent large earthquake on the Seattle fault occurred close to
+  the year 900. Other USGS work dates that event to about A.D. 900–930
+  from uplifted shorelines and tsunami deposits. That is the last large
+  rupture USGS cites for the fault.
+
+  The Seattle Field Office places the fault among the crustal sources that
+  can shake the Puget Lowland hard, separate from the deeper Cascadia
+  megathrust. The sources below are the public USGS record of the fault
+  and the marine seismic study.
+status: PUBLISHED
+verificationStatus: VERIFIED
+datePrecision: approximate
+dateLabel: last large earthquake close to A.D. 900
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Seattle Fault
+  slug: seattle-fault
+  placeType: fault
+  latitude: 47.595
+  longitude: -122.332
+  county: King County
+  region: Puget Sound
+
+categories:
+  - geography-geology
+  - science-strange
+
+tags:
+  - earthquake
+  - puget-sound
+  - seattle
+
+claims:
+  - text: >
+      USGS describes the Seattle fault as a roughly 70-kilometer-long
+      north-directed thrust under Seattle that can host a magnitude 7 to 7.5
+      earthquake.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - usgs-seattle-field-office
+      - usgs-seattle-fault-seismic
+  - text: >
+      USGS says the most recent large earthquake on the Seattle fault
+      occurred close to the year 900. Related USGS work dates the event to
+      about A.D. 900–930 from uplifted shorelines.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - usgs-seattle-field-office
+
+sources:
+  - id: usgs-seattle-field-office
+    title: Seattle Field Office
+    publisher: U.S. Geological Survey
+    url: https://www.usgs.gov/centers/earthquake-science-center/seattle-field-office
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: usgs-seattle-fault-seismic
+    title: High-resolution marine seismic imaging of the Seattle fault zone
+    publisher: U.S. Geological Survey
+    url: https://pubs.usgs.gov/publication/70259623
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/seattle-fault.jpg
+    mediaType: image
+    title: Seattle Fault in Kitsap County
+    creator: Rowland W. Tabor, Ralph A. Haugerud, Peter J. Haeussler, and Kenneth P. Clark, U.S. Geological Survey
+    sourceUrl: https://commons.wikimedia.org/wiki/File:USGS_Seattle_Fault_Kitsap_County.png
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+    altText: USGS geologic map excerpt showing the Seattle Fault crossing Kitsap County.
+    creditLine: Map by Rowland W. Tabor, Ralph A. Haugerud, Peter J. Haeussler, and Kenneth P. Clark, U.S. Geological Survey. Public domain.
+
+relatedStories:
+  - slug: nisqually-earthquake-2001
+    relationshipType: same-arc
+  - slug: cascadia-subduction-zone
+    relationshipType: same-arc
+  - slug: ballard-locks
+    relationshipType: nearby

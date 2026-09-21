@@ -108,3 +108,9 @@ media:
     licenseUrl: https://creativecommons.org/publicdomain/zero/1.0/
     altText: Southern Resident killer whales swimming together at the surface of the Salish Sea.
     creditLine: Photograph by Candice Emmons, NOAA Northwest Fisheries Science Center, taken under NOAA Fisheries Permit 781-1824. CC0 public domain.
+
+relatedStories:
+  - slug: pig-war
+    relationshipType: nearby
+  - slug: ballard-locks
+    relationshipType: nearby

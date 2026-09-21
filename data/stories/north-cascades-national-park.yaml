@@ -1,0 +1,105 @@
+slug: north-cascades-national-park
+title: North Cascades National Park
+hook: NPS calls this the most heavily glaciated area in the United States outside Alaska, with more than 300 glaciers on the high peaks.
+body: |
+  North Cascades National Park is the heart of a park-service complex that
+  also includes Ross Lake and Lake Chelan National Recreation Areas.
+  The NPS glaciers page says the park has more than 300 glaciers and is
+  the most heavily glaciated area in the United States outside Alaska.
+  Congress established the park in 1968.
+
+  The park foundation document lists North Cascades National Park at
+  501,458 acres, Ross Lake National Recreation Area at 116,798 acres, and
+  Lake Chelan National Recreation Area at 62,902 acres, with 312 active
+  glaciers. An NPS climate brief puts the complex at 681,158 acres, with
+  about 42 square miles of glaciers and a 53 percent area loss since 1900.
+
+  The high country is ice, rock, and deep valleys. The sources below are
+  the National Park Service record of the glaciers, the foundation
+  document, and the climate brief.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1968-10-02"
+datePrecision: year
+dateLabel: established 1968
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: North Cascades National Park
+  slug: north-cascades-national-park
+  placeType: national_park
+  latitude: 48.512
+  longitude: -121.064
+  county: Whatcom County
+  region: North Cascades
+
+categories:
+  - geography-geology
+
+tags:
+  - north-cascades
+  - glacier
+  - national-park
+
+claims:
+  - text: >
+      NPS says North Cascades National Park has more than 300 glaciers and
+      is the most heavily glaciated area in the United States outside Alaska.
+      Congress established the park in 1968.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-noca-glaciers
+  - text: >
+      The NPS foundation document lists the park at 501,458 acres, Ross Lake
+      NRA at 116,798 acres, and Lake Chelan NRA at 62,902 acres, with 312
+      active glaciers. An NPS climate brief puts the complex at 681,158 acres,
+      with about 42 square miles of glaciers and a 53 percent area loss since
+      1900.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-noca-foundation
+      - nps-noca-climate
+
+sources:
+  - id: nps-noca-glaciers
+    title: Glaciers
+    publisher: National Park Service
+    url: https://www.nps.gov/noca/learn/nature/glaciers.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: nps-noca-foundation
+    title: Foundation Document, North Cascades National Park Service Complex
+    publisher: National Park Service
+    url: https://www.nps.gov/noca/learn/management/foundation-document.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: nps-noca-climate
+    title: Climate Change
+    publisher: National Park Service
+    url: https://www.nps.gov/noca/learn/nature/climate-change-resource-brief.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/north-cascades.jpg
+    mediaType: image
+    title: Cascade Pass and Pelton Basin
+    creator: National Park Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Cascade_Pass_and_Pelton_Basin.jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: High peaks and a glacier basin at Cascade Pass in North Cascades National Park.
+    creditLine: Photograph by the National Park Service. Public domain.
+
+relatedStories:
+  - slug: north-cascades-national-park-1968
+    relationshipType: same-park
+  - slug: ross-lake
+    relationshipType: same-park
+  - slug: lake-chelan
+    relationshipType: same-park

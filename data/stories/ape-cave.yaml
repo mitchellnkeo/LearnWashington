@@ -1,0 +1,95 @@
+slug: ape-cave
+title: Ape Cave
+hook: A pahoehoe lava tube on the southwest flank of Mount St. Helens is the third longest in North America.
+body: |
+  Ape Cave is one of numerous lava tubes formed in the Cave Basalt about
+  1,895 years ago. The basalt lava flows have the form of pahoehoe flows
+  that originated on the southwest flank of Mount St. Helens and flowed down
+  the surface of older pyroclastic-flow deposits.
+
+  USGS calls the Ape Cave lava tube the third longest lava tube in North
+  America — about 4 km or 2.5 mi. It is open year round. Guided cave walks
+  are offered daily during the summer visitor season. In winter months, a
+  Sno-Park Pass is required to enter the area.
+
+  The cave is inside Mount St. Helens National Volcanic Monument, established
+  in 1982 to designate 445 km² (110,000 acres) around the volcano for
+  research, recreation, and education. The monument is within Gifford Pinchot
+  National Forest and is managed by the USDA Forest Service.
+status: PUBLISHED
+verificationStatus: VERIFIED
+datePrecision: geologic
+dateLabel: Cave Basalt about 1,895 years ago
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Ape Cave
+  slug: ape-cave
+  placeType: cave
+  latitude: 46.1237
+  longitude: -122.217
+  county: Skamania County
+  region: Cascades
+
+categories:
+  - geography-geology
+  - science-strange
+
+tags:
+  - lava-tube
+  - mount-st-helens
+  - monument
+
+claims:
+  - text: >
+      Ape Cave is one of numerous lava tubes formed in the Cave Basalt about
+      1,895 years ago. The flows are pahoehoe that originated on the southwest
+      flank of Mount St. Helens and traveled over older pyroclastic-flow
+      deposits.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - usgs-msh-monument
+  - text: >
+      USGS describes Ape Cave as the third longest lava tube in North America,
+      about 4 km or 2.5 mi. It is open year round, with guided walks in summer.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usgs-msh-monument
+  - text: >
+      The cave lies in Mount St. Helens National Volcanic Monument, established
+      in 1982 on 445 km² (110,000 acres) and managed by the USDA Forest Service
+      within Gifford Pinchot National Forest.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usgs-msh-monument
+
+sources:
+  - id: usgs-msh-monument
+    title: Mount St. Helens National Volcanic Monument
+    publisher: U.S. Geological Survey
+    url: https://www.usgs.gov/volcanoes/mount-st.-helens/science/mount-st-helens-national-volcanic-monument
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/ape-cave.jpg
+    mediaType: image
+    title: Interpretive tour of Ape Cave
+    creator: U.S. Forest Service, Pacific Northwest Region
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Interpretive_tour_of_Ape_Cave,_Mt_St_Helens_National_Volcanic_Monument,_Gifford_Pinchot_National_Forest_(36294282256).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.fs.usda.gov/about-agency/information-policies
+    altText: Visitors with headlamps on an interpretive tour inside Ape Cave lava tube.
+    creditLine: Photograph by the U.S. Forest Service, Pacific Northwest Region, Gifford Pinchot National Forest. Public domain.
+
+relatedStories:
+  - slug: mount-st-helens-1980-eruption
+    relationshipType: nearby
+  - slug: johnston-ridge-observatory
+    relationshipType: nearby
+  - slug: spirit-lake
+    relationshipType: nearby

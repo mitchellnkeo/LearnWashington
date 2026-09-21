@@ -1,0 +1,90 @@
+slug: billy-frank-jr-nisqually
+title: Billy Frank Jr. Nisqually National Wildlife Refuge
+hook: FWS established this refuge in 1974 to protect the Nisqually River Delta, where freshwater meets Puget Sound.
+body: |
+  Billy Frank Jr. Nisqually National Wildlife Refuge sits where the
+  Nisqually River meets Puget Sound, with easy access off Interstate 5
+  in Olympia. FWS established the refuge in 1974 to protect the Nisqually
+  River Delta from development for fish, wildlife, and plants, especially
+  migratory birds.
+
+  FWS says the refuge has recorded at least 250 species of birds,
+  95 species of fish, 7 species of amphibians, and 60 insect species.
+  A mile-long estuary boardwalk extends over the tide. In 2009 partners
+  completed what FWS calls the largest estuary restoration project in
+  the Pacific Northwest.
+
+  The refuge is named for Billy Frank Jr. The sources below are the
+  U.S. Fish and Wildlife Service refuge pages. The service does not
+  print an acreage figure on those pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1974-01-01"
+datePrecision: year
+dateLabel: established 1974
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Billy Frank Jr. Nisqually National Wildlife Refuge
+  slug: billy-frank-jr-nisqually
+  placeType: refuge
+  latitude: 47.083
+  longitude: -122.713
+  county: Thurston County
+  region: Puget Sound
+
+categories:
+  - wildlife-ecology
+
+tags:
+  - refuge
+  - estuary
+  - nisqually
+
+claims:
+  - text: >
+      FWS established the refuge in 1974 to protect the Nisqually River
+      Delta from development for the benefit of fish, wildlife, and plants,
+      especially migratory birds. The refuge sits where the Nisqually River
+      flows into Puget Sound.
+    claimType: historical
+    confidence: verified
+    sources:
+      - fws-billy-frank
+  - text: >
+      FWS says the refuge has recorded at least 250 species of birds,
+      95 species of fish, 7 species of amphibians, and 60 insect species.
+      Partners completed the largest estuary restoration project in the
+      Pacific Northwest in 2009.
+    claimType: factual
+    confidence: verified
+    sources:
+      - fws-billy-frank
+
+sources:
+  - id: fws-billy-frank
+    title: Billy Frank Jr. Nisqually National Wildlife Refuge
+    publisher: U.S. Fish and Wildlife Service
+    url: https://www.fws.gov/refuge/billy-frank-jr-nisqually
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/billy-frank-jr-nisqually.jpg
+    mediaType: image
+    title: Spring at Billy Frank Jr. Nisqually National Wildlife Refuge
+    creator: U.S. Fish and Wildlife Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Spring_at_Billy_Frank_Jr_Nisqually_National_Wildlife_Refuge_(51975303501).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.fws.gov/help/policies.html
+    altText: Freshwater wetlands and trees at Billy Frank Jr. Nisqually National Wildlife Refuge in spring.
+    creditLine: Photograph by the U.S. Fish and Wildlife Service. Public domain.
+
+relatedStories:
+  - slug: nisqually-earthquake-2001
+    relationshipType: nearby
+  - slug: southern-resident-orcas
+    relationshipType: same-landscape
+  - slug: ridgefield-nwr
+    relationshipType: same-arc

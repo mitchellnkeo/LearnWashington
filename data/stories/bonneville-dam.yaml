@@ -1,0 +1,95 @@
+slug: bonneville-dam
+title: Bonneville Dam
+hook: The first federal lock and dam on the Columbia and Snake spans the river between Oregon and Washington at river mile 146.1.
+body: |
+  Bonneville Lock and Dam crosses the Columbia River between Oregon and
+  Washington at river mile 146.1. The Corps of Engineers lists the
+  official location as Cascade Locks, Oregon. The project spans the
+  river; this pin sits on the Washington shore.
+
+  Congress authorized the dam in the 1935 Rivers and Harbors Act. The
+  first powerhouse, spillway, and lock were completed in 1938. The
+  second powerhouse opened in 1981, and the lock was expanded in 1993.
+  The project was listed on the National Register of Historic Places in
+  1986 and declared a National Historic Landmark in 1987. The Corps
+  calls it the first federal lock and dam on the Columbia and Snake.
+
+  The dam is 171 feet high and 2,477 feet long. Powerhouse 1 has
+  10 units and 518 megawatts. Powerhouse 2 has 8 units and 532 megawatts.
+  Eighteen turbines produce more than 1,200 megawatts, enough for about
+  900,000 homes. The source below is the Corps Northwestern Division
+  fact sheet.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1938-01-01"
+datePrecision: year
+dateLabel: first powerhouse completed 1938
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Bonneville Dam
+  slug: bonneville-dam
+  placeType: dam
+  latitude: 45.644
+  longitude: -121.941
+  county: Skamania County
+  region: Columbia River
+
+categories:
+  - history
+  - geography-geology
+
+tags:
+  - columbia-river
+  - hydropower
+  - dam
+
+claims:
+  - text: >
+      The Corps of Engineers lists Bonneville Dam at Columbia River mile
+      146.1, official location Cascade Locks, Oregon. The project spans the
+      Columbia between Oregon and Washington. Congress authorized it in the
+      1935 Rivers and Harbors Act. The first powerhouse, spillway, and lock
+      were completed in 1938.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usace-bonneville
+  - text: >
+      The Corps lists the dam at 171 feet high and 2,477 feet long.
+      Powerhouse 1 is 518 megawatts (10 units); Powerhouse 2 is 532 megawatts
+      (8 units). Eighteen turbines produce more than 1,200 megawatts, enough
+      for about 900,000 homes. The project is on the National Register
+      (1986) and is a National Historic Landmark (1987).
+    claimType: factual
+    confidence: verified
+    sources:
+      - usace-bonneville
+
+sources:
+  - id: usace-bonneville
+    title: Bonneville Dam and Lake Bonneville
+    publisher: U.S. Army Corps of Engineers
+    url: https://www.nwd.usace.army.mil/fact-sheets/article/3485127/bonneville-dam-and-lake-bonneville/
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/bonneville-dam.jpg
+    mediaType: image
+    title: Bonneville Dam looking east
+    creator: U.S. Army Corps of Engineers
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Corps-engineers-archives_bonneville_dam_looking_east.jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.usace.army.mil/About/Offices-and-Units/
+    altText: Bonneville Dam looking east along the Columbia River.
+    creditLine: Photograph from the U.S. Army Corps of Engineers archives. Public domain.
+
+relatedStories:
+  - slug: chief-joseph-dam
+    relationshipType: same-arc
+  - slug: columbia-chinook
+    relationshipType: nearby
+  - slug: ice-harbor-dam
+    relationshipType: same-arc

@@ -1,0 +1,93 @@
+slug: protection-island
+title: Protection Island
+hook: A 364-acre refuge closed to the public holds puffins, auklets, and harbor seals, with a 200-yard watercraft buffer around the shore.
+body: |
+  Protection Island National Wildlife Refuge was established in 1982.
+  FWS lists the island at 364 acres in Jefferson County. The refuge is
+  closed to the public. A 200-yard watercraft closure surrounds the
+  island.
+
+  FWS lists tufted puffins, rhinoceros auklets, bald eagles, pigeon
+  guillemots, cormorants, and harbor seals among the wildlife. A
+  48-acre Zella M. Schultz Seabird Sanctuary is part of the island's
+  protected ground.
+
+  The island is managed for birds and seals, not for landing. The
+  sources below are the U.S. Fish and Wildlife Service refuge page
+  and a Service photograph of the puffin colony.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1982-01-01"
+datePrecision: year
+dateLabel: established 1982
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Protection Island National Wildlife Refuge
+  slug: protection-island
+  placeType: refuge
+  latitude: 48.128
+  longitude: -122.925
+  county: Jefferson County
+  region: Olympic Peninsula
+
+categories:
+  - wildlife-ecology
+
+tags:
+  - refuge
+  - seabirds
+  - puffin
+
+claims:
+  - text: >
+      FWS says Protection Island National Wildlife Refuge was established
+      in 1982 and covers 364 acres. The island is closed to the public, with
+      a 200-yard watercraft closure.
+    claimType: factual
+    confidence: verified
+    sources:
+      - fws-protection-island
+  - text: >
+      FWS lists tufted puffins, rhinoceros auklets, bald eagles, pigeon
+      guillemots, cormorants, and harbor seals among the wildlife, and a
+      48-acre Zella M. Schultz sanctuary on the island.
+    claimType: factual
+    confidence: verified
+    sources:
+      - fws-protection-island
+
+sources:
+  - id: fws-protection-island
+    title: Protection Island National Wildlife Refuge
+    publisher: U.S. Fish and Wildlife Service
+    url: https://www.fws.gov/refuge/protection-island
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: fws-protection-puffin
+    title: Tufted puffin colony, Protection Island
+    publisher: U.S. Fish and Wildlife Service
+    url: https://www.fws.gov/media/tufted-puffin-colony-protection-island
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/protection-island.jpg
+    mediaType: image
+    title: Protection Island National Wildlife Refuge
+    creator: USFWS Pacific
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Protection_Island_NWR_(51745051453).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.fws.gov/help/policies.html
+    altText: Bluffs and shoreline of Protection Island National Wildlife Refuge in the Strait of Juan de Fuca.
+    creditLine: Photograph by USFWS Pacific. Public domain.
+
+relatedStories:
+  - slug: dungeness-spit
+    relationshipType: nearby
+  - slug: san-juan-islands-nwr
+    relationshipType: same-arc
+  - slug: olympic-coast-sea-otters
+    relationshipType: nearby

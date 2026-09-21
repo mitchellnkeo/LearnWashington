@@ -1,0 +1,95 @@
+slug: columbia-basin-project
+title: Columbia Basin Project
+hook: Reclamation's irrigation project now serves about 671,000 acres in east-central Washington, roughly two-thirds of the land Congress authorized in 1943.
+body: |
+  The Columbia Basin Project serves about 671,000 acres — about
+  65 percent of the 1,029,000 acres authorized — in Grant, Lincoln,
+  Adams, and Franklin counties, with land in Douglas County on the
+  north. Congress authorized the project in 1943. The main works include
+  Grand Coulee Dam, Franklin D. Roosevelt Lake, three power plants, and
+  a pump-generating plant.
+
+  Primary irrigation works include the Feeder Canal, Banks Lake, the
+  Main, West, East High, and East Low canals, O'Sullivan Dam, Potholes
+  Reservoir, and Potholes Canal. Reclamation lists over 300 miles of
+  main canals, about 2,000 miles of laterals, and 3,500 miles of drains
+  and wasteways. The first irrigation water near Pasco reached about
+  5,400 acres in 1948. Water from Grand Coulee reached about 66,000 acres
+  in spring 1952.
+
+  Irrigators use about 2.5 million acre-feet of Columbia River water a
+  year, plus about 1 million acre-feet reused. The source below is the
+  Bureau of Reclamation Columbia Basin Project page.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1943-01-01"
+datePrecision: year
+dateLabel: authorized 1943
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Columbia Basin Project
+  slug: columbia-basin-project
+  placeType: irrigation_project
+  latitude: 47.62
+  longitude: -119.32
+  county: Grant County
+  region: Columbia Basin
+
+categories:
+  - history
+  - geography-geology
+
+tags:
+  - irrigation
+  - columbia-river
+  - reclamation
+
+claims:
+  - text: >
+      Reclamation says the Columbia Basin Project serves about 671,000 acres,
+      about 65 percent of 1,029,000 acres authorized, in Grant, Lincoln,
+      Adams, and Franklin counties, plus land in Douglas County to the north.
+      Congress authorized the project in 1943.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usbr-cbp
+  - text: >
+      Reclamation lists over 300 miles of main canals, about 2,000 miles of
+      laterals, and 3,500 miles of drains. First water near Pasco reached
+      about 5,400 acres in 1948. Water from Grand Coulee reached about
+      66,000 acres in spring 1952. Irrigators use about 2.5 million
+      acre-feet a year, plus about 1 million acre-feet reused.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usbr-cbp
+
+sources:
+  - id: usbr-cbp
+    title: Columbia Basin Project
+    publisher: U.S. Bureau of Reclamation
+    url: https://www.usbr.gov/pn/grandcoulee/cbp/
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/columbia-basin-project.jpg
+    mediaType: image
+    title: Grand Coulee Dam, headworks of the Columbia Basin Project
+    creator: U.S. Bureau of Reclamation
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Grand_coulee_dam_aerial_2.jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.usbr.gov/main/legal.html
+    altText: Aerial view of Grand Coulee Dam, the pumping plant and powerhouses that feed the Columbia Basin Project.
+    creditLine: Photograph by the U.S. Bureau of Reclamation. Public domain.
+
+relatedStories:
+  - slug: grand-coulee-dam
+    relationshipType: same-arc
+  - slug: banks-lake
+    relationshipType: same-arc
+  - slug: lake-roosevelt
+    relationshipType: same-arc

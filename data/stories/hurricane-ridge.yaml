@@ -1,0 +1,110 @@
+slug: hurricane-ridge
+title: Hurricane Ridge
+hook: The most easily reached mountain area in Olympic National Park sits 17 miles south of Port Angeles, with ridgetop trails and winter snow sports when the road is open.
+body: |
+  Hurricane Ridge is the most easily accessed mountain area within Olympic
+  National Park. In clear weather, fantastic views can be enjoyed throughout
+  the year. NPS places it 17 miles south of Port Angeles on Hurricane Ridge
+  Road, off Mount Angeles Road.
+
+  The road is open throughout summer. During the winter season, the road is
+  scheduled to be open Friday through Sunday and holiday Mondays, weather
+  and road conditions permitting, and closed all other days. All vehicles
+  must carry tire chains during the winter season. Hurricane Ridge has hiking
+  trails from ridgetop traverses to steep trails that descend to subalpine
+  lakes and valleys.
+
+  During winter months, visitors snowshoe, cross-country ski, and sled.
+  Weather permitting, the Hurricane Ridge Winter Sports Club operates two
+  rope tows and a Poma lift. In spring, wildflowers cover the subalpine
+  meadows and blacktail deer are often spotted grazing. The nearest
+  campground is Heart O' the Hills, 12 miles north of Hurricane Ridge and
+  5 miles south of Port Angeles, with 105 campsites in old-growth forest.
+status: PUBLISHED
+verificationStatus: VERIFIED
+datePrecision: unknown
+dateLabel: Olympic high country
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Hurricane Ridge
+  slug: hurricane-ridge
+  placeType: ridge
+  latitude: 47.9696
+  longitude: -123.4979
+  county: Clallam County
+  region: Olympic Peninsula
+
+categories:
+  - geography-geology
+  - wildlife-ecology
+
+tags:
+  - olympic
+  - subalpine
+  - hiking
+
+claims:
+  - text: >
+      Hurricane Ridge is the most easily accessed mountain area in Olympic
+      National Park, 17 miles south of Port Angeles on Hurricane Ridge Road.
+      NPS says fantastic views can be enjoyed throughout the year in clear
+      weather.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-hurricane-ridge
+  - text: >
+      The summer road is open throughout the season. In winter it is scheduled
+      Friday through Sunday and holiday Mondays, weather permitting. All
+      vehicles must carry tire chains in the winter season.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-hurricane-ridge
+  - text: >
+      Heart O' the Hills campground, 12 miles north of the ridge and 5 miles
+      south of Port Angeles, has 105 campsites in old-growth forest and is
+      open year-round.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-hurricane-ridge
+
+sources:
+  - id: nps-hurricane-ridge
+    title: Visiting Hurricane Ridge
+    publisher: National Park Service
+    url: https://www.nps.gov/olym/planyourvisit/visiting-hurricane-ridge.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: nps-hurricane-webcam
+    title: Hurricane Ridge Webcam
+    publisher: National Park Service
+    url: https://www.nps.gov/olym/learn/photosmultimedia/hurricane-ridge-webcam.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+    notes: Official webcam page lists Lat 47.96955404969839, Long -123.49791526794434.
+
+media:
+  - url: /media/hurricane-ridge.jpg
+    mediaType: image
+    title: Sunrise, Hurricane Ridge, winter scenic
+    creator: Dave Turner, National Park Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Sunrise_Hurricane_Ridge_winter_scenic_2010_NPS_Dave_Turner_(1)_(17302370341).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: Snow-covered Olympic peaks at sunrise from Hurricane Ridge.
+    creditLine: Photograph by Dave Turner, National Park Service, Olympic National Park, December 19, 2010. Public domain.
+
+relatedStories:
+  - slug: hoh-rain-forest
+    relationshipType: same-park
+  - slug: elwha-river-restoration
+    relationshipType: nearby
+  - slug: olympic-marmot
+    relationshipType: nearby
+  - slug: olympic-national-park-1938
+    relationshipType: same-arc

@@ -120,3 +120,5 @@ relatedStories:
     relationshipType: same-arc
   - slug: cascadia-subduction-zone
     relationshipType: same-arc
+  - slug: glacier-peak
+    relationshipType: same-arc

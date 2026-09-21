@@ -1,0 +1,100 @@
+slug: ross-lake
+title: Ross Lake
+hook: A long reservoir behind Ross Dam fills the Skagit valley inside Ross Lake National Recreation Area, one of three lakes made by Seattle City Light.
+body: |
+  Ross Lake sits on the Skagit River in Whatcom County, inside Ross Lake
+  National Recreation Area. The park foundation document lists that unit
+  at 116,798 acres. NPS boat-in camping pages treat the lake as a
+  reservoir reached from the water, not from a lakeshore highway.
+
+  NPS says Ross, Diablo, and Gorge lakes were created by dams of the
+  Skagit Hydroelectric Project, operated by Seattle City Light. Diablo
+  Lake, just downstream, is the turquoise reservoir most visitors see
+  from State Route 20. Ross Lake itself stretches north toward the
+  Canadian border.
+
+  The recreation area is the developed corridor through the North Cascades
+  complex. The sources below are the National Park Service record of the
+  lake, the foundation document, and the Diablo Lake page.
+status: PUBLISHED
+verificationStatus: VERIFIED
+datePrecision: unknown
+dateLabel: Skagit Hydroelectric Project reservoir
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Ross Lake
+  slug: ross-lake
+  placeType: lake
+  latitude: 48.732
+  longitude: -121.062
+  county: Whatcom County
+  region: North Cascades
+
+categories:
+  - geography-geology
+
+tags:
+  - north-cascades
+  - skagit
+  - reservoir
+
+claims:
+  - text: >
+      The NPS foundation document lists Ross Lake National Recreation Area
+      at 116,798 acres. NPS boat-in camping pages treat Ross Lake as a
+      reservoir reached from the water.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-noca-foundation
+      - nps-ross-boat-in
+  - text: >
+      NPS says Ross, Diablo, and Gorge lakes were created by dams of the
+      Skagit Hydroelectric Project, operated by Seattle City Light.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-diablo-lake
+
+sources:
+  - id: nps-ross-boat-in
+    title: Boat-in Camping
+    publisher: National Park Service
+    url: https://www.nps.gov/noca/planyourvisit/boat-in-camping.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: nps-noca-foundation
+    title: Foundation Document, North Cascades National Park Service Complex
+    publisher: National Park Service
+    url: https://www.nps.gov/noca/learn/management/foundation-document.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: nps-diablo-lake
+    title: Diablo Lake
+    publisher: National Park Service
+    url: https://www.nps.gov/noca/planyourvisit/diablo-lake.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/ross-lake.jpg
+    mediaType: image
+    title: Ross Lake looking south
+    creator: National Park Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Ross_Lake_looking_south_(19198dfb-c08e-4d5e-84ea-a5b0be0dff0a).tif
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: Ross Lake stretching south through forested mountains in Ross Lake National Recreation Area.
+    creditLine: Photograph by the National Park Service. Public domain.
+
+relatedStories:
+  - slug: diablo-lake
+    relationshipType: nearby
+  - slug: north-cascades-national-park
+    relationshipType: same-park
+  - slug: washington-pass
+    relationshipType: nearby

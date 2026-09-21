@@ -125,3 +125,9 @@ media:
     licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
     altText: Reconstructed wooden stockade and octagonal bastion at Fort Vancouver National Historic Site.
     creditLine: Photograph by the National Park Service, July 22, 2009. Public domain.
+
+relatedStories:
+  - slug: pig-war
+    relationshipType: same-arc
+  - slug: cape-disappointment
+    relationshipType: same-arc

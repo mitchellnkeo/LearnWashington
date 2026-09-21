@@ -1,0 +1,88 @@
+slug: montlake-cut
+title: Montlake Cut
+hook: The last cut of the Lake Washington Ship Canal opened on May 8, 1917, a 100-foot channel through Montlake that still joins the lakes to the locks.
+body: |
+  The Corps of Engineers' Lake Washington Ship Canal water-control
+  manual dates construction to September 1911. The small lock opened on
+  July 30, 1916. The large lock opened on August 3, 1916. Fremont Cut
+  opened in October 1916. Montlake Cut opened on May 8, 1917. The canal
+  was dedicated on July 4, 1917.
+
+  The Montlake Cut is 100 feet wide. The channel through Portage Bay and
+  Union Bay is 200 feet wide. A Waterside Trail of 1,200 feet was built
+  in 1970 and named a National Recreation Trail a year later.
+
+  The cut is the eastern gate of the ship canal, a short walk from the
+  University of Washington. The source below is the Corps water-control
+  manual.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1917-05-08"
+datePrecision: day
+dateLabel: Montlake Cut opened May 8, 1917
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Montlake Cut
+  slug: montlake-cut
+  placeType: canal
+  latitude: 47.647
+  longitude: -122.304
+  county: King County
+  region: Puget Sound
+
+categories:
+  - history
+
+tags:
+  - seattle
+  - ship-canal
+  - montlake
+
+claims:
+  - text: >
+      The Corps water-control manual dates construction to September 1911,
+      the small lock to July 30, 1916, the large lock to August 3, 1916,
+      Fremont Cut to October 1916, Montlake Cut to May 8, 1917, and
+      dedication to July 4, 1917.
+    claimType: historical
+    confidence: verified
+    sources:
+      - usace-lwsc-manual
+  - text: >
+      The Corps lists the Montlake Cut at 100 feet wide and the channel
+      through Portage Bay and Union Bay at 200 feet. The Waterside Trail is
+      1,200 feet long, built in 1970, and named a National Recreation Trail
+      a year later.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usace-lwsc-manual
+
+sources:
+  - id: usace-lwsc-manual
+    title: Lake Washington Ship Canal Water Control Manual
+    publisher: U.S. Army Corps of Engineers
+    url: https://www.nws.usace.army.mil/Missions/Civil-Works/Locks-and-Dams/Chittenden-Locks/
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/montlake-cut.jpg
+    mediaType: image
+    title: Montlake Cut
+    creator: U.S. Army Corps of Engineers
+    sourceUrl: https://catalog.archives.gov/id/298871
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.usace.army.mil/About/Offices-and-Units/
+    altText: The Montlake Cut of the Lake Washington Ship Canal in Seattle.
+    creditLine: Photograph by the U.S. Army Corps of Engineers, National Archives 298871. Public domain.
+
+relatedStories:
+  - slug: ballard-locks
+    relationshipType: same-arc
+  - slug: alaska-yukon-pacific-exposition
+    relationshipType: nearby
+  - slug: klondike-gold-rush-seattle
+    relationshipType: nearby

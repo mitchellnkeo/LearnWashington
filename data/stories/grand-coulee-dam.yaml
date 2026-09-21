@@ -107,3 +107,9 @@ media:
 relatedStories:
   - slug: dry-falls
     relationshipType: same-landscape
+  - slug: columbia-basin-project
+    relationshipType: same-arc
+  - slug: banks-lake
+    relationshipType: nearby
+  - slug: lake-roosevelt
+    relationshipType: nearby

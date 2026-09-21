@@ -1,0 +1,100 @@
+slug: lake-roosevelt
+title: Lake Roosevelt
+hook: The reservoir behind Grand Coulee Dam is officially Franklin D. Roosevelt Lake, a long pool NPS says is the largest reservoir in the Pacific Northwest.
+body: |
+  Lake Roosevelt National Recreation Area follows the reservoir behind
+  Grand Coulee Dam. NPS calls the water body Franklin D. Roosevelt Lake.
+  The park brochure says it is the largest reservoir in the Pacific
+  Northwest and stretches 133 miles from Grand Coulee Dam to Onion Creek,
+  16 miles south of the United States–Canada border.
+
+  NPS says the park manages more than 300 miles of publicly accessible
+  shoreline. Dam construction began in 1933 and finished in 1941. In 1946
+  the Secretary of the Interior approved a three-party agreement among
+  the Bureau of Reclamation, the Office of Indian Affairs, and the
+  National Park Service.
+
+  The recreation area is a water park first: boating, fishing, camping,
+  and swimming along a narrow, fluctuating pool. The sources below are
+  the National Park Service Lake Roosevelt pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1941-01-01"
+datePrecision: year
+dateLabel: reservoir completed 1941
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Lake Roosevelt
+  slug: lake-roosevelt
+  placeType: lake
+  latitude: 47.937
+  longitude: -118.982
+  county: Lincoln County
+  region: Columbia Basin
+
+categories:
+  - geography-geology
+  - history
+
+tags:
+  - columbia-river
+  - reservoir
+  - grand-coulee
+
+claims:
+  - text: >
+      NPS calls the reservoir behind Grand Coulee Dam Franklin D. Roosevelt
+      Lake and the largest reservoir in the Pacific Northwest. The park
+      brochure says the lake stretches 133 miles from Grand Coulee Dam to
+      Onion Creek, 16 miles south of the U.S.–Canada border, and that the
+      park manages more than 300 miles of publicly accessible shoreline.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-laro
+      - nps-laro-brochure
+  - text: >
+      NPS says dam construction began in 1933 and finished in 1941. In 1946
+      the Secretary of the Interior approved a three-party agreement among
+      the Bureau of Reclamation, the Office of Indian Affairs, and the
+      National Park Service.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-laro-brochure
+
+sources:
+  - id: nps-laro
+    title: Lake Roosevelt National Recreation Area
+    publisher: National Park Service
+    url: https://www.nps.gov/laro/index.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: nps-laro-brochure
+    title: Park Brochure
+    publisher: National Park Service
+    url: https://www.nps.gov/laro/planyourvisit/park-brochure.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/lake-roosevelt.jpg
+    mediaType: image
+    title: Boating on Lake Roosevelt
+    creator: National Park Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Boating_is_popular_on_Lake_Roosevelt_National_Recreation_Area_(53088921976).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: A boat on Franklin D. Roosevelt Lake with basalt shores in the distance.
+    creditLine: Photograph by the National Park Service. Public domain.
+
+relatedStories:
+  - slug: grand-coulee-dam
+    relationshipType: nearby
+  - slug: columbia-basin-project
+    relationshipType: same-arc
+  - slug: banks-lake
+    relationshipType: same-arc

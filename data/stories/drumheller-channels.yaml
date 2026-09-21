@@ -1,0 +1,95 @@
+slug: drumheller-channels
+title: Drumheller Channels
+hook: A cascade of buttes and basins west of Othello is the Ice Age Floods landscape the National Park Service calls the most spectacular of its kind.
+body: |
+  Drumheller Channels National Natural Landmark sits on Columbia National
+  Wildlife Refuge land along West McManamon Road in Othello. NPS designated
+  the landmark in 1986. The agency describes a cascade of channels eight to
+  twelve miles wide, with about 150 channels and more than 180 rock basins.
+
+  The National Park Service calls this the most spectacular butte-and-basin
+  scabland in the Ice Age Floods country. Floodwaters scoured the basalt
+  into a maze of coulees, buttes, and closed basins that still hold water
+  today. The landmark is one of the places NPS uses to explain the Missoula
+  Floods on the Ice Age Floods National Geologic Trail.
+
+  Visitors reach the channels from the refuge roads west of Othello. The
+  sources below are the National Park Service record of the landmark and
+  the Ice Age Floods trail.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1986-01-01"
+datePrecision: year
+dateLabel: designated a National Natural Landmark in 1986
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Drumheller Channels
+  slug: drumheller-channels
+  placeType: landform
+  latitude: 46.99
+  longitude: -119.22
+  county: Grant County
+  region: Columbia Basin
+
+categories:
+  - geography-geology
+
+tags:
+  - ice-age
+  - scablands
+  - national-natural-landmark
+
+claims:
+  - text: >
+      NPS designated Drumheller Channels a National Natural Landmark in 1986.
+      The landmark is managed as part of Columbia National Wildlife Refuge
+      and is reached from West McManamon Road in Othello, Washington 99344.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-drumheller-nnl
+  - text: >
+      NPS describes a cascade of channels eight to twelve miles wide, with
+      about 150 channels and more than 180 rock basins, and calls the area
+      the most spectacular butte-and-basin scabland.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - nps-drumheller-nnl
+      - nps-iafl-nnl
+
+sources:
+  - id: nps-drumheller-nnl
+    title: Drumheller Channels National Natural Landmark
+    publisher: National Park Service
+    url: https://www.nps.gov/places/drumheller-channels-national-natural-landmark.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: nps-iafl-nnl
+    title: National Natural Landmarks
+    publisher: National Park Service
+    url: https://www.nps.gov/iafl/planyourvisit/national-natural-landmarks.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/drumheller-channels.jpg
+    mediaType: image
+    title: Drumheller Channels National Natural Landmark
+    creator: Williamborg
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Drumheller_Channels_National_Natural_Landmark.jpg
+    license: Public domain
+    licenseUrl: https://commons.wikimedia.org/wiki/File:Drumheller_Channels_National_Natural_Landmark.jpg
+    altText: Buttes and basins of the Drumheller Channels scabland under a wide sky.
+    creditLine: Photograph by Williamborg. Public domain.
+
+relatedStories:
+  - slug: ice-age-floods
+    relationshipType: same-arc
+  - slug: dry-falls
+    relationshipType: same-landscape
+  - slug: palouse-falls
+    relationshipType: same-landscape

@@ -1,0 +1,106 @@
+slug: columbia-chinook
+title: Columbia River Chinook
+hook: Chinook are the largest Pacific salmon. NOAA lists several Columbia River populations as threatened or endangered, and they are primary prey for Southern Resident killer whales.
+body: |
+  Chinook salmon, Oncorhynchus tshawytscha, are also called king salmon.
+  NOAA Fisheries says they are the largest of the Pacific salmon. They
+  can grow as long as 4.9 feet and up to 129 pounds, though typical
+  mature fish are about 3 feet and 30 pounds. They hatch in freshwater,
+  feed in the ocean, and return to natal streams to spawn.
+
+  Several Columbia basin populations are protected under the Endangered
+  Species Act. NOAA lists Lower Columbia River Chinook as threatened
+  (May 24, 1999) and Upper Columbia River spring-run Chinook as
+  endangered (March 24, 1999). Snake River fall-run Chinook are also
+  listed as threatened. NOAA says salmon are primary prey for Southern
+  Resident killer whales.
+
+  This card stays with NOAA's Columbia and West Coast record. The
+  sources below are NOAA Fisheries species and listing pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1999-03-24"
+datePrecision: day
+dateLabel: Upper Columbia spring-run listed endangered 1999
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Columbia River estuary
+  slug: columbia-chinook
+  placeType: estuary
+  latitude: 46.25
+  longitude: -123.85
+  county: Pacific County
+  region: Columbia River
+
+categories:
+  - wildlife-ecology
+
+tags:
+  - salmon
+  - columbia-river
+  - endangered-species
+
+claims:
+  - text: >
+      NOAA Fisheries says Chinook salmon are the largest Pacific salmon and
+      can grow as long as 4.9 feet and up to 129 pounds, though typical
+      mature fish are about 3 feet and 30 pounds. They are anadromous and
+      die after spawning.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - noaa-chinook
+  - text: >
+      NOAA lists Lower Columbia River Chinook as threatened (May 24, 1999)
+      and Upper Columbia River spring-run Chinook as endangered
+      (March 24, 1999). NOAA says salmon are primary prey for Southern
+      Resident killer whales.
+    claimType: factual
+    confidence: verified
+    sources:
+      - noaa-lcr-chinook
+      - noaa-ucr-chinook
+      - noaa-chinook
+
+sources:
+  - id: noaa-chinook
+    title: Chinook Salmon
+    publisher: NOAA Fisheries
+    url: https://www.fisheries.noaa.gov/species/chinook-salmon
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: noaa-lcr-chinook
+    title: Lower Columbia River Chinook Salmon
+    publisher: NOAA Fisheries
+    url: https://www.fisheries.noaa.gov/west-coast/endangered-species-conservation/lower-columbia-river-chinook-salmon
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: noaa-ucr-chinook
+    title: Upper Columbia River Spring-run Chinook Salmon
+    publisher: NOAA Fisheries
+    url: https://www.fisheries.noaa.gov/west-coast/endangered-species-conservation/upper-columbia-river-spring-run-chinook-salmon
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/columbia-chinook.jpg
+    mediaType: image
+    title: Chinook salmon
+    creator: U.S. Fish and Wildlife Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Chinook_salmon_fish.jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.fws.gov/help/policies.html
+    altText: A Chinook salmon photographed by the U.S. Fish and Wildlife Service.
+    creditLine: Photograph by the U.S. Fish and Wildlife Service. Public domain.
+
+relatedStories:
+  - slug: southern-resident-orcas
+    relationshipType: same-arc
+  - slug: bonneville-dam
+    relationshipType: nearby
+  - slug: elwha-river-restoration
+    relationshipType: same-arc

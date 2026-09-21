@@ -96,3 +96,9 @@ media:
 relatedStories:
   - slug: elwha-river-restoration
     relationshipType: same-park
+  - slug: hurricane-ridge
+    relationshipType: same-park
+  - slug: olympic-national-park-1938
+    relationshipType: same-arc
+  - slug: olympic-marmot
+    relationshipType: nearby

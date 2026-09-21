@@ -1,0 +1,88 @@
+slug: mcnary-dam
+title: McNary Dam
+hook: The Corps places this Columbia River dam at Umatilla, Washington, river mile 292, with a 64-mile reservoir that reaches Hanford.
+body: |
+  McNary Lock and Dam was authorized in the 1945 Rivers and Harbors Act
+  and named for Senator Charles L. McNary. Construction began in 1947.
+  All turbine units were operating in 1957. The Corps lists the location
+  as Umatilla, Washington, at Columbia River mile 292. The project spans
+  the river between Oregon and Washington.
+
+  The dam is 7,365 feet long and about 183 feet above the streambed.
+  Lake Wallula extends 64 miles upstream to Hanford and has over
+  242 miles of shoreline. Fourteen units produce 980 megawatts, enough
+  for about 686,000 homes.
+
+  The source below is the Corps Northwestern Division fact sheet.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1947-01-01"
+datePrecision: year
+dateLabel: construction began 1947
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: McNary Dam
+  slug: mcnary-dam
+  placeType: dam
+  latitude: 45.936
+  longitude: -119.298
+  county: Benton County
+  region: Columbia River
+
+categories:
+  - history
+  - geography-geology
+
+tags:
+  - columbia-river
+  - hydropower
+  - dam
+
+claims:
+  - text: >
+      The Corps says McNary Dam was authorized in the 1945 Rivers and
+      Harbors Act, named for Senator Charles L. McNary, begun in 1947, and
+      completed with all units operating in 1957. The official location is
+      Umatilla, Washington, at river mile 292.
+    claimType: historical
+    confidence: verified
+    sources:
+      - usace-mcnary
+  - text: >
+      The Corps lists the dam at 7,365 feet long and about 183 feet above
+      the streambed. Lake Wallula extends 64 miles to Hanford, with over
+      242 miles of shoreline. Fourteen units produce 980 megawatts, enough
+      for about 686,000 homes.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usace-mcnary
+
+sources:
+  - id: usace-mcnary
+    title: McNary Dam and Lake Wallula
+    publisher: U.S. Army Corps of Engineers
+    url: https://www.nwd.usace.army.mil/fact-sheets/article/3485279/mcnary-dam-and-lake-wallula/
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/mcnary-dam.jpg
+    mediaType: image
+    title: McNary Dam, Oregon and Washington
+    creator: U.S. Forest Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:P403A_McNary_Dam,_Oregon_and_Washington_1_(22488643612).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.fs.usda.gov/about-agency/information-policies
+    altText: McNary Dam spanning the Columbia River between Oregon and Washington.
+    creditLine: Photograph by the U.S. Forest Service. Public domain.
+
+relatedStories:
+  - slug: ice-harbor-dam
+    relationshipType: nearby
+  - slug: hanford-b-reactor
+    relationshipType: nearby
+  - slug: columbia-chinook
+    relationshipType: same-arc

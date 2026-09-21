@@ -1,0 +1,120 @@
+slug: pig-war
+title: The Pig War
+hook: The United States and Great Britain nearly went to war over San Juan Island. The only casualty was a pig.
+body: |
+  In the mid-1800s the United States and Great Britain both claimed San Juan
+  Island. The crisis came on June 15, 1859, when an American settler, Lyman
+  Cutlar, shot and killed a Hudson's Bay Company pig rooting in his garden.
+  British authorities threatened to arrest Cutlar and evict the Americans.
+  Brig. Gen. William S. Harney ordered Company D, 9th U.S. Infantry, under
+  Capt. George E. Pickett, to the island. Pickett's 64-man unit landed on
+  July 27 and camped near the company wharf on Griffin Bay.
+
+  No shots were exchanged between the two nations. The standoff on Griffin
+  Bay lasted from July 27 to October 31, 1859. Royal Marines established
+  English Camp in March 1860. Joint military occupation then held for twelve
+  years.
+
+  The Treaty of Washington in 1871 sent the San Juan question to Kaiser
+  Wilhelm I of Germany. On October 21, 1872, an arbitration commission
+  ruled for the United States and set the boundary through Haro Strait.
+  The Royal Marines left English Camp on November 25, 1872. The last U.S.
+  troops left American Camp by July 1874. San Juan Island National Historical
+  Park now preserves both camps. The sources below are the National Park
+  Service history of the site.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1859-06-15"
+endDate: "1874-07-01"
+datePrecision: year
+dateLabel: 1859–1874
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: American Camp
+  slug: american-camp
+  placeType: historic_site
+  latitude: 48.464
+  longitude: -123.020
+  county: San Juan County
+  region: Salish Sea
+
+categories:
+  - history
+
+tags:
+  - san-juan-islands
+  - hudsons-bay-company
+  - border
+
+claims:
+  - text: >
+      On June 15, 1859, American settler Lyman Cutlar shot and killed a
+      Hudson's Bay Company pig on San Juan Island. After British authorities
+      threatened to arrest him and evict the Americans, Capt. George E.
+      Pickett landed Company D, 9th U.S. Infantry — 64 men — on July 27,
+      1859, near the HBC wharf on Griffin Bay.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-sajh-pig-war
+  - text: >
+      No fire was exchanged between the United States and Great Britain
+      during the crisis of July 27–October 31, 1859. The only casualty was
+      the pig. Royal Marines established English Camp in March 1860, and
+      the island remained under joint military occupation for twelve years.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-sajh-pig-war
+      - nps-sajh-faq
+  - text: >
+      The Treaty of Washington (1871) referred the San Juan question to
+      Kaiser Wilhelm I of Germany. On October 21, 1872, the arbitration
+      commission ruled for the United States and established the boundary
+      through Haro Strait. Royal Marines withdrew on November 25, 1872;
+      the last U.S. troops left American Camp by July 1874.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-sajh-pig-war
+
+sources:
+  - id: nps-sajh-pig-war
+    title: The Pig War
+    publisher: National Park Service
+    url: https://www.nps.gov/sajh/learn/historyculture/the-pig-war.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: nps-sajh-faq
+    title: Frequently Asked Questions — San Juan Island National Historical Park
+    publisher: National Park Service
+    url: https://www.nps.gov/sajh/frequently-asked-questions.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: nps-sajh-home
+    title: San Juan Island National Historical Park
+    publisher: National Park Service
+    url: https://www.nps.gov/sajh
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/pig-war-american-camp.jpg
+    mediaType: image
+    title: View from American Camp
+    creator: National Park Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:View_from_American_Camp_(651dd6fc-63e2-4ba2-9305-53ee83ae4f85).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: Open prairie and water beyond, looking out from American Camp on San Juan Island.
+    creditLine: Photograph by the National Park Service, from NPGallery. Public domain.
+
+relatedStories:
+  - slug: fort-vancouver
+    relationshipType: same-arc
+  - slug: southern-resident-orcas
+    relationshipType: nearby

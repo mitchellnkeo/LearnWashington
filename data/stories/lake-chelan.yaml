@@ -1,0 +1,99 @@
+slug: lake-chelan
+title: Lake Chelan
+hook: NPS calls this the third-deepest lake in the United States, a long glacial trench that ends at the roadless village of Stehekin.
+body: |
+  Lake Chelan fills a deep glacial valley in Chelan County. NPS calls it
+  the third-deepest lake in the United States. A park brochure lists the
+  depth at 1,459 feet, which puts the floor 359 feet below sea level.
+
+  Nineteen named glaciers covering 4,875 acres feed the Stehekin River
+  at the head of the lake. The upper end of the lake sits in Lake Chelan
+  National Recreation Area. The park foundation document lists that unit
+  at 62,902 acres.
+
+  There is no road to Stehekin. Boats, planes, and trails are the usual
+  ways in. The sources below are the National Park Service record of
+  Stehekin, the brochure, and the foundation document.
+status: PUBLISHED
+verificationStatus: VERIFIED
+datePrecision: geologic
+dateLabel: glacial lake
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Lake Chelan
+  slug: lake-chelan
+  placeType: lake
+  latitude: 48.032
+  longitude: -120.333
+  county: Chelan County
+  region: North Cascades
+
+categories:
+  - geography-geology
+
+tags:
+  - north-cascades
+  - lake
+  - glacier
+
+claims:
+  - text: >
+      NPS calls Lake Chelan the third-deepest lake in the United States. A
+      park brochure lists the depth at 1,459 feet, 359 feet below sea level.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-stehekin
+      - nps-noca-brochure
+  - text: >
+      NPS says 19 named glaciers covering 4,875 acres feed the Stehekin
+      River. The foundation document lists Lake Chelan National Recreation
+      Area at 62,902 acres.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-noca-brochure
+      - nps-noca-foundation
+
+sources:
+  - id: nps-stehekin
+    title: Stehekin
+    publisher: National Park Service
+    url: https://www.nps.gov/noca/planyourvisit/stehekin.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: nps-noca-brochure
+    title: North Cascades National Park Service Complex Brochure
+    publisher: National Park Service
+    url: https://www.nps.gov/noca/planyourvisit/brochures.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: nps-noca-foundation
+    title: Foundation Document, North Cascades National Park Service Complex
+    publisher: National Park Service
+    url: https://www.nps.gov/noca/learn/management/foundation-document.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/lake-chelan.jpg
+    mediaType: image
+    title: Lake Chelan National Recreation Area
+    creator: National Park Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Lake_Chelan_National_Recreation_Area_LACH7098.jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: Lake Chelan filling a mountain valley in Lake Chelan National Recreation Area.
+    creditLine: Photograph by the National Park Service. Public domain.
+
+relatedStories:
+  - slug: stehekin
+    relationshipType: nearby
+  - slug: north-cascades-national-park
+    relationshipType: same-park
+  - slug: glacier-peak
+    relationshipType: nearby

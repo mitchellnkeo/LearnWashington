@@ -1,0 +1,88 @@
+slug: banks-lake
+title: Banks Lake
+hook: Reclamation's equalizing reservoir for the Columbia Basin Project sits behind the Feeder Canal from Grand Coulee, the first stop for irrigation water heading south.
+body: |
+  Banks Lake is a primary irrigation work of the Columbia Basin Project.
+  The Bureau of Reclamation lists it with the Feeder Canal that carries
+  Columbia River water from Grand Coulee Dam into the reservoir. From
+  Banks Lake the Main, West, East High, and East Low canals take water
+  south into the irrigated counties.
+
+  Congress authorized the Columbia Basin Project in 1943. Irrigation
+  water first left Grand Coulee for about 66,000 acres in spring 1952.
+  This card is the reservoir, not the whole project. The project-wide
+  story is a separate file.
+
+  The photograph is a Historic American Engineering Record view of the
+  feeder works. The source below is the Bureau of Reclamation Columbia
+  Basin Project page.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1952-01-01"
+datePrecision: year
+dateLabel: Grand Coulee irrigation water, spring 1952
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Banks Lake
+  slug: banks-lake
+  placeType: lake
+  latitude: 47.62
+  longitude: -119.32
+  county: Grant County
+  region: Columbia Basin
+
+categories:
+  - geography-geology
+  - history
+
+tags:
+  - irrigation
+  - reservoir
+  - columbia-basin
+
+claims:
+  - text: >
+      Reclamation lists Banks Lake among the primary irrigation facilities
+      of the Columbia Basin Project, with the Feeder Canal from Grand Coulee
+      Dam supplying the reservoir.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usbr-cbp
+  - text: >
+      Congress authorized the Columbia Basin Project in 1943. Reclamation
+      says irrigation water from Grand Coulee reached about 66,000 acres in
+      spring 1952.
+    claimType: historical
+    confidence: verified
+    sources:
+      - usbr-cbp
+
+sources:
+  - id: usbr-cbp
+    title: Columbia Basin Project
+    publisher: U.S. Bureau of Reclamation
+    url: https://www.usbr.gov/pn/grandcoulee/cbp/
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/banks-lake.jpg
+    mediaType: image
+    title: Grand Coulee Dam, Franklin D. Roosevelt Lake, and Banks Lake
+    creator: NASA Landsat 7
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Grand_Coulee_NASA.jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nasa.gov/nasa-brand-center/images-and-media/
+    altText: Landsat view of Grand Coulee Dam with Franklin D. Roosevelt Lake upstream and Banks Lake in the Grand Coulee.
+    creditLine: Image by NASA Landsat 7, July 23, 1999. Public domain.
+
+relatedStories:
+  - slug: columbia-basin-project
+    relationshipType: same-arc
+  - slug: grand-coulee-dam
+    relationshipType: nearby
+  - slug: dry-falls
+    relationshipType: nearby

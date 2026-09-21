@@ -1,0 +1,121 @@
+slug: nisqually-earthquake-2001
+title: 2001 Nisqually Earthquake
+hook: A deep magnitude 6.8 shock under Puget Sound injured about 400 people and forced a disaster declaration covering 24 counties.
+body: |
+  The Nisqually earthquake (Mw = 6.8) occurred in the Puget Sound area of
+  western Washington on February 28, 2001. The USGS National Strong-Motion
+  Program records the origin time as 18:54 UTC (10:54 AM PST). USGS Open-File
+  Report 02-346 lists the epicenter as 47.149° N, 122.727° W, at a depth of
+  52 km. USGS says the event was similar in mechanism to the April 13, 1949,
+  Puget Sound earthquake (Mw = 7.1) and the April 29, 1965, Seattle
+  earthquake (Mw = 6.7).
+
+  The shock produced strong shaking over a wide area and damaged Olympia,
+  Seattle, and Tacoma. In all, 24 counties and 25 Indian reservations were
+  included in a Presidential Disaster Declaration issued March 1, 2001.
+  One fatality is attributable to the earthquake and 400 persons sustained
+  injuries. Liquefaction was widespread in parts of Olympia and South
+  Seattle, and several significant lateral spreads, embankment slides, and
+  landslides occurred.
+
+  USGS Open-File Report 02-346 assigned traditional USGS MMI 8 to the Sodo
+  area of Seattle. At the lowest intensities the earthquake was felt over
+  approximately 350,000 square km (approximately 135,000 square miles) in
+  Washington, Oregon, Idaho, Montana, and southern British Columbia.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "2001-02-28"
+datePrecision: day
+dateLabel: February 28, 2001
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Nisqually earthquake epicenter
+  slug: nisqually-earthquake-epicenter
+  placeType: earthquake
+  latitude: 47.149
+  longitude: -122.727
+  county: Thurston County
+  region: Puget Sound
+
+categories:
+  - geography-geology
+  - science-strange
+  - history
+
+tags:
+  - earthquake
+  - puget-sound
+  - nisqually
+
+claims:
+  - text: >
+      The Nisqually earthquake (Mw = 6.8) struck the Puget Sound area on
+      February 28, 2001, at 18:54 UTC (10:54 AM PST). USGS Open-File Report
+      02-346 lists the epicenter as 47.149° N, 122.727° W, depth 52 km, and
+      compares its mechanism to the April 13, 1949, event (Mw = 7.1) and the
+      April 29, 1965, event (Mw = 6.7).
+    claimType: scientific
+    confidence: verified
+    sources:
+      - usgs-nisqually-ofr-02-346
+      - usgs-nisqually-nsmp
+  - text: >
+      One fatality is attributable to the earthquake and 400 persons were
+      injured. A Presidential Disaster Declaration on March 1, 2001, covered
+      24 counties and 25 Indian reservations. Liquefaction was widespread in
+      parts of Olympia and South Seattle.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usgs-nisqually-ofr-03-211
+  - text: >
+      USGS assigned MMI 8 to the Sodo area of Seattle. The shock was felt
+      over approximately 350,000 square km (approximately 135,000 square miles)
+      in Washington, Oregon, Idaho, Montana, and southern British Columbia.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - usgs-nisqually-ofr-02-346
+
+sources:
+  - id: usgs-nisqually-ofr-03-211
+    title: Preliminary analysis of landslide and ground-failure economic losses from the February 28, 2001, Nisqually, Washington, earthquake
+    publisher: U.S. Geological Survey
+    url: https://pubs.usgs.gov/of/2003/ofr-03-211/NisquallyFinal.html
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: usgs-nisqually-ofr-02-346
+    title: Intensity distribution and isoseismal maps for the Nisqually, Washington, earthquake of 28 February 2001
+    publisher: U.S. Geological Survey
+    url: https://www.usgs.gov/publications/intensity-distribution-and-isoseismal-maps-nisqually-washington-earthquake-28-february
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: usgs-nisqually-nsmp
+    title: 20010228 Nisqually, Washington, Mw 6.8 Earthquake Data
+    publisher: U.S. Geological Survey, National Strong-Motion Program
+    url: https://escweb.wr.usgs.gov/nsmp-data/data_sets/20010228_1.html
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/nisqually-2001.jpg
+    mediaType: image
+    title: ShakeMap for the 2001 magnitude 6.8 Nisqually earthquake
+    creator: U.S. Geological Survey
+    sourceUrl: https://commons.wikimedia.org/wiki/File:ShakeMap_for_2001_M6.8_Olympia,_WA_earthquake.jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+    altText: USGS ShakeMap of instrumental intensity for the February 28, 2001, Nisqually earthquake.
+    creditLine: ShakeMap by the U.S. Geological Survey for the February 28, 2001, magnitude 6.8 earthquake. Public domain.
+
+relatedStories:
+  - slug: cascadia-subduction-zone
+    relationshipType: same-arc
+  - slug: ballard-locks
+    relationshipType: nearby
+  - slug: seattle-fault
+    relationshipType: same-arc

@@ -1,0 +1,88 @@
+slug: willapa-nwr
+title: Willapa National Wildlife Refuge
+hook: More than 21,000 acres of bay, forest, and tideflat in Pacific County began with a 196-acre purchase in 1936 and an executive order the next January.
+body: |
+  Willapa National Wildlife Refuge covers over 21,000 acres around
+  Willapa Bay in Pacific County. FWS says the Migratory Bird Conservation
+  Commission approved 4,825 acres on May 7, 1936. The first land purchase
+  was 196 acres on October 14, 1936. President Franklin Roosevelt
+  established the refuge by Executive Order 7541 on January 12, 1937.
+
+  FWS records more than 200 bird species, including more than 30
+  waterfowl and more than 30 shorebirds. Chum salmon use the streams.
+  Roosevelt elk use the forests.
+
+  The refuge is one of the large coastal refuges on the outer Washington
+  coast. The source below is the U.S. Fish and Wildlife Service refuge
+  page.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1937-01-12"
+datePrecision: day
+dateLabel: established January 12, 1937
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Willapa National Wildlife Refuge
+  slug: willapa-nwr
+  placeType: refuge
+  latitude: 46.45
+  longitude: -123.96
+  county: Pacific County
+  region: Southwest Washington
+
+categories:
+  - wildlife-ecology
+
+tags:
+  - refuge
+  - willapa-bay
+  - shorebirds
+
+claims:
+  - text: >
+      FWS says Willapa National Wildlife Refuge covers over 21,000 acres.
+      The Migratory Bird Conservation Commission approved 4,825 acres in
+      Pacific County on May 7, 1936. The first purchase was 196 acres on
+      October 14, 1936. Executive Order 7541 established the refuge on
+      January 12, 1937.
+    claimType: historical
+    confidence: verified
+    sources:
+      - fws-willapa
+  - text: >
+      FWS records more than 200 bird species at Willapa, including more
+      than 30 waterfowl and more than 30 shorebirds, plus chum salmon and
+      Roosevelt elk.
+    claimType: factual
+    confidence: verified
+    sources:
+      - fws-willapa
+
+sources:
+  - id: fws-willapa
+    title: Willapa National Wildlife Refuge
+    publisher: U.S. Fish and Wildlife Service
+    url: https://www.fws.gov/refuge/willapa
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/willapa-nwr.jpg
+    mediaType: image
+    title: Willapa National Wildlife Refuge
+    creator: U.S. Fish and Wildlife Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Willapa_National_Wildlife_Refuge_(52032958526).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.fws.gov/help/policies.html
+    altText: Tideflat and forest edge at Willapa National Wildlife Refuge.
+    creditLine: Photograph by the U.S. Fish and Wildlife Service. Public domain.
+
+relatedStories:
+  - slug: grays-harbor-nwr
+    relationshipType: nearby
+  - slug: cape-disappointment
+    relationshipType: nearby
+  - slug: columbia-chinook
+    relationshipType: nearby

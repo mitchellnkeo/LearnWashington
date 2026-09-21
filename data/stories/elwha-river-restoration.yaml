@@ -121,3 +121,5 @@ media:
 relatedStories:
   - slug: hoh-rain-forest
     relationshipType: same-park
+  - slug: ballard-locks
+    relationshipType: same-arc

@@ -1,0 +1,88 @@
+slug: olympic-coast-national-marine-sanctuary
+title: Olympic Coast National Marine Sanctuary
+hook: NOAA designated 3,188 square miles of ocean off the Olympic Peninsula on July 22, 1994, from the beaches out across the continental shelf.
+body: |
+  NOAA designated Olympic Coast National Marine Sanctuary on July 22,
+  1994. The sanctuary covers 3,188 square miles of marine waters off the
+  Olympic Peninsula. It extends about 25 to 45 miles seaward, covering
+  much of the continental shelf and several major submarine canyons.
+
+  NOAA says the sanctuary protects a productive upwelling zone, kelp and
+  intertidal communities, and deep-sea coral and sponge habitats. The
+  contemporary cultures of the Hoh Tribe, Makah Tribe, Quileute Tribe,
+  and Quinault Indian Nation have forged inseparable ties to the ocean
+  environment.
+
+  The sanctuary is the offshore counterpart to Olympic National Park's
+  coast. The source below is NOAA's official sanctuary about page.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1994-07-22"
+datePrecision: day
+dateLabel: designated July 22, 1994
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Olympic Coast National Marine Sanctuary
+  slug: olympic-coast-national-marine-sanctuary
+  placeType: marine_sanctuary
+  latitude: 47.9
+  longitude: -124.6
+  county: Jefferson County
+  region: Olympic Peninsula
+
+categories:
+  - wildlife-ecology
+  - geography-geology
+
+tags:
+  - marine-sanctuary
+  - olympic-coast
+  - noaa
+
+claims:
+  - text: >
+      NOAA designated Olympic Coast National Marine Sanctuary on July 22,
+      1994. The sanctuary includes 3,188 square miles of marine waters and
+      extends about 25 to 45 miles seaward, covering much of the continental
+      shelf and several major submarine canyons.
+    claimType: factual
+    confidence: verified
+    sources:
+      - noaa-ocnms-about
+  - text: >
+      NOAA says the sanctuary protects a productive upwelling zone and that
+      the Hoh Tribe, Makah Tribe, Quileute Tribe, and Quinault Indian Nation
+      have forged inseparable ties to the ocean environment.
+    claimType: factual
+    confidence: verified
+    sources:
+      - noaa-ocnms-about
+
+sources:
+  - id: noaa-ocnms-about
+    title: About the Sanctuary
+    publisher: National Oceanic and Atmospheric Administration
+    url: https://olympiccoast.noaa.gov/about/
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/olympic-coast-nms.jpg
+    mediaType: image
+    title: Olympic Coast
+    creator: National Oceanic and Atmospheric Administration
+    sourceUrl: https://commons.wikimedia.org/wiki/File:OCNMS_-_sea_otter_(27906039021).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.noaa.gov/information-technology/open-data-and-information
+    altText: Olympic Coast National Marine Sanctuary waters along the undeveloped Olympic Peninsula coast.
+    creditLine: Photograph by the National Oceanic and Atmospheric Administration, Olympic Coast National Marine Sanctuary. Public domain.
+
+relatedStories:
+  - slug: olympic-coast-sea-otters
+    relationshipType: same-landscape
+  - slug: olympic-national-park-1938
+    relationshipType: nearby
+  - slug: hoh-rain-forest
+    relationshipType: nearby

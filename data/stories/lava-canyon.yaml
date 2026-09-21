@@ -1,0 +1,84 @@
+slug: lava-canyon
+title: Lava Canyon
+hook: A mudflow-scoured canyon on the southeast side of Mount St. Helens drops a waterfall over ancient lava, with a trail that the Forest Service warns is not for going off-trail.
+body: |
+  Lava Canyon Interpretive Site sits in Gifford Pinchot National Forest on
+  the southeast side of Mount St. Helens. The Forest Service lists the
+  site at 46.165998° N, 122.087105° W, elevation 3,000 feet. A mudflow
+  scoured the canyon. A waterfall now drops over ancient lava.
+
+  Trail 184 is the interpretive route. The Forest Service warns of
+  fatalities off-trail. A five-dollar vehicle fee or a valid pass is
+  required. The site is in the Skamania, Lewis, and Cowlitz county area.
+
+  The canyon is one of the places where the 1980 eruption's aftermath is
+  still easy to see in rock and water. The source below is the Forest
+  Service page for the interpretive site.
+status: PUBLISHED
+verificationStatus: VERIFIED
+datePrecision: unknown
+dateLabel: mudflow-scoured canyon
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Lava Canyon Interpretive Site
+  slug: lava-canyon
+  placeType: canyon
+  latitude: 46.166
+  longitude: -122.087
+  county: Skamania County
+  region: South Cascades
+
+categories:
+  - geography-geology
+
+tags:
+  - mount-st-helens
+  - waterfall
+  - gifford-pinchot
+
+claims:
+  - text: >
+      The Forest Service lists Lava Canyon Interpretive Site at 46.165998° N,
+      122.087105° W, elevation 3,000 feet. A mudflow scoured the canyon, and
+      a waterfall drops over ancient lava.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usfs-lava-canyon
+  - text: >
+      Trail 184 is the interpretive route. The Forest Service warns of
+      fatalities off-trail. A $5 vehicle fee or a valid pass is required.
+      The site is in the Skamania, Lewis, and Cowlitz county area.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usfs-lava-canyon
+
+sources:
+  - id: usfs-lava-canyon
+    title: Lava Canyon Interpretive Site
+    publisher: U.S. Forest Service
+    url: https://www.fs.usda.gov/r06/giffordpinchot/recreation/lava-canyon-interpretive-site
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/lava-canyon.jpg
+    mediaType: image
+    title: Lava Canyon Falls, Gifford Pinchot National Forest
+    creator: U.S. Forest Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Lava_Canyon_Falls,_Gifford_Pinchot_National_Forest_(37175430665).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.fs.usda.gov/about-agency/information-policies
+    altText: A waterfall dropping over lava in Lava Canyon, Gifford Pinchot National Forest.
+    creditLine: Photograph by the U.S. Forest Service. Public domain.
+
+relatedStories:
+  - slug: mount-st-helens-1980-eruption
+    relationshipType: same-arc
+  - slug: spirit-lake
+    relationshipType: nearby
+  - slug: johnston-ridge-observatory
+    relationshipType: nearby

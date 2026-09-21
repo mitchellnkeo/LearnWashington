@@ -1,0 +1,99 @@
+slug: johnston-ridge-observatory
+title: Johnston Ridge Observatory
+hook: The observatory sits in the center of the 1980 blast zone, about 5 miles north of the crater, and is named for the USGS volcanologist who died on duty that morning.
+body: |
+  Johnston Ridge Observatory is open seasonally and is located on Johnston
+  Ridge in the center of the 1980 blast zone approximately 8 km (5 mi) north
+  of the Mount St. Helens summit. The ridge was named in honor of David
+  Johnston, the USGS volcanologist who was on duty at the USGS Coldwater II
+  observation point during the May 18, 1980, eruption.
+
+  He was one of 57 people who lost their lives in the eruption. A USGS
+  photograph on the same official page shows Johnston at Coldwater II at
+  1900 hours on May 17, 1980. The caption states he did not survive the next
+  day's eruption, and that Coldwater II would eventually be renamed Johnston
+  Ridge.
+
+  The observatory building houses seismic, deformation, and other monitoring
+  equipment that relays data to the USGS Cascades Volcano Observatory for
+  analysis. It stands inside Mount St. Helens National Volcanic Monument,
+  established in 1982 on 445 km² (110,000 acres) and managed by the USDA
+  Forest Service.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1980-05-18"
+datePrecision: day
+dateLabel: named for David Johnston, May 18, 1980
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Johnston Ridge Observatory
+  slug: johnston-ridge-observatory
+  placeType: observatory
+  latitude: 46.277
+  longitude: -122.217
+  county: Cowlitz County
+  region: Cascades
+
+categories:
+  - geography-geology
+  - science-strange
+  - history
+
+tags:
+  - mount-st-helens
+  - usgs
+  - volcano
+
+claims:
+  - text: >
+      Johnston Ridge Observatory stands in the center of the 1980 blast zone
+      approximately 8 km (5 mi) north of the Mount St. Helens summit and is
+      open seasonally.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usgs-msh-monument
+  - text: >
+      The ridge is named for David Johnston, the USGS volcanologist on duty at
+      Coldwater II on May 18, 1980. He was one of 57 people who lost their
+      lives in the eruption.
+    claimType: historical
+    confidence: verified
+    sources:
+      - usgs-msh-monument
+  - text: >
+      The building houses seismic, deformation, and other monitoring equipment
+      that relays data to the USGS Cascades Volcano Observatory.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usgs-msh-monument
+
+sources:
+  - id: usgs-msh-monument
+    title: Mount St. Helens National Volcanic Monument
+    publisher: U.S. Geological Survey
+    url: https://www.usgs.gov/volcanoes/mount-st.-helens/science/mount-st-helens-national-volcanic-monument
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/johnston-ridge-observatory.jpg
+    mediaType: image
+    title: Johnston Ridge Observatory in winter, December 9, 2005
+    creator: Elliot Endo, U.S. Geological Survey
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Johston_Ridge_Observatory_in_December_2005_(USGS).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+    altText: Johnston Ridge Observatory building in snow with Mount St. Helens in the distance.
+    creditLine: Photograph by Elliot Endo, U.S. Geological Survey, December 9, 2005, courtesy U.S. Forest Service. Public domain.
+
+relatedStories:
+  - slug: mount-st-helens-1980-eruption
+    relationshipType: same-arc
+  - slug: spirit-lake
+    relationshipType: nearby
+  - slug: ape-cave
+    relationshipType: nearby

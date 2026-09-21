@@ -1,0 +1,94 @@
+slug: alaska-yukon-pacific-exposition
+title: Alaska-Yukon-Pacific Exposition
+hook: Seattle's 1909 world's fair on the University of Washington campus drew millions of visitors and later gave Century 21 its golden anniversary to commemorate.
+body: |
+  The Alaska-Yukon-Pacific Exposition opened on the University of
+  Washington campus in 1909. The National Archives' Seattle highlights
+  page says the later Century 21 Exposition commemorated the golden
+  anniversary of that fair.
+
+  The Library of Congress Meeting of Frontiers project says the
+  exposition drew millions of visitors and displayed Pacific Rim
+  commodities. The campus plan from 1909 still shapes the central
+  University of Washington grounds.
+
+  The photograph is Frank Nowell's official view of the fairgrounds.
+  The sources below are the National Archives and the Library of
+  Congress.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1909-01-01"
+datePrecision: year
+dateLabel: "1909"
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: University of Washington
+  slug: alaska-yukon-pacific-exposition
+  placeType: historic_site
+  latitude: 47.655
+  longitude: -122.308
+  county: King County
+  region: Puget Sound
+
+categories:
+  - history
+  - music-culture
+
+tags:
+  - seattle
+  - worlds-fair
+  - university-of-washington
+
+claims:
+  - text: >
+      The National Archives says the Alaska-Yukon-Pacific Exposition was
+      held on the University of Washington campus in 1909, and that the
+      Century 21 Exposition later commemorated its golden anniversary.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nara-century-21
+  - text: >
+      The Library of Congress Meeting of Frontiers project says the
+      exposition drew millions of visitors and displayed Pacific Rim
+      commodities.
+    claimType: historical
+    confidence: verified
+    sources:
+      - loc-ayp
+
+sources:
+  - id: nara-century-21
+    title: Century 21 Exposition
+    publisher: National Archives
+    url: https://www.archives.gov/seattle/highlights/century-21-exposition
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: loc-ayp
+    title: Meeting of Frontiers
+    publisher: Library of Congress
+    url: https://www.loc.gov/collections/meeting-of-frontiers/
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/alaska-yukon-pacific.jpg
+    mediaType: image
+    title: Alaska-Yukon-Pacific Exposition, Seattle, 1909
+    creator: Frank Nowell
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Alaska_Yukon_Pacific_Exposition,_Seattle_1909.jpg
+    license: Public domain (U.S. work, copyright expired)
+    licenseUrl: https://www.loc.gov/legal/
+    altText: Official view of the Alaska-Yukon-Pacific Exposition grounds in Seattle, 1909.
+    creditLine: Photograph by Frank Nowell, 1909. Public domain.
+
+relatedStories:
+  - slug: klondike-gold-rush-seattle
+    relationshipType: same-arc
+  - slug: montlake-cut
+    relationshipType: nearby
+  - slug: washington-statehood-1889
+    relationshipType: same-arc

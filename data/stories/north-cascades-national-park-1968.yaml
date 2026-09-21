@@ -1,0 +1,96 @@
+slug: north-cascades-national-park-1968
+title: North Cascades National Park, 1968
+hook: President Johnson signed Public Law 90-544 on October 2, 1968, creating a national park and two recreation areas for "majestic mountain scenery."
+body: |
+  On October 2, 1968, President Lyndon B. Johnson signed Public Law
+  90-544 (82 Stat. 926). The act established North Cascades National
+  Park, Ross Lake National Recreation Area, and Lake Chelan National
+  Recreation Area. It also created the Pasayten Wilderness and modified
+  the Glacier Peak Wilderness.
+
+  NPS quotes the purpose as protecting majestic mountain scenery. The
+  enabling record lists 276,928 hectares, or 684,305 acres, for the
+  complex. This card is the establishment story. The glacier and
+  landscape card is a separate story.
+
+  The photograph is Cascade Pass and Pelton Basin, the high country the
+  1968 act was written to keep. The sources below are the National Park
+  Service record of the enabling act.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1968-10-02"
+datePrecision: day
+dateLabel: October 2, 1968
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: North Cascades National Park
+  slug: north-cascades-national-park-1968
+  placeType: national_park
+  latitude: 48.71
+  longitude: -121.2
+  county: Whatcom County
+  region: North Cascades
+
+categories:
+  - history
+  - geography-geology
+
+tags:
+  - north-cascades
+  - national-park
+  - "1968"
+
+claims:
+  - text: >
+      President Lyndon B. Johnson signed Public Law 90-544 (82 Stat. 926)
+      on October 2, 1968, establishing North Cascades National Park, Ross
+      Lake National Recreation Area, and Lake Chelan National Recreation
+      Area, creating the Pasayten Wilderness, and modifying the Glacier
+      Peak Wilderness.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-noca-history
+  - text: >
+      NPS quotes the park purpose as protecting majestic mountain scenery
+      and lists 276,928 hectares (684,305 acres) for the complex.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-noca-history
+
+sources:
+  - id: nps-noca-history
+    title: History of North Cascades National Park
+    publisher: National Park Service
+    url: https://www.nps.gov/noca/learn/historyculture/index.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: nps-noca
+    title: North Cascades National Park
+    publisher: National Park Service
+    url: https://www.nps.gov/noca/index.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/north-cascades-1968.jpg
+    mediaType: image
+    title: Cascade Pass and Pelton Basin
+    creator: National Park Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Cascade_Pass_and_Pelton_Basin.jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: Cascade Pass and Pelton Basin in the high country protected by the 1968 park act.
+    creditLine: Photograph by the National Park Service. Public domain.
+
+relatedStories:
+  - slug: north-cascades-national-park
+    relationshipType: same-park
+  - slug: ross-lake
+    relationshipType: same-park
+  - slug: lake-chelan
+    relationshipType: same-park

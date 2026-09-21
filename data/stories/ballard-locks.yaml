@@ -1,0 +1,105 @@
+slug: ballard-locks
+title: Hiram M. Chittenden Locks
+hook: Two concrete chambers in Ballard lift ships between Puget Sound and Seattle's lakes — and pass salmon the other way.
+body: |
+  The U.S. Army Corps of Engineers finished the Lake Washington Ship Canal
+  and Hiram M. Chittenden Locks in 1917. The canal joins Lake Washington,
+  Lake Union, and Salmon Bay to the tidal water of Puget Sound. Seattle
+  calls them the Ballard Locks, after the neighborhood on the north bank.
+
+  The complex has two locks: a small chamber 30 by 150 feet and a large
+  chamber 80 by 825 feet. A 235-foot spillway with six gates holds the
+  freshwater lakes above salt water. A fish ladder is built into the
+  locks so anadromous fish, especially salmon, can keep migrating.
+
+  The first ship passed on August 3, 1916. The locks were formally opened
+  on July 4, 1917. They are named for Maj. Hiram Martin Chittenden, Seattle
+  District Engineer from April 1906 to September 1908. The sources below
+  are the Corps of Engineers' public record of the project.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1916-08-03"
+endDate: "1917-07-04"
+datePrecision: day
+dateLabel: opened 1916–1917
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Hiram M. Chittenden Locks
+  slug: ballard-locks
+  placeType: lock
+  latitude: 47.666
+  longitude: -122.397
+  county: King County
+  region: Puget Sound
+
+categories:
+  - history
+  - science-strange
+
+tags:
+  - seattle
+  - salmon
+  - ship-canal
+
+claims:
+  - text: >
+      The U.S. Army Corps of Engineers completed the Lake Washington Ship
+      Canal and Hiram M. Chittenden Locks in 1917, connecting Lake Washington,
+      Lake Union, and Salmon Bay to Puget Sound. The first ship passed on
+      August 3, 1916; the locks were formally opened on July 4, 1917.
+    claimType: historical
+    confidence: verified
+    sources:
+      - usace-chittenden-locks
+  - text: >
+      The complex includes a small lock 30 by 150 feet (8.5 by 45.7 m), a
+      large lock 80 by 825 feet (24.4 by 251.5 m), and a 235-foot (71.6 m)
+      spillway with six gates for water-level control.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usace-chittenden-locks
+  - text: >
+      A fish ladder is integrated into the locks for migration of anadromous
+      fish, notably salmon. The locks are named for Maj. Hiram Martin
+      Chittenden, Seattle District Engineer from April 1906 to September 1908.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usace-chittenden-locks
+
+sources:
+  - id: usace-chittenden-locks
+    title: Hiram M. Chittenden Locks
+    publisher: U.S. Army Corps of Engineers, Seattle District
+    url: https://www.nws.usace.army.mil/Missions/Civil-Works/Locks-and-Dams/Chittenden-Locks/
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: usace-chittenden-tours
+    title: Touring the Locks
+    publisher: U.S. Army Corps of Engineers, Seattle District
+    url: https://www.nws.usace.army.mil/Missions/Civil-Works/Locks-and-Dams/Chittenden-Locks/Touring-the-Locks/
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/ballard-locks.jpg
+    mediaType: image
+    title: General view of the government locks
+    creator: U.S. Army Corps of Engineers
+    sourceUrl: https://catalog.archives.gov/id/298861
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.archives.gov/global-pages/privacy.html
+    altText: Historic photograph of the Lake Washington Ship Canal locks, looking along the concrete chambers and gates.
+    creditLine: Photograph from the National Archives (298861), U.S. Army Corps of Engineers. Public domain.
+
+relatedStories:
+  - slug: southern-resident-orcas
+    relationshipType: nearby
+  - slug: elwha-river-restoration
+    relationshipType: same-arc
+  - slug: montlake-cut
+    relationshipType: same-arc

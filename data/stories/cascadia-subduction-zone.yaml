@@ -105,3 +105,9 @@ relatedStories:
     relationshipType: same-arc
   - slug: mount-rainier
     relationshipType: same-arc
+  - slug: glacier-peak
+    relationshipType: same-arc
+  - slug: seattle-fault
+    relationshipType: same-arc
+  - slug: nisqually-earthquake-2001
+    relationshipType: same-arc

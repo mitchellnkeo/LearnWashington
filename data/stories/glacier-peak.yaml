@@ -1,0 +1,122 @@
+slug: glacier-peak
+title: Glacier Peak
+hook: Washington's most remote active volcano is easy to miss from the cities — and has produced some of the biggest eruptions in the Lower 48.
+body: |
+  Glacier Peak stands in Snohomish County at 48.112° N, 121.113° W. USGS lists
+  it at 3,213 meters, or 10,541 feet. It is a dacite stratovolcano, and more
+  than a dozen glaciers come down its flanks. The National Volcano Early
+  Warning System rates its threat potential as Very High.
+
+  It is the most remote of Washington's five active volcanoes. Settlers did
+  not know it was a volcano until the 1850s, when Native Americans told
+  naturalist George Gibbs that a smaller peak north of Mount Rainier "once
+  smoked." Because it is not prominent from any major city, USGS says its
+  attractions and its hazards tend to be overlooked.
+
+  Since the last ice age it has erupted in at least six separate episodes.
+  USGS says Glacier Peak and Mount St. Helens are the only Washington
+  volcanoes that have produced very large explosive eruptions in the past
+  15,000 years. The last eruption was about 1,100 years ago. The main hazard
+  today is lahars in the White Chuck, Suiattle, Sauk, and Skagit valleys.
+  About 13,000 years ago, lahars reached Arlington — more than 95 kilometers
+  downstream — and left more than 2 meters of sediment. The sources below
+  are the public USGS record of the mountain.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "0900-01-01"
+datePrecision: approximate
+dateLabel: last eruption about 1,100 years ago
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Glacier Peak
+  slug: glacier-peak
+  placeType: volcano
+  latitude: 48.112
+  longitude: -121.113
+  county: Snohomish County
+  region: North Cascades
+
+categories:
+  - geography-geology
+  - science-strange
+
+tags:
+  - volcano
+  - lahar
+  - cascades
+
+claims:
+  - text: >
+      Glacier Peak is a dacite stratovolcano in Snohomish County, Washington,
+      at 48.112° N, 121.113° W, elevation 3,213 m (10,541 ft). USGS calls it
+      the most remote of Washington's five active volcanoes and rates its
+      threat potential as Very High.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usgs-glacier-peak
+  - text: >
+      The most recent eruption was about 1,100 years ago. Since the end of
+      the last ice age the volcano has erupted multiple times during at least
+      six separate episodes. Glacier Peak and Mount St. Helens are the only
+      Washington volcanoes that have generated very large explosive eruptions
+      in the past 15,000 years.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - usgs-glacier-peak
+  - text: >
+      Lahars are the greatest hazard. The Suiattle, White Chuck, Sauk, and
+      Skagit river valleys are at risk. About 13,000 years ago,
+      eruption-generated lahars reached the Stillaguamish valley at Arlington,
+      more than 95 km (60 mi) downstream, and deposited more than 2 m (7 ft)
+      of sediment.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - usgs-glacier-peak-lahars
+
+sources:
+  - id: usgs-glacier-peak
+    title: Glacier Peak
+    publisher: U.S. Geological Survey
+    url: https://www.usgs.gov/volcanoes/glacier-peak
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: usgs-glacier-peak-lahars
+    title: Lahar Hazards at Glacier Peak
+    publisher: U.S. Geological Survey
+    url: https://www.usgs.gov/volcanoes/glacier-peak/science/lahar-hazards-glacier-peak
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: usgs-glacier-peak-hazards
+    title: Hazards Summary for Glacier Peak
+    publisher: U.S. Geological Survey
+    url: https://www.usgs.gov/volcanoes/glacier-peak/science/hazards-summary-glacier-peak
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/glacier-peak.jpg
+    mediaType: image
+    title: Glacier Peak volcano viewed from the west
+    creator: U.S. Geological Survey, Volcano Hazards Program
+    sourceUrl: https://www.usgs.gov/media/images/glacier-peak-volcano-viewed-west-wa
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+    altText: Snow-covered Glacier Peak rising above forested ridges, photographed from the west.
+    creditLine: Photograph by the U.S. Geological Survey, Volcano Hazards Program, September 10, 2013. Public domain.
+
+relatedStories:
+  - slug: mount-rainier
+    relationshipType: same-arc
+  - slug: mount-st-helens-1980-eruption
+    relationshipType: same-arc
+  - slug: cascadia-subduction-zone
+    relationshipType: same-arc
+  - slug: diablo-lake
+    relationshipType: nearby

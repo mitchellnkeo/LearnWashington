@@ -1,0 +1,112 @@
+slug: cape-disappointment
+title: Cape Disappointment
+hook: A British trader named the headland for a river he could not find. Lewis and Clark later walked it to see the Pacific.
+body: |
+  The headland at the mouth of the Columbia was first written down in 1775,
+  when Spanish explorer Bruno Heceta called it Bahia de La Asuncion. In 1788
+  British trader John Meares named it Cape Disappointment after he failed
+  to find the river.
+
+  On November 17, 1805, Meriwether Lewis walked from the expedition's camp
+  around Haley's Bay to the cape and some distance up the sea coast. The
+  next day William Clark and eleven others who "wished to See more of the
+  main Ocian" made the same trip. The National Park Service lists the cape
+  as a High Potential Historic Site on the Lewis and Clark National Historic
+  Trail. The land itself is a Washington state park, not a unit of Lewis
+  and Clark National Historical Park.
+
+  Cape Disappointment Lighthouse was built in 1856 to mark the river mouth.
+  NPS calls it the oldest operating lighthouse in the Pacific Northwest.
+  An interpretive center now sits on the cliffs about 200 feet above the
+  surf. The sources below are the National Park Service record of the cape
+  and the Corps of Discovery's arrival.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1805-11-17"
+datePrecision: day
+dateLabel: Lewis reached the cape 1805
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Cape Disappointment
+  slug: cape-disappointment
+  placeType: cape
+  latitude: 46.276
+  longitude: -124.052
+  county: Pacific County
+  region: Coast
+
+categories:
+  - history
+  - geography-geology
+
+tags:
+  - lewis-and-clark
+  - columbia-river
+  - lighthouse
+
+claims:
+  - text: >
+      Spanish explorer Bruno Heceta documented the headland in 1775 as Bahia
+      de La Asuncion. British trader John Meares named it Cape Disappointment
+      in 1788 after failing to find the Columbia River.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-cape-disappointment-place
+  - text: >
+      On November 17, 1805, Meriwether Lewis traversed Haley's Bay to Cape
+      Disappointment and the sea coast to the north. On November 18, William
+      Clark and eleven others made the trip to see more of the ocean. NPS
+      lists the cape as a High Potential Historic Site on the Lewis and Clark
+      National Historic Trail.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-cape-disappointment-place
+  - text: >
+      Cape Disappointment Lighthouse was built in 1856 to help mariners
+      navigate the mouth of the Columbia. NPS describes it as the oldest
+      operating lighthouse in the Pacific Northwest.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-lewi-brochure
+
+sources:
+  - id: nps-cape-disappointment-place
+    title: Cape Disappointment
+    publisher: National Park Service
+    url: https://www.nps.gov/places/cape-disappointment-wa.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: nps-cape-disappointment-park
+    title: Cape Disappointment State Park
+    publisher: National Park Service
+    url: https://www.nps.gov/places/cape-disappointment-state-park.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: nps-lewi-brochure
+    title: Park Brochure — Lewis and Clark National Historical Park
+    publisher: National Park Service
+    url: https://www.nps.gov/lewi/planyourvisit/park-brochure.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/cape-disappointment.jpg
+    mediaType: image
+    title: Cape Disappointment Light
+    creator: United States Coast Guard
+    sourceUrl: https://commons.wikimedia.org/wiki/File:USCG_Cape_Disappointment1.jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.usa.gov/government-works
+    altText: Cape Disappointment Lighthouse on a rocky headland above the Pacific, with surf in the foreground.
+    creditLine: Photograph by the United States Coast Guard. Public domain.
+
+relatedStories:
+  - slug: fort-vancouver
+    relationshipType: same-arc

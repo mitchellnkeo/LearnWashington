@@ -1,0 +1,98 @@
+slug: whitman-mission
+title: Whitman Mission
+hook: An 1836 mission among the Cayuse ended on November 29, 1847, when a group of Cayuse attacked. NPS says fourteen people died, including Marcus and Narcissa.
+body: |
+  Whitman Mission National Historic Site marks the 1836 American Board of
+  Commissioners for Foreign Missions station among the Cayuse. The site
+  is at 328 Whitman Mission Road, Walla Walla. NPS says a measles outbreak
+  preceded the attack. On November 29, 1847, a group of Cayuse attacked.
+  Fourteen people died including Marcus and Narcissa. NPS says the event
+  led to reservations.
+
+  The Confederated Tribes of the Umatilla Indian Reservation are a partner
+  at the park. A park brochure lists the site at 138 acres, seven miles
+  west of Walla Walla, and established in 1936.
+
+  This is a hard place. NPS tells it as mission, disease, attack, and the
+  reservation era that followed. The sources below are the National Park
+  Service Learn page and the park brochure.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1847-11-29"
+datePrecision: day
+dateLabel: November 29, 1847
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Whitman Mission National Historic Site
+  slug: whitman-mission
+  placeType: historic_site
+  latitude: 46.042
+  longitude: -118.464
+  county: Walla Walla County
+  region: Columbia Basin
+
+categories:
+  - history
+  - indigenous-history-place
+
+tags:
+  - cayuse
+  - mission
+  - walla-walla
+
+claims:
+  - text: >
+      NPS says the 1836 ABCFM mission stood among the Cayuse. After a
+      measles outbreak, a group of Cayuse attacked on November 29, 1847.
+      Fourteen people died including Marcus and Narcissa. NPS says the
+      event led to reservations. The Confederated Tribes of the Umatilla
+      Indian Reservation are a partner at the park.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-whmi-learn
+  - text: >
+      The park address is 328 Whitman Mission Road, Walla Walla. A park
+      brochure lists 138 acres, seven miles west of Walla Walla, established
+      in 1936.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-whmi-learn
+      - nps-whmi-brochure
+
+sources:
+  - id: nps-whmi-learn
+    title: Learn About the Park
+    publisher: National Park Service
+    url: https://www.nps.gov/whmi/learn/index.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: nps-whmi-brochure
+    title: Whitman Mission Park Brochure
+    publisher: National Park Service
+    url: https://www.nps.gov/whmi/planyourvisit/park-brochure.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/whitman-mission.jpg
+    mediaType: image
+    title: Whitman Mission grave
+    creator: National Park Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Whitman_Mission_Grave_WA_NPS.jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: The grave monument at Whitman Mission National Historic Site near Walla Walla.
+    creditLine: Photograph by the National Park Service. Public domain.
+
+relatedStories:
+  - slug: fort-vancouver
+    relationshipType: same-arc
+  - slug: ice-harbor-dam
+    relationshipType: nearby
+  - slug: yakima-hops
+    relationshipType: nearby

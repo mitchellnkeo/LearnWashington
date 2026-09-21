@@ -1,0 +1,92 @@
+slug: washington-statehood-1889
+title: Washington Statehood, 1889
+hook: President Harrison admitted Washington as the 42nd state on November 11, 1889, the only state named for a president.
+body: |
+  On November 11, 1889, President Benjamin Harrison admitted Washington
+  as the 42nd state. The Library of Congress notes that voters had
+  rejected earlier constitutions between 1878 and 1889. Washington
+  entered the Union in the same season as Montana and the Dakotas.
+
+  The Library of Congress also notes that Washington is the only state
+  named after a president. A Columbia name was considered and set aside.
+  Olympia became the capital.
+
+  The photograph is the first page of the 1889 state constitution. The
+  sources below are the Library of Congress Today in History page and
+  the statehood guide.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1889-11-11"
+datePrecision: day
+dateLabel: November 11, 1889
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Olympia
+  slug: olympia
+  placeType: city
+  latitude: 47.043
+  longitude: -122.9
+  county: Thurston County
+  region: Puget Sound
+
+categories:
+  - history
+
+tags:
+  - statehood
+  - olympia
+  - "1889"
+
+claims:
+  - text: >
+      The Library of Congress says President Benjamin Harrison admitted
+      Washington as the 42nd state on November 11, 1889, after voters
+      rejected earlier constitutions between 1878 and 1889. Washington was
+      admitted with Montana and the Dakotas.
+    claimType: historical
+    confidence: verified
+    sources:
+      - loc-november-11
+  - text: >
+      The Library of Congress notes that Washington is the only state named
+      after a president, and that a Columbia name was considered.
+    claimType: historical
+    confidence: verified
+    sources:
+      - loc-washington-guide
+
+sources:
+  - id: loc-november-11
+    title: Today in History — November 11
+    publisher: Library of Congress
+    url: https://www.loc.gov/item/today-in-history/november-11/
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: loc-washington-guide
+    title: Washington
+    publisher: Library of Congress
+    url: https://www.loc.gov/rr/program/bib/states/washington/
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/washington-statehood.jpg
+    mediaType: image
+    title: Washington Constitution, 1889, page 1
+    creator: Washington Constitutional Convention
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Washington_Constitution_1889_p1.jpg
+    license: Public domain (U.S. work, copyright expired)
+    licenseUrl: https://www.loc.gov/legal/
+    altText: First page of the 1889 Washington State Constitution.
+    creditLine: Washington Constitution of 1889, page 1. Public domain.
+
+relatedStories:
+  - slug: great-seattle-fire-1889
+    relationshipType: same-arc
+  - slug: alaska-yukon-pacific-exposition
+    relationshipType: same-arc
+  - slug: fort-vancouver
+    relationshipType: same-arc

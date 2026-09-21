@@ -1,0 +1,101 @@
+slug: gray-wolves-washington
+title: Gray Wolves in Washington
+hook: USFWS treats the gray wolf as a recovered species in much of the West, after listing it as endangered across the contiguous United States in 1978.
+body: |
+  Gray wolves, Canis lupus, are the largest wild members of the dog
+  family. USFWS says adults range from 18 to 80 kilograms (40 to
+  175 pounds). The species has a circumpolar range. In North America
+  wolves primarily hunt medium and large hooved mammals.
+
+  USFWS listed gray wolves under the Endangered Species Act as subspecies
+  or regional populations, then in 1978 reclassified the species as
+  endangered throughout the contiguous United States and Mexico, except
+  Minnesota, which was classified as threatened. The Northern Rocky
+  Mountains population was delisted due to recovery in 2011, except
+  Wyoming, delisted in 2017. Remaining wolf populations in the contiguous
+  United States were delisted due to recovery in 2021.
+
+  In February 2024, USFWS found that listing the gray wolf in the Western
+  United States was not warranted. This card uses only that federal legal
+  record. The photograph is a Yellowstone National Park species photo,
+  not a picture of a Washington pack.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1978-01-01"
+datePrecision: year
+dateLabel: listed endangered at species level in 1978
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Northeastern Washington
+  slug: gray-wolves-washington
+  placeType: wildlife_range
+  latitude: 48.7
+  longitude: -118.5
+  county: Ferry County
+  region: Northeast Washington
+
+categories:
+  - wildlife-ecology
+
+tags:
+  - wolf
+  - endangered-species
+  - wildlife
+
+claims:
+  - text: >
+      USFWS says gray wolves are the largest wild members of the dog family,
+      with adults ranging from 18 to 80 kilograms (40 to 175 pounds), and
+      that they have a circumpolar range.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - fws-gray-wolf
+  - text: >
+      In 1978 USFWS reclassified the gray wolf as endangered throughout the
+      contiguous United States and Mexico, except Minnesota (threatened).
+      The Northern Rocky Mountains population was delisted in 2011, except
+      Wyoming in 2017. Remaining contiguous-U.S. populations were delisted
+      in 2021. A February 2024 finding said listing the gray wolf in the
+      Western United States was not warranted.
+    claimType: factual
+    confidence: verified
+    sources:
+      - fws-gray-wolf
+      - fws-gray-wolf-2024
+
+sources:
+  - id: fws-gray-wolf
+    title: Gray Wolf (Canis lupus)
+    publisher: U.S. Fish and Wildlife Service
+    url: https://www.fws.gov/species/gray-wolf-canis-lupus
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: fws-gray-wolf-2024
+    title: Finding on the Gray Wolf in the Northern Rocky Mountains and Western United States
+    publisher: U.S. Fish and Wildlife Service
+    url: https://www.govinfo.gov/content/pkg/FR-2024-02-07/html/2024-02419.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/gray-wolf.jpg
+    mediaType: image
+    title: Gray wolves in Yellowstone National Park
+    creator: Doug Smith, National Park Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Yellowstone_Wolves.jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: Gray wolves photographed in Yellowstone National Park, used here as a species photograph.
+    creditLine: Photograph by Doug Smith, National Park Service, Yellowstone National Park. This is a Yellowstone species photo, not a Washington pack. Public domain.
+
+relatedStories:
+  - slug: north-cascades-national-park
+    relationshipType: nearby
+  - slug: olympic-marmot
+    relationshipType: same-arc
+  - slug: northern-spotted-owl
+    relationshipType: same-arc

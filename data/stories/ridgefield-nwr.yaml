@@ -1,0 +1,96 @@
+slug: ridgefield-nwr
+title: Ridgefield National Wildlife Refuge
+hook: FWS established this lower Columbia refuge in 1965 as wintering habitat for the dusky Canada goose, whose range is extremely limited.
+body: |
+  Ridgefield National Wildlife Refuge sits just north of Vancouver,
+  between the Columbia River and the town of Ridgefield in Clark County.
+  FWS established the refuge in 1965 to provide wintering habitat for
+  the dusky subspecies of the Canada goose, whose habitat is extremely
+  limited. Smaller parcels have been added since.
+
+  FWS describes about 5,300 acres of wetlands, grasslands, and riparian
+  forests. Staff and partners also work on Oregon oak woodlands. The
+  lands support wintering dusky Canada geese, migrating waterfowl, and
+  species such as Columbian white-tailed deer and sandhill cranes.
+
+  The refuge is one of four in the Ridgefield complex along the lower
+  Columbia. The sources below are the U.S. Fish and Wildlife Service
+  refuge pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1965-01-01"
+datePrecision: year
+dateLabel: established 1965
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Ridgefield National Wildlife Refuge
+  slug: ridgefield-nwr
+  placeType: refuge
+  latitude: 45.816
+  longitude: -122.745
+  county: Clark County
+  region: Southwest Washington
+
+categories:
+  - wildlife-ecology
+
+tags:
+  - refuge
+  - columbia-river
+  - waterfowl
+
+claims:
+  - text: >
+      FWS established Ridgefield National Wildlife Refuge in 1965 to provide
+      wintering habitat for the dusky subspecies of the Canada goose, whose
+      habitat is extremely limited. Smaller pieces of land have been added
+      since.
+    claimType: historical
+    confidence: verified
+    sources:
+      - fws-ridgefield
+  - text: >
+      FWS describes about 5,300 acres of wetlands, grasslands, and riparian
+      forests on the lower Columbia, also used by Columbian white-tailed
+      deer and sandhill cranes.
+    claimType: factual
+    confidence: verified
+    sources:
+      - fws-ridgefield
+      - fws-ridgefield-about
+
+sources:
+  - id: fws-ridgefield
+    title: Ridgefield National Wildlife Refuge
+    publisher: U.S. Fish and Wildlife Service
+    url: https://www.fws.gov/refuge/ridgefield
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: fws-ridgefield-about
+    title: About Us
+    publisher: U.S. Fish and Wildlife Service
+    url: https://www.fws.gov/refuge/ridgefield/about-us
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/ridgefield-nwr.jpg
+    mediaType: image
+    title: Ridgefield National Wildlife Refuge
+    creator: U.S. Fish and Wildlife Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Ridgefield_National_Wildlife_Refuge_(52990607050).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.fws.gov/help/policies.html
+    altText: Wetlands and trees at Ridgefield National Wildlife Refuge on the lower Columbia River.
+    creditLine: Photograph by USFWS Pacific. Public domain.
+
+relatedStories:
+  - slug: fort-vancouver
+    relationshipType: nearby
+  - slug: billy-frank-jr-nisqually
+    relationshipType: same-arc
+  - slug: columbia-chinook
+    relationshipType: nearby

@@ -1,0 +1,93 @@
+slug: great-seattle-fire-1889
+title: Great Seattle Fire, 1889
+hook: A paint-shop fire at Front and Madison on June 6, 1889, burned for 18 hours, leveled 100 acres, and left the city to rebuild within a year.
+body: |
+  Seattle's city archives date the Great Fire to June 6, 1889, at about
+  2:30 p.m., in a paint shop at Front and Madison. The fire burned for
+  18 hours and destroyed about 100 acres of the business district. The
+  archives put the loss at about $20 million. Seattle rebuilt within a
+  year, and the population rose about 33 percent.
+
+  Seattle City Light's public history of the fire says there were no
+  human fatalities. The photograph shows tents on Yesler Way in July
+  1889, after the burn.
+
+  The fire and statehood landed in the same year. The sources below are
+  the City of Seattle municipal archives and Seattle City Light.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1889-06-06"
+datePrecision: day
+dateLabel: June 6, 1889
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Pioneer Square
+  slug: great-seattle-fire
+  placeType: historic_district
+  latitude: 47.605
+  longitude: -122.336
+  county: King County
+  region: Puget Sound
+
+categories:
+  - history
+
+tags:
+  - seattle
+  - fire
+  - "1889"
+
+claims:
+  - text: >
+      Seattle's city archives date the Great Fire to June 6, 1889, about
+      2:30 p.m., in a paint shop at Front and Madison. The fire burned
+      18 hours, destroyed about 100 acres, and caused about $20 million in
+      damage. The city rebuilt within a year, and population rose about
+      33 percent.
+    claimType: historical
+    confidence: verified
+    sources:
+      - seattle-archives-fire
+  - text: >
+      Seattle City Light's public history of the fire says there were no
+      human fatalities.
+    claimType: historical
+    confidence: verified
+    sources:
+      - seattle-city-light-fire
+
+sources:
+  - id: seattle-archives-fire
+    title: Great Seattle Fire
+    publisher: City of Seattle Municipal Archives
+    url: https://www.seattle.gov/city-archives/exhibits-and-education/digital-document-libraries/the-great-seattle-fire-of-1889
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: seattle-city-light-fire
+    title: The Great Seattle Fire
+    publisher: Seattle City Light
+    url: https://powerlines.seattle.gov/2018/10/11/five-things-that-made-seattles-public-power-possible/
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/great-seattle-fire.jpg
+    mediaType: image
+    title: Ruins and tents on Yesler Way after the Great Fire, July 1889
+    creator: unknown photographer, Museum of History and Industry collection
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Ruins_and_tents_on_Yesler_Way_after_Great_Fire,_Seattle,_July_1889_(MOHAI_11908).jpg
+    license: Public domain (U.S. work, copyright expired)
+    licenseUrl: https://www.loc.gov/legal/
+    altText: Tents and burned ruins on Yesler Way in Seattle after the Great Fire of 1889.
+    creditLine: Ruins and tents on Yesler Way after the Great Fire, Seattle, July 1889. Public domain.
+
+relatedStories:
+  - slug: washington-statehood-1889
+    relationshipType: same-arc
+  - slug: klondike-gold-rush-seattle
+    relationshipType: same-arc
+  - slug: alaska-yukon-pacific-exposition
+    relationshipType: same-arc

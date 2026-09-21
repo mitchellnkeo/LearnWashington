@@ -1,0 +1,92 @@
+slug: washington-pass
+title: Washington Pass
+hook: A 5,500-foot overlook on the North Cascades Highway looks across Liberty Bell, Early Winters Spires, and Kangaroo Ridge.
+body: |
+  Washington Pass Observation Site sits on the Okanogan-Wenatchee National
+  Forest, 30 miles west of Winthrop on U.S. 20. The Forest Service lists
+  the overlook at 48.5265° N, 120.6497° W, elevation 5,500 feet. From the
+  parking area the view takes in Liberty Bell Mountain, Early Winters
+  Spires, and Kangaroo Ridge.
+
+  NPS describes a paved trail about 400 feet (250 meters) long at the
+  overlook. Larches color the slopes in fall. Snow can linger until early
+  July. A Northwest Forest Pass is required.
+
+  The pass is one of the easiest high viewpoints on the North Cascades
+  Highway when the road is open. The sources below are the Forest Service
+  recreation page and the NPS accessibility note for the overlook.
+status: PUBLISHED
+verificationStatus: VERIFIED
+datePrecision: unknown
+dateLabel: North Cascades Highway overlook
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Washington Pass Observation Site
+  slug: washington-pass
+  placeType: overlook
+  latitude: 48.5265
+  longitude: -120.6497
+  county: Okanogan County
+  region: North Cascades
+
+categories:
+  - geography-geology
+
+tags:
+  - north-cascades
+  - overlook
+  - highway-20
+
+claims:
+  - text: >
+      The Forest Service lists Washington Pass Observation Site at 48.5265° N,
+      120.6497° W, elevation 5,500 feet, 30 miles west of Winthrop on U.S. 20.
+      The view includes Liberty Bell Mountain, Early Winters Spires, and
+      Kangaroo Ridge.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usfs-washington-pass
+  - text: >
+      NPS describes a paved trail about 400 feet (250 meters) long. Snow can
+      linger until early July. A Northwest Forest Pass is required.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-washington-pass-access
+
+sources:
+  - id: usfs-washington-pass
+    title: Washington Pass Observation Site
+    publisher: U.S. Forest Service
+    url: https://www.fs.usda.gov/r06/okanogan-wenatchee/recreation/washington-pass-observation-site
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: nps-washington-pass-access
+    title: Accessibility at Washington Pass Overlook
+    publisher: National Park Service
+    url: https://www.nps.gov/noca/planyourvisit/accessibility-at-washington-pass-overlook.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/washington-pass.jpg
+    mediaType: image
+    title: Liberty Bell Mountain and Early Winters Spire from near Washington Pass
+    creator: U.S. Forest Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Liberty_Bell_Mountain_and_Early_Winters_Spire_from_near_Washington_Pass_(9_April_2001).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.fs.usda.gov/about-agency/information-policies
+    altText: Liberty Bell Mountain and Early Winters Spires seen from near Washington Pass.
+    creditLine: Photograph by the U.S. Forest Service, 9 April 2001. Public domain.
+
+relatedStories:
+  - slug: north-cascades-national-park
+    relationshipType: nearby
+  - slug: ross-lake
+    relationshipType: nearby
+  - slug: glacier-peak
+    relationshipType: same-landscape

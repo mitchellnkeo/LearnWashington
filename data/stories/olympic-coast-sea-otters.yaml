@@ -1,0 +1,97 @@
+slug: olympic-coast-sea-otters
+title: Olympic Coast Sea Otters
+hook: Washington's sea otters were gone by the early 1900s. FWS says 59 animals from Amchitka Island were released on the Olympic Coast in 1969 and 1970.
+body: |
+  Northern sea otters, Enhydra lutris kenyoni, once ranged from the
+  Columbia River north along the Olympic Peninsula. FWS says Washington's
+  population was extirpated by the early 1900s. In 1969 and 1970, a total
+  of 59 sea otters were captured at Amchitka Island, Alaska, and released
+  on the outer Olympic Coast — 29 near Point Grenville in 1969 and 30
+  near La Push in 1970.
+
+  FWS manages the Washington stock under the Marine Mammal Protection Act
+  of 1972. NOAA lists the northern sea otter as a key species of Olympic
+  Coast National Marine Sanctuary. Sanctuary and FWS partners have
+  surveyed the population for decades.
+
+  The photograph is a NOAA sanctuary image of a sea otter, not a count of
+  today's animals. The sources below are the U.S. Fish and Wildlife
+  Service stock assessment and the sanctuary page.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1969-01-01"
+datePrecision: year
+dateLabel: reintroduced 1969–1970
+lastReviewedAt: "2026-09-20"
+
+location:
+  name: Olympic Coast
+  slug: olympic-coast-sea-otters
+  placeType: coast
+  latitude: 47.95
+  longitude: -124.65
+  county: Jefferson County
+  region: Olympic Peninsula
+
+categories:
+  - wildlife-ecology
+
+tags:
+  - sea-otter
+  - olympic-coast
+  - marine-mammal
+
+claims:
+  - text: >
+      FWS says Washington's sea otter population was extirpated by the early
+      1900s. In 1969 and 1970, 59 otters captured at Amchitka Island, Alaska,
+      were released on the Olympic Coast: 29 near Point Grenville in 1969
+      and 30 near La Push in 1970.
+    claimType: historical
+    confidence: verified
+    sources:
+      - fws-sea-otter-sar
+  - text: >
+      FWS manages the Washington northern sea otter stock under the Marine
+      Mammal Protection Act of 1972. NOAA lists the northern sea otter as a
+      key species of Olympic Coast National Marine Sanctuary.
+    claimType: factual
+    confidence: verified
+    sources:
+      - fws-sea-otter-sar
+      - noaa-ocnms-key-species
+
+sources:
+  - id: fws-sea-otter-sar
+    title: Northern Sea Otter (Washington) Stock Assessment Report
+    publisher: U.S. Fish and Wildlife Service
+    url: https://www.fws.gov/sites/default/files/documents/northern-sea-otter-washington-stock-assessment-report-july-2018.pdf
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+  - id: noaa-ocnms-key-species
+    title: Olympic Coast National Marine Sanctuary
+    publisher: National Oceanic and Atmospheric Administration
+    url: https://sanctuaries.noaa.gov/olympic-coast/
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-20"
+
+media:
+  - url: /media/olympic-coast-sea-otter.jpg
+    mediaType: image
+    title: Sea otter in Olympic Coast National Marine Sanctuary
+    creator: National Oceanic and Atmospheric Administration
+    sourceUrl: https://commons.wikimedia.org/wiki/File:OCNMS_-_sea_otter_(27906039021).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.noaa.gov/information-technology/open-data-and-information
+    altText: A sea otter floating in Olympic Coast National Marine Sanctuary waters.
+    creditLine: Photograph by the National Oceanic and Atmospheric Administration, Olympic Coast National Marine Sanctuary. Public domain.
+
+relatedStories:
+  - slug: olympic-coast-national-marine-sanctuary
+    relationshipType: same-landscape
+  - slug: olympic-national-park-1938
+    relationshipType: nearby
+  - slug: hoh-rain-forest
+    relationshipType: nearby
