@@ -110,3 +110,5 @@ relatedStories:
     relationshipType: nearby
   - slug: copalis-ghost-forest
     relationshipType: same-arc
+  - slug: olympia-earthquake-1949
+    relationshipType: same-arc

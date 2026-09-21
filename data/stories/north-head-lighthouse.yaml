@@ -1,0 +1,108 @@
+slug: north-head-lighthouse
+title: North Head Light
+hook: The Coast Guard lists this white conical tower as first lit in 1898, with a first-order Fresnel lens, still operational and automated in 1961.
+body: |
+  North Head Light stands north of the Columbia River mouth at Cape
+  Disappointment, Ilwaco. The U.S. Coast Guard history page lists the
+  station established in 1898, the current tower first lit in 1898,
+  operational, automated in 1961, a foundation of dressed stone and
+  timber, construction of dressed stone with brick lining, a conical
+  white tower with a red roof, and an original first-order Fresnel
+  lens in 1898.
+
+  The Cape Disappointment National Register nomination explains why
+  the tower exists. The 1856 Cape Disappointment light could not be
+  seen well from the north. When North Head was finished, the
+  first-order lens moved to the new tower and a fourth-order light
+  went into the old one, which then served as a harbor beacon. Land
+  for both lights was reserved from the military reservation in 1859
+  and 1893.
+
+  The Coast Guard Light List places the light at 46°17′56.064″ N,
+  124°04′40.732″ W. NPS visitor pages for Cape Disappointment State
+  Park treat North Head and Cape Disappointment lights together as
+  aids on the Columbia River Bar. The sources below are U.S. Coast
+  Guard and National Park Service pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1898-01-01"
+datePrecision: year
+dateLabel: first lit 1898
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: North Head Light
+  slug: north-head-lighthouse
+  placeType: lighthouse
+  latitude: 46.298906
+  longitude: -124.077981
+  county: Pacific County
+  region: Coast
+
+categories:
+  - history
+  - geography-geology
+
+tags:
+  - lighthouse
+  - columbia-river
+  - cape-disappointment
+
+claims:
+  - text: >
+      The Coast Guard lists the station as established in 1898, the
+      tower first lit in 1898, still operational, automated in 1961,
+      with a dressed-stone-and-timber foundation, dressed stone with
+      brick lining, a conical white tower with a red roof, and an
+      original first-order Fresnel lens in 1898.
+    claimType: factual
+    confidence: verified
+    sources:
+      - uscg-north-head
+  - text: >
+      The Cape Disappointment National Register nomination says the
+      1856 Cape Disappointment first-order lens moved to North Head
+      in 1898 because the cape light could not be seen well from the
+      north, and that the old tower then received a fourth-order
+      light.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-cape-nrhp
+  - text: >
+      The Coast Guard Light List places the light at 46°17′56.064″ N,
+      124°04′40.732″ W.
+    claimType: factual
+    confidence: verified
+    sources:
+      - uscg-light-list-13
+
+sources:
+  - id: uscg-north-head
+    title: North Head Light
+    publisher: U.S. Coast Guard
+    url: https://www.history.uscg.mil/Browse-by-Topic/Assets/Land/All/Article/1969030/north-head-light/
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: nps-cape-nrhp
+    title: Cape Disappointment Historic District National Register nomination
+    publisher: National Park Service
+    url: https://npgallery.nps.gov/GetAsset/3659575e-e6e0-4803-9b46-5a79e98be69e
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: uscg-light-list-13
+    title: District 13 Lighthouses
+    publisher: U.S. Coast Guard, Northwest District
+    url: https://www.pacificarea.uscg.mil/Our-Organization/Northwest-District/District-Staff/dp/dpw/lighthouses/
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+    notes: Lists North Head Light at 46-17-56.064N, 124-04-40.732W, Light List Number 700.
+
+relatedStories:
+  - slug: cape-disappointment
+    relationshipType: nearby
+  - slug: dismal-nitch
+    relationshipType: nearby

@@ -1,0 +1,122 @@
+slug: olympia-earthquake-1949
+title: 1949 Olympia Earthquake
+hook: A magnitude 7.1 shock under south Puget Sound on April 13, 1949, killed eight people and wrecked nearly every tall building in Olympia.
+body: |
+  USGS Open-File Report 86-253 calls the April 13, 1949, Olympia
+  earthquake a magnitude 7.1 event between Olympia and Tacoma. It
+  lists a focal depth of about 70 kilometers (42 miles). The shock
+  was felt over some 390,000 square kilometers and caused $25 million
+  in damage in actual dollars. Nearly all tall buildings in Olympia
+  were damaged. Eight people were killed.
+
+  The USGS preferred-magnitudes catalog lists the origin as April 13,
+  1949, 19:55, Olympia, Washington, at 47.1° N, 122.7° W, magnitude
+  7.1 ML. USGS Open-File Report 91-441r gives an instrumentally
+  determined depth of 54 kilometers for the 1949 south Puget Sound
+  earthquake (Ms = 7.1) and notes that no aftershocks were felt or
+  recorded above about magnitude 4.5.
+
+  USGS Open-File Report 99-311 places the 1949 M7.1 earthquake near
+  Olympia at 54 kilometers depth inside the subducting Juan de Fuca
+  plate, with the 1965 M6.5 event near Tacoma at 60 kilometers.
+  Together with the 1965 shock, USGS says the two earthquakes caused
+  most of the major historic earthquake damage in the Pacific
+  Northwest. The sources below are U.S. Geological Survey reports.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1949-04-13"
+datePrecision: day
+dateLabel: April 13, 1949
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: 1949 Olympia earthquake epicenter
+  slug: olympia-earthquake-1949
+  placeType: earthquake
+  latitude: 47.1
+  longitude: -122.7
+  county: Thurston County
+  region: Puget Sound
+
+categories:
+  - geography-geology
+  - science-strange
+  - history
+
+tags:
+  - earthquake
+  - olympia
+  - puget-sound
+
+claims:
+  - text: >
+      USGS Open-File Report 86-253 calls the April 13, 1949, Olympia
+      earthquake a magnitude 7.1 event between Olympia and Tacoma,
+      with a focal depth of about 70 kilometers, felt over some
+      390,000 square kilometers, $25 million in damage, eight people
+      killed, and nearly all tall buildings in Olympia damaged.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usgs-ofr-86-253
+  - text: >
+      The USGS preferred-magnitudes catalog lists April 13, 1949,
+      19:55, Olympia, at 47.1° N, 122.7° W, magnitude 7.1 ML. Open-File
+      Report 91-441r gives a depth of 54 kilometers (Ms = 7.1) and
+      says no aftershocks were felt or recorded above about magnitude
+      4.5.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - usgs-sign-eqs
+      - usgs-ofr-91-441r
+  - text: >
+      USGS Open-File Report 99-311 places the 1949 M7.1 earthquake
+      near Olympia at 54 kilometers depth in the subducting Juan de
+      Fuca plate, and says that event and the 1965 shock caused most
+      of the major historic earthquake damage in the Pacific
+      Northwest.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - usgs-ofr-99-311
+
+sources:
+  - id: usgs-ofr-86-253
+    title: "Open-File Report 86-253"
+    publisher: U.S. Geological Survey
+    url: https://pubs.usgs.gov/of/1986/0253/report.pdf
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: usgs-sign-eqs
+    title: Preferred Magnitudes of Selected Significant Earthquakes
+    publisher: U.S. Geological Survey
+    url: https://earthquake.usgs.gov/data/comcat/catalog/official/significant_earthquake_magnitudes.pdf
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: usgs-ofr-91-441r
+    title: "Open-File Report 91-441-R"
+    publisher: U.S. Geological Survey
+    url: https://pubs.usgs.gov/of/1991/0441r/report.pdf
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: usgs-ofr-99-311
+    title: "Earthquake hazards in the Pacific Northwest of the United States"
+    publisher: U.S. Geological Survey
+    url: https://pubs.usgs.gov/of/1999/ofr-99-0311/index.pdf
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+relatedStories:
+  - slug: puget-sound-earthquake-1965
+    relationshipType: same-arc
+  - slug: nisqually-earthquake-2001
+    relationshipType: same-arc
+  - slug: cascadia-subduction-zone
+    relationshipType: same-arc
+  - slug: seattle-fault
+    relationshipType: nearby

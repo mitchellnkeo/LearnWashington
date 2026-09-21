@@ -112,3 +112,5 @@ relatedStories:
     relationshipType: nearby
   - slug: fort-vancouver
     relationshipType: same-arc
+  - slug: north-head-lighthouse
+    relationshipType: nearby

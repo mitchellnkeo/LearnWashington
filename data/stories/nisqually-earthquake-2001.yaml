@@ -121,3 +121,5 @@ relatedStories:
     relationshipType: same-arc
   - slug: puget-sound-earthquake-1965
     relationshipType: same-arc
+  - slug: olympia-earthquake-1949
+    relationshipType: same-arc

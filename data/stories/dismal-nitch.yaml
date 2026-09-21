@@ -97,3 +97,5 @@ relatedStories:
     relationshipType: same-arc
   - slug: fort-vancouver
     relationshipType: same-arc
+  - slug: north-head-lighthouse
+    relationshipType: nearby

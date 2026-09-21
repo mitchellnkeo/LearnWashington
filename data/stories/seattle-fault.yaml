@@ -95,3 +95,5 @@ relatedStories:
     relationshipType: nearby
   - slug: howard-hanson-dam
     relationshipType: nearby
+  - slug: olympia-earthquake-1949
+    relationshipType: same-arc
