@@ -169,6 +169,25 @@ h2,
   font-size: 12px;
 }
 
+.maplibregl-ctrl-group {
+  border: 2px solid var(--park-deep) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  overflow: hidden;
+}
+
+.maplibregl-ctrl-group button {
+  background: var(--card) !important;
+}
+
+.maplibregl-ctrl-group button + button {
+  border-top-color: var(--rule-strong) !important;
+}
+
+.maplibregl-ctrl-group button:hover {
+  background: var(--khaki) !important;
+}
+
 .skip-link {
   position: absolute;
   left: 0.75rem;

@@ -13,6 +13,7 @@ import {
   WASHINGTON_BOUNDS,
   WASHINGTON_CENTER,
 } from "@/lib/geo";
+import { applyPacificNorthwestBasemap } from "@/lib/map-theme";
 import type { MapStoriesResponse, MapStoryFeature } from "@/lib/story-types";
 import "maplibre-gl/dist/maplibre-gl.css";
 
@@ -124,6 +125,7 @@ export function WashingtonMap({
     mapRef.current = map;
 
     map.on("load", () => {
+      applyPacificNorthwestBasemap(map);
       if (startingView) {
         return;
       }
@@ -176,6 +178,7 @@ export function WashingtonMap({
     }
 
     function applyStories(nextMap: maplibregl.Map) {
+      applyPacificNorthwestBasemap(nextMap);
       const markers = markerCollection(stories);
       const shapes = toShapeCollection(stories);
       const existingMarkers = nextMap.getSource(MARKER_SOURCE);
@@ -222,6 +225,24 @@ export function WashingtonMap({
       });
 
       nextMap.addLayer({
+        id: "story-point-halo",
+        type: "circle",
+        source: MARKER_SOURCE,
+        filter: ["!", ["has", "point_count"]],
+        paint: {
+          "circle-color": "#f3d39a",
+          "circle-opacity": 0.45,
+          "circle-blur": 0.35,
+          "circle-radius": [
+            "case",
+            ["boolean", ["feature-state", "selected"], false],
+            20,
+            14,
+          ],
+        },
+      });
+
+      nextMap.addLayer({
         id: "story-clusters",
         type: "circle",
         source: MARKER_SOURCE,
@@ -230,7 +251,7 @@ export function WashingtonMap({
           "circle-color": "#4d6f5c",
           "circle-radius": 16,
           "circle-stroke-width": 3,
-          "circle-stroke-color": "#fbfcfb",
+          "circle-stroke-color": "#fffaf2",
         },
       });
 
@@ -271,7 +292,7 @@ export function WashingtonMap({
             "case",
             ["boolean", ["feature-state", "selected"], false],
             "#3d6b80",
-            "#fbfcfb",
+            "#fffaf2",
           ],
         },
       });
