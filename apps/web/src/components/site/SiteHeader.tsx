@@ -9,7 +9,7 @@ function BlazeMark() {
         width="10"
         height="10"
         transform="rotate(45 12 12)"
-        fill="var(--blaze)"
+        fill="var(--park)"
       />
     </svg>
   );
@@ -17,7 +17,7 @@ function BlazeMark() {
 
 export function SiteHeader() {
   return (
-    <header className="border-b-8 border-[var(--park)] bg-[var(--card)]">
+    <header className="border-b-4 border-[var(--park)] bg-[var(--card)]">
       <div className="mx-auto flex max-w-3xl flex-wrap items-center justify-between gap-3 px-6 py-3">
         <Link href="/" className="flex items-center gap-2">
           <BlazeMark />

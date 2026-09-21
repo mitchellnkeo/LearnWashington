@@ -1,23 +1,22 @@
 @import "tailwindcss";
 
-/* Palette drawn from public, named sources:
-   - Manila paper and flat inks from WPA National Park posters (public domain)
-   - Trail-sign green and blaze orange from US Forest Service / trail markers
-   - Goldfinch yellow as a classroom highlighter, close to National Geographic gold
-   Token names stay short so components do not invent a second system. */
+/* Washington palette: fog, Puget Sound, Douglas fir.
+   Soft whites for reading surfaces, soft blue for water and focus,
+   soft green for land. Token names stay so components do not invent
+   a second system. */
 :root {
-  --paper: #f3e6c4;
-  --card: #fff8e7;
-  --khaki: #e7d7a8;
-  --ink: #1c2833;
-  --muted: #5c584d;
-  --park: #3b7a4a;
-  --park-deep: #2c5a37;
-  --blaze: #e85d04;
-  --sun: #f4d35e;
-  --sky: #3d7ea6;
-  --rule: #c9b58a;
-  --rule-strong: #a89262;
+  --paper: #f3f6f4;
+  --card: #fbfcfb;
+  --khaki: #e6eeea;
+  --ink: #24312c;
+  --muted: #5a6b64;
+  --park: #4d6f5c;
+  --park-deep: #355244;
+  --blaze: #3d6b80;
+  --sun: #d5e4ec;
+  --sky: #6d8fa3;
+  --rule: #d3ddd8;
+  --rule-strong: #b0c0b8;
 }
 
 html,
@@ -49,7 +48,7 @@ h2,
 }
 
 .plaque {
-  border-top: 6px solid var(--park);
+  border-top: 4px solid var(--park);
 }
 
 .kicker {
@@ -99,12 +98,12 @@ h2,
 
 .btn-blaze {
   background: var(--blaze);
-  border-color: #b54403;
-  color: #fff8e7;
+  border-color: #2f5466;
+  color: var(--card);
 }
 
 .btn-blaze:hover:not(:disabled) {
-  background: #c44d03;
+  background: #2f5466;
 }
 
 .btn:disabled {
