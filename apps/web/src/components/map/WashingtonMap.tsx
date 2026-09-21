@@ -13,6 +13,10 @@ import {
   WASHINGTON_BOUNDS,
   WASHINGTON_CENTER,
 } from "@/lib/geo";
+import {
+  addCategoryMarkerImages,
+  categoryIconImageExpression,
+} from "@/lib/map-markers";
 import { applyPacificNorthwestBasemap } from "@/lib/map-theme";
 import type { MapStoriesResponse, MapStoryFeature } from "@/lib/story-types";
 import "maplibre-gl/dist/maplibre-gl.css";
@@ -32,6 +36,7 @@ type WashingtonMapProps = {
 
 const MARKER_SOURCE = "stories";
 const SHAPE_SOURCE = "story-shapes";
+const layerSetup = new WeakMap<maplibregl.Map, Promise<void>>();
 
 function categoryColorExpression() {
   const expression: Array<string | string[]> = ["match", ["get", "category"]];
@@ -177,16 +182,38 @@ export function WashingtonMap({
       return;
     }
 
-    function applyStories(nextMap: maplibregl.Map) {
+    let cancelled = false;
+
+    async function applyStories(nextMap: maplibregl.Map) {
       applyPacificNorthwestBasemap(nextMap);
       const markers = markerCollection(stories);
       const shapes = toShapeCollection(stories);
+
+      let setup = layerSetup.get(nextMap);
+      if (!setup) {
+        setup = addStoryLayers(nextMap, markers, shapes);
+        layerSetup.set(nextMap, setup);
+      }
+      await setup;
+      if (cancelled || !nextMap.getStyle()) {
+        return;
+      }
+
       const existingMarkers = nextMap.getSource(MARKER_SOURCE);
       const existingShapes = nextMap.getSource(SHAPE_SOURCE);
-
       if (existingMarkers && existingShapes) {
         (existingMarkers as GeoJSONSource).setData(markers);
         (existingShapes as GeoJSONSource).setData(shapes);
+      }
+    }
+
+    async function addStoryLayers(
+      nextMap: maplibregl.Map,
+      markers: ReturnType<typeof markerCollection>,
+      shapes: ReturnType<typeof toShapeCollection>,
+    ) {
+      await addCategoryMarkerImages(nextMap);
+      if (!nextMap.getStyle() || nextMap.getSource(MARKER_SOURCE)) {
         return;
       }
 
@@ -236,8 +263,8 @@ export function WashingtonMap({
           "circle-radius": [
             "case",
             ["boolean", ["feature-state", "selected"], false],
-            20,
-            14,
+            22,
+            16,
           ],
         },
       });
@@ -276,24 +303,42 @@ export function WashingtonMap({
         filter: ["!", ["has", "point_count"]],
         paint: {
           "circle-color": categoryColorExpression() as never,
+          "circle-opacity": 0,
           "circle-radius": [
             "case",
             ["boolean", ["feature-state", "selected"], false],
-            12,
-            8,
+            16,
+            14,
           ],
           "circle-stroke-width": [
             "case",
             ["boolean", ["feature-state", "selected"], false],
-            4,
-            2.5,
+            3,
+            0,
           ],
-          "circle-stroke-color": [
-            "case",
-            ["boolean", ["feature-state", "selected"], false],
-            "#3d6b80",
-            "#fffaf2",
+          "circle-stroke-color": "#3d6b80",
+        },
+      });
+
+      nextMap.addLayer({
+        id: "story-icons",
+        type: "symbol",
+        source: MARKER_SOURCE,
+        filter: ["!", ["has", "point_count"]],
+        layout: {
+          "icon-image": categoryIconImageExpression() as never,
+          "icon-size": [
+            "interpolate",
+            ["linear"],
+            ["zoom"],
+            5,
+            0.78,
+            9,
+            0.96,
           ],
+          "icon-allow-overlap": true,
+          "icon-ignore-placement": true,
+          "icon-padding": 0,
         },
       });
 
@@ -325,10 +370,16 @@ export function WashingtonMap({
       }
 
       nextMap.on("click", "story-points", selectFromEvent);
+      nextMap.on("click", "story-icons", selectFromEvent);
       nextMap.on("click", "story-shapes-line", selectFromEvent);
       nextMap.on("click", "story-polygons-fill", selectFromEvent);
 
-      for (const layer of ["story-points", "story-shapes-line", "story-polygons-fill"]) {
+      for (const layer of [
+        "story-points",
+        "story-icons",
+        "story-shapes-line",
+        "story-polygons-fill",
+      ]) {
         nextMap.on("mouseenter", layer, () => {
           nextMap.getCanvas().style.cursor = "pointer";
         });
@@ -339,10 +390,16 @@ export function WashingtonMap({
     }
 
     if (map.isStyleLoaded()) {
-      applyStories(map);
+      void applyStories(map);
     } else {
-      map.once("load", () => applyStories(map));
+      map.once("load", () => {
+        void applyStories(map);
+      });
     }
+
+    return () => {
+      cancelled = true;
+    };
   }, [stories]);
 
   useEffect(() => {

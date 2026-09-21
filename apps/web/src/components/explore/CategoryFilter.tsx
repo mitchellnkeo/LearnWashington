@@ -1,6 +1,7 @@
 "use client";
 
 import { MVP_CATEGORIES } from "@fwty/shared";
+import { CategoryGlyph } from "@/components/explore/CategoryGlyph";
 import { trackEvent } from "@/lib/analytics";
 
 const CHIP_BASE =
@@ -63,7 +64,7 @@ export function CategoryFilter({
             }}
             className={`${CHIP_BASE} ${active ? CHIP_ON : CHIP_OFF}`}
           >
-            <Swatch color={item.color} />
+            <CategoryGlyph icon={item.icon} color={item.color} />
             {item.name}
           </button>
         );

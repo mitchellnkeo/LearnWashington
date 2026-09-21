@@ -81,7 +81,7 @@ export const MVP_CATEGORIES = [
   {
     slug: "wildlife-ecology",
     name: "Wildlife & Ecology",
-    icon: "leaf",
+    icon: "fish",
     color: "#4d6f5c",
   },
   { slug: "history", name: "History", icon: "landmark", color: "#7a5c54" },
