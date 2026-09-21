@@ -84,3 +84,7 @@ relatedStories:
     relationshipType: same-park
   - slug: hoh-rain-forest
     relationshipType: same-park
+  - slug: american-pika
+    relationshipType: same-arc
+  - slug: pacific-fisher-reintroduction
+    relationshipType: same-park

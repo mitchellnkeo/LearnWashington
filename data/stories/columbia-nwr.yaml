@@ -115,3 +115,5 @@ relatedStories:
     relationshipType: same-arc
   - slug: dry-falls
     relationshipType: same-arc
+  - slug: toppenish-nwr
+    relationshipType: same-complex

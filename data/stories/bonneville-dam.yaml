@@ -95,3 +95,5 @@ relatedStories:
     relationshipType: same-arc
   - slug: john-day-dam
     relationshipType: same-arc
+  - slug: the-dalles-dam
+    relationshipType: same-arc

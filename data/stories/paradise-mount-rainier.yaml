@@ -98,3 +98,5 @@ relatedStories:
     relationshipType: same-park
   - slug: mount-rainier-glaciers
     relationshipType: same-park
+  - slug: american-pika
+    relationshipType: same-park

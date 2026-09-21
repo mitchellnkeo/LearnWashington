@@ -97,3 +97,5 @@ relatedStories:
     relationshipType: same-arc
   - slug: umatilla-nwr
     relationshipType: nearby
+  - slug: the-dalles-dam
+    relationshipType: same-arc

@@ -1,0 +1,124 @@
+slug: chief-joseph-nespelem
+title: Chief Joseph
+hook: Hin-mah-too-yah-lat-kekt led the Wallowa band. After the 1877 flight he was refused a return to Oregon and died on the Colville Reservation on September 21, 1904.
+body: |
+  NPS identifies Hin-mah-too-yah-lat-kekt, known as Chief Joseph
+  (March 3, 1840–September 21, 1904), as a leader of the
+  wal-lam-wat-kain (Wallowa) band of Nez Perce. After the United
+  States tried to force the Nez Perce from the Wallowa Valley, he led
+  roughly 750 Nez Perce and Palouse people toward Canada. NPS says
+  they traveled more than 1,170 miles across present-day Oregon,
+  Washington, Idaho, and Montana. He surrendered on October 5, 1877.
+
+  A Lake Roosevelt page says he did not sign the 1855 treaty,
+  following his father. After surrender, survivors were sent to
+  Oklahoma. In 1885, with help from Chief Moses, Joseph and most of
+  his people were sent to the Colville Reservation, across from Fort
+  Spokane. He died September 21, 1904, after repeated denials of a
+  return to Oregon.
+
+  NPS says he is buried on the Colville Reservation near Lake
+  Roosevelt, a unit of Nez Perce National Historical Park. The park’s
+  Nez Perce Cemetery place page, managed by the Colville Confederated
+  Tribes, says the cemetery is a culturally sensitive active cemetery:
+  exact locations will not be provided, and visitation is not
+  encouraged. This pin is the town of Nespelem, not the grave. The
+  sources below are National Park Service pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1904-09-21"
+datePrecision: day
+dateLabel: died September 21, 1904
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Nespelem
+  slug: nespelem
+  placeType: town
+  latitude: 48.167
+  longitude: -118.976
+  county: Okanogan County
+  region: Columbia Basin
+
+categories:
+  - history
+  - indigenous-history-place
+
+tags:
+  - nez-perce
+  - colville
+  - nespelem
+
+claims:
+  - text: >
+      NPS identifies Hin-mah-too-yah-lat-kekt (March 3, 1840–September
+      21, 1904) as a Wallowa-band leader who led roughly 750 Nez Perce
+      and Palouse people more than 1,170 miles and surrendered on
+      October 5, 1877.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-laro-people
+  - text: >
+      NPS says he did not sign the 1855 treaty; in 1885 he and most of
+      his people were sent to the Colville Reservation across from
+      Fort Spokane, with help from Chief Moses; and he died September
+      21, 1904, after being denied a return to Oregon.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-chief-joseph
+  - text: >
+      NPS says the Nez Perce Cemetery on the Colville Reservation is
+      an active, culturally sensitive cemetery managed by the Colville
+      Confederated Tribes; the park will not provide exact locations
+      and does not encourage visitation.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-nez-perce-cemetery
+
+sources:
+  - id: nps-laro-people
+    title: People
+    publisher: National Park Service
+    url: https://www.nps.gov/laro/learn/historyculture/people.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: nps-chief-joseph
+    title: Chief Joseph
+    publisher: National Park Service
+    url: https://www.nps.gov/laro/learn/historyculture/chief-joseph.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: nps-nez-perce-cemetery
+    title: Nez Perce Cemetery
+    publisher: National Park Service
+    url: https://www.nps.gov/places/nez-perce-cemetery.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+    notes: Colville Confederated Tribes manage the cemetery. This card pins Nespelem, not the grave.
+
+media:
+  - url: /media/chief-joseph-nespelem.jpg
+    mediaType: image
+    title: Chief Joseph, Nez Perce
+    creator: Bureau of Indian Affairs
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Chief_Joseph,_Nez_Perce_-_NARA_-_523606.jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.archives.gov/
+    altText: Portrait of Hin-mah-too-yah-lat-kekt, known as Chief Joseph.
+    creditLine: Photograph from the Bureau of Indian Affairs. National Archives 523606. Public domain.
+
+relatedStories:
+  - slug: chief-joseph-dam
+    relationshipType: nearby
+  - slug: fort-spokane
+    relationshipType: nearby
+  - slug: lake-roosevelt
+    relationshipType: nearby
+  - slug: kettle-falls-fishery
+    relationshipType: same-arc

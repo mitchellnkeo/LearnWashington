@@ -98,3 +98,9 @@ relatedStories:
     relationshipType: same-arc
   - slug: banks-lake
     relationshipType: same-arc
+  - slug: kettle-falls-fishery
+    relationshipType: same-park
+  - slug: chief-joseph-nespelem
+    relationshipType: nearby
+  - slug: fort-spokane
+    relationshipType: same-park

@@ -114,3 +114,5 @@ relatedStories:
     relationshipType: nearby
   - slug: ballard-locks
     relationshipType: nearby
+  - slug: hood-canal-hypoxia
+    relationshipType: nearby

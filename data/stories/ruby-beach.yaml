@@ -111,3 +111,5 @@ relatedStories:
     relationshipType: nearby
   - slug: hoh-rain-forest
     relationshipType: nearby
+  - slug: rialto-beach
+    relationshipType: nearby

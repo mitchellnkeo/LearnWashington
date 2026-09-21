@@ -1,0 +1,108 @@
+slug: hood-canal-hypoxia
+title: Hood Canal Hypoxia
+hook: A slow-flushing fjord on the west side of Puget Sound where NOAA says oxygen is characteristically lowest in Lower Hood Canal, and where hypoxia has killed fish.
+body: |
+  NOAA’s Pacific Marine Environmental Laboratory describes Hood Canal
+  as a long, narrow estuary on the western side of Puget Sound. It
+  receives river and groundwater, connects to the Sound only at the
+  northern end, and flushes relatively slowly. Chemical properties
+  vary from hours to years.
+
+  NOAA says Hood Canal has had problems with low dissolved oxygen and
+  fish kills that have occurred with increased frequency. It is the
+  site of the Hood Canal Dissolved Oxygen Program study. Twanoh sits
+  in Lower Hood Canal, where oxygen is characteristically the lowest.
+  NOAA notes that hypoxia and ocean acidification may have synergies
+  that are especially stressful to organisms. A MAPCO2 system went on
+  an ORCA buoy near Twanoh on August 22, 2009.
+
+  This pin is Skokomish Flats at the southern canal, the Lower Hood
+  Canal reach NOAA flags for the lowest oxygen. The photograph shows
+  public tidelands on Hood Canal at Brinnon. The sources below are
+  NOAA and U.S. Geological Survey pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "2009-08-22"
+datePrecision: day
+dateLabel: MAPCO2 buoy near Twanoh, August 22, 2009
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Skokomish Flats, southern Hood Canal
+  slug: skokomish-flats
+  placeType: estuary
+  latitude: 47.3512043
+  longitude: -123.1212655
+  county: Mason County
+  region: Puget Sound
+
+categories:
+  - wildlife-ecology
+  - science-strange
+  - geography-geology
+
+tags:
+  - hood-canal
+  - hypoxia
+  - puget-sound
+
+claims:
+  - text: >
+      NOAA describes Hood Canal as a long, narrow, slow-flushing
+      estuary connected to Puget Sound only at the north end, with
+      chemistry that varies from hours to years.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - noaa-twanoh
+  - text: >
+      NOAA says Hood Canal has had low dissolved oxygen and fish kills
+      of increased frequency; Twanoh in Lower Hood Canal has the
+      lowest oxygen; and a MAPCO2 system went on an ORCA buoy near
+      Twanoh on August 22, 2009.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - noaa-twanoh
+  - text: >
+      USGS Geographic Names lists Skokomish Flats, southern Hood
+      Canal, at 47.3512043° N, 123.1212655° W, Mason County.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usgs-gnis-skokomish-flats
+
+sources:
+  - id: noaa-twanoh
+    title: Twanoh
+    publisher: NOAA Pacific Marine Environmental Laboratory
+    url: https://pmel.noaa.gov/co2/story/Twanoh
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: usgs-gnis-skokomish-flats
+    title: Skokomish Flats (GNIS 1528973)
+    publisher: U.S. Geological Survey
+    url: https://edits.nationalmap.gov/apps/gaz-domestic/public/gaz-record/1528973
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/hood-canal-hypoxia.jpg
+    mediaType: image
+    title: Oystering on public tidelands of Hood Canal at Brinnon
+    creator: Doug Wilson, EPA DOCUMERICA
+    sourceUrl: https://commons.wikimedia.org/wiki/File:OYSTERING_ON_THE_PUBLIC_TIDELANDS_ON_THE_HOOD_CANAL_AT_BRINNON_ON_THE_OLYMPIC_PENINSULA_-_NARA_-_552286.jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.archives.gov/
+    altText: People gathering oysters on public tidelands of Hood Canal at Brinnon in 1973.
+    creditLine: Photograph by Doug Wilson, Environmental Protection Agency DOCUMERICA, May 1973. National Archives 552286. Public domain.
+
+relatedStories:
+  - slug: olympic-coast-national-marine-sanctuary
+    relationshipType: nearby
+  - slug: southern-resident-orcas
+    relationshipType: same-arc
+  - slug: cascadia-subduction-zone
+    relationshipType: nearby

@@ -113,3 +113,5 @@ relatedStories:
     relationshipType: nearby
   - slug: olympic-coast-national-marine-sanctuary
     relationshipType: nearby
+  - slug: rialto-beach
+    relationshipType: nearby

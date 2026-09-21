@@ -89,3 +89,5 @@ relatedStories:
     relationshipType: same-arc
   - slug: lake-roosevelt
     relationshipType: nearby
+  - slug: chief-joseph-nespelem
+    relationshipType: nearby

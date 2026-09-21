@@ -1,0 +1,115 @@
+slug: pacific-fisher-reintroduction
+title: Pacific Fisher Reintroduction
+hook: On January 27, 2008, twelve fishers from British Columbia stepped into Olympic National Park — the first of 90 animals used to bring a housecat-sized weasel back to Washington.
+body: |
+  NPS says the fisher (Pekania pennanti) is a member of the weasel
+  family, about the size of a large house cat, and is native to
+  Washington, including the Olympic Peninsula. Over-trapping led to
+  their disappearance from the state by the early 20th century. They
+  prey on snowshoe hares, mountain beavers, rabbits, rodents, and
+  birds, and are among the few animals that prey on porcupines. They
+  do not fish; early settlers compared them to the European polecat,
+  the French fichet.
+
+  On January 27, 2008, twelve fishers from British Columbia were
+  released into remote sites in Olympic National Park. Over the next
+  three years an additional 78 were introduced — 90 in all,
+  live-trapped in British Columbia and driven to Port Angeles. NPS
+  says they have since dispersed widely on the Peninsula and
+  established home ranges in both managed and wilderness forests.
+
+  By the end of 2011 only two radio-collared fishers were still known
+  to be alive. Camera and hair-snare studies from 2013 to 2016 found
+  ten of the founding fishers still alive, plus several generations of
+  offspring. A later NPS release says partners released additional
+  Alberta fishers, including five near Lake Ozette, to boost numbers
+  and genetic diversity after more than 250 fishers had been released
+  across the Olympics and Cascades. The sources below are National
+  Park Service pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "2008-01-27"
+datePrecision: day
+dateLabel: first Olympic release January 27, 2008
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Olympic National Park
+  slug: olympic-national-park
+  placeType: wildlife
+  latitude: 47.861
+  longitude: -123.935
+  county: Jefferson County
+  region: Olympic Peninsula
+
+categories:
+  - wildlife-ecology
+
+tags:
+  - fisher
+  - reintroduction
+  - olympic
+
+claims:
+  - text: >
+      NPS says fishers are native Washington weasels about the size of
+      a large house cat; over-trapping erased them from the state by
+      the early 20th century; and they are among the few predators of
+      porcupines.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - nps-fisher
+  - text: >
+      NPS says 12 fishers were released on January 27, 2008, and 90 in
+      all from British Columbia in 2008–2010.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-fisher
+  - text: >
+      NPS says 2013–2016 camera work found ten founding fishers still
+      alive plus later generations, and a later release added Alberta
+      animals, including five near Lake Ozette.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-fisher
+      - nps-fisher-2021
+
+sources:
+  - id: nps-fisher
+    title: Fisher Reintroduction
+    publisher: National Park Service
+    url: https://www.nps.gov/olym/learn/nature/fisher-reintroduction.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: nps-fisher-2021
+    title: Fishers released at Olympic National Park to boost restoration
+    publisher: National Park Service
+    url: https://www.nps.gov/olym/learn/news/fishers-released-at-olympic-national-park-to-boost-restoration-efforts-for-housecat-sized-member-of-weasel-family.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/pacific-fisher-reintroduction.jpg
+    mediaType: image
+    title: Pacific fisher release at Mount Rainier National Park
+    creator: Mount Rainier National Park
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Pacific_Fisher_Release_at_Mount_Rainier_National_Park_(2016-12-02),_(31789460855).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: A Pacific fisher in a release crate at Mount Rainier National Park in 2016.
+    creditLine: Photograph by Mount Rainier National Park, December 2, 2016. Public domain. Washington NPS release photograph; the Olympic releases began in 2008.
+
+relatedStories:
+  - slug: olympic-marmot
+    relationshipType: same-park
+  - slug: northern-spotted-owl
+    relationshipType: same-forest
+  - slug: hoh-rain-forest
+    relationshipType: same-park
+  - slug: olympic-national-park-1938
+    relationshipType: same-park

@@ -1,0 +1,119 @@
+slug: howard-hanson-dam
+title: Howard Hanson Dam
+hook: An earth-and-rockfill dam on the Green River, operational Christmas Day 1961, that the Corps credits with about $4.6 billion in damages prevented in the January 2009 flood alone.
+body: |
+  Howard Hanson Dam stands on the upper Green–Duwamish River in King
+  County, 63 river miles above the mouth. The Corps Seattle District
+  fact sheet places it in Tacoma’s municipal watershed, 35 road miles
+  east of Tacoma and six miles upstream from Palmer. The dam provides
+  flood-risk reduction, municipal water supply, and summer and fall
+  low-flow augmentation for fish. The public cannot visit; the project
+  is closed.
+
+  Construction, including 13 miles of railroad relocation, began in
+  February 1959. The dam became operational on Christmas Day 1961,
+  ahead of a scheduled April 1962 finish. The reservoir collects runoff
+  from 220 square miles of the Green River’s 483-square-mile drainage.
+  Flood damage prevented by the dam from the January 2009 flood is
+  estimated at about $4.6 billion.
+
+  The dam is an earth-and-rockfill structure. Outlet works include a
+  19-foot-diameter horseshoe concrete-lined tunnel. A gated spillway
+  with two 45-by-30-foot tainter gates allows storage to elevation
+  1,206 feet without using the spillway. The paved spillway chute is
+  656 feet long. The Corps says the spillway has never been needed.
+  The sources below are U.S. Army Corps of Engineers and U.S.
+  Geological Survey pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1961-12-25"
+datePrecision: day
+dateLabel: operational Christmas Day 1961
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Howard Hanson Dam
+  slug: howard-hanson-dam
+  placeType: dam
+  latitude: 47.27722
+  longitude: -121.78417
+  county: King County
+  region: Puget Sound
+
+categories:
+  - history
+  - geography-geology
+
+tags:
+  - dam
+  - flood-control
+  - green-river
+
+claims:
+  - text: >
+      The Corps places Howard Hanson Dam on the Green–Duwamish at river
+      mile 63 in King County, in Tacoma’s municipal watershed, 35 road
+      miles east of Tacoma and six miles upstream from Palmer. It
+      provides flood-risk reduction, municipal water supply, and fish
+      flows.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usace-howard-hanson-fact
+  - text: >
+      Construction began in February 1959. The dam became operational
+      on Christmas Day 1961. The reservoir collects runoff from 220 of
+      the Green River’s 483 square miles. The Corps estimates about
+      $4.6 billion in damages prevented in the January 2009 flood.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usace-howard-hanson-fact
+      - usace-howard-hanson
+  - text: >
+      USGS station 12105800 is at 47°16′38″ N, 121°47′03″ W, river
+      mile 64.5.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usgs-howard-hanson
+
+sources:
+  - id: usace-howard-hanson-fact
+    title: "FACT SHEET: Howard Hanson Dam"
+    publisher: U.S. Army Corps of Engineers, Seattle District
+    url: https://www.nws.usace.army.mil/Media/Fact-Sheets/Fact-Sheet-Article-View/Article/483489/fact-sheet-howard-hanson-dam/
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: usace-howard-hanson
+    title: Howard Hanson Dam
+    publisher: U.S. Army Corps of Engineers, Seattle District
+    url: https://www.nws.usace.army.mil/Missions/Civil-Works/Locks-and-Dams/Howard-Hanson-Dam/
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: usgs-howard-hanson
+    title: 12105800 Howard A Hanson Reservoir
+    publisher: U.S. Geological Survey
+    url: https://waterdata.usgs.gov/nwis/uv/?site_no=12105800
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/howard-hanson-dam.jpg
+    mediaType: image
+    title: Howard A. Hanson Dam
+    creator: U.S. Army Corps of Engineers
+    sourceUrl: https://commons.wikimedia.org/wiki/File:USACE_Howard_A_Hanson_Dam.jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.usace.army.mil/About/Offices-and-Units/
+    altText: Aerial view of Howard Hanson Dam and its reservoir on the Green River.
+    creditLine: Photograph by the U.S. Army Corps of Engineers. Public domain.
+
+relatedStories:
+  - slug: seattle-fault
+    relationshipType: nearby
+  - slug: nisqually-earthquake-2001
+    relationshipType: nearby

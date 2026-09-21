@@ -93,3 +93,5 @@ relatedStories:
     relationshipType: same-arc
   - slug: ballard-locks
     relationshipType: nearby
+  - slug: howard-hanson-dam
+    relationshipType: nearby

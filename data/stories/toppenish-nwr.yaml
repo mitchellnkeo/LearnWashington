@@ -1,0 +1,108 @@
+slug: toppenish-nwr
+title: Toppenish National Wildlife Refuge
+hook: FWS manages 1,978 acres of Yakima Valley wetlands and shrub-steppe, spread along 27 miles of Toppenish Creek, as an inviolate sanctuary for migratory birds.
+body: |
+  Toppenish National Wildlife Refuge consists of 1,978 acres spread over
+  27 miles in the agriculturally intensive Yakima Valley. FWS says the
+  main Robbins and Pumphouse units sit at the center, with eight
+  outlying units upstream and four downstream. The entire refuge lies in
+  the floodplain of Toppenish Creek, a year-round tributary of the
+  Yakima River. The main entrance is six miles south of Toppenish on
+  U.S. Highway 97, then one mile west from the refuge sign.
+
+  FWS describes natural and managed wetlands mixed with shrub-steppe and
+  streams, habitat for Columbia Basin species. Water from Toppenish Creek
+  and Snake Creek fills managed ponds in fall and winter and attracts
+  mallards and other ducks. A second look, FWS says, also finds geese,
+  endangered steelhead, shorebirds, and upland wildlife such as coyotes,
+  mule deer, and badgers.
+
+  Refuge purposes include use as an inviolate sanctuary for migratory
+  birds, protection of natural resources, and conservation of endangered
+  or threatened species. The address FWS lists is 21 Pumphouse Road,
+  Toppenish, WA 98948. The sources below are U.S. Fish and Wildlife
+  Service refuge pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Toppenish National Wildlife Refuge
+  slug: toppenish-nwr
+  placeType: refuge
+  latitude: 46.28318
+  longitude: -120.11782
+  county: Yakima County
+  region: Columbia Basin
+
+categories:
+  - wildlife-ecology
+
+tags:
+  - refuge
+  - wetlands
+  - yakima-valley
+
+claims:
+  - text: >
+      FWS says the refuge is 1,978 acres spread over 27 miles in the
+      Yakima Valley, all in the Toppenish Creek floodplain, with eight
+      units upstream and four downstream of the main Robbins and
+      Pumphouse units. The main entrance is six miles south of
+      Toppenish on U.S. Highway 97, then one mile west.
+    claimType: factual
+    confidence: verified
+    sources:
+      - fws-toppenish-visit
+  - text: >
+      FWS says refuge purposes include an inviolate sanctuary for
+      migratory birds and conservation of endangered or threatened
+      species, and that the lands also support steelhead, coyotes, mule
+      deer, and badgers.
+    claimType: factual
+    confidence: verified
+    sources:
+      - fws-toppenish-about
+
+sources:
+  - id: fws-toppenish-visit
+    title: Visit Us
+    publisher: U.S. Fish and Wildlife Service
+    url: https://www.fws.gov/refuge/toppenish/visit-us
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: fws-toppenish-about
+    title: About Us
+    publisher: U.S. Fish and Wildlife Service
+    url: https://www.fws.gov/refuge/toppenish/about-us
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: usgs-gnis-toppenish-nwr
+    title: Toppenish National Wildlife Refuge (GNIS 1533344)
+    publisher: U.S. Geological Survey
+    url: https://edits.nationalmap.gov/apps/gaz-domestic/public/search/names/1533344
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+    notes: Official GNIS park listing used for the map pin.
+
+media:
+  - url: /media/toppenish-nwr.jpg
+    mediaType: image
+    title: Wetlands at Toppenish National Wildlife Refuge
+    creator: A. LaValle, USFWS Pacific
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Toppenish_National_Wildlife_Refuge_(52776187095).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.fws.gov/help/policies.html
+    altText: Wetlands, shrubs, and open water at Toppenish National Wildlife Refuge.
+    creditLine: Photograph by A. LaValle, U.S. Fish and Wildlife Service Pacific. Public domain.
+
+relatedStories:
+  - slug: columbia-nwr
+    relationshipType: same-complex
+  - slug: yakima-hops
+    relationshipType: nearby
+  - slug: billy-frank-jr-nisqually
+    relationshipType: same-arc

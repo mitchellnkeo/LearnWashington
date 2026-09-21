@@ -1,0 +1,100 @@
+slug: rialto-beach
+title: Rialto Beach
+hook: Drift logs, seastacks, and a 1.5-mile walk to Hole-in-the-Wall define this Olympic wilderness beach 75 miles from Port Angeles.
+body: |
+  Rocky beaches, giant drift logs, pounding waves, and offshore seastacks
+  define Rialto Beach. Mora, just inland, is old-growth forest with the
+  sound of the Pacific. NPS places Rialto about 36 miles southwest of
+  Lake Crescent and about 75 miles from Port Angeles, at the end of Mora
+  Road off La Push Road.
+
+  The 94-site Mora Campground is about three miles from the beach.
+  Hole-in-the-Wall is a sea-carved arch about 1.5 miles north of Rialto,
+  in the Olympic wilderness. The Quillayute River blocks travel from
+  Rialto to First, Second, and Third Beaches. First Beach is on the
+  Quileute Indian Reservation; Second and Third Beaches, just south, are
+  in Olympic National Park on the wilderness coast.
+
+  Tides can close the beach. NPS warns that some headlands cannot be
+  rounded even on the lowest tides and that overland trails are required.
+  Pets on leash are allowed 0.8 mile north to Ellen Creek during daylight
+  hours; camping with pets is prohibited. The sources below are Olympic
+  National Park pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Rialto Beach
+  slug: rialto-beach
+  placeType: beach
+  latitude: 47.9231
+  longitude: -124.6394
+  county: Clallam County
+  region: Olympic Peninsula
+
+categories:
+  - geography-geology
+  - wildlife-ecology
+
+tags:
+  - olympic
+  - beach
+  - coast
+
+claims:
+  - text: >
+      NPS places Rialto Beach about 36 miles southwest of Lake Crescent
+      and about 75 miles from Port Angeles, at the end of Mora Road.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-olym-rialto
+  - text: >
+      Mora Campground has 94 sites about three miles from the beach.
+      Hole-in-the-Wall is a sea-carved arch about 1.5 miles north of
+      Rialto in the Olympic wilderness.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-olym-rialto
+      - nps-olym-rialto-trail
+
+sources:
+  - id: nps-olym-rialto
+    title: Visiting Mora and Rialto Beach
+    publisher: National Park Service
+    url: https://www.nps.gov/olym/planyourvisit/visiting-mora-and-rialto.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: nps-olym-rialto-trail
+    title: Rialto Beach
+    publisher: National Park Service
+    url: https://www.nps.gov/olym/planyourvisit/rialto-beach.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/rialto-beach.jpg
+    mediaType: image
+    title: Split rock on Rialto Beach
+    creator: D. Archuleta, Olympic National Park
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Split_rock_rialto_beach_coast_scenic_d_archuleta_2015_(24055875789).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: A split sea stack and drift logs on Rialto Beach along the Olympic coast.
+    creditLine: Photograph by D. Archuleta, Olympic National Park, 2015. Public domain.
+
+relatedStories:
+  - slug: kalaloch
+    relationshipType: nearby
+  - slug: ruby-beach
+    relationshipType: nearby
+  - slug: olympic-national-park-1938
+    relationshipType: same-park
+  - slug: olympic-coast-national-marine-sanctuary
+    relationshipType: nearby
+  - slug: hoh-rain-forest
+    relationshipType: nearby

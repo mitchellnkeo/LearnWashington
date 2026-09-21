@@ -104,3 +104,7 @@ relatedStories:
     relationshipType: nearby
   - slug: elwha-river-restoration
     relationshipType: same-arc
+  - slug: kettle-falls-fishery
+    relationshipType: same-arc
+  - slug: the-dalles-dam
+    relationshipType: nearby

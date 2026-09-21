@@ -1,0 +1,109 @@
+slug: american-pika
+title: American Pika at Mount Rainier
+hook: NPS has mapped about 900 talus sites at Mount Rainier for a rabbit relative that does not hibernate — and can die after two hours above 82.4°F.
+body: |
+  NPS says the American pika (Ochotona princeps) is a small herbivore
+  related to rabbits and hares. Pikas live in talus — patches of
+  broken rock — in western North American mountains. They do not
+  hibernate. They collect ferns, grasses, forbs, shrub bits, and
+  conifer twigs into haypiles for winter food. Thick fur and a high
+  metabolism help them through alpine winters, which also makes them
+  prone to overheating. NPS cites research that just two hours above
+  28°C (82.4°F) can be fatal.
+
+  Mount Rainier National Park began monitoring pikas in 2007. With
+  volunteers and seasonal staff, about 900 individual pika sites have
+  been identified, each a distinct talus patch that may hold one or
+  more territories. Surveyors look and listen for pikas and search for
+  haypiles and peppercorn-sized scat. Up to 35 individual pikas have
+  been observed in a single talus patch. They occupy talus from a few
+  boulders to patches larger than a soccer field. NPS says the Rainier
+  data have not yet been analyzed to say whether numbers are stable,
+  rising, or falling.
+
+  NPS’s Olympic mountain-goat page notes that pika never colonized the
+  Olympics, which have long been isolated from the Cascades. The
+  sources below are National Park Service pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Mount Rainier
+  slug: mount-rainier
+  placeType: wildlife
+  latitude: 46.853
+  longitude: -121.76
+  county: Pierce County
+  region: Cascades
+
+categories:
+  - wildlife-ecology
+  - science-strange
+
+tags:
+  - pika
+  - alpine
+  - mount-rainier
+
+claims:
+  - text: >
+      NPS says American pikas are rabbit relatives that inhabit talus,
+      do not hibernate, and store haypiles, and that two hours above
+      28°C (82.4°F) can be fatal.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - nps-pika-rainier
+  - text: >
+      NPS says Mount Rainier has monitored pikas since 2007 and
+      identified about 900 talus sites, with as many as 35 pikas in
+      one patch.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - nps-pika-rainier
+  - text: >
+      NPS says pika never colonized the Olympic Mountains because that
+      range is isolated from the Cascades.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - nps-olympic-goats
+
+sources:
+  - id: nps-pika-rainier
+    title: American Pika at Mount Rainier National Park
+    publisher: National Park Service
+    url: https://www.nps.gov/articles/american-pika-at-mount-rainier.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: nps-olympic-goats
+    title: Mountain Goat Capture and Translocation
+    publisher: National Park Service
+    url: https://www.nps.gov/olym/planyourvisit/mountain-goat-capture-and-translocation.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/american-pika.jpg
+    mediaType: image
+    title: American pika on rocks
+    creator: Patrick Myers, Great Sand Dunes National Park and Preserve
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Pika_on_Rocks_(50365870827).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: An American pika sitting on talus rocks, a species photograph from a national park.
+    creditLine: Photograph by Patrick Myers, National Park Service, Great Sand Dunes National Park and Preserve. Public domain. Species photograph, not a Mount Rainier animal.
+
+relatedStories:
+  - slug: mount-rainier
+    relationshipType: same-place
+  - slug: olympic-marmot
+    relationshipType: same-arc
+  - slug: paradise-mount-rainier
+    relationshipType: same-park
+  - slug: sunrise-mount-rainier
+    relationshipType: same-park

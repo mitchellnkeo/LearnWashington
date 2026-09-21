@@ -1,0 +1,113 @@
+slug: camp-harmony-puyallup
+title: Camp Harmony
+hook: NPS says the Puyallup fairgrounds held 7,390 people from Washington and Alaska between April 28 and September 12, 1942, before trains left for Minidoka.
+body: |
+  The Puyallup Assembly Center, called Camp Harmony, occupied the
+  Western Washington State Fairgrounds in Pierce County. The NPS
+  Japanese Americans in World War II theme study says it was occupied
+  from April 28, 1942, until September 12, 1942, with a maximum
+  population of 7,390. People held there were from Washington and
+  Alaska. The grounds were split into Districts A, B, C, and D, each
+  fenced, with barracks in parking lots, inside the racetrack, and
+  under the grandstand.
+
+  NPS says Seattle’s Japantown residents were detained at Puyallup
+  before being sent to Minidoka in Idaho. A Minidoka landscape study
+  says 212 people from Puyallup arrived on August 10, 1942, then about
+  500 a day from Puyallup and later Portland, and that by September 14,
+  1942, Minidoka held 8,381 people.
+
+  No assembly-center buildings remain. NPS notes a George Tsutakawa
+  sculpture and two plaques in a courtyard near the administration
+  building. Highway 512 now crosses the south end of the site. This is
+  the Seattle–Tacoma path to Minidoka, distinct from Bainbridge
+  Islanders, whom NPS says were sent first to Manzanar. The sources
+  below are National Park Service pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1942-04-28"
+endDate: "1942-09-12"
+datePrecision: day
+dateLabel: April 28–September 12, 1942
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Western Washington State Fairgrounds, Puyallup
+  slug: camp-harmony-puyallup
+  placeType: historic_site
+  latitude: 47.181
+  longitude: -122.297
+  county: Pierce County
+  region: Puget Sound
+
+categories:
+  - history
+
+tags:
+  - world-war-ii
+  - incarceration
+  - puyallup
+
+claims:
+  - text: >
+      NPS says the Puyallup Assembly Center was occupied from April 28
+      to September 12, 1942, with a peak population of 7,390 people
+      from Washington and Alaska, in four fenced districts on the
+      Western Washington State Fairgrounds.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-ja-theme-study
+  - text: >
+      NPS says Seattle Japantown residents went to Puyallup Assembly
+      Center, then to Minidoka.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-seattle-chinatown
+  - text: >
+      An NPS Minidoka landscape study says 212 people from Puyallup
+      reached Minidoka on August 10, 1942; transfers then ran about
+      500 a day; and Minidoka held 8,381 people by September 14, 1942.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-minidoka-landscape
+
+sources:
+  - id: nps-ja-theme-study
+    title: Japanese Americans in World War II Theme Study
+    publisher: National Park Service
+    url: https://irma.nps.gov/DataStore/DownloadFile/706556
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: nps-seattle-chinatown
+    title: Seattle Chinatown Historic District
+    publisher: National Park Service
+    url: https://www.nps.gov/places/seattle-chinatown-historic-district.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: nps-minidoka-landscape
+    title: Minidoka National Historic Site
+    publisher: National Park Service
+    url: https://www.nps.gov/articles/000/minidoka-national-historic-site-975323.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/camp-harmony-puyallup.jpg
+    mediaType: image
+    title: Aerial view of the Puyallup fairgrounds, April 14, 1942
+    creator: U.S. Army Air Forces
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Aerial_view_of_Fair_Grounds,_Puyallup,_Washington,_April_14,_1942.jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.archives.gov/
+    altText: Aerial photograph of the Puyallup fairgrounds two weeks before the assembly center opened.
+    creditLine: U.S. government aerial photograph, April 14, 1942. Public domain.
+
+relatedStories:
+  - slug: bainbridge-exclusion-memorial
+    relationshipType: same-arc

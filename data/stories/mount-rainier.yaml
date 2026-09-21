@@ -130,3 +130,5 @@ relatedStories:
     relationshipType: same-park
   - slug: wonderland-trail
     relationshipType: same-park
+  - slug: american-pika
+    relationshipType: same-park

@@ -103,3 +103,7 @@ relatedStories:
     relationshipType: same-park
   - slug: blue-glacier
     relationshipType: same-park
+  - slug: rialto-beach
+    relationshipType: same-park
+  - slug: pacific-fisher-reintroduction
+    relationshipType: same-park

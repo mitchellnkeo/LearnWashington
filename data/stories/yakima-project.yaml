@@ -1,0 +1,115 @@
+slug: yakima-project
+title: Yakima Project
+hook: Reclamation’s 1905 irrigation project waters about 464,000 acres along 175 miles of the Yakima River, including 136,000 acres on the Wapato Division.
+body: |
+  The Bureau of Reclamation Yakima Project waters a comparatively
+  narrow strip of land that extends 175 miles on both sides of the
+  Yakima River in south-central Washington. Irrigable lands now served
+  total about 464,000 acres. The Yakima River Basin Study states the
+  federal project was authorized in 1905.
+
+  There are seven divisions: Storage, Kittitas, Tieton, Sunnyside,
+  Roza, Kennewick, and Wapato. The Wapato Division is operated by the
+  Bureau of Indian Affairs and receives most of its water from the
+  Yakima Project for 136,000 acres. Over 45,000 additional acres are
+  irrigated by private interests under Reclamation water-supply
+  contracts. Storage dams are Bumping Lake, Clear Creek, Tieton, Cle
+  Elum, Kachess, and Keechelus.
+
+  The Storage Division manages the Yakima River water supply. The
+  reservoirs have a total active capacity of 1,065,400 acre-feet. This
+  pin is Rimrock Lake at Tieton Dam. The sources below are Bureau of
+  Reclamation and U.S. Geological Survey pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1905-01-01"
+datePrecision: year
+dateLabel: authorized 1905
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Tieton Dam / Rimrock Lake
+  slug: tieton-dam
+  placeType: irrigation_project
+  latitude: 46.652618
+  longitude: -121.12619
+  county: Yakima County
+  region: Yakima Valley
+
+categories:
+  - history
+  - geography-geology
+
+tags:
+  - irrigation
+  - reclamation
+  - yakima
+
+claims:
+  - text: >
+      Reclamation says the Yakima Project waters about 464,000 acres
+      along 175 miles of the Yakima River. The project was authorized
+      in 1905. It has seven divisions, and the Wapato Division serves
+      136,000 acres under the Bureau of Indian Affairs.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usbr-yakima-project
+      - usbr-yakima-basin
+  - text: >
+      Reclamation lists six storage reservoirs, five diversion dams,
+      two powerplants, over 45,000 acres under private contracts, and
+      1,065,400 acre-feet of active storage.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usbr-yakima-project
+  - text: >
+      USGS station 12491000, Rimrock Lake at Tieton Dam, is at
+      46.652618° N, 121.126190° W in Yakima County.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usgs-tieton-dam
+
+sources:
+  - id: usbr-yakima-project
+    title: Yakima Project
+    publisher: U.S. Bureau of Reclamation
+    url: https://www.usbr.gov/projects/index.php?id=400
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: usbr-yakima-basin
+    title: Yakima River Basin Study / Integrated Plan
+    publisher: U.S. Bureau of Reclamation
+    url: https://www.usbr.gov/pn/programs/yrbwep/2011integratedplan/plan/integratedplan.pdf
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: usgs-tieton-dam
+    title: 12491000 Rimrock Lake at Tieton Dam
+    publisher: U.S. Geological Survey
+    url: https://waterdata.usgs.gov/nwis/inventory/?site_no=12491000
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/yakima-project.jpg
+    mediaType: image
+    title: Tieton Dam from the east side of Rimrock Lake
+    creator: U.S. Bureau of Reclamation
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Yakima-Tieton_Project_-_Tieton_Dam_-_View_from_East_side_of_reservoir_-_Washington_-_NARA_-_294737.jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.archives.gov/
+    altText: Tieton Dam and Rimrock Lake on the Yakima-Tieton irrigation project.
+    creditLine: Photograph by the Bureau of Reclamation. National Archives 294737. Public domain.
+
+relatedStories:
+  - slug: yakima-hops
+    relationshipType: nearby
+  - slug: columbia-basin-project
+    relationshipType: same-arc
+  - slug: toppenish-nwr
+    relationshipType: nearby

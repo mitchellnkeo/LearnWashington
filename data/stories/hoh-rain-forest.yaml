@@ -112,3 +112,7 @@ relatedStories:
     relationshipType: nearby
   - slug: sequim-rain-shadow
     relationshipType: same-landscape
+  - slug: rialto-beach
+    relationshipType: nearby
+  - slug: pacific-fisher-reintroduction
+    relationshipType: same-park

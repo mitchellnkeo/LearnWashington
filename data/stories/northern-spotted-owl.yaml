@@ -107,3 +107,5 @@ relatedStories:
     relationshipType: nearby
   - slug: marbled-murrelet
     relationshipType: same-landscape
+  - slug: pacific-fisher-reintroduction
+    relationshipType: same-forest

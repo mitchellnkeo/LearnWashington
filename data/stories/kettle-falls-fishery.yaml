@@ -1,0 +1,133 @@
+slug: kettle-falls-fishery
+title: Kettle Falls Fishery
+hook: NPS calls the drowned falls an inland-Northwest center for more than 9,000 years. Tribes speared and netted thousands of salmon—enough, the park says, for half a year’s diet.
+body: |
+  The Confederated Tribes of the Colville Reservation state that the
+  traditional territory of the Colville tribe was primarily located
+  around the Kettle Falls fishery, and the tribal History/Archaeology
+  program publishes The Kettle Falls Fishery as its own history.
+
+  NPS says Kettle Falls was an annual gathering place. Angled rock
+  slabs forced the Columbia over a series of falls that blocked
+  migrating salmon and made them easier to catch. Gathered tribes
+  speared and netted thousands of salmon, enough to provide half of
+  their families’ diet for the coming year. A Lake Roosevelt history
+  page calls Kettle Falls the second-largest salmon fishery on the
+  Columbia and says representatives from a 200-mile radius came to
+  fish, trade, share news, and settle quarrels. David Thompson reached
+  the falls on June 19, 1811.
+
+  Grand Coulee Dam construction began in 1933 and finished in 1941.
+  NPS says the dam and Lake Roosevelt ended life-sustaining fisheries
+  and changed the cultural, spiritual, and economic lives of the
+  Colville and Spokane tribes. The falls and Fort Colville (Hudson’s
+  Bay Company, 1825) are now underwater. NPS says American Indians
+  still gather annually, praying for the return of the salmon. The
+  sources below are Colville tribal pages and National Park Service
+  Lake Roosevelt pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1941-01-01"
+datePrecision: year
+dateLabel: falls submerged after Grand Coulee, 1941
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Kettle Falls
+  slug: kettle-falls
+  placeType: historic_site
+  latitude: 48.626
+  longitude: -118.115
+  county: Stevens County
+  region: Columbia Basin
+
+categories:
+  - history
+  - indigenous-history-place
+
+tags:
+  - salmon
+  - colville
+  - columbia
+
+claims:
+  - text: >
+      NPS says the historic salmon fishery at now-submerged Kettle
+      Falls was a center of human activity for more than 9,000 years,
+      and that Grand Coulee Dam, built from 1933 to 1941, ended
+      life-sustaining fisheries for the Colville and Spokane.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-laro-brochure
+      - colville-territory
+  - text: >
+      NPS says tribes speared and netted thousands of salmon, enough
+      for half the coming year’s diet; Hudson’s Bay Company Fort
+      Colville was established in 1825; the falls and fort are now
+      submerged; and an annual gathering continues.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-laro-brochure
+  - text: >
+      NPS calls Kettle Falls the second-largest salmon fishery on the
+      Columbia, says people came from a 200-mile radius, and records
+      David Thompson’s arrival on June 19, 1811.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-david-thompson
+
+sources:
+  - id: colville-territory
+    title: Education & Employment
+    publisher: Confederated Tribes of the Colville Reservation
+    url: https://www.colvilletribes.com/education-employment-1
+    sourceType: tribal
+    tier: S
+    accessedAt: "2026-09-21"
+    notes: Tribal page stating that Colville traditional territory was primarily around the Kettle Falls fishery.
+  - id: colville-history
+    title: History/Archaeology
+    publisher: Confederated Tribes of the Colville Reservation
+    url: https://www.colvilletribes.com/history-archaeology
+    sourceType: tribal
+    tier: S
+    accessedAt: "2026-09-21"
+    notes: Tribal History/Archaeology program publishes The Kettle Falls Fishery.
+  - id: nps-laro-brochure
+    title: Park Brochure
+    publisher: National Park Service
+    url: https://www.nps.gov/laro/planyourvisit/park-brochure.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: nps-david-thompson
+    title: David Thompson
+    publisher: National Park Service
+    url: https://www.nps.gov/laro/learn/historyculture/david-thompson.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/kettle-falls-fishery.jpg
+    mediaType: image
+    title: Columbia River salmon caught at Kettle Falls, 1861
+    creator: National Park Service collections
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Columbia_River_salmon_caught_at_Kettle_Falls._Taken_1861._(7d64c273-14c6-43dc-8869-bd6293352c41).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: Historic photograph of salmon caught at Kettle Falls on the Columbia River in 1861.
+    creditLine: Photograph from National Park Service collections, 1861. Public domain.
+
+relatedStories:
+  - slug: lake-roosevelt
+    relationshipType: same-park
+  - slug: grand-coulee-dam
+    relationshipType: nearby
+  - slug: fort-spokane
+    relationshipType: nearby
+  - slug: columbia-chinook
+    relationshipType: same-arc

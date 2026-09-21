@@ -86,3 +86,5 @@ relatedStories:
     relationshipType: nearby
   - slug: columbia-chinook
     relationshipType: same-arc
+  - slug: the-dalles-dam
+    relationshipType: same-arc

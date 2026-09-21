@@ -92,3 +92,7 @@ relatedStories:
     relationshipType: same-arc
   - slug: hanford-b-reactor
     relationshipType: nearby
+  - slug: yakima-project
+    relationshipType: nearby
+  - slug: toppenish-nwr
+    relationshipType: nearby

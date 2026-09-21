@@ -1,0 +1,110 @@
+slug: the-dalles-dam
+title: The Dalles Dam
+hook: A Columbia River dam at river mile 192, completed in 1957, with the pin on the Washington shore of a project the Corps lists at The Dalles, Oregon.
+body: |
+  The Dalles Lock and Dam was authorized by Congress for power and
+  navigation in the 1950 Flood Control Act. The Corps says the project
+  was built between 1952 and 1957 near The Dalles, Oregon, 192 miles
+  upstream of the Pacific Ocean. The official location is The Dalles,
+  Oregon. The project spans the Columbia; this pin sits on the
+  Washington shore.
+
+  The Corps Quick Facts list the dam at 185 feet high and 2,640 feet
+  long, completed in 1957, with 22 units and 1,780 megawatts. Lake
+  Celilo extends 24 miles upstream to John Day Dam. The Corps calls the
+  lock the second of eight on the Columbia–Snake inland waterway, a
+  465-mile water highway to Lewiston, Idaho, and says the lock passes
+  up to 10 million tons of cargo a year.
+
+  USGS operated a total-dissolved-gas station, Columbia River at The
+  Dalles Dam forebay, Washington, at 45°37′12″ N, 121°07′12″ W, river
+  mile 192.6. The sources below are U.S. Army Corps of Engineers and
+  U.S. Geological Survey pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1957-01-01"
+datePrecision: year
+dateLabel: completed 1957
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: The Dalles Dam, Washington shore
+  slug: the-dalles-dam
+  placeType: dam
+  latitude: 45.62
+  longitude: -121.12
+  county: Klickitat County
+  region: Columbia River
+
+categories:
+  - history
+  - geography-geology
+
+tags:
+  - columbia
+  - hydropower
+  - dam
+
+claims:
+  - text: >
+      The Corps says The Dalles Dam was authorized in the 1950 Flood
+      Control Act, built from 1952 to 1957 near The Dalles, Oregon, at
+      Columbia River mile 192, and that Lake Celilo extends 24 miles
+      upstream to John Day Dam.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usace-the-dalles
+  - text: >
+      Corps Quick Facts list the dam as 185 feet high and 2,640 feet
+      long, with 22 units and 1,780 megawatts. The lock is the second
+      of eight on the 465-mile Columbia–Snake waterway and passes up
+      to 10 million tons of cargo a year.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usace-the-dalles
+  - text: >
+      USGS lists a Washington-shore forebay station at 45°37′12″ N,
+      121°07′12″ W, river mile 192.6.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usgs-the-dalles-forebay
+
+sources:
+  - id: usace-the-dalles
+    title: The Dalles Dam and Lake Celilo
+    publisher: U.S. Army Corps of Engineers
+    url: https://www.nwd.usace.army.mil/fact-sheets/article/3485297/the-dalles-dam-and-lake-celilo/
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: usgs-the-dalles-forebay
+    title: "Open-File Report 2013-1281"
+    publisher: U.S. Geological Survey
+    url: https://pubs.usgs.gov/of/2013/1281/pdf/ofr2013-1281.pdf
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/the-dalles-dam.jpg
+    mediaType: image
+    title: The Dalles Dam on the Columbia River, with Mount Hood beyond
+    creator: David Falconer, EPA DOCUMERICA
+    sourceUrl: https://commons.wikimedia.org/wiki/File:THE_DALLES_DAM_ON_THE_COLUMBIA_RIVER._IN_BACKGROUND_IS_MT_HOOD_WHICH,_AT_11,235_FT._ELEVATION,_IS_THE_HIGHEST_POINT..._-_NARA_-_548017.jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.archives.gov/
+    altText: The Dalles Dam on the Columbia River with Mount Hood in the background.
+    creditLine: Photograph by David Falconer, Environmental Protection Agency DOCUMERICA, June 1973. National Archives 548017. Public domain.
+
+relatedStories:
+  - slug: john-day-dam
+    relationshipType: same-arc
+  - slug: bonneville-dam
+    relationshipType: same-arc
+  - slug: mcnary-dam
+    relationshipType: same-arc
+  - slug: columbia-chinook
+    relationshipType: same-arc

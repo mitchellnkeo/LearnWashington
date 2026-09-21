@@ -115,3 +115,5 @@ relatedStories:
     relationshipType: nearby
   - slug: grand-coulee
     relationshipType: nearby
+  - slug: kettle-falls-fishery
+    relationshipType: nearby

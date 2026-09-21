@@ -99,3 +99,7 @@ relatedStories:
     relationshipType: nearby
   - slug: whitman-mission
     relationshipType: same-arc
+  - slug: kettle-falls-fishery
+    relationshipType: nearby
+  - slug: chief-joseph-nespelem
+    relationshipType: nearby

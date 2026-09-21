@@ -90,3 +90,5 @@ relatedStories:
     relationshipType: same-arc
   - slug: pig-war
     relationshipType: nearby
+  - slug: camp-harmony-puyallup
+    relationshipType: same-arc
