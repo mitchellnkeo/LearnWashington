@@ -1,0 +1,148 @@
+slug: discovery-park
+title: Discovery Park
+hook: Seattle’s largest park sits on Magnolia Bluff, on land Duwamish and other Coast Salish people used for thousands of years before it became Fort Lawton.
+body: |
+  Seattle Parks says Discovery Park is the city’s largest park, 560
+  acres on most of the former Fort Lawton site. The park looks out from
+  Magnolia Bluff over Puget Sound, with two miles of protected tidal
+  beach, meadows, sea cliffs, forest, dunes, thickets, and streams.
+
+  Parks writes that the original name of West Point is PKa'dz Eltue,
+  meaning “thrust far out.” Ancestors of the Duwamish, Suquamish,
+  Tulalip, and Muckleshoot nations used the place for at least 4,000
+  and up to 10,000 years. A 1992 archaeological dig found woodworking
+  tool kits kept on the beach. The 1855 Treaty of Point Elliott forced
+  Indigenous people onto reservations.
+
+  Fort Lawton opened in the early 1900s on land Seattle civic groups
+  had donated. During World War II, Parks says, as many as 20,000
+  troops were staged there at once and 1.1 million passed through.
+  On March 8, 1970, Bernie Whitebear (Sin Aikst), Bob Satiacum
+  (Puyallup), and more than 100 Native people occupied surplus land at
+  the fort. Negotiations produced a public park and a 99-year lease
+  for a cultural center. Senator Henry Jackson dedicated Discovery
+  Park in 1973. Daybreak Star Indian Cultural Center opened in 1977.
+  The sources below are Seattle Parks pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1973-01-01"
+datePrecision: year
+dateLabel: dedicated 1973
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Fort Lawton
+  slug: fort-lawton
+  placeType: park
+  latitude: 47.661
+  longitude: -122.415
+  county: King County
+  region: Puget Sound
+
+categories:
+  - indigenous-history-place
+  - history
+  - wildlife-ecology
+
+tags:
+  - seattle
+  - magnolia
+  - fort-lawton
+
+claims:
+  - text: >
+      Seattle Parks says Discovery Park is Seattle’s largest park, a
+      560-acre natural area occupying most of the former Fort Lawton
+      site on Magnolia Bluff, with two miles of protected tidal beaches
+      plus meadow, sea cliffs, forest groves, dunes, thickets, and
+      streams.
+    claimType: factual
+    confidence: verified
+    sources:
+      - seattle-discovery-park
+  - text: >
+      Seattle Parks says the original name of West Point is PKa'dz
+      Eltue, meaning “thrust far out,” and that ancestors of the
+      Duwamish, Suquamish, Tulalip, and Muckleshoot nations were active
+      there for at least 4,000 and up to 10,000 years.
+    claimType: historical
+    confidence: verified
+    sources:
+      - seattle-discovery-history
+  - text: >
+      Seattle Parks says a 1992 archaeological dig at West Point
+      indicates entire tool kits were kept for woodworking, and that
+      the 1855 Treaty of Point Elliott brought forced removal of
+      Indigenous people to reservations.
+    claimType: historical
+    confidence: verified
+    sources:
+      - seattle-discovery-history
+  - text: >
+      Seattle Parks says that during World War II up to 20,000 troops
+      were staged at Fort Lawton at one time and a total of 1.1 million
+      troops passed through the installation.
+    claimType: historical
+    confidence: verified
+    sources:
+      - seattle-discovery-history
+  - text: >
+      Seattle Parks says that on March 8, 1970, more than 100 Native
+      Americans and supporters led by Bernie Whitebear (Sin Aikst) and
+      Bob Satiacum (Puyallup) occupied Fort Lawton, that Discovery Park
+      was dedicated in 1973, and that Daybreak Star Indian Cultural
+      Center was completed in 1977.
+    claimType: historical
+    confidence: verified
+    sources:
+      - seattle-discovery-history
+      - seattle-discovery-park
+  - text: >
+      USGS Geographic Names lists Fort Lawton in King County at
+      47.661° N, 122.415° W (GNIS 2512523).
+    claimType: factual
+    confidence: verified
+    sources:
+      - usgs-gnis-fort-lawton
+
+sources:
+  - id: seattle-discovery-park
+    title: Discovery Park
+    publisher: City of Seattle Parks and Recreation
+    url: https://www.seattle.gov/parks/parks/discovery-park
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: seattle-discovery-history
+    title: Discovery Park History
+    publisher: City of Seattle Parks and Recreation
+    url: https://www.seattle.gov/parks/parks/discovery-park/discovery-park-history
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: usgs-gnis-fort-lawton
+    title: Fort Lawton (GNIS 2512523)
+    publisher: U.S. Geological Survey
+    url: https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/2512523
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/discovery-park.jpg
+    mediaType: image
+    title: U.S. Army corral at Fort Lawton
+    creator: Theodore E. Peiser
+    sourceUrl: https://commons.wikimedia.org/wiki/File:US_government_military_corral_in_Seattle_showing_a_soldier_on_horseback,_August,_1900_(PEISER_60).jpeg
+    license: Public domain
+    licenseUrl: https://commons.wikimedia.org/wiki/Template:PD-US
+    altText: A U.S. Army soldier on horseback at the Fort Lawton corral in Seattle, August 1900.
+    creditLine: Photograph by Theodore E. Peiser, August 1900. University of Washington Libraries. Public domain.
+
+relatedStories:
+  - slug: ballard-locks
+    relationshipType: nearby
+  - slug: puget-sound-naval-shipyard
+    relationshipType: same-arc
+  - slug: camp-harmony-puyallup
+    relationshipType: nearby

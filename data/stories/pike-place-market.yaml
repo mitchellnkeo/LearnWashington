@@ -1,0 +1,130 @@
+slug: pike-place-market
+title: Pike Place Market
+hook: Eight farmers met a crowd of nearly 10,000 on August 17, 1907. Seattle later voted to keep the market as “the soul of Seattle.”
+body: |
+  In 1907 the Seattle City Council designated newly planked Pike Place
+  as a public market where people could buy produce straight from local
+  growers. On the first rainy Saturday, August 17, 1907, eight farmers
+  sold everything they brought to a crowd of nearly 10,000. Three
+  months later, 120 farmers sold from wagons along the street. By the
+  end of the year a shed with 76 stalls was under construction. By 1917
+  the Economy Market, Corner Market, Sanitary Market, and the lower
+  levels of the Main Market were in place.
+
+  The city’s historic-preservation page calls Pike Place Market the
+  oldest continuously operating and most historically authentic public
+  market in the country. During World War II the Market lost more than
+  half its farmers after Japanese American growers were incarcerated.
+  By the 1960s fewer than 100 farmers remained.
+
+  A 1963 downtown plan proposed replacing much of the Market with Pike
+  Plaza towers and a smaller updated market. Architect Victor
+  Steinbrueck and Friends of the Market put the question on the
+  November 1971 ballot. Seattle voted 73,369 to 53,264 to preserve it.
+  The vote created a seven-acre local and National Register historic
+  district and a larger 22-acre redevelopment area. The sources below
+  are the City of Seattle historic-district page.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1907-08-17"
+datePrecision: day
+dateLabel: opened August 17, 1907
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Pike Place Market
+  slug: pike-place-market
+  placeType: historic_district
+  latitude: 47.60944444
+  longitude: -122.34166667
+  county: King County
+  region: Puget Sound
+
+categories:
+  - history
+  - music-culture
+
+tags:
+  - seattle
+  - pike-place
+  - downtown
+
+claims:
+  - text: >
+      The City of Seattle says the City Council designated Pike Place a
+      public market in 1907, and that on August 17, 1907, eight farmers
+      sold everything they brought to a crowd of nearly 10,000 shoppers.
+    claimType: historical
+    confidence: verified
+    sources:
+      - seattle-pike-place
+  - text: >
+      The city says that by 1917 the Economy Market, Corner Market,
+      Sanitary Market, and the lower levels of the Main Market were
+      constructed, and that it calls Pike Place Market the oldest
+      continuously operating and most historically authentic public
+      market in the country.
+    claimType: factual
+    confidence: verified
+    sources:
+      - seattle-pike-place
+  - text: >
+      The city says that with the incarceration of Japanese people after
+      the attack on Pearl Harbor, the Market lost more than half its
+      farmers, and that by the 1960s fewer than 100 farmers were selling
+      there.
+    claimType: historical
+    confidence: verified
+    sources:
+      - seattle-pike-place
+  - text: >
+      The city says Seattle voters approved a November 1971 initiative
+      73,369 to 53,264, creating a seven-acre National Register and
+      local Market Historical District and a larger 22-acre
+      redevelopment area.
+    claimType: factual
+    confidence: verified
+    sources:
+      - seattle-pike-place
+  - text: >
+      USGS Geographic Names lists Pike Place Market, a locale in King
+      County, at 47.60944444° N, 122.34166667° W (GNIS 1531897).
+    claimType: factual
+    confidence: verified
+    sources:
+      - usgs-gnis-pike-place
+
+sources:
+  - id: seattle-pike-place
+    title: Pike Place Market Historical District
+    publisher: City of Seattle Department of Neighborhoods
+    url: https://www.seattle.gov/neighborhoods/historic-preservation/historic-districts/pike-place-market-historical-district
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: usgs-gnis-pike-place
+    title: Pike Place Market (GNIS 1531897)
+    publisher: U.S. Geological Survey
+    url: https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1531897
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/pike-place-market.jpg
+    mediaType: image
+    title: Vegetable vendor daystalls, Pike Place Market
+    creator: Calvin F. Todd / Depue Morgan & Co.
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Pike_Public_Market_-_vegetable_vendor_daystalls_-_1917.jpg
+    license: Public domain
+    licenseUrl: https://commons.wikimedia.org/wiki/Template:PD-US
+    altText: Farmers selling vegetables from daystalls inside Pike Place Market in 1917, with the Sanitary Market across the street.
+    creditLine: Photograph attributed to Calvin F. Todd / Depue Morgan & Co., 1917. University of Washington Libraries. Public domain.
+
+relatedStories:
+  - slug: great-seattle-fire-1889
+    relationshipType: nearby
+  - slug: klondike-gold-rush-seattle
+    relationshipType: nearby
+  - slug: alaska-yukon-pacific-exposition
+    relationshipType: nearby

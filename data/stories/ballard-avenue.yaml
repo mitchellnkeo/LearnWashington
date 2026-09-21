@@ -1,0 +1,130 @@
+slug: ballard-avenue
+title: Ballard Avenue
+hook: Before Seattle annexed it in 1907, Ballard was Washington’s seventh-largest city and home to the world’s largest shingle mills.
+body: |
+  In 1887 Captain William Ballard’s West Coast Improvement Company began
+  developing 160 acres on the north shore of Salmon Bay, then called
+  Gilman Park. The City of Seattle says the town incorporated in 1890,
+  took the name Ballard, and was linked to Seattle by rail. By 1895 it
+  was home to the world’s largest shingle industry. Much of the lumber
+  that rebuilt Seattle after the 1889 fire came from Ballard. By 1904
+  twenty mills turned out three million shingles a day.
+
+  Fishing mattered too. The city says the Salmon Bay fishing fleet has
+  long called Ballard home, and that Scandinavian immigrants staffed
+  much of the early industry. A shortage of water, plus sewage and
+  school-funding problems, led Seattle to annex Ballard in 1907. The
+  population then was 10,000, making Ballard the seventh-largest city
+  in Washington.
+
+  Ballard Avenue was the old main street until Market Street took that
+  role and, the city says, arrested development at a mid-1940s point.
+  Granite curbs still hold hitching rings in places. The Seattle
+  Landmarks Preservation Board designated the district on January 14,
+  1975. The City Council created it by ordinance on April 13, 1976.
+  Mayor Wes Uhlman signed the law in the district beside a proclamation
+  from King Carl XVI Gustav of Sweden. The source below is the City of
+  Seattle landmark-district page.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1976-04-13"
+datePrecision: day
+dateLabel: district April 13, 1976
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Ballard
+  slug: ballard
+  placeType: neighborhood
+  latitude: 47.677
+  longitude: -122.385
+  county: King County
+  region: Puget Sound
+
+categories:
+  - history
+
+tags:
+  - seattle
+  - ballard
+  - landmark-district
+
+claims:
+  - text: >
+      The City of Seattle says Captain William Ballard formed the West
+      Coast Improvement Company in 1887 to develop 160 acres known as
+      Gilman Park, and that the town incorporated, was linked by rail
+      to Seattle, and took the name Ballard in 1890.
+    claimType: historical
+    confidence: verified
+    sources:
+      - seattle-ballard-avenue
+  - text: >
+      The city says that by 1895 Ballard was home to the world’s largest
+      shingle industry, that much of the material used to rebuild
+      Seattle after the 1889 fire came from Ballard, and that by 1904
+      twenty mills reached a combined daily output of three million
+      shingles.
+    claimType: historical
+    confidence: verified
+    sources:
+      - seattle-ballard-avenue
+  - text: >
+      The city says Seattle annexed Ballard in 1907 after shortages of
+      water and problems with sewage and school funding, and that
+      Ballard’s population of 10,000 then made it the seventh-largest
+      city in Washington.
+    claimType: historical
+    confidence: verified
+    sources:
+      - seattle-ballard-avenue
+  - text: >
+      The city says the Seattle Landmarks Preservation Board designated
+      Ballard Avenue on January 14, 1975, and that the City Council
+      created the landmark district by ordinance on April 13, 1976.
+    claimType: factual
+    confidence: verified
+    sources:
+      - seattle-ballard-avenue
+  - text: >
+      USGS Geographic Names lists Ballard, a populated place in King
+      County, at 47.677° N, 122.385° W (GNIS 1511983).
+    claimType: factual
+    confidence: verified
+    sources:
+      - usgs-gnis-ballard
+
+sources:
+  - id: seattle-ballard-avenue
+    title: Ballard Avenue Landmark District
+    publisher: City of Seattle Department of Neighborhoods
+    url: https://seattle.gov/neighborhoods/historic-preservation/historic-districts/ballard-avenue-landmark-district
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: usgs-gnis-ballard
+    title: Ballard (GNIS 1511983)
+    publisher: U.S. Geological Survey
+    url: https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1511983
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/ballard-avenue.jpg
+    mediaType: image
+    title: Ballard Carnegie Library
+    creator: unknown photographer, Seattle and King County (1905)
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Ballard_Carnegie_Library_1905.jpg
+    license: Public domain
+    licenseUrl: https://commons.wikimedia.org/wiki/Template:PD-US
+    altText: The Carnegie library in Ballard around 1905, two years before Seattle annexed the city.
+    creditLine: Photograph published in Seattle and King County, about 1905. Public domain.
+
+relatedStories:
+  - slug: ballard-locks
+    relationshipType: nearby
+  - slug: great-seattle-fire-1889
+    relationshipType: same-arc
+  - slug: montlake-cut
+    relationshipType: nearby

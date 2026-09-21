@@ -1,0 +1,135 @@
+slug: seattle-chinatown-id
+title: Chinatown–International District
+hook: Seattle’s third Chinatown rose on King Street after the Jackson Regrade. The city later wrapped Chinatown, Japantown, Manilatown, and Little Saigon in one historic district.
+body: |
+  The National Park Service says Seattle’s first Chinese settlers arrived
+  in the 1860s and 1870s to work in mills, fisheries, and railroads.
+  The first Chinatown south of Pioneer Square burned in the Great Fire
+  of 1889. After the Jackson Regrade finished in 1910, the community
+  moved again, this time onto filled land at King Street. In 1910 Goon
+  Dip’s Kong Yick Investment Company, 170 Chinese immigrant investors
+  from Seattle and the wider Pacific Northwest, financed the East and
+  West Kong Yick Buildings.
+
+  Japanese residents built Nihonmachi, Japantown, just north and east.
+  NPS says 125 Japanese people lived in Seattle in 1890 and 6,127 by
+  1910. Filipinos established Manilatown around Maynard Avenue and King
+  Street; by the 1930s more than 1,600 Filipinos lived in the district.
+  After Executive Order 9066, Japantown residents were sent to the
+  Puyallup Assembly Center and then to Minidoka.
+
+  In 1973 Seattle created the International Special Review District to
+  protect the neighborhood’s Asian American character. NPS says the
+  local district covers Chinatown, Japantown, Manilatown, and Little
+  Saigon on both sides of Interstate 5. The National Register Seattle
+  Chinatown Historic District sits inside it, roughly bounded by South
+  Main Street, Fifth Avenue South, South Weller Street, and I-5. The
+  sources below are the National Park Service place page and the City
+  of Seattle district page.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1973-01-01"
+datePrecision: year
+dateLabel: district 1973
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Chinatown–International District
+  slug: seattle-chinatown-id
+  placeType: historic_district
+  latitude: 47.5975
+  longitude: -122.32083333
+  county: King County
+  region: Puget Sound
+
+categories:
+  - history
+  - music-culture
+
+tags:
+  - seattle
+  - chinatown
+  - international-district
+
+claims:
+  - text: >
+      NPS says Seattle’s first Chinese settlers came in the 1860s and
+      1870s, that the first Chinatown burned in the Great Fire of 1889,
+      and that after the Jackson Regrade finished in 1910 the community
+      relocated to King Street on filled land.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-seattle-chinatown
+  - text: >
+      NPS says Goon Dip established the Kong Yick Investment Company in
+      1910, a group of 170 Chinese immigrant investors who financed the
+      East and West Kong Yick Buildings, the first Chinese-built
+      structures on King Street.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-seattle-chinatown
+  - text: >
+      NPS says 125 Japanese people lived in Seattle in 1890 and 6,127 by
+      1910, that Japantown became the second-largest Japanese community
+      on the West Coast, and that by the 1930s more than 1,600 Filipinos
+      lived in the district.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-seattle-chinatown
+  - text: >
+      The City of Seattle says the International Special Review District
+      was established by ordinance in 1973, and NPS says the local
+      district encompasses Chinatown, Japantown, Manilatown, and Little
+      Saigon on both sides of Interstate 5.
+    claimType: factual
+    confidence: verified
+    sources:
+      - seattle-isrd
+      - nps-seattle-chinatown
+  - text: >
+      NPS says the Seattle Chinatown Historic District is listed in the
+      National Register of Historic Places and is roughly bounded by
+      South Main Street, Fifth Avenue South, South Weller Street, and
+      Interstate 5.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-seattle-chinatown
+
+sources:
+  - id: nps-seattle-chinatown
+    title: Seattle Chinatown Historic District
+    publisher: National Park Service
+    url: https://www.nps.gov/places/seattle-chinatown-historic-district.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: seattle-isrd
+    title: International Special Review District
+    publisher: City of Seattle Department of Neighborhoods
+    url: https://www.seattle.gov/neighborhoods/historic-preservation/historic-districts/international-special-review-district
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/seattle-chinatown-id.jpg
+    mediaType: image
+    title: Lion dancers on King Street during the Go-Hing festival
+    creator: Webster & Stevens
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Chinese_parade,_Go-Hing_festival,_May_1921_(MOHAI_5450).jpg
+    license: Public domain
+    licenseUrl: https://commons.wikimedia.org/wiki/Template:PD-US
+    altText: Chinese lion dancers marching along South King Street in Seattle’s Chinatown during the May 1921 Go-Hing festival.
+    creditLine: Webster & Stevens photograph, May 1921. PEMCO Webster & Stevens Collection, Museum of History & Industry. Public domain.
+
+relatedStories:
+  - slug: camp-harmony-puyallup
+    relationshipType: same-arc
+  - slug: great-seattle-fire-1889
+    relationshipType: nearby
+  - slug: klondike-gold-rush-seattle
+    relationshipType: nearby

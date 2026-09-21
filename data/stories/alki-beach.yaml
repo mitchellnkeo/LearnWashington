@@ -1,0 +1,127 @@
+slug: alki-beach
+title: Alki Beach
+hook: The Denny party landed here on November 13, 1851. Seattle Parks says Chief Seattle’s people met them and helped raise the first cabin.
+body: |
+  Alki Beach Park runs about 2.5 miles from Alki Point to Duwamish Head
+  at the mouth of the Duwamish River. Seattle Parks says the first
+  white settlers landed on a cold, stormy day in November 1851. A
+  monument at the Alki Point end of the beach marks that landing on
+  November 13, 1851. Parks writes that Chief Seattle and his tribe
+  greeted them and helped them build a cabin for the winter.
+
+  Parks says “Duwamish” comes from a Chinook word, duwampsh, meaning
+  “many-colored river,” and that it was one of the first names proposed
+  for the city now called Seattle. By 1902 an electric street railway
+  ran “all the way from Seattle” to the beach. Charles Looff’s Luna
+  Park opened on pilings at Duwamish Head in 1907, with saltwater
+  pools, a carousel, a Ferris wheel, and a roller coaster. Fire
+  destroyed it in 1931.
+
+  In 1910 this stretch became the first municipal saltwater beach on
+  the West Coast. The Alki Bathhouse, built in 1911, was the first of
+  its kind. A small replica of the Statue of Liberty, a 1952 gift from
+  Reginald H. Parsons and the Seattle Council of the Boy Scouts of
+  America, still stands on the beach. The sources below are Seattle
+  Parks pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1851-11-13"
+datePrecision: day
+dateLabel: November 13, 1851
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Alki Point
+  slug: alki-point
+  placeType: cape
+  latitude: 47.5759313
+  longitude: -122.419851
+  county: King County
+  region: Puget Sound
+
+categories:
+  - indigenous-history-place
+  - history
+
+tags:
+  - seattle
+  - alki
+  - west-seattle
+
+claims:
+  - text: >
+      Seattle Parks says Alki Beach is the site of the landing of the
+      first white settlers in Seattle in November 1851, and that a
+      monument at the Alki Point end of the beach marks their arrival
+      on November 13, 1851.
+    claimType: historical
+    confidence: verified
+    sources:
+      - seattle-alki-beach
+  - text: >
+      Seattle Parks says Chief Seattle and his tribe greeted the
+      settlers and helped them build their cabin to stave off the cold,
+      wet winter.
+    claimType: historical
+    confidence: verified
+    sources:
+      - seattle-alki-beach
+  - text: >
+      Seattle Parks says the park begins at Alki Point and extends 2.5
+      miles to Duwamish Head, and that “Duwamish” comes from a Chinook
+      word, duwampsh, meaning “many-colored river.”
+    claimType: factual
+    confidence: verified
+    sources:
+      - seattle-alki-beach
+  - text: >
+      Seattle Parks says this section of beach became the first
+      municipal saltwater beach on the west coast in 1910, that the
+      Alki Bathhouse was built in 1911, and that Luna Park, completed
+      in 1907 at Duwamish Head, burned in 1931.
+    claimType: historical
+    confidence: verified
+    sources:
+      - seattle-alki-beach
+  - text: >
+      USGS Geographic Names lists Alki Point, a cape in King County, at
+      47.5759313° N, 122.419851° W (GNIS 1533027).
+    claimType: factual
+    confidence: verified
+    sources:
+      - usgs-gnis-alki-point
+
+sources:
+  - id: seattle-alki-beach
+    title: Alki Beach Park
+    publisher: City of Seattle Parks and Recreation
+    url: https://seattle.gov/parks/parks/alki-beach-park
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: usgs-gnis-alki-point
+    title: Alki Point (GNIS 1533027)
+    publisher: U.S. Geological Survey
+    url: https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1533027
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/alki-beach.jpg
+    mediaType: image
+    title: Stockade Hotel at Alki Point on monument dedication day
+    creator: Theodore E. Peiser
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Stockade_Hotel_exterior_at_Alki_Point_on_the_day_the_pioneer%27s_monument_was_dedicated,_West_Seattle_neighborhood,_Seattle_(PEISER_83).jpeg
+    license: Public domain
+    licenseUrl: https://commons.wikimedia.org/wiki/Template:PD-US
+    altText: The Stockade Hotel at Alki Point on November 13, 1905, the day the settlers’ landing monument was dedicated.
+    creditLine: Photograph by Theodore E. Peiser, November 13, 1905. University of Washington Libraries. Public domain.
+
+relatedStories:
+  - slug: great-seattle-fire-1889
+    relationshipType: same-arc
+  - slug: klondike-gold-rush-seattle
+    relationshipType: nearby
+  - slug: discovery-park
+    relationshipType: nearby

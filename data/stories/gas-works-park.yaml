@@ -1,0 +1,118 @@
+slug: gas-works-park
+title: Gas Works Park
+hook: A coal-gas plant on Lake Union ran from 1906 to 1956. Seattle kept the towers and opened the ruins as a park.
+body: |
+  Gas Works Park occupies about 20 acres on the south edge of
+  Wallingford, a land mass the City of Seattle says projects 400 feet
+  into Lake Union with 1,900 linear feet of shoreline. The Seattle Gas
+  Light Company opened a gasification plant here in 1906. Natural gas
+  arrived in 1956 and the plant shut down later that year. The city
+  bought the land for a park in 1962.
+
+  Landscape architect Richard Haag designed the park and reused the
+  industrial towers instead of clearing them. It opened to the public
+  in 1975. Seattle designated it a city landmark, and the National
+  Register of Historic Places listed the park in 2013. The towers
+  remain part of the Lake Union skyline.
+
+  Seattle Parks warns that lake sediment here contains hazardous
+  substances. Swimming, fishing, wading, and launching boats from the
+  park are prohibited. A play barn, kite hill, and sundial sit above
+  the old works, and the Burke-Gilman Trail runs past the parking lot.
+  The sources below are a Seattle Landmarks Preservation Board briefing
+  and the Parks page.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1975-01-01"
+datePrecision: year
+dateLabel: opened 1975
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Gas Works Park
+  slug: gas-works-park
+  placeType: park
+  latitude: 47.646
+  longitude: -122.335
+  county: King County
+  region: Puget Sound
+
+categories:
+  - history
+  - science-strange
+
+tags:
+  - seattle
+  - wallingford
+  - lake-union
+
+claims:
+  - text: >
+      A Seattle Landmarks Preservation Board briefing says Gas Works
+      Park occupies the former Seattle Gas Light Company gasification
+      plant, which operated from 1906 to 1956 and was purchased by the
+      City of Seattle for park purposes in 1962.
+    claimType: historical
+    confidence: verified
+    sources:
+      - seattle-gas-works-landmarks
+  - text: >
+      The same city briefing says the park opened to the public in 1975,
+      was nominated to the National Register of Historic Places in 2002
+      and listed in 2013, and became a City of Seattle landmark.
+    claimType: factual
+    confidence: verified
+    sources:
+      - seattle-gas-works-landmarks
+  - text: >
+      Seattle Parks says access to Lake Union is restricted at Gas
+      Works Park because the lake sediment contains hazardous
+      substances, and that swimming, fishing, wading, and launching
+      boats from the park are prohibited.
+    claimType: factual
+    confidence: verified
+    sources:
+      - seattle-gas-works-park
+  - text: >
+      Seattle Parks says the Burke-Gilman Trail runs past the Gas Works
+      parking lot and follows the Burlington-Northern Railroad 12.5
+      miles north to Log Boom Park in Kenmore.
+    claimType: factual
+    confidence: verified
+    sources:
+      - seattle-gas-works-park
+
+sources:
+  - id: seattle-gas-works-landmarks
+    title: Gas Works Park East Entry and Comfort Station Improvements
+    publisher: City of Seattle Landmarks Preservation Board
+    url: https://www.seattle.gov/documents/departments/neighborhoods/historicpreservation/landmarks/landmarkspreservationboard/meetingdocuments/gw_comfort_station_briefing.pdf
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: seattle-gas-works-park
+    title: Gas Works Park
+    publisher: City of Seattle Parks and Recreation
+    url: https://www.seattle.gov/parks/parks/gas-works-park
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/gas-works-park.jpg
+    mediaType: image
+    title: Seattle Lighting Company plant on Lake Union
+    creator: Webster & Stevens
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Seattle_Lighting_Co_plant,_Seattle,_ca_1918_(MOHAI_4123).jpg
+    license: Public domain
+    licenseUrl: https://commons.wikimedia.org/wiki/Template:PD-US
+    altText: The Seattle Lighting Company gasification plant on Lake Union around 1918, later the site of Gas Works Park.
+    creditLine: Webster & Stevens photograph, about 1918. PEMCO Webster & Stevens Collection, Museum of History & Industry. Public domain.
+
+relatedStories:
+  - slug: montlake-cut
+    relationshipType: nearby
+  - slug: ballard-locks
+    relationshipType: nearby
+  - slug: seattle-fault
+    relationshipType: nearby

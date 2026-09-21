@@ -1,0 +1,126 @@
+slug: columbia-city
+title: Columbia City
+hook: A mill-and-railroad town on Rainier Avenue that Seattle annexed in 1907, later saved as a landmark district around a Carnegie library and village green.
+body: |
+  Columbia City incorporated in 1893 and lived as its own mill town for
+  fourteen years. The City of Seattle says the Seattle, Renton, and
+  Southern Railway reached the seven miles from Seattle in 1890. Surplus
+  lumber went north to rebuild Seattle after the 1889 fire, and finished
+  goods came back south. From 1900 to 1907, new commercial buildings
+  rose along Rainier Avenue South, stores on the ground floor and
+  meeting halls or dance floors above. Most of those buildings still
+  stand.
+
+  Seattle annexed Columbia City in 1907. Plans to drain Wetmore Slough
+  and make a seaport as part of the 1917 Lake Washington Ship Canal
+  never happened; the slough was filled by 1920. With money from Andrew
+  Carnegie, a Seattle Public Library branch opened in 1914 above a
+  ravine deeded as a park in 1892. The city still calls that park the
+  neighborhood’s village green.
+
+  In 1978 Columbia City became a Seattle landmark district and, the
+  same year, a National Register historic district with slightly
+  different boundaries. The railway that once ran down the center of
+  Rainier Avenue South was removed in 1936. The source below is the
+  City of Seattle landmark-district page.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1978-01-01"
+datePrecision: year
+dateLabel: district 1978
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Columbia City
+  slug: columbia-city
+  placeType: neighborhood
+  latitude: 47.5607
+  longitude: -122.287
+  county: King County
+  region: Puget Sound
+
+categories:
+  - history
+
+tags:
+  - seattle
+  - columbia-city
+  - rainier-valley
+
+claims:
+  - text: >
+      The City of Seattle says Columbia City incorporated in 1893, that
+      the Seattle, Renton, and Southern Railway reached it from Seattle
+      in 1890, and that Seattle annexed the town fourteen years after
+      incorporation.
+    claimType: historical
+    confidence: verified
+    sources:
+      - seattle-columbia-city
+  - text: >
+      The city says Columbia City shipped surplus lumber to Seattle
+      after the 1889 fire, and that from 1900 to 1907 many new
+      buildings rose along Rainier Avenue South with stores below and
+      meeting halls or dance floors above, most of which still stand.
+    claimType: historical
+    confidence: verified
+    sources:
+      - seattle-columbia-city
+  - text: >
+      The city says a Carnegie-funded Seattle Public Library branch was
+      built in 1914 above a ravine deeded as a park in 1892, and that
+      the park remains Columbia City’s village green.
+    claimType: factual
+    confidence: verified
+    sources:
+      - seattle-columbia-city
+  - text: >
+      The city says Columbia City was designated a Seattle landmark
+      district in 1978 and a National Register historic district the
+      same year, with slightly different boundaries.
+    claimType: factual
+    confidence: verified
+    sources:
+      - seattle-columbia-city
+  - text: >
+      USGS Geographic Names lists Columbia City, a populated place in
+      King County, at 47.5607° N, 122.287° W (GNIS 2363552).
+    claimType: factual
+    confidence: verified
+    sources:
+      - usgs-gnis-columbia-city
+
+sources:
+  - id: seattle-columbia-city
+    title: Columbia City Landmark District
+    publisher: City of Seattle Department of Neighborhoods
+    url: https://www.seattle.gov/neighborhoods/historic-preservation/historic-districts/columbia-city
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: usgs-gnis-columbia-city
+    title: Columbia City (GNIS 2363552)
+    publisher: U.S. Geological Survey
+    url: https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/2363552
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/columbia-city.jpg
+    mediaType: image
+    title: Columbia View Addition, Rainier Valley
+    creator: Asahel Curtis
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Columbia_View_Addition,_Rainier_Valley,_Seattle,_1908_(CURTIS_282).jpeg
+    license: Public domain
+    licenseUrl: https://commons.wikimedia.org/wiki/Template:PD-US
+    altText: A 1908 real-estate view of empty lots and new houses in the Columbia View Addition of Rainier Valley, near Columbia City.
+    creditLine: Photograph by Asahel Curtis, 1908. University of Washington Libraries. Public domain.
+
+relatedStories:
+  - slug: jimi-hendrix-seattle
+    relationshipType: nearby
+  - slug: great-seattle-fire-1889
+    relationshipType: same-arc
+  - slug: montlake-cut
+    relationshipType: same-arc
