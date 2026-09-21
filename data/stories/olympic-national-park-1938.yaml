@@ -93,3 +93,13 @@ relatedStories:
     relationshipType: same-park
   - slug: olympic-marmot
     relationshipType: same-park
+  - slug: lake-quinault
+    relationshipType: same-park
+  - slug: olympic-mountain-goats
+    relationshipType: same-park
+  - slug: sol-duc-falls
+    relationshipType: same-park
+  - slug: ozette-loop
+    relationshipType: same-park
+  - slug: blue-glacier
+    relationshipType: same-park

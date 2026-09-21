@@ -1,0 +1,118 @@
+slug: julia-butler-hansen-nwr
+title: Julia Butler Hansen Refuge
+hook: A 1971 refuge on the lower Columbia was set aside for a deer that had nearly vanished, then renamed for Washington's first Democratic congresswoman.
+body: |
+  Julia Butler Hansen Refuge was established in 1971 to protect and
+  manage the then-endangered Columbian white-tailed deer. It holds over
+  6,000 acres of pastures, forested tidal swamps, brushy woodlots,
+  marshes, and sloughs along the Columbia River in Washington and
+  Oregon. The first 845 acres were purchased in December 1971 as the
+  Columbia White Tailed Deer Sanctuary.
+
+  Those habitats also support wintering and migratory birds, Roosevelt
+  elk, river otter, reptiles and amphibians, and nesting bald eagles,
+  great horned owls, and osprey. FWS calls the refuge a stronghold for
+  a once nearly extinct deer population and one of 56 National Wildlife
+  Refuge System sites established for a specific threatened or
+  endangered species.
+
+  In 1988 it was renamed for Julia Butler Hansen (1907–1988), who
+  represented Washington's Third District in the U.S. House from 1960
+  to 1974. FWS says she was the second woman, and the first Democratic
+  woman, elected to Congress from Washington. This is one of only three
+  refuges in the system named after a woman. The sources below are the
+  U.S. Fish and Wildlife Service refuge pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1971-12-01"
+datePrecision: month
+dateLabel: December 1971
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Julia Butler Hansen Refuge
+  slug: julia-butler-hansen-nwr
+  placeType: refuge
+  latitude: 46.2
+  longitude: -123.38
+  county: Wahkiakum County
+  region: Columbia River
+
+categories:
+  - wildlife-ecology
+  - history
+
+tags:
+  - refuge
+  - deer
+  - columbia-river
+
+claims:
+  - text: >
+      FWS says the refuge was established in 1971 for the then-endangered
+      Columbian white-tailed deer. The first parcel, 845 acres, was
+      purchased in December 1971. The refuge now contains over 6,000
+      acres in Washington and Oregon.
+    claimType: factual
+    confidence: verified
+    sources:
+      - fws-jbh-about
+  - text: >
+      Habitat that supports the deer also benefits wintering and
+      migratory birds, Roosevelt elk, river otter, reptiles and
+      amphibians, and nesting bald eagles, great horned owls, and
+      osprey. The refuge is one of 56 National Wildlife Refuge System
+      sites established for a specific threatened or endangered species.
+    claimType: factual
+    confidence: verified
+    sources:
+      - fws-jbh
+      - fws-jbh-about
+  - text: >
+      In 1988 the refuge was renamed for Julia Butler Hansen
+      (1907–1988), who served in the U.S. House from 1960 to 1974
+      representing Washington's Third District. FWS says she was the
+      second woman and first Democratic woman elected to Congress from
+      Washington, and that this is one of only three refuges in the
+      system named after a woman.
+    claimType: historical
+    confidence: verified
+    sources:
+      - fws-jbh-about
+
+sources:
+  - id: fws-jbh
+    title: Julia Butler Hansen Refuge for the Columbian White-Tailed Deer
+    publisher: U.S. Fish and Wildlife Service
+    url: https://www.fws.gov/refuge/julia-butler-hansen-columbian-white-tailed-deer
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: fws-jbh-about
+    title: Julia Butler Hansen Refuge, About Us
+    publisher: U.S. Fish and Wildlife Service
+    url: https://www.fws.gov/refuge/julia-butler-hansen-columbian-white-tailed-deer/about-us
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/julia-butler-hansen-nwr.jpg
+    mediaType: image
+    title: Julia Butler Hansen Refuge
+    creator: USFWS Pacific
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Julia_Butler_Hansen_NWR_(54151131616).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.fws.gov/media/photo-use-information
+    altText: Tidal swamp and pasture along the lower Columbia River on the Julia Butler Hansen Refuge.
+    creditLine: Photograph by USFWS Pacific. Public domain.
+
+relatedStories:
+  - slug: willapa-nwr
+    relationshipType: same-arc
+  - slug: ridgefield-nwr
+    relationshipType: nearby
+  - slug: columbia-chinook
+    relationshipType: same-arc
+  - slug: bonneville-dam
+    relationshipType: nearby

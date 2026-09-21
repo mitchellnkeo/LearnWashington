@@ -1,0 +1,97 @@
+slug: steigerwald-lake-nwr
+title: Steigerwald Lake National Wildlife Refuge
+hook: A 1987 refuge just east of Washougal was created to offset lowland habitat lost to Bonneville Dam, then reopened 965 acres of floodplain.
+body: |
+  Steigerwald Lake National Wildlife Refuge sits just east of Washougal,
+  at the western gateway to the Columbia River Gorge National Scenic
+  Area. FWS established it in 1987 to offset lowland habitat lost to
+  construction at Bonneville Dam, then added smaller parcels over time.
+
+  Those lands were meant to reduce the impact of that loss and provide
+  more habitat for migrating and resident wildlife. The refuge now
+  offers a trail system through restored habitat.
+
+  The Steigerwald Reconnection Project is a collaborative effort to
+  reconfigure the Columbia River levee system to reduce flood risk to
+  the neighboring community, reconnect 965 acres of Columbia River
+  floodplain, and enhance recreation. The source below is the U.S. Fish
+  and Wildlife Service refuge page.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1987-01-01"
+datePrecision: year
+dateLabel: "1987"
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Steigerwald Lake National Wildlife Refuge
+  slug: steigerwald-lake-nwr
+  placeType: refuge
+  latitude: 45.57
+  longitude: -122.31
+  county: Clark County
+  region: Columbia Gorge
+
+categories:
+  - wildlife-ecology
+
+tags:
+  - refuge
+  - columbia-river
+  - floodplain
+
+claims:
+  - text: >
+      FWS says Steigerwald Lake NWR is just east of Washougal and is the
+      western gateway to the Columbia River Gorge National Scenic Area.
+      It was established in 1987 to offset lowland habitat loss caused
+      by construction at Bonneville Dam.
+    claimType: factual
+    confidence: verified
+    sources:
+      - fws-steigerwald
+  - text: >
+      Smaller pieces of land were later added. The lands were established
+      to reduce the impact of habitat loss and provide more habitat for
+      migrating and resident wildlife.
+    claimType: factual
+    confidence: verified
+    sources:
+      - fws-steigerwald
+  - text: >
+      The Steigerwald Reconnection Project is a collaborative effort to
+      reconfigure the existing Columbia River levee system to reduce
+      flood risk, reconnect 965 acres of Columbia River floodplain, and
+      enhance recreation at the refuge.
+    claimType: factual
+    confidence: verified
+    sources:
+      - fws-steigerwald
+
+sources:
+  - id: fws-steigerwald
+    title: Steigerwald Lake National Wildlife Refuge
+    publisher: U.S. Fish and Wildlife Service
+    url: https://www.fws.gov/refuge/steigerwald-lake
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/steigerwald-lake-nwr.jpg
+    mediaType: image
+    title: Steigerwald Lake National Wildlife Refuge
+    creator: USFWS Pacific
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Steigerwald_Lake_National_Wildlife_Refuge_(52033807253).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.fws.gov/media/photo-use-information
+    altText: Restored floodplain and wetland at Steigerwald Lake National Wildlife Refuge near Washougal.
+    creditLine: Photograph by USFWS Pacific. Public domain.
+
+relatedStories:
+  - slug: bonneville-dam
+    relationshipType: nearby
+  - slug: ridgefield-nwr
+    relationshipType: nearby
+  - slug: julia-butler-hansen-nwr
+    relationshipType: same-arc

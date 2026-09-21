@@ -1,0 +1,108 @@
+slug: marbled-murrelet
+title: Marbled Murrelet
+hook: A robin-sized seabird that fishes the nearshore and nests up to 53 miles inland on mossy old-growth limbs.
+body: |
+  The marbled murrelet is a small Pacific alcid about 10 inches long.
+  The U.S. Fish and Wildlife Service says the birds spend most of their
+  time on the ocean, foraging in nearshore waters usually within 1.2
+  to 3 miles of shore and typically less than 100 feet deep. They come
+  inland to nest.
+
+  They do not build nests. A single egg is laid on a mat of moss,
+  lichen, or debris on a large branch or deformity. Nest stands are
+  old-growth forests with large trees and multiple canopy layers.
+  In Washington, nests have been found as far as 53 miles inland from
+  marine waters.
+
+  The Washington, Oregon, and California population was listed as
+  threatened under the Endangered Species Act on October 1, 1992
+  (57 FR 45328). FWS says the listed population has continued a
+  long-term downward trend since listing. The sources below are U.S.
+  Fish and Wildlife Service pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1992-10-01"
+datePrecision: day
+dateLabel: listed threatened October 1, 1992
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Olympic coast forests
+  slug: marbled-murrelet-olympic
+  placeType: wildlife
+  latitude: 47.86
+  longitude: -124.15
+  county: Jefferson County
+  region: Olympic Peninsula
+
+categories:
+  - wildlife-ecology
+
+tags:
+  - seabird
+  - old-growth
+  - endangered-species
+
+claims:
+  - text: >
+      FWS says marbled murrelets are about 10 inches long. They forage
+      in nearshore waters usually within 1.2 to 3 miles of shore,
+      typically less than 100 feet deep, and come inland to nest.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - fws-murrelet
+  - text: >
+      Murrelets lay a single egg on moss, lichen, or debris on a large
+      branch. In Washington, nests have been found as far as 53 miles
+      inland from marine waters.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - fws-murrelet
+  - text: >
+      The Washington, Oregon, and California population was listed as
+      threatened on October 1, 1992 (57 FR 45328). FWS says the listed
+      population has continued a long-term downward trend since listing.
+    claimType: factual
+    confidence: verified
+    sources:
+      - fws-murrelet
+      - fws-murrelet-5yr
+
+sources:
+  - id: fws-murrelet
+    title: Marbled Murrelet (Brachyramphus marmoratus)
+    publisher: U.S. Fish and Wildlife Service
+    url: https://www.fws.gov/species/marbled-murrelet-brachyramphus-marmoratus
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: fws-murrelet-5yr
+    title: Marbled Murrelet 5-Year Review
+    publisher: U.S. Fish and Wildlife Service
+    url: https://ecos.fws.gov/docs/five_year_review/doc2417.pdf
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/marbled-murrelet.jpg
+    mediaType: image
+    title: Marbled murrelet
+    creator: Gus Van Vliet, U.S. Fish and Wildlife Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Marbled_Murrelet_(smaller).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.fws.gov/help/policies.html
+    altText: A marbled murrelet in breeding plumage.
+    creditLine: Photograph by Gus Van Vliet, U.S. Fish and Wildlife Service. Public domain.
+
+relatedStories:
+  - slug: hoh-rain-forest
+    relationshipType: same-landscape
+  - slug: northern-spotted-owl
+    relationshipType: same-landscape
+  - slug: olympic-coast-national-marine-sanctuary
+    relationshipType: nearby
+  - slug: lake-quinault
+    relationshipType: nearby

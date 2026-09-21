@@ -1,0 +1,98 @@
+slug: little-pend-oreille-nwr
+title: Little Pend Oreille National Wildlife Refuge
+hook: The only mountainous mixed-conifer refuge in the National Wildlife Refuge System rises from 1,800 to 5,600 feet southeast of Colville.
+body: |
+  Little Pend Oreille National Wildlife Refuge is 13 miles southeast of
+  Colville, about 70 miles north of Spokane. FWS says it is the only
+  mountainous, mixed-conifer forest refuge in the National Wildlife
+  Refuge System. Elevations range from 1,800 to 5,600 feet.
+
+  Six forest zones are present: Douglas fir, grand fir, ponderosa pine,
+  western redcedar, western hemlock, and subalpine fir. Habitats also
+  include scattered lakes, shallow marshes, ponds and springs, and more
+  than 80 miles of streams. The refuge sits in the Columbia River Basin
+  and the Okanogan Highlands, on the western edge of the Selkirk
+  Mountains.
+
+  It was established to protect migratory birds and other wildlife.
+  Large mammals include bear, cougar, deer, elk, and moose. More than
+  200 bird species have been recorded. Much of the recent work has
+  focused on ponderosa pine habitat that supports flammulated owl,
+  white-headed woodpecker, and chipping sparrow. The source below is
+  the U.S. Fish and Wildlife Service refuge page.
+status: PUBLISHED
+verificationStatus: VERIFIED
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Little Pend Oreille National Wildlife Refuge
+  slug: little-pend-oreille-nwr
+  placeType: refuge
+  latitude: 48.47
+  longitude: -117.73
+  county: Stevens County
+  region: Northeast Washington
+
+categories:
+  - wildlife-ecology
+
+tags:
+  - refuge
+  - forest
+  - selkirks
+
+claims:
+  - text: >
+      FWS says Little Pend Oreille NWR is 13 miles southeast of Colville
+      and is the only mountainous, mixed-conifer forest refuge in the
+      National Wildlife Refuge System. Elevations range from 1,800 to
+      5,600 feet.
+    claimType: factual
+    confidence: verified
+    sources:
+      - fws-lpo
+  - text: >
+      Six forest zones are present: Douglas fir, grand fir, ponderosa
+      pine, western redcedar, western hemlock, and subalpine fir. The
+      refuge also has scattered lakes, marshes, ponds, springs, and more
+      than 80 miles of streams.
+    claimType: factual
+    confidence: verified
+    sources:
+      - fws-lpo
+  - text: >
+      The refuge was established to protect migratory birds and other
+      wildlife. It provides habitat for bear, cougar, deer, elk, moose,
+      and over 200 species of birds. Recent management has focused on
+      ponderosa pine habitat for flammulated owl, white-headed
+      woodpecker, and chipping sparrow.
+    claimType: factual
+    confidence: verified
+    sources:
+      - fws-lpo
+
+sources:
+  - id: fws-lpo
+    title: Little Pend Oreille National Wildlife Refuge
+    publisher: U.S. Fish and Wildlife Service
+    url: https://www.fws.gov/refuge/little-pend-oreille
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/little-pend-oreille-nwr.jpg
+    mediaType: image
+    title: Little Pend Oreille National Wildlife Refuge
+    creator: National Archives / U.S. government
+    sourceUrl: https://commons.wikimedia.org/wiki/File:International_Selkirk_Loop_-_Little_Pend_Oreille_Wildlife_Refuge_-_NARA_-_7719605.jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://catalog.archives.gov/id/7719605
+    altText: Forested mountains along the International Selkirk Loop at Little Pend Oreille National Wildlife Refuge.
+    creditLine: Photograph from the National Archives. Public domain.
+
+relatedStories:
+  - slug: turnbull-nwr
+    relationshipType: nearby
+  - slug: gray-wolves-washington
+    relationshipType: same-arc

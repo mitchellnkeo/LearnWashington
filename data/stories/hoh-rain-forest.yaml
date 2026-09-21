@@ -102,3 +102,13 @@ relatedStories:
     relationshipType: same-arc
   - slug: olympic-marmot
     relationshipType: nearby
+  - slug: roosevelt-elk
+    relationshipType: nearby
+  - slug: ruby-beach
+    relationshipType: nearby
+  - slug: sol-duc-falls
+    relationshipType: same-park
+  - slug: blue-glacier
+    relationshipType: nearby
+  - slug: sequim-rain-shadow
+    relationshipType: same-landscape

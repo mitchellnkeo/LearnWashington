@@ -1,0 +1,117 @@
+slug: lake-quinault
+title: Lake Quinault
+hook: Olympic's west-side valleys take more than 12 feet of rain a year, and Quinault's north shore is in the park while the south shore is National Forest.
+body: |
+  NPS says Olympic's west-side valleys are drenched in more than 12 feet
+  of rain a year and hold North America's best remaining examples of
+  temperate rain forest. Giant western hemlock, Douglas-fir, and Sitka
+  spruce dominate. Ferns and moss cloak the trees and the forest floor.
+
+  Lake Quinault's north shore lies within Olympic National Park. The
+  south shore is managed by Olympic National Forest. From the Quinault
+  Rain Forest Ranger Station, Maple Glade is a flat 0.5-mile loop
+  through a mossy bigleaf maple grove. The Kestner Homestead trail is a
+  flat 1.3-mile loop. North Fork Campground has 9 sites. Graves Creek
+  Campground has about 30.
+
+  The Seattle Press Expedition left Port Angeles in December 1889 and
+  emerged at Lake Quinault six months later. NPS records that Klallam
+  elders recall a grandmother taking her children across the mountains
+  to visit relatives near Quinault. Kalaloch is about 35 miles away.
+  The sources below are Olympic National Park pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Lake Quinault
+  slug: lake-quinault
+  placeType: lake
+  latitude: 47.477
+  longitude: -123.868
+  county: Grays Harbor County
+  region: Olympic Peninsula
+
+categories:
+  - geography-geology
+  - indigenous-history-place
+
+tags:
+  - olympic
+  - rain-forest
+  - quinault
+
+claims:
+  - text: >
+      NPS says Olympic's west-side valleys take more than 12 feet of
+      rain a year and hold North America's best remaining examples of
+      temperate rain forest, dominated by western hemlock, Douglas-fir,
+      and Sitka spruce.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-temperate-rain-forest
+  - text: >
+      Lake Quinault's north shore is in Olympic National Park. The
+      south shore is Olympic National Forest. Maple Glade is a flat
+      0.5-mile loop. The Kestner Homestead trail is a flat 1.3-mile
+      loop. North Fork Campground has 9 sites. Graves Creek has about
+      30.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-visiting-quinault
+      - nps-quinault-brochure
+  - text: >
+      The Seattle Press Expedition left Port Angeles in December 1889
+      and reached Lake Quinault six months later. NPS records that
+      Klallam elders recall a grandmother taking her children across
+      the mountains to visit relatives near Quinault.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-quinault-brochure
+
+sources:
+  - id: nps-temperate-rain-forest
+    title: Temperate Rain Forest
+    publisher: National Park Service
+    url: https://www.nps.gov/olym/planyourvisit/temperate-rain-forest.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: nps-visiting-quinault
+    title: Visiting Quinault
+    publisher: National Park Service
+    url: https://www.nps.gov/olym/planyourvisit/visiting-quinault.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: nps-quinault-brochure
+    title: Quinault Area Brochure
+    publisher: National Park Service
+    url: https://www.nps.gov/olym/planyourvisit/quinault-area-brochure.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/lake-quinault.jpg
+    mediaType: image
+    title: Sun rays in the Quinault rain forest
+    creator: D. Archuleta, Olympic National Park
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Quinault_tree_maple_rainforest_sun_rays_scenic_d_archuleta_2015_(22656715257).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: Sun rays through maple and moss in the Quinault rain forest.
+    creditLine: Photograph by D. Archuleta, Olympic National Park, 2015. Public domain.
+
+relatedStories:
+  - slug: hoh-rain-forest
+    relationshipType: same-park
+  - slug: kalaloch
+    relationshipType: nearby
+  - slug: olympic-national-park-1938
+    relationshipType: same-park
+  - slug: roosevelt-elk
+    relationshipType: same-park

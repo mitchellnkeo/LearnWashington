@@ -1,0 +1,100 @@
+slug: island-marble-butterfly
+title: Island Marble Butterfly
+hook: Thought extinct since 1908, this fuzzy green-and-white butterfly turned up at American Camp in 1998 — and is now federally endangered.
+body: |
+  The island marble butterfly (Euchloe ausonides insulanus) was believed
+  extinct after 1908, when the last known specimens came from Vancouver
+  and Gabriola islands in British Columbia. In 1998 it was rediscovered
+  during a prairie butterfly survey at American Camp on San Juan Island.
+
+  NPS calls it one of the rarest butterflies in North America. Adults
+  look fuzzy, with marbled green, yellow, white, and black wings that
+  span less than 2 inches. Today the few hundred remaining animals
+  inhabit a small area on San Juan Island. They have been extirpated
+  from Lopez Island.
+
+  The U.S. Fish and Wildlife Service listed the butterfly as endangered
+  in 2020. Critical habitat covers about 812 acres, 744 of them at
+  American Camp. NPS biologists collect 100 to 300 eggs and caterpillars
+  each spring. About 80 to 90 percent survive in the rearing lab,
+  compared with about 5 percent of eggs in the wild. The sources below
+  are San Juan Island National Historical Park pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1998-01-01"
+datePrecision: year
+dateLabel: rediscovered 1998
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: American Camp prairie
+  slug: american-camp-prairie
+  placeType: wildlife
+  latitude: 48.464
+  longitude: -123.024
+  county: San Juan County
+  region: San Juan Islands
+
+categories:
+  - wildlife-ecology
+
+tags:
+  - butterfly
+  - endangered-species
+  - san-juan
+
+claims:
+  - text: >
+      NPS says the island marble was believed extinct after 1908 and
+      was rediscovered in 1998 during a prairie survey at American
+      Camp. Adults have marbled green, yellow, white, and black wings
+      that span less than 2 inches.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-island-marble
+  - text: >
+      The few hundred remaining butterflies inhabit a small area on
+      San Juan Island and have been extirpated from Lopez Island. FWS
+      listed the species as endangered in 2020 and designated about
+      812 acres of critical habitat, 744 acres of it at American Camp.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-island-marble
+  - text: >
+      Each spring NPS biologists collect 100 to 300 eggs and
+      caterpillars. About 80 to 90 percent survive in the rearing lab,
+      compared with about 5 percent of eggs laid in the wild.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - nps-island-marble
+
+sources:
+  - id: nps-island-marble
+    title: Island Marble Butterfly
+    publisher: National Park Service
+    url: https://www.nps.gov/sajh/learn/nature/island-marble-butterfly.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/island-marble-butterfly.jpg
+    mediaType: image
+    title: Island marble butterfly
+    creator: E. Adams, U.S. Fish and Wildlife Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Island_Marble_Butterfly_(53057714052).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.fws.gov/help/policies.html
+    altText: An island marble butterfly perched on vegetation on San Juan Island.
+    creditLine: Photograph by E. Adams, U.S. Fish and Wildlife Service, May 22, 2023. Public domain.
+
+relatedStories:
+  - slug: american-camp
+    relationshipType: nearby
+  - slug: english-camp
+    relationshipType: nearby
+  - slug: pig-war
+    relationshipType: nearby

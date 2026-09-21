@@ -1,0 +1,111 @@
+slug: artist-point
+title: Artist Point
+hook: State Route 542 climbs to 5,140 feet and ends at Artist Point, with views of Mount Baker and Mount Shuksan.
+body: |
+  The Mt. Baker Highway, State Route 542, is a designated scenic byway.
+  The U.S. Forest Service says the road begins at Interstate 5 in
+  Bellingham, follows the North Fork Nooksack River, climbs to 5,140
+  feet, and ends at Artist Point. The viewpoint is known for sweeping
+  views of Mount Baker and Mount Shuksan. Heather Meadows sits near
+  the end of the byway.
+
+  Artist Point is about 24 miles east of the Glacier Public Service
+  Center. Vehicle access is seasonal. The Forest Service says the
+  trailhead is typically inaccessible by car from November through
+  June.
+
+  Artist Ridge Trail 669 starts at the parking lot. A universally
+  accessible paved path leads 100 yards to an overlook with benches.
+  On clear days the Forest Service says mountain views, dominated by
+  Mount Baker and Mount Shuksan, stretch from Canada to Mount Rainier.
+  A valid recreation pass is required at the trailhead. The sources
+  below are U.S. Forest Service pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Artist Point
+  slug: artist-point
+  placeType: viewpoint
+  latitude: 48.846
+  longitude: -121.677
+  county: Whatcom County
+  region: North Cascades
+
+categories:
+  - geography-geology
+
+tags:
+  - mount-baker
+  - scenic-byway
+  - heather-meadows
+
+claims:
+  - text: >
+      The Forest Service says State Route 542 climbs to 5,140 feet and
+      ends at Artist Point, known for sweeping views of Mount Baker
+      and Mount Shuksan. Heather Meadows sits near the end of the
+      byway.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usfs-sr542
+  - text: >
+      Artist Point is about 24 miles from the Glacier Public Service
+      Center. The Forest Service says the trailhead is typically
+      inaccessible by vehicle from November through June.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usfs-ptarmigan-ridge
+  - text: >
+      Artist Ridge Trail 669 has a universally accessible paved path
+      that leads 100 yards to an overlook with benches. On clear days
+      views stretch from Canada to Mount Rainier.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usfs-artist-ridge
+
+sources:
+  - id: usfs-sr542
+    title: Mt. Baker Highway (SR 542)
+    publisher: U.S. Forest Service
+    url: https://www.fs.usda.gov/r06/mbs/recreation/mt-baker-highway-sr-542
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: usfs-artist-ridge
+    title: Artist Ridge Trail 669
+    publisher: U.S. Forest Service
+    url: https://www.fs.usda.gov/r06/mbs/recreation/trails/artist-ridge-trail-669
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: usfs-ptarmigan-ridge
+    title: Ptarmigan Ridge Trail 682.1
+    publisher: U.S. Forest Service
+    url: https://www.fs.usda.gov/r06/mbs/recreation/trails/ptarmigan-ridge-trail-6821
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/artist-point.jpg
+    mediaType: image
+    title: Mount Baker from Heather Meadows
+    creator: U.S. Forest Service, Pacific Northwest Region
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Mount_Baker_from_Heather_Meadows,_Mt_Baker_Snoqualmie_National_Forest_(31736788800).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.fs.usda.gov/
+    altText: Snow-covered Mount Baker rising above Heather Meadows near Artist Point.
+    creditLine: Photograph by the U.S. Forest Service, Pacific Northwest Region. Public domain.
+
+relatedStories:
+  - slug: mount-baker
+    relationshipType: nearby
+  - slug: north-cascades-national-park
+    relationshipType: nearby
+  - slug: washington-pass
+    relationshipType: nearby

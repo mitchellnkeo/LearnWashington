@@ -1,0 +1,101 @@
+slug: fort-spokane
+title: Fort Spokane
+hook: The Army built a fort above the Spokane–Columbia confluence in 1880. After the garrison left, the same buildings became a boarding school and then a hospital.
+body: |
+  For thousands of years, NPS says, the rapids of the Spokane River were
+  a gathering place for Native tribes who fished here. In 1880 the U.S.
+  Army established Fort Spokane above the confluence of the Spokane and
+  Columbia Rivers.
+
+  When the Spanish-American War began in 1898, the garrison was
+  withdrawn. The buildings and lands were turned over to the Office of
+  Indian Affairs and used as an Indian boarding school from 1900 to
+  1907. After the school closed, the buildings served as a tuberculosis
+  hospital until 1929. NPS calls the Indian experience at Fort Spokane
+  a microcosm of the Indian experience across the United States.
+
+  Today the National Park Service operates Fort Spokane as a visitor
+  center and museum inside Lake Roosevelt National Recreation Area. In
+  summer the historic guardhouse is open. The grounds are open
+  year-round. The source below is the Lake Roosevelt National Recreation
+  Area history page.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1880-01-01"
+datePrecision: year
+dateLabel: "1880"
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Fort Spokane
+  slug: fort-spokane
+  placeType: historic-site
+  latitude: 47.91
+  longitude: -118.31
+  county: Lincoln County
+  region: Columbia Basin
+
+categories:
+  - history
+  - indigenous-history-place
+
+tags:
+  - army
+  - boarding-school
+  - columbia-river
+
+claims:
+  - text: >
+      NPS says the area was a gathering place for Native tribes fishing
+      the Spokane River rapids for thousands of years. The U.S. Army
+      established Fort Spokane in 1880 above the confluence of the
+      Spokane and Columbia Rivers.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-fort-spokane
+  - text: >
+      The garrison was withdrawn at the start of the Spanish-American
+      War in 1898. The Office of Indian Affairs used the buildings as
+      an Indian boarding school from 1900 to 1907, then as a
+      tuberculosis hospital until 1929.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-fort-spokane
+  - text: >
+      The National Park Service now operates Fort Spokane as a visitor
+      center and museum. In summer the guardhouse is open. The grounds
+      are open year-round with accessible walking trails.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-fort-spokane
+
+sources:
+  - id: nps-fort-spokane
+    title: Fort Spokane
+    publisher: National Park Service
+    url: https://www.nps.gov/laro/learn/historyculture/fort-spokane.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/fort-spokane.jpg
+    mediaType: image
+    title: Fort Spokane jail
+    creator: Historic American Buildings Survey
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Fort_Spokane,_Jail,_Lincoln,_Lincoln_County,_WA_HABS_WASH,22-LINC.V,1E-1.tif
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.loc.gov/pictures/collection/hh/
+    altText: Historic American Buildings Survey photograph of the Fort Spokane jail.
+    creditLine: Photograph from the Historic American Buildings Survey. Public domain.
+
+relatedStories:
+  - slug: lake-roosevelt
+    relationshipType: same-park
+  - slug: grand-coulee-dam
+    relationshipType: nearby
+  - slug: whitman-mission
+    relationshipType: same-arc

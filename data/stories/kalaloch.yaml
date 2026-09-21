@@ -1,0 +1,115 @@
+slug: kalaloch
+title: Kalaloch
+hook: One of the most visited stretches of Olympic National Park sits right on Highway 101, with seven beach trails and a year-round campground on the bluff.
+body: |
+  Kalaloch is on the southwest coast of the Olympic Peninsula, reachable
+  directly from Highway 101. NPS calls it one of the most visited areas
+  of Olympic National Park. A ranger station is open in summer. Trails
+  from the lodge and campground lead to a sandy beach below a bluff.
+
+  Seven trails lead to the ocean from Highway 101. Beach 4 is an
+  excellent tidepooling spot for seastars and anemones at low tide.
+  Beach 1 has spruce burls. Ruby Beach and Beach Trail 4 have accessible
+  viewpoints. When hiking the coast, NPS says, always check the tides;
+  some stretches become impassable at high water.
+
+  Kalaloch Campground is open year-round. South Beach Campground, just
+  south of Kalaloch, is open in summer. Pets are allowed on Kalaloch
+  area beaches if they stay on a leash. North of this coast, the Hoh
+  River is a natural boundary. The sources below are Olympic National
+  Park pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Kalaloch
+  slug: kalaloch
+  placeType: beach
+  latitude: 47.61
+  longitude: -124.37
+  county: Jefferson County
+  region: Olympic Coast
+
+categories:
+  - geography-geology
+
+tags:
+  - olympic
+  - beach
+  - coast
+
+claims:
+  - text: >
+      NPS says Kalaloch and Ruby Beach are on the southwest Olympic
+      coast and accessible directly off Highway 101. Kalaloch is one of
+      the most visited areas of Olympic National Park.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-kalaloch-ruby
+  - text: >
+      Seven trails lead to the ocean from Highway 101. Beach 4 is an
+      excellent location to tidepool for seastars and anemones at low
+      tide. Beach 1 features spruce burls. Certain areas may become
+      impassable during high tides.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-kalaloch-ruby
+      - nps-kalaloch-brochure
+  - text: >
+      Kalaloch Campground is open year-round. South Beach, just south of
+      Kalaloch, is open in summer. Pets are allowed on Kalaloch area
+      beaches on a leash. North of Kalaloch, the Hoh River creates a
+      natural boundary.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-kalaloch-ruby
+      - nps-olympic-beaches
+      - nps-kalaloch-brochure
+
+sources:
+  - id: nps-kalaloch-ruby
+    title: Visiting Kalaloch and Ruby Beach
+    publisher: National Park Service
+    url: https://www.nps.gov/olym/planyourvisit/visiting-kalaloch-and-ruby-beach.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: nps-kalaloch-brochure
+    title: Kalaloch Area Brochure
+    publisher: National Park Service
+    url: https://www.nps.gov/olym/planyourvisit/kalaloch-area-brochure.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: nps-olympic-beaches
+    title: Go to the Beach
+    publisher: National Park Service
+    url: https://www.nps.gov/thingstodo/olympicbeaches.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/kalaloch.jpg
+    mediaType: image
+    title: Sunset at Kalaloch with Destruction Island
+    creator: Olympic National Park
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Sunset_Kalaloch_Destruction_Island_NPS_Photo_(17114568700).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: Sunset over the Pacific from Kalaloch Beach, with Destruction Island on the horizon.
+    creditLine: Photograph by Olympic National Park. Public domain.
+
+relatedStories:
+  - slug: ruby-beach
+    relationshipType: nearby
+  - slug: olympic-national-park-1938
+    relationshipType: same-park
+  - slug: hoh-rain-forest
+    relationshipType: nearby
+  - slug: olympic-coast-national-marine-sanctuary
+    relationshipType: nearby

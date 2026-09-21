@@ -1,0 +1,99 @@
+slug: john-day-dam
+title: John Day Dam
+hook: Sixteen turbine units and a 110-foot lock sit on the Columbia at river mile 215, backing up Lake Umatilla.
+body: |
+  John Day Dam spans the Columbia River at river mile 215 near Rufus,
+  Oregon, with the Washington shore opposite. The U.S. Army Corps of
+  Engineers Northwestern Division lists the dam as a Portland District
+  storage project authorized for hydropower, navigation, and flood
+  control under the 1950 Flood Control Act.
+
+  A Corps photo caption says the navigation lock has one of the highest
+  lifts of any U.S. lock — 110 feet — and that the reservoir is Lake
+  Umatilla. The dam has 16 turbine units.
+
+  John Day is one of the four lower Columbia dams in the Corps inland
+  waterway, with Bonneville, The Dalles, and McNary. The sources below
+  are U.S. Army Corps of Engineers pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1950-01-01"
+datePrecision: year
+dateLabel: Flood Control Act of 1950
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: John Day Dam
+  slug: john-day-dam
+  placeType: dam
+  latitude: 45.716
+  longitude: -120.693
+  county: Klickitat County
+  region: Columbia Gorge
+
+categories:
+  - history
+  - geography-geology
+
+tags:
+  - columbia
+  - hydropower
+  - dam
+
+claims:
+  - text: >
+      The Corps lists John Day Dam at Columbia River mile 215 near
+      Rufus, Oregon, as a Portland District storage project authorized
+      for hydropower, navigation, and flood control in the 1950 Flood
+      Control Act.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usace-john-day
+  - text: >
+      A Corps caption says the navigation lock has a 110-foot lift,
+      among the highest of any U.S. lock, and that the reservoir is
+      Lake Umatilla. The dam has 16 turbine units.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usace-john-day-photo
+
+sources:
+  - id: usace-john-day
+    title: John Day Dam and Lake Umatilla
+    publisher: U.S. Army Corps of Engineers
+    url: https://www.nwd.usace.army.mil/fact-sheets/article/3485190/john-day-dam-and-lake-umatilla/
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: usace-john-day-photo
+    title: John Day Dam
+    publisher: U.S. Army Corps of Engineers, Portland District
+    url: https://www.nwd.usace.army.mil/media/images/igphoto/2001274210/
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/john-day-dam.jpg
+    mediaType: image
+    title: John Day Dam from the Washington shore
+    creator: Environmental Protection Agency, DOCUMERICA
+    sourceUrl: https://commons.wikimedia.org/wiki/File:THE_JOHN_DAY_DAM_VIEWED_FROM_THE_WASHINGTON_SIDE_OF_THE_COLUMBIA_RIVER,_LOOKING_TOWARDS_THE_OREGON_SHORE_-_NARA_-_548150.jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.archives.gov/
+    altText: John Day Dam viewed from the Washington side of the Columbia River.
+    creditLine: Photograph from the Environmental Protection Agency DOCUMERICA file, National Archives 548150. Public domain.
+
+relatedStories:
+  - slug: bonneville-dam
+    relationshipType: same-arc
+  - slug: mcnary-dam
+    relationshipType: same-arc
+  - slug: columbia-chinook
+    relationshipType: same-arc
+  - slug: ice-harbor-dam
+    relationshipType: same-arc
+  - slug: umatilla-nwr
+    relationshipType: nearby

@@ -1,0 +1,105 @@
+slug: roosevelt-elk
+title: Roosevelt Elk
+hook: Olympic National Park holds the largest fully wild Roosevelt elk herd in the Pacific Northwest. Bulls can weigh 1,100 pounds.
+body: |
+  Olympic National Park is home to the largest fully wild herd of
+  Roosevelt elk in the Pacific Northwest. Named for President Theodore
+  Roosevelt, they are the largest variety of elk in North America. NPS
+  says cows weigh 600–700 pounds (272–317 kg) and bulls weigh up to
+  1,100 pounds (500 kg).
+
+  They use habitats from montane meadows to lowland rain forest. An
+  excellent place to see them is the Hoh Rain Forest, where
+  non-migratory herds stay year-round in groups of around 20 females
+  and calves. Bulls travel singly or in small groups. September is
+  mating season; males bugle and compete for groups of females. They
+  feed mainly on ferns, shrubs, lichens, and meadow grasses.
+
+  Hunting in the late 1890s and early 1900s cut the population from a
+  range that once ran from northern California to Vancouver Island.
+  President Cleveland created the Olympic Forest Preserve in 1897.
+  Theodore Roosevelt redesignated part of it as Mount Olympus National
+  Monument in 1909 to preserve elk habitat — the reason the animals are
+  now called Roosevelt elk. Franklin Roosevelt signed Olympic National
+  Park into law in 1938. The source below is the Olympic National Park
+  Roosevelt elk page.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1909-01-01"
+datePrecision: year
+dateLabel: Mount Olympus National Monument 1909
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Hoh Rain Forest
+  slug: hoh-rain-forest-elk
+  placeType: habitat
+  latitude: 47.86
+  longitude: -123.934
+  county: Jefferson County
+  region: Olympic Peninsula
+
+categories:
+  - wildlife-ecology
+  - history
+
+tags:
+  - elk
+  - olympic
+  - hoh
+
+claims:
+  - text: >
+      NPS says Olympic National Park has the largest fully wild
+      Roosevelt elk herd in the Pacific Northwest. Cows weigh 600–700
+      pounds; bulls weigh up to 1,100 pounds. They are the largest
+      variety of elk in North America.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-roosevelt-elk
+  - text: >
+      Non-migratory herds stay in the Hoh Rain Forest year-round in
+      groups of around 20 females and calves. They eat ferns, shrubs,
+      lichens, and meadow grasses. September is mating season.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-roosevelt-elk
+  - text: >
+      President Cleveland created the Olympic Forest Preserve in 1897.
+      Theodore Roosevelt redesignated part of it as Mount Olympus
+      National Monument in 1909 to preserve elk habitat. Franklin
+      Roosevelt signed Olympic National Park into law in 1938.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-roosevelt-elk
+
+sources:
+  - id: nps-roosevelt-elk
+    title: Roosevelt Elk
+    publisher: National Park Service
+    url: https://www.nps.gov/olym/learn/nature/roosevelt-elk.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/roosevelt-elk.jpg
+    mediaType: image
+    title: Grazing bull elk, Olympic National Park
+    creator: Olympic National Park
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Grazing_bull_elk,_Olympic_National_Park_(52094128946).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: A Roosevelt bull elk grazing in Olympic National Park.
+    creditLine: Photograph by Olympic National Park. Public domain.
+
+relatedStories:
+  - slug: hoh-rain-forest
+    relationshipType: same-park
+  - slug: olympic-national-park-1938
+    relationshipType: same-arc
+  - slug: olympic-marmot
+    relationshipType: nearby

@@ -1,0 +1,112 @@
+slug: puget-sound-earthquake-1965
+title: 1965 Puget Sound Earthquake
+hook: A magnitude 6.5 shock between Seattle and Tacoma on April 29, 1965, killed seven people.
+body: |
+  On April 29, 1965, a magnitude 6.5 earthquake struck between Seattle
+  and Tacoma. USGS Open-File Report 94-226-B calls it the third-largest
+  Washington earthquake since 1872 after 1872 and the 1949 Olympia
+  shock. It caused seven fatalities and about $50 million in damage in
+  1984 dollars.
+
+  USGS Open-File Report 99-311 places the 1965 event near Tacoma at a
+  depth of 60 km, inside the subducting Juan de Fuca plate. A USGS
+  compilation of significant earthquakes lists the origin time as
+  15:28 UTC and the epicenter as 47.32° N, 122.33° W.
+
+  The 2001 Nisqually earthquake later compared its mechanism to this
+  1965 shock and to the 1949 Olympia event. The sources below are U.S.
+  Geological Survey reports.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1965-04-29"
+datePrecision: day
+dateLabel: April 29, 1965
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: 1965 Puget Sound earthquake epicenter
+  slug: puget-sound-earthquake-1965
+  placeType: earthquake
+  latitude: 47.32
+  longitude: -122.33
+  county: King County
+  region: Puget Sound
+
+categories:
+  - geography-geology
+  - science-strange
+  - history
+
+tags:
+  - earthquake
+  - puget-sound
+  - seattle
+
+claims:
+  - text: >
+      USGS Open-File Report 94-226-B says the April 29, 1965,
+      earthquake was magnitude 6.5, occurred approximately halfway
+      between Seattle and Tacoma, caused seven fatalities, and about
+      $50 million in damage in 1984 dollars.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usgs-ofr-94-226b
+  - text: >
+      USGS Open-File Report 99-311 places the 1965 earthquake near
+      Tacoma at a depth of 60 km in the subducting Juan de Fuca plate.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - usgs-ofr-99-311
+  - text: >
+      A USGS compilation of significant earthquakes lists the origin
+      time as 15:28 UTC and the epicenter as 47.32° N, 122.33° W.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - usgs-sign-eqs
+
+sources:
+  - id: usgs-ofr-94-226b
+    title: "Earthquakes in Washington and Oregon 1872–1993"
+    publisher: U.S. Geological Survey
+    url: https://pubs.usgs.gov/of/1994/0226b/report.pdf
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: usgs-ofr-99-311
+    title: "Earthquake hazards in the Pacific Northwest of the United States"
+    publisher: U.S. Geological Survey
+    url: https://pubs.usgs.gov/of/1999/ofr-99-0311/index.pdf
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: usgs-sign-eqs
+    title: Preferred Magnitudes of Selected Significant Earthquakes
+    publisher: U.S. Geological Survey
+    url: https://earthquake.usgs.gov/data/comcat/catalog/official/significant_earthquake_magnitudes.pdf
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/puget-sound-earthquake-1965.jpg
+    mediaType: image
+    title: 1965 Puget Sound earthquake
+    creator: U.S. Geological Survey
+    sourceUrl: https://commons.wikimedia.org/wiki/File:1965_Puget_Sound_earthquake.jpg
+    license: CC0 (U.S. government work)
+    licenseUrl: https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+    altText: Historic photograph related to the April 29, 1965, Puget Sound earthquake.
+    creditLine: Photograph credited to the U.S. Geological Survey. Public domain, CC0.
+
+relatedStories:
+  - slug: nisqually-earthquake-2001
+    relationshipType: same-arc
+  - slug: cascadia-subduction-zone
+    relationshipType: same-arc
+  - slug: seattle-fault
+    relationshipType: nearby
+  - slug: copalis-ghost-forest
+    relationshipType: same-arc

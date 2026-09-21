@@ -1,0 +1,120 @@
+slug: hanford-reach
+title: Hanford Reach National Monument
+hook: A wartime buffer around the plutonium works left 196,000 acres of shrub-steppe and the last free-flowing stretch of the Columbia above Bonneville.
+body: |
+  Hanford Reach National Monument covers over 196,000 acres of arid
+  eastern Washington. President Clinton proclaimed it in 2000 under the
+  Antiquities Act. It was the first national monument managed by the
+  U.S. Fish and Wildlife Service. The monument includes 46.5 miles of
+  the 51-mile Hanford Reach of the Columbia River, fall Chinook spawning
+  areas, and sturgeon water.
+
+  In 1943 the Army Corps of Engineers chose this basin, between
+  Rattlesnake Mountain and the Saddle Mountains, for secret plutonium
+  production. Large tracts around the reactors stayed as safety and
+  security buffers and were left largely undisturbed. Those buffers
+  preserved shrub-steppe, cultural sites, and a river reach that FWS
+  calls an eligible wild and scenic river.
+
+  The proclamation lists loggerhead shrikes, sage sparrows, sage
+  thrashers, and ferruginous hawks; rare plants including Umtanum desert
+  buckwheat and White Bluffs bladderpod; the White Bluffs and Hanford
+  Dune Field; and more than 10,000 years of human occupation. Visitors
+  may currently access over 57,000 acres. The sources below are the
+  U.S. Fish and Wildlife Service monument pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "2000-01-01"
+datePrecision: year
+dateLabel: "2000"
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Hanford Reach National Monument
+  slug: hanford-reach
+  placeType: monument
+  latitude: 46.67
+  longitude: -119.45
+  county: Benton County
+  region: Columbia Basin
+
+categories:
+  - wildlife-ecology
+  - history
+  - geography-geology
+
+tags:
+  - columbia-river
+  - shrub-steppe
+  - manhattan-project
+
+claims:
+  - text: >
+      FWS says the monument comprises over 196,000 acres and was the
+      first national monument for the Fish and Wildlife Service,
+      proclaimed in 2000 under the Antiquities Act. It includes 46.5
+      miles of the 51-mile Hanford Reach, fall Chinook spawning areas,
+      and sturgeon.
+    claimType: factual
+    confidence: verified
+    sources:
+      - fws-hanford-about
+  - text: >
+      In 1943 the Army Corps of Engineers selected a site near the desert
+      towns of White Bluffs and Hanford for secret plutonium production.
+      Safety and security buffer lands around the reactors remained
+      largely undisturbed and later became the monument.
+    claimType: historical
+    confidence: verified
+    sources:
+      - fws-hanford-about
+  - text: >
+      The proclamation protects shrub-steppe birds including loggerhead
+      shrikes, sage sparrows, sage thrashers, and ferruginous hawks;
+      rare plants including Umtanum desert buckwheat and White Bluffs
+      bladderpod; the White Bluffs and Hanford Dune Field; and
+      archaeological and historic artifacts from more than 10,000 years
+      of human occupation. Visitors may currently access over 57,000
+      acres.
+    claimType: factual
+    confidence: verified
+    sources:
+      - fws-hanford-about
+      - fws-hanford
+
+sources:
+  - id: fws-hanford
+    title: Hanford Reach National Monument
+    publisher: U.S. Fish and Wildlife Service
+    url: https://www.fws.gov/national-monument/hanford-reach
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: fws-hanford-about
+    title: Hanford Reach National Monument, About Us
+    publisher: U.S. Fish and Wildlife Service
+    url: https://www.fws.gov/national-monument/hanford-reach/about-us
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/hanford-reach.jpg
+    mediaType: image
+    title: White Bluffs at Hanford Reach
+    creator: USFWS Pacific
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Hanford_Reach_National_Monument_(51685454433).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.fws.gov/media/photo-use-information
+    altText: Pale river bluffs and the Columbia River on the Hanford Reach.
+    creditLine: Photograph by USFWS Pacific. Public domain.
+
+relatedStories:
+  - slug: hanford-b-reactor
+    relationshipType: same-arc
+  - slug: columbia-chinook
+    relationshipType: same-arc
+  - slug: columbia-basin-project
+    relationshipType: nearby
+  - slug: ice-age-floods
+    relationshipType: same-arc

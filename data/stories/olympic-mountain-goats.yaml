@@ -1,0 +1,104 @@
+slug: olympic-mountain-goats
+title: Olympic Mountain Goats
+hook: Twelve mountain goats released near Lake Crescent in the 1920s were not native — and by 2018 the Olympic herd had grown to about 725.
+body: |
+  Mountain goats are not native to the Olympic Mountains. NPS says a
+  sportsman's group introduced twelve goats in the 1920s, before the
+  park was established in 1938. A park FAQ places the releases near
+  Lake Crescent from 1925 to 1929. The population later grew to more
+  than 1,000 and colonized the entire range.
+
+  Goats damaged alpine soils and rare plants. They also sought salt
+  that does not exist in the Olympics but is often present in human
+  urine. In 2010 a park visitor was fatally gored while hiking.
+  Between 1981 and 1989 the park removed more than 400 goats. The herd
+  rose again to about 725 by 2018.
+
+  A 2018 management plan aimed to remove more than 90 percent of the
+  goats. From 2018 to 2020, the Washington Department of Fish and
+  Wildlife translocated 325 goats to the Cascade Range, where they are
+  native. In all, 548 goats were removed in the active phase, which
+  ended in 2022. More than 59 percent of those animals were
+  translocated. The sources below are Olympic National Park pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1925-01-01"
+datePrecision: year
+dateLabel: introduced 1925–1929
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Hurricane Ridge
+  slug: hurricane-ridge-mountain-goats
+  placeType: wildlife
+  latitude: 47.969
+  longitude: -123.498
+  county: Clallam County
+  region: Olympic Peninsula
+
+categories:
+  - wildlife-ecology
+
+tags:
+  - olympic
+  - mountain-goat
+  - introduced-species
+
+claims:
+  - text: >
+      NPS says mountain goats are not native to the Olympics. A
+      sportsman's group introduced twelve goats in the 1920s. A park
+      FAQ places the releases near Lake Crescent from 1925 to 1929.
+      The population later grew to more than 1,000.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-goat-translocation
+  - text: >
+      In 2010 a park visitor was fatally gored by a mountain goat.
+      Between 1981 and 1989 the park removed more than 400 goats, of
+      which 88 percent were translocated. The population reached about
+      725 by 2018.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-goat-translocation
+  - text: >
+      Four aerial capture operations from 2018 to 2020 translocated
+      325 goats to the Cascade Range. In all, 548 goats were removed
+      during the active management phase, which ended in 2022. More
+      than 59 percent of those animals were translocated.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-goat-translocation
+
+sources:
+  - id: nps-goat-translocation
+    title: Mountain Goat Capture and Translocation
+    publisher: National Park Service
+    url: https://www.nps.gov/olym/planyourvisit/mountain-goat-capture-and-translocation.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/olympic-mountain-goats.jpg
+    mediaType: image
+    title: Mountain goat kids in Olympic National Park
+    creator: Olympic National Park
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Wildlife_goats_mountain_kids_NPS_photo_(17300549432).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: Two mountain goat kids standing on alpine rock in Olympic National Park.
+    creditLine: Photograph by Olympic National Park. Public domain.
+
+relatedStories:
+  - slug: hurricane-ridge
+    relationshipType: nearby
+  - slug: olympic-marmot
+    relationshipType: nearby
+  - slug: olympic-national-park-1938
+    relationshipType: same-park
+  - slug: lake-crescent
+    relationshipType: nearby

@@ -1,0 +1,110 @@
+slug: lower-granite-dam
+title: Lower Granite Dam
+hook: The last of the four Lower Snake dams is 3,200 feet long. Lake Lower Granite backs water 40 miles up to Lewiston.
+body: |
+  Lower Granite Lock and Dam was the fourth of four dams in the Lower
+  Snake River Project, authorized in the Rivers and Harbors Act of 1945.
+  Construction began in 1965. Three turbine units were operating in
+  1975. Three more came online in 1979.
+
+  The dam stands at Snake River mile 107.5 near Pomeroy, Washington,
+  at the upstream end of Lake Bryan. The Corps lists it as about 3,200
+  feet long with an effective height of 100 feet. It is a concrete
+  gravity dam with an earthfill right-abutment embankment, a navigation
+  lock, powerhouse, and fish ladder.
+
+  Lake Lower Granite extends 40 miles upstream to Lewiston, Idaho. The
+  Corps built roughly eight miles of levees around Lewiston. The
+  project provides hydropower, navigation, flood risk management, fish
+  and wildlife habitat, recreation, and incidental irrigation. The
+  sources below are U.S. Army Corps of Engineers fact sheets.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1965-01-01"
+datePrecision: year
+dateLabel: construction began 1965
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Lower Granite Dam
+  slug: lower-granite-dam
+  placeType: dam
+  latitude: 46.66
+  longitude: -117.43
+  county: Garfield County
+  region: Columbia Basin
+
+categories:
+  - history
+  - geography-geology
+
+tags:
+  - snake-river
+  - hydropower
+  - dam
+
+claims:
+  - text: >
+      The Corps says Lower Granite was the fourth of four Lower Snake
+      dams, authorized in the Rivers and Harbors Act of 1945.
+      Construction began in 1965. Three units were operating in 1975,
+      three more in 1979.
+    claimType: historical
+    confidence: verified
+    sources:
+      - usace-lower-granite-nwd
+  - text: >
+      The dam is at Snake River mile 107.5 near Pomeroy. It is about
+      3,200 feet long with an effective height of 100 feet, a concrete
+      gravity structure with an earthfill right abutment, a navigation
+      lock, powerhouse, and fish ladder.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usace-lower-granite
+      - usace-lower-granite-nwd
+  - text: >
+      Lake Lower Granite extends 40 miles upstream to Lewiston, Idaho.
+      The Corps constructed roughly eight miles of levees around
+      Lewiston. Authorized purposes include hydropower and navigation.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usace-lower-granite-nwd
+
+sources:
+  - id: usace-lower-granite
+    title: Lower Granite Lock and Dam
+    publisher: U.S. Army Corps of Engineers, Walla Walla District
+    url: https://www.nww.usace.army.mil/Locations/District-Locks-and-Dams/Lower-Granite-Lock-and-Dam/
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: usace-lower-granite-nwd
+    title: Lower Granite Dam and Lake Lower Granite
+    publisher: U.S. Army Corps of Engineers, Northwestern Division
+    url: https://www.nwd.usace.army.mil/fact-sheets/article/3485347/lower-granite-dam-and-lake-lower-granite/
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/lower-granite-dam.jpg
+    mediaType: image
+    title: Lower Granite Dam
+    creator: Dsdugan
+    sourceUrl: https://commons.wikimedia.org/wiki/File:LowerGraniteDam.jpg
+    license: Public domain (author release)
+    licenseUrl: https://commons.wikimedia.org/wiki/File:LowerGraniteDam.jpg
+    altText: Lower Granite Dam and the Snake River in southeastern Washington.
+    creditLine: Photograph by Dsdugan, released to the public domain.
+
+relatedStories:
+  - slug: ice-harbor-dam
+    relationshipType: same-arc
+  - slug: mcnary-dam
+    relationshipType: same-arc
+  - slug: columbia-chinook
+    relationshipType: same-arc
+  - slug: lower-monumental-dam
+    relationshipType: nearby

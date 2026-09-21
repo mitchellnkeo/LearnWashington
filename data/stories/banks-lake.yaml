@@ -86,3 +86,5 @@ relatedStories:
     relationshipType: nearby
   - slug: dry-falls
     relationshipType: nearby
+  - slug: grand-coulee
+    relationshipType: nearby

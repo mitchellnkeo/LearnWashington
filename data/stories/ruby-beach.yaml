@@ -1,0 +1,113 @@
+slug: ruby-beach
+title: Ruby Beach
+hook: Cedar Creek meets the Pacific 7.5 miles north of Kalaloch. About 225,000 people a year walk down to the stacks and tide pools.
+body: |
+  Ruby Beach is on the southwest coast of the Olympic Peninsula, inside
+  Olympic National Park and 7.5 miles north of Kalaloch. At this point
+  along the coast, Cedar Creek feeds into the Pacific Ocean. NPS says
+  visitors come for geology and tide pools, and to watch for driftwood
+  that can cover parts of the beach.
+
+  A trailhead near the parking area leads to the scenic beach. The
+  parking area, overlooks, and restrooms are accessible. Pets are
+  allowed on a leash. The beach receives approximately 225,000 visitors
+  a year.
+
+  In 2022 the parking area and access road closed for three months
+  while crews graded and paved the lot, added curbs, sidewalks, and a
+  storm drain to reduce bluff erosion, and improved accessibility. The
+  contract was $910,985. The sources below are Olympic National Park
+  pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Ruby Beach
+  slug: ruby-beach
+  placeType: beach
+  latitude: 47.71
+  longitude: -124.42
+  county: Jefferson County
+  region: Olympic Coast
+
+categories:
+  - geography-geology
+
+tags:
+  - olympic
+  - beach
+  - coast
+
+claims:
+  - text: >
+      NPS says Ruby Beach is 7.5 miles north of Kalaloch on the
+      southwest Olympic coast. Cedar Creek feeds into the Pacific here.
+      The beach has an accessible viewpoint, parking lot, and restrooms.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-olympic-beaches
+      - nps-kalaloch-ruby
+  - text: >
+      A 2022 NPS news release says Ruby Beach receives approximately
+      225,000 visitors annually. A trailhead near the parking area leads
+      to a scenic beach.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-ruby-reopen
+  - text: >
+      The parking area and access road closed in June 2022 for
+      construction and reopened September 14, 2022. The project graded
+      and paved the lot, added accessibility features, and installed a
+      storm drainage system to reduce bluff erosion. The contract was
+      $910,985.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-ruby-reopen
+
+sources:
+  - id: nps-olympic-beaches
+    title: Go to the Beach
+    publisher: National Park Service
+    url: https://www.nps.gov/thingstodo/olympicbeaches.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: nps-kalaloch-ruby
+    title: Visiting Kalaloch and Ruby Beach
+    publisher: National Park Service
+    url: https://www.nps.gov/olym/planyourvisit/visiting-kalaloch-and-ruby-beach.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: nps-ruby-reopen
+    title: Ruby Beach reopens after summer closure
+    publisher: National Park Service
+    url: https://www.nps.gov/olym/learn/news/rubybeachreopens.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/ruby-beach.jpg
+    mediaType: image
+    title: Sunset at Ruby Beach
+    creator: R. McKenna, Olympic National Park
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Sunset_ruby_beach_rocks_coast_scenic_r_mckenna_march_04_2015_(16691114474).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: Sea stacks and wet sand at Ruby Beach on the Olympic coast at sunset.
+    creditLine: Photograph by R. McKenna, Olympic National Park, March 4, 2015. Public domain.
+
+relatedStories:
+  - slug: kalaloch
+    relationshipType: nearby
+  - slug: olympic-national-park-1938
+    relationshipType: same-park
+  - slug: olympic-coast-national-marine-sanctuary
+    relationshipType: nearby
+  - slug: hoh-rain-forest
+    relationshipType: nearby

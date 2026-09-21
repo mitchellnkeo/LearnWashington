@@ -1,0 +1,103 @@
+slug: moses-coulee-gravel-bar
+title: Moses Coulee Gravel Bar
+hook: A teardrop of pebble-cobble gravel 3.2 miles long and 240 feet high — perhaps the largest flood bar in the Channeled Scabland.
+body: |
+  The Great Gravel Bar of Moses Coulee is a National Natural Landmark
+  on the Ice Age Floods trail. NPS says an outburst from Glacial Lake
+  Missoula was diverted into Moses Coulee when the Okanogan Lobe
+  blocked the Columbia about 14 miles north of the site. In a single
+  flood the coulee became a long, deep canyon second only to Grand
+  Coulee.
+
+  As the flood waned, a 200-foot sheet of gravel covered the coulee
+  floor. Behind a bedrock protrusion a giant teardrop-shaped pendant
+  bar formed. The bar is 5.2 kilometers (3.2 miles) long and as much
+  as 74 meters (240 feet) high — perhaps the largest flood-related bar
+  in the scabland. The coulee here is about 180 meters (590 feet) deep
+  and 1.5 kilometers (1 mile) wide.
+
+  Most boulders on the bar are basalt plucked from the walls upstream.
+  A few granite and other non-basalt boulders were likely ice-rafted
+  on bergs. An elongate depression about 0.6 mile long on the west
+  side records eddy circulation during deposition. The sources below
+  are the National Park Service landmark page.
+status: PUBLISHED
+verificationStatus: VERIFIED
+datePrecision: geologic
+dateLabel: Ice Age floods
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Great Gravel Bar of Moses Coulee
+  slug: moses-coulee-gravel-bar
+  placeType: coulee
+  latitude: 47.65
+  longitude: -119.75
+  county: Douglas County
+  region: Columbia Basin
+
+categories:
+  - geography-geology
+
+tags:
+  - ice-age-floods
+  - coulee
+  - scabland
+
+claims:
+  - text: >
+      NPS says an Ice Age flood diverted into Moses Coulee carved a
+      canyon second only to Grand Coulee. A teardrop-shaped pendant
+      bar 5.2 kilometers (3.2 miles) long and as much as 74 meters
+      (240 feet) high formed behind a bedrock protrusion.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - nps-moses-coulee
+  - text: >
+      The coulee at the bar is about 180 meters (590 feet) deep and
+      1.5 kilometers (1 mile) wide. A 61-meter (200-foot) sheet of
+      gravel was deposited on the coulee floor.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - nps-moses-coulee
+  - text: >
+      Most boulders are basalt from the coulee walls upstream. A few
+      granite and other non-basalt boulders were likely ice-rafted.
+      An elongate depression about 1 kilometer (0.6 mile) long on the
+      west side records eddy circulation.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - nps-moses-coulee
+
+sources:
+  - id: nps-moses-coulee
+    title: The Great Gravel Bar of Moses Coulee National Natural Landmark
+    publisher: National Park Service
+    url: https://www.nps.gov/places/the-great-gravel-bar-of-moses-coulee-national-natural-landmark.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/moses-coulee-gravel-bar.jpg
+    mediaType: image
+    title: Hungate Canyon, Moses Coulee
+    creator: Bureau of Land Management Oregon and Washington
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Hungate_Canyon,_Moses_Coulee,_Columbia_River_Plateau_(26387498383).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.blm.gov/
+    altText: Basalt walls and canyon floor in Moses Coulee on the Columbia Plateau.
+    creditLine: Photograph by the Bureau of Land Management Oregon and Washington. Public domain.
+
+relatedStories:
+  - slug: ice-age-floods
+    relationshipType: same-landscape
+  - slug: dry-falls
+    relationshipType: nearby
+  - slug: banks-lake
+    relationshipType: nearby
+  - slug: wallula-gap
+    relationshipType: same-landscape

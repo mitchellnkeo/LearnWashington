@@ -1,0 +1,113 @@
+slug: tacoma-narrows-1940
+title: Tacoma Narrows Bridge, 1940
+hook: Galloping Gertie opened in July 1940 as the third-longest suspension span in the world. It tore itself apart in the wind four months later.
+body: |
+  The first Tacoma Narrows Bridge opened to traffic in July 1940. FHWA
+  says it was a three-span suspension bridge. The main span was 2,800
+  feet (853.4 m) and the total length was 5,939 feet (1,810.2 m), the
+  third-longest suspension span in the world at the time.
+
+  On November 7, 1940, only four months after opening, the deck
+  oscillated in a twisting motion. FHWA attributes the motion to
+  resonance from vortex shedding and aeroelastic flutter. Several
+  suspenders in the main span ruptured and the bridge collapsed. The
+  way it twisted and heaved earned the nickname Galloping Gertie.
+
+  The Public Roads Administration joined other experts in research that
+  improved later suspension bridges, including the Mackinac and
+  Verrazzano-Narrows Bridges. FHWA later wrote that the only fatality
+  was a cocker spaniel named Tubby. The sources below are Federal
+  Highway Administration history pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1940-11-07"
+datePrecision: day
+dateLabel: November 7, 1940
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Tacoma Narrows
+  slug: tacoma-narrows
+  placeType: bridge
+  latitude: 47.27
+  longitude: -122.55
+  county: Pierce County
+  region: Puget Sound
+
+categories:
+  - history
+  - science-strange
+
+tags:
+  - bridge
+  - engineering
+  - tacoma
+
+claims:
+  - text: >
+      FHWA says the first Tacoma Narrows Bridge opened in July 1940.
+      The main span was 2,800 feet and the total length was 5,939 feet,
+      the third-longest suspension bridge in the world by main span.
+    claimType: factual
+    confidence: verified
+    sources:
+      - fhwa-narrows-redundancy
+  - text: >
+      On November 7, 1940, four months after opening, the deck
+      oscillated in an alternating twisting motion from vortex shedding
+      and aeroelastic flutter. Suspenders ruptured and the main span
+      collapsed. The motion earned the nickname Galloping Gertie.
+    claimType: historical
+    confidence: verified
+    sources:
+      - fhwa-narrows-byday
+      - fhwa-narrows-redundancy
+  - text: >
+      PRA joined research that improved later suspension bridges,
+      including the Mackinac and Verrazzano-Narrows Bridges. FHWA says
+      the only fatality was a cocker spaniel named Tubby.
+    claimType: historical
+    confidence: verified
+    sources:
+      - fhwa-narrows-byday
+      - fhwa-bridge-inspection
+
+sources:
+  - id: fhwa-narrows-byday
+    title: November 7 — FHWA By Day
+    publisher: Federal Highway Administration
+    url: https://www.fhwa.dot.gov/byday/fhbd1107.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: fhwa-narrows-redundancy
+    title: Redundancy in Long-span Bridges for Risk Mitigation in a Multi-hazard Environment
+    publisher: Federal Highway Administration
+    url: https://www.fhwa.dot.gov/resourcecenter/teams/structures-geotechnical-hydraulics/Redundancy_Final_Report.pdf
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: fhwa-bridge-inspection
+    title: Happy 50th Anniversary — National Bridge Inspection Standards
+    publisher: Federal Highway Administration
+    url: https://www.fhwa.dot.gov/highwayhistory/national_bridge_inspection_standards.cfm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/tacoma-narrows-1940.jpg
+    mediaType: image
+    title: Tacoma Narrows Bridge collapse
+    creator: University of Washington / public domain film still
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Tacoma_Narrows_still.png
+    license: Public domain
+    licenseUrl: https://commons.wikimedia.org/wiki/File:Tacoma_Narrows_still.png
+    altText: The first Tacoma Narrows Bridge twisting in the wind on November 7, 1940.
+    creditLine: Public-domain still from the 1940 Tacoma Narrows Bridge collapse film.
+
+relatedStories:
+  - slug: nisqually-earthquake-2001
+    relationshipType: nearby
+  - slug: puget-sound-naval-shipyard
+    relationshipType: nearby

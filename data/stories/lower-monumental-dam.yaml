@@ -1,0 +1,95 @@
+slug: lower-monumental-dam
+title: Lower Monumental Dam
+hook: The second Lower Snake dam is 3,791 feet long at river mile 41.6 near Kahlotus. Lake West runs 28 miles up to Little Goose.
+body: |
+  Lower Monumental Lock and Dam was the second of four dams in the Lower
+  Snake River Project, authorized in the Rivers and Harbors Act of 1945.
+  Construction began in 1961. Three turbine units were operating in 1970.
+  Three more came online in 1978.
+
+  The dam stands at Snake River mile 41.6 near Kahlotus. The Corps lists
+  it as 3,791 feet long. Six 135-megawatt units total 810 megawatts. The
+  project includes a powerhouse, spillway, navigation lock, and fish
+  passage.
+
+  Lake Herbert G. West extends 28 miles upstream to Little Goose Dam.
+  Authorized purposes are hydropower and navigation, with recreation,
+  fish and wildlife, water quality, and irrigation as other purposes.
+  The source below is the Corps Northwestern Division fact sheet.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1961-01-01"
+datePrecision: year
+dateLabel: construction began 1961
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Lower Monumental Dam
+  slug: lower-monumental-dam
+  placeType: dam
+  latitude: 46.56
+  longitude: -118.54
+  county: Walla Walla County
+  region: Columbia Basin
+
+categories:
+  - history
+  - geography-geology
+
+tags:
+  - snake-river
+  - hydropower
+  - dam
+
+claims:
+  - text: >
+      The Corps says Lower Monumental was the second of four Lower Snake
+      dams, authorized in the Rivers and Harbors Act of 1945.
+      Construction began in 1961. Three units were operating in 1970,
+      three more in 1978.
+    claimType: historical
+    confidence: verified
+    sources:
+      - usace-lower-monumental-nwd
+  - text: >
+      The dam is at Snake River mile 41.6 near Kahlotus and is 3,791
+      feet long. Six 135-megawatt turbines total 810 megawatts.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usace-lower-monumental-nwd
+  - text: >
+      Lake Herbert G. West extends 28 miles upstream to Little Goose
+      Dam. Authorized purposes are hydropower and navigation.
+    claimType: factual
+    confidence: verified
+    sources:
+      - usace-lower-monumental-nwd
+
+sources:
+  - id: usace-lower-monumental-nwd
+    title: Lower Monumental Dam and Lake West
+    publisher: U.S. Army Corps of Engineers, Northwestern Division
+    url: https://www.nwd.usace.army.mil/fact-sheets/article/3485363/lower-monumental-dam-and-lake-west/
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/lower-monumental-dam.jpg
+    mediaType: image
+    title: Lower Monumental Dam
+    creator: U.S. Army Corps of Engineers
+    sourceUrl: https://commons.wikimedia.org/wiki/File:USACE_Lower_Monumental_Dam.jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.usace.army.mil/About/
+    altText: Concrete powerhouse and spillway of Lower Monumental Dam on the Snake River.
+    creditLine: Photograph by the U.S. Army Corps of Engineers. Public domain.
+
+relatedStories:
+  - slug: ice-harbor-dam
+    relationshipType: nearby
+  - slug: lower-granite-dam
+    relationshipType: same-arc
+  - slug: mcnary-dam
+    relationshipType: same-arc

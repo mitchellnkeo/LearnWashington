@@ -113,3 +113,5 @@ relatedStories:
     relationshipType: nearby
   - slug: lake-roosevelt
     relationshipType: nearby
+  - slug: grand-coulee
+    relationshipType: nearby

@@ -1,0 +1,98 @@
+slug: cascade-pass
+title: Cascade Pass
+hook: North Cascades' most popular day hike climbs 3.7 miles and 1,700 feet to a pass that once carried travelers through the range.
+body: |
+  The Cascade Pass Trail is 3.7 miles (6 km) one way from the trailhead,
+  with 1,700 feet (518 m) of elevation gain. NPS calls it the most
+  popular day hike in North Cascades National Park and the shortest,
+  easiest access in the park to alpine country.
+
+  Cascade River Road leaves State Route 20 at Marblemount and runs
+  23.1 miles (37 km) to the trailhead. The road typically opens by the
+  end of June. From the pass, the Sahale Arm Trail continues to the
+  base of the Sahale Glacier — 5.9 miles (9.5 km) and 3,940 feet
+  (1,201 m) of gain from the trailhead. Stehekin is a 23-mile (37 km)
+  hike from the parking lot to High Bridge.
+
+  NPS says Native Americans used this route as a passage through the
+  Cascades. In 1811, fur trader Alexander Ross explored the route.
+  Pets are not allowed. There is no camping at the pass itself.
+  The sources below are North Cascades National Park pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Cascade Pass
+  slug: cascade-pass
+  placeType: mountain_pass
+  latitude: 48.475
+  longitude: -121.059
+  county: Skagit County
+  region: North Cascades
+
+categories:
+  - geography-geology
+  - indigenous-history-place
+
+tags:
+  - north-cascades
+  - hiking
+  - alpine
+
+claims:
+  - text: >
+      The Cascade Pass Trail is 3.7 miles (6 km) one way with 1,700
+      feet (518 m) of gain. NPS calls it the most popular day hike in
+      the park and the shortest, easiest alpine access.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-cascade-pass
+  - text: >
+      Cascade River Road runs 23.1 miles (37 km) from Marblemount to
+      the trailhead and typically opens by the end of June. Sahale
+      Glacier is 5.9 miles (9.5 km) and 3,940 feet (1,201 m) of gain
+      from the trailhead. Stehekin is 23 miles (37 km) to High Bridge.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-cascade-pass
+  - text: >
+      NPS says Native Americans used this route as a passage through
+      the Cascades. In 1811, fur trader Alexander Ross explored the
+      route.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-cascade-pass
+
+sources:
+  - id: nps-cascade-pass
+    title: Cascade Pass / Sahale Arm Trail
+    publisher: National Park Service
+    url: https://www.nps.gov/noca/planyourvisit/cascade-pass-trail.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/cascade-pass.jpg
+    mediaType: image
+    title: Aerial view of Cascade Pass
+    creator: National Park Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Cascade_Pass,_Doubtful_Lake,_Sahale_Arm,_Sahale_Glacier,_Davenport_Glacier,_Horseshoe_Basin_and_Upper_Stehekin_Valley_(f6acc955-3dde-4a29-a9ce-6b7c34ed333e).tif
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: Aerial view of Cascade Pass, Doubtful Lake, Sahale Arm, and hanging glaciers.
+    creditLine: Aerial photograph by the National Park Service, NPGallery. Public domain.
+
+relatedStories:
+  - slug: north-cascades-national-park
+    relationshipType: same-park
+  - slug: stehekin
+    relationshipType: nearby
+  - slug: glacier-peak
+    relationshipType: nearby
+  - slug: diablo-lake
+    relationshipType: nearby

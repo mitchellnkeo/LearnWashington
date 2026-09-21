@@ -1,0 +1,98 @@
+slug: wonderland-trail
+title: Wonderland Trail
+hook: A 93-mile loop around Mount Rainier climbs and drops about 27,000 feet, through lowland forest and high meadows.
+body: |
+  The Wonderland Trail is about 93 miles (150 km) long and encircles
+  Mount Rainier. NPS calls it a strenuous hike, with about 27,000 feet
+  (8,230 m) of elevation gain and the same of loss, from lowland forests
+  and valleys into alpine and subalpine country.
+
+  The trail is typically mostly snow-free from mid-July to October. In
+  an average snow year, NPS says it is not advisable to start until mid-
+  to late July. Earlier travel needs winter skills, including ice-axe
+  self-arrest and fording glaciated rivers. A wilderness permit is
+  required for overnight camping. Hikers doing the complete loop must
+  camp in designated camps; cross-country zones are not allowed.
+
+  The trail has eighteen trailside wilderness camps and three
+  non-wilderness camps. It can be walked as a full loop or in sections,
+  and it can be joined from several trailheads. Fires, pets, bicycles,
+  and other wheeled devices are not permitted in the backcountry. The
+  source below is the Mount Rainier National Park Wonderland Trail page.
+status: PUBLISHED
+verificationStatus: VERIFIED
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Wonderland Trail at Longmire
+  slug: wonderland-trail-longmire
+  placeType: trail
+  latitude: 46.75
+  longitude: -121.81
+  county: Pierce County
+  region: Cascades
+
+categories:
+  - geography-geology
+
+tags:
+  - mount-rainier
+  - trail
+  - hiking
+
+claims:
+  - text: >
+      NPS says the Wonderland Trail is about 93 miles (150 km) long and
+      encircles Mount Rainier, with about 27,000 feet (8,230 m) of
+      elevation gain and 27,000 feet of loss.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-wonderland
+  - text: >
+      The trail is typically mostly snow-free from mid-July to October.
+      In an average snow year it is not advisable to hike it until mid-
+      to late July. A wilderness permit is required for overnight
+      camping, and complete-loop hikers are limited to designated camps.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-wonderland
+  - text: >
+      The Wonderland Trail has eighteen trailside wilderness camps and
+      three non-wilderness camps. Fires, pets, bicycles, and other
+      wheeled devices are not permitted in the Mount Rainier backcountry.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-wonderland
+
+sources:
+  - id: nps-wonderland
+    title: The Wonderland Trail
+    publisher: National Park Service
+    url: https://www.nps.gov/mora/planyourvisit/the-wonderland-trail.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/wonderland-trail.jpg
+    mediaType: image
+    title: Aurora Lake and Mount Rainier from the Wonderland Trail
+    creator: National Park Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Aurora_Lake_is_a_popular_landmark_in_Klapatche_Park_along_the_Wonderland_Trail,_with_views_of_Mount_Rainier._(051e4fca-330d-4607-821a-c22908b92baf).JPG
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: Mount Rainier reflected in Aurora Lake at Klapatche Park along the Wonderland Trail.
+    creditLine: Photograph by the National Park Service. Public domain.
+
+relatedStories:
+  - slug: mount-rainier
+    relationshipType: same-park
+  - slug: paradise-mount-rainier
+    relationshipType: same-park
+  - slug: sunrise-mount-rainier
+    relationshipType: same-park
+  - slug: mount-rainier-glaciers
+    relationshipType: same-park

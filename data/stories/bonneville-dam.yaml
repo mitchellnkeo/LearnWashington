@@ -93,3 +93,5 @@ relatedStories:
     relationshipType: nearby
   - slug: ice-harbor-dam
     relationshipType: same-arc
+  - slug: john-day-dam
+    relationshipType: same-arc

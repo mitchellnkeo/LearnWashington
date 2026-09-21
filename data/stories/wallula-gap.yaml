@@ -1,0 +1,109 @@
+slug: wallula-gap
+title: Wallula Gap
+hook: Ice Age floodwaters hit a two-mile gap that could not pass them all — and backed up into a temporary lake 900 feet deep.
+body: |
+  All of the Ice Age floodwaters that cut the Channeled Scabland were
+  channeled through Wallula Gap in the Horse Heaven Hills. NPS says
+  more than 833 cubic kilometers (200 cubic miles) of water per day
+  arrived at a gap that could discharge less than 166 cubic kilometers
+  (40 cubic miles) per day. The rest ponded in the Pasco Basin and the
+  Yakima and Touchet valleys as Lake Lewis.
+
+  The Ice Age Floods brochure calls the gap two miles (3.2 km) wide.
+  Like the neck of an hourglass, the constriction backed water, ice,
+  and debris into a temporary pond 900 feet (274 m) deep. The National
+  Natural Landmark page says the gap is more than 1.6 kilometers
+  (1 mile) from rim to rim and calls it the largest and most
+  significant water gap through a basalt anticline in the Columbia
+  Basin.
+
+  At the height of the floods, NPS estimates flow through the gap at
+  166 cubic kilometers (40 cubic miles) per day — nearly twice the
+  combined flow of all the present rivers on Earth. The sources below
+  are National Park Service Ice Age Floods pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+datePrecision: geologic
+dateLabel: Ice Age floods
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Wallula Gap
+  slug: wallula-gap
+  placeType: water_gap
+  latitude: 46.04
+  longitude: -118.95
+  county: Walla Walla County
+  region: Columbia Basin
+
+categories:
+  - geography-geology
+
+tags:
+  - ice-age-floods
+  - columbia
+  - scabland
+
+claims:
+  - text: >
+      NPS says more than 833 cubic kilometers (200 cubic miles) of
+      floodwater per day reached a gap that could discharge less than
+      166 cubic kilometers (40 cubic miles) per day, ponding Lake
+      Lewis in the Pasco Basin and the Yakima and Touchet valleys.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - nps-wallula-nnl
+  - text: >
+      The Ice Age Floods brochure calls Wallula Gap two miles
+      (3.2 km) wide and says the constriction created a temporary pond
+      900 feet (274 m) deep.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - nps-iafl-brochure
+  - text: >
+      At the height of the Ice Age floods, NPS estimates flow through
+      Wallula Gap at 166 cubic kilometers (40 cubic miles) per day,
+      nearly twice the combined flow of all present rivers on Earth.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - nps-wallula-nnl
+
+sources:
+  - id: nps-wallula-nnl
+    title: Wallula Gap National Natural Landmark
+    publisher: National Park Service
+    url: https://www.nps.gov/places/wallula-gap-national-natural-landmark.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: nps-iafl-brochure
+    title: Park Brochure — Ice Age Floods National Geologic Trail
+    publisher: National Park Service
+    url: https://www.nps.gov/iafl/planyourvisit/park-brochure.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/wallula-gap.jpg
+    mediaType: image
+    title: Wallula Gap from the Sisters
+    creator: Umptanum
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Wallula_Gap_from_Sisters_on_Columbia_River.jpg
+    license: Public domain (author release)
+    licenseUrl: https://commons.wikimedia.org/wiki/File:Wallula_Gap_from_Sisters_on_Columbia_River.jpg
+    altText: Flood-scoured basalt walls of Wallula Gap on the Columbia River.
+    creditLine: Photograph by Umptanum, released to the public domain.
+
+relatedStories:
+  - slug: ice-age-floods
+    relationshipType: same-landscape
+  - slug: drumheller-channels
+    relationshipType: same-landscape
+  - slug: dry-falls
+    relationshipType: same-landscape
+  - slug: hanford-reach
+    relationshipType: nearby

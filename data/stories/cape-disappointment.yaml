@@ -108,5 +108,7 @@ media:
     creditLine: Photograph by the United States Coast Guard. Public domain.
 
 relatedStories:
+  - slug: dismal-nitch
+    relationshipType: nearby
   - slug: fort-vancouver
     relationshipType: same-arc

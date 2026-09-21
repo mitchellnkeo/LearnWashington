@@ -1,0 +1,113 @@
+slug: sol-duc-falls
+title: Sol Duc Falls
+hook: NPS calls this the most picturesque waterfall in Olympic National Park — and it is only eight-tenths of a mile through old-growth forest.
+body: |
+  Sol Duc Falls sits at the end of Sol Duc Road in Olympic National Park.
+  From the parking lot, the walk through old-growth forest is 0.8 mile
+  (1.3 km) one way and relatively level, with about 200 feet of
+  elevation gain. NPS calls it perhaps the most picturesque waterfall
+  in Olympic.
+
+  The brochure lists an 82-site campground at Sol Duc, an Ancient Groves
+  nature trail (0.6-mile loop), and longer climbs to Mink Lake (2.6
+  miles, 1,500 feet) and Deer Lake (3.8 miles, 1,700 feet). Lover's Lane
+  makes a 6-mile loop linking the resort, campground, and falls. Pets
+  and bicycles are not permitted on any trails.
+
+  The concession-operated Sol Duc Hot Springs Resort has three hot
+  mineral pools and a swimming pool and is open from late March through
+  mid-October. Keep children close at the falls. The sources below are
+  Olympic National Park pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Sol Duc Falls
+  slug: sol-duc-falls
+  placeType: waterfall
+  latitude: 47.951
+  longitude: -123.815
+  county: Clallam County
+  region: Olympic Peninsula
+
+categories:
+  - geography-geology
+
+tags:
+  - olympic
+  - waterfall
+  - old-growth
+
+claims:
+  - text: >
+      NPS says the walk from the parking lot at the end of Sol Duc Road
+      to Sol Duc Falls is 0.8 mile (1.3 km) one way through old-growth
+      forest and relatively level, with about 200 feet of gain. The
+      park calls it perhaps the most picturesque waterfall in Olympic.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-solduc-falls
+      - nps-solduc-brochure
+  - text: >
+      Sol Duc Campground has 82 sites. Ancient Groves is a 0.6-mile
+      loop. Mink Lake is 2.6 miles and 1,500 feet of gain; Deer Lake is
+      3.8 miles and 1,700 feet. Pets and bicycles are not permitted on
+      any trails.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-solduc-brochure
+  - text: >
+      The concession-operated Sol Duc Hot Springs Resort has three hot
+      mineral pools and a swimming pool and is open from late March
+      through mid-October.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-solduc-resort
+
+sources:
+  - id: nps-solduc-falls
+    title: Sol Duc Falls Trail
+    publisher: National Park Service
+    url: https://www.nps.gov/places/000/sol-duc-falls-trail.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: nps-solduc-brochure
+    title: Sol Duc Area Brochure
+    publisher: National Park Service
+    url: https://www.nps.gov/olym/planyourvisit/sol-duc-area-brochure.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: nps-solduc-resort
+    title: Sol Duc Hot Springs Resort
+    publisher: National Park Service
+    url: https://www.nps.gov/places/000/sol-duc-hot-springs-resort.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/sol-duc-falls.jpg
+    mediaType: image
+    title: Rainbow at Sol Duc Falls
+    creator: C. Bubar, Olympic National Park
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Rainbow_sol_duc_falls_trail_scenic_c_bubar_march_04-2015_(17127870539).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: A rainbow in the spray of Sol Duc Falls in old-growth forest.
+    creditLine: Photograph by C. Bubar, Olympic National Park, March 4, 2015. Public domain.
+
+relatedStories:
+  - slug: lake-crescent
+    relationshipType: nearby
+  - slug: hoh-rain-forest
+    relationshipType: same-park
+  - slug: olympic-national-park-1938
+    relationshipType: same-park
+  - slug: elwha-river-restoration
+    relationshipType: nearby

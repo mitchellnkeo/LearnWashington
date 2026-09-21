@@ -109,3 +109,5 @@ relatedStories:
     relationshipType: same-landscape
   - slug: drumheller-channels
     relationshipType: same-landscape
+  - slug: grand-coulee
+    relationshipType: nearby

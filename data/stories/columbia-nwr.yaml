@@ -1,0 +1,117 @@
+slug: columbia-nwr
+title: Columbia National Wildlife Refuge
+hook: Ice Age floods tore coulees through this desert. Irrigation seepage later filled the holes, and a 1944 refuge now winters ducks, geese, and sandhill cranes.
+body: |
+  Columbia National Wildlife Refuge covers nearly 30,000 acres of cliffs,
+  canyons, lakes, grasslands, and sagebrush in eastern Washington. FWS
+  says that in its natural state almost all of the refuge would be
+  shrub-steppe desert, except for the once-ephemeral Crab Creek.
+
+  Ice Age floods gouged the Drumheller Channeled Scablands National
+  Natural Landmark here. The Columbia Basin Project later brought
+  irrigation water to the desert. Seepage created wetlands, riparian
+  habitat, and small lakes. Crab Creek became perennial. The refuge was
+  created in 1944 "for migratory birds and other wildlife" as mitigation
+  for the project.
+
+  Mild winters and nearby irrigated croplands attract migrating and
+  wintering mallards, Canada geese, tundra swans, and other waterfowl.
+  Lesser sandhill cranes now concentrate by the thousands for several
+  weeks in late winter and early spring, a gathering FWS says began in
+  earnest in the late 1980s when leftover grain became an important
+  food. The sources below are the U.S. Fish and Wildlife Service refuge
+  pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1944-01-01"
+datePrecision: year
+dateLabel: "1944"
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Columbia National Wildlife Refuge
+  slug: columbia-nwr
+  placeType: refuge
+  latitude: 46.85
+  longitude: -119.54
+  county: Grant County
+  region: Columbia Basin
+
+categories:
+  - wildlife-ecology
+  - geography-geology
+
+tags:
+  - refuge
+  - scablands
+  - sandhill-crane
+
+claims:
+  - text: >
+      FWS says Columbia National Wildlife Refuge comprises nearly 30,000
+      acres of rugged cliffs, canyons, lakes, grasslands, and sagebrush.
+      It was created in 1944 for migratory birds and other wildlife as
+      mitigation for the Columbia Basin Project.
+    claimType: factual
+    confidence: verified
+    sources:
+      - fws-columbia
+      - fws-columbia-about
+  - text: >
+      In its natural state almost all of the refuge would be shrub-steppe
+      desert except for ephemeral Crab Creek. Ice Age floods gouged the
+      Drumheller Channeled Scablands National Natural Landmark. Irrigation
+      seepage later created wetlands and made Crab Creek perennial.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - fws-columbia-about
+  - text: >
+      The combination of lakes and irrigated croplands, mild winters, and
+      refuge protection attracts large numbers of migrating and wintering
+      mallards, Canada geese, tundra swans, and other waterfowl. Lesser
+      sandhill cranes concentrate by the thousands for several weeks in
+      late winter and early spring, a gathering FWS says began in earnest
+      in the late 1980s.
+    claimType: factual
+    confidence: verified
+    sources:
+      - fws-columbia
+      - fws-columbia-about
+
+sources:
+  - id: fws-columbia
+    title: Columbia National Wildlife Refuge
+    publisher: U.S. Fish and Wildlife Service
+    url: https://www.fws.gov/refuge/columbia
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: fws-columbia-about
+    title: Columbia National Wildlife Refuge, About Us
+    publisher: U.S. Fish and Wildlife Service
+    url: https://www.fws.gov/refuge/columbia/about-us
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/columbia-nwr.jpg
+    mediaType: image
+    title: Columbia National Wildlife Refuge
+    creator: USFWS Pacific
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Columbia_National_Wildlife_Refuge_(52776075384).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.fws.gov/media/photo-use-information
+    altText: Cliffs, water, and shrub-steppe at Columbia National Wildlife Refuge in the channeled scablands.
+    creditLine: Photograph by USFWS Pacific. Public domain.
+
+relatedStories:
+  - slug: drumheller-channels
+    relationshipType: nearby
+  - slug: ice-age-floods
+    relationshipType: same-arc
+  - slug: columbia-basin-project
+    relationshipType: same-arc
+  - slug: dry-falls
+    relationshipType: same-arc

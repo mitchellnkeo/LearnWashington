@@ -93,3 +93,5 @@ relatedStories:
     relationshipType: nearby
   - slug: hurricane-ridge
     relationshipType: nearby
+  - slug: sequim-rain-shadow
+    relationshipType: nearby

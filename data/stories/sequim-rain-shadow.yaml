@@ -1,0 +1,97 @@
+slug: sequim-rain-shadow
+title: Sequim Rain Shadow
+hook: Sequim gets about 16 inches of rain a year — less than 35 miles from temperate rain forest, and close enough for prickly pear cactus.
+body: |
+  Storms from the Pacific hit the Olympic Mountains and drop their
+  moisture on the west side. NPS says the northeastern Olympic Peninsula
+  then sits in a dry rain shadow. The town of Sequim gets roughly 16
+  inches (41 cm) of rain a year. A park rainfall table lists Sequim at
+  15.80 inches (40 cm) for the year, Port Angeles at 25.9, Kalaloch at
+  103, and the Hoh at 135.
+
+  Farmers irrigate their fields. A few prickly pear cactus plants grow
+  there, less than 35 miles (56 km) from lush temperate rain forests.
+  Hurricane Ridge, still wringing moisture from the same storms, averages
+  30 to 35 feet (10 m) of snow a year.
+
+  The west-side valleys are the wettest spots in the continental United
+  States. The Hoh records an average of almost 12 feet (3.6 meters) of
+  rain a year. The sources below are Olympic National Park weather pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Sequim
+  slug: sequim
+  placeType: town
+  latitude: 48.08
+  longitude: -123.10
+  county: Clallam County
+  region: Olympic Peninsula
+
+categories:
+  - geography-geology
+  - science-strange
+
+tags:
+  - rain-shadow
+  - olympic
+  - climate
+
+claims:
+  - text: >
+      NPS says the northeastern Olympic Peninsula lies in a dry rain
+      shadow. Sequim gets roughly 16 inches (41 cm) of rain a year. A
+      park table lists yearly averages of 15.80 inches at Sequim, 25.9
+      at Port Angeles, 103 at Kalaloch, and 135 at the Hoh.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - nps-weather-brochure
+  - text: >
+      A few prickly pear cactus plants grow near Sequim, less than 35
+      miles (56 km) from temperate rain forests. Hurricane Ridge
+      averages 30 to 35 feet (10 m) of snow a year.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-weather-brochure
+  - text: >
+      NPS calls the west-side valleys the wettest spots in the
+      continental United States. The Hoh Rain Forest records an
+      average of almost 12 feet (3.6 meters) of rain a year.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - nps-weather-brochure
+
+sources:
+  - id: nps-weather-brochure
+    title: Weather Brochure
+    publisher: National Park Service
+    url: https://www.nps.gov/olym/planyourvisit/weather-brochure.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/sequim-rain-shadow.jpg
+    mediaType: image
+    title: Dungeness National Wildlife Refuge
+    creator: A. LaValle, U.S. Fish and Wildlife Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Dungeness_National_Wildlife_Refuge_(51996424626).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.fws.gov/help/policies.html
+    altText: Open sky and spit at Dungeness National Wildlife Refuge in the Sequim rain shadow.
+    creditLine: Photograph by A. LaValle, U.S. Fish and Wildlife Service, April 9, 2022. Public domain.
+
+relatedStories:
+  - slug: dungeness-spit
+    relationshipType: nearby
+  - slug: hoh-rain-forest
+    relationshipType: same-landscape
+  - slug: hurricane-ridge
+    relationshipType: nearby
+  - slug: lake-quinault
+    relationshipType: same-landscape

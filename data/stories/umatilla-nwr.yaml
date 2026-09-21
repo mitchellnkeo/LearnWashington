@@ -1,0 +1,108 @@
+slug: umatilla-nwr
+title: Umatilla National Wildlife Refuge
+hook: 23,555 acres on both shores of the Columbia — three units in Washington — created after John Day Dam flooded the river.
+body: |
+  Umatilla National Wildlife Refuge is a network of lands on the Oregon
+  and Washington shores of the Columbia River. FWS says the refuge
+  covers 23,555 acres in five units — three in Washington and two in
+  Oregon. Natural and managed wetlands mix with native shrub-steppe.
+
+  The refuge was established in 1969 under the Fish and Wildlife
+  Coordination Act, after authorization of John Day Lock and Dam. FWS
+  says rivers transformed by large dams become deep, slow lakes, and
+  the Coordination Act requires consultation to prevent loss of
+  wildlife. Umatilla was created as a consequence of those
+  requirements.
+
+  Providing waterfowl habitat is a major focus. In spring, burrowing
+  owls and long-billed curlews nest. Summers often exceed 100 degrees.
+  In winter, thousands of waterfowl return. Most refuge islands are
+  closed to public entry year-round. The sources below are U.S. Fish
+  and Wildlife Service pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1969-01-01"
+datePrecision: year
+dateLabel: established 1969
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Umatilla National Wildlife Refuge
+  slug: umatilla-nwr
+  placeType: refuge
+  latitude: 45.92
+  longitude: -119.62
+  county: Benton County
+  region: Columbia Basin
+
+categories:
+  - wildlife-ecology
+
+tags:
+  - refuge
+  - columbia
+  - waterfowl
+
+claims:
+  - text: >
+      FWS says Umatilla National Wildlife Refuge covers 23,555 acres
+      in five units — three in Washington and two in Oregon — on the
+      Columbia River, with wetlands mixed with native shrub-steppe.
+    claimType: factual
+    confidence: verified
+    sources:
+      - fws-umatilla-about
+  - text: >
+      The refuge was established in 1969 under the Fish and Wildlife
+      Coordination Act after authorization of John Day Lock and Dam.
+    claimType: historical
+    confidence: verified
+    sources:
+      - fws-umatilla-about
+      - fws-umatilla
+  - text: >
+      In spring, burrowing owls and long-billed curlews nest. Summers
+      often exceed 100 degrees. In winter, thousands of waterfowl
+      return. Most refuge islands are closed year-round.
+    claimType: factual
+    confidence: verified
+    sources:
+      - fws-umatilla
+      - fws-umatilla-about
+
+sources:
+  - id: fws-umatilla
+    title: Umatilla National Wildlife Refuge
+    publisher: U.S. Fish and Wildlife Service
+    url: https://www.fws.gov/refuge/umatilla
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: fws-umatilla-about
+    title: Umatilla National Wildlife Refuge — About Us
+    publisher: U.S. Fish and Wildlife Service
+    url: https://www.fws.gov/refuge/umatilla/about-us
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/umatilla-nwr.jpg
+    mediaType: image
+    title: Along the Columbia at Umatilla National Wildlife Refuge
+    creator: Dale Flowers, U.S. Fish and Wildlife Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Get_Your_Goose_On!_-_Columbia_River_Style_(8027334991).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.fws.gov/help/policies.html
+    altText: Open Columbia River shoreline at Umatilla National Wildlife Refuge.
+    creditLine: Photograph by Dale Flowers, U.S. Fish and Wildlife Service. Public domain.
+
+relatedStories:
+  - slug: john-day-dam
+    relationshipType: nearby
+  - slug: mcnary-nwr
+    relationshipType: nearby
+  - slug: columbia-nwr
+    relationshipType: nearby
+  - slug: hanford-reach
+    relationshipType: nearby

@@ -1,0 +1,98 @@
+slug: blue-glacier
+title: Blue Glacier
+hook: Olympic's largest glacier has receded more than a third of a mile and lost more than 150 feet of ice thickness since 1919.
+body: |
+  Blue Glacier sits on Mount Olympus, the highest point on the Olympic
+  Peninsula at 7,980 feet (2,432 meters). NPS calls Blue Glacier the
+  park's largest glacier. Since 1919 it has receded over one-third of
+  a mile and lost more than 150 feet of ice thickness.
+
+  The surface area of all glacial ice in Olympic National Park
+  decreased 46 percent between 1982 and 2015. NPS says warmer winters
+  mean some precipitation that used to fall as snow — feeding glaciers
+  — now falls as rain.
+
+  Mount Olympus is estimated to get over 50 feet (18 meters) of snow.
+  The Hoh Rain Forest, on the glacier's west-side drainage, records an
+  average of almost 12 feet (3.6 meters) of rain a year. The sources
+  below are Olympic National Park weather pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1919-01-01"
+datePrecision: year
+dateLabel: measured since 1919
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Blue Glacier
+  slug: blue-glacier
+  placeType: glacier
+  latitude: 47.80
+  longitude: -123.70
+  county: Jefferson County
+  region: Olympic Peninsula
+
+categories:
+  - geography-geology
+  - science-strange
+
+tags:
+  - glacier
+  - olympic
+  - climate
+
+claims:
+  - text: >
+      NPS says Blue Glacier is the park's largest glacier. Since 1919
+      it has receded over one-third of a mile and lost more than 150
+      feet of ice thickness. Mount Olympus stands 7,980 feet
+      (2,432 meters).
+    claimType: scientific
+    confidence: verified
+    sources:
+      - nps-weather-brochure
+  - text: >
+      The surface area of all glacial ice in the park decreased 46
+      percent between 1982 and 2015.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - nps-weather-brochure
+  - text: >
+      Mount Olympus is estimated to get over 50 feet (18 meters) of
+      snow. The Hoh Rain Forest records an average of almost 12 feet
+      (3.6 meters) of rain a year.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-weather-brochure
+
+sources:
+  - id: nps-weather-brochure
+    title: Weather Brochure
+    publisher: National Park Service
+    url: https://www.nps.gov/olym/planyourvisit/weather-brochure.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/blue-glacier.jpg
+    mediaType: image
+    title: Blue Glacier in alpenglow
+    creator: Olympic National Park
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Blue_glacier_alpenglow_ice_scenic_NPS_Photo_(17314317695).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: Blue Glacier on Mount Olympus lit by alpenglow.
+    creditLine: Photograph by Olympic National Park. Public domain.
+
+relatedStories:
+  - slug: hoh-rain-forest
+    relationshipType: nearby
+  - slug: olympic-national-park-1938
+    relationshipType: same-park
+  - slug: mount-rainier-glaciers
+    relationshipType: same-arc
+  - slug: sequim-rain-shadow
+    relationshipType: same-landscape

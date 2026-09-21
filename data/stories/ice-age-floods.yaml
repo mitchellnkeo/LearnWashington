@@ -103,3 +103,11 @@ relatedStories:
     relationshipType: same-landscape
   - slug: palouse-falls
     relationshipType: same-landscape
+  - slug: wallula-gap
+    relationshipType: same-landscape
+  - slug: ginkgo-petrified-forest
+    relationshipType: same-landscape
+  - slug: moses-coulee-gravel-bar
+    relationshipType: same-landscape
+  - slug: grand-coulee
+    relationshipType: same-landscape

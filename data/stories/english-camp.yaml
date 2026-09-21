@@ -1,0 +1,115 @@
+slug: english-camp
+title: English Camp
+hook: Royal Marines camped on a Coast Salish shell bank on Garrison Bay while the United States and Britain argued over who owned the San Juans.
+body: |
+  English Camp sits on Garrison Bay, in the northwest corner of San Juan
+  Island, nine miles northwest of Friday Harbor. NPS says Coast Salish
+  tribes had lived on this bay since time immemorial. When the Royal
+  Marines landed, they described the parade ground as a shell bank —
+  "the accumulation of Years" — about ten feet high, thirty-five to
+  forty feet through, and 120 yards long.
+
+  They also found a Coast Salish longhouse that accommodated as many as
+  600 people. The British took it apart and used the wood. They chose
+  the site because it was at the opposite end of the island from the
+  Americans, sat on a trail to the Hudson's Bay Company's Belle Vue
+  Sheep Farm, had room for the expected garrison, and had good water
+  from the Roche Harbor Highlands Watershed.
+
+  Visitors can still walk the parade ground, barracks, blockhouse,
+  commissary, and formal garden. A trail climbs Young Hill to the Royal
+  Marines Cemetery. San Juan Island National Historical Park covers
+  2,141 acres in two units, English Camp and American Camp. The sources
+  below are National Park Service pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+datePrecision: decade
+dateLabel: joint occupation, 1859–1872
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: English Camp
+  slug: english-camp
+  placeType: historic-site
+  latitude: 48.587
+  longitude: -123.148
+  county: San Juan County
+  region: San Juan Islands
+
+categories:
+  - history
+  - indigenous-history-place
+
+tags:
+  - pig-war
+  - san-juan
+  - coast-salish
+
+claims:
+  - text: >
+      NPS says the English Camp parade ground is on Garrison Bay, nine
+      miles northwest of Friday Harbor, and that Coast Salish tribes had
+      lived on this bay since time immemorial.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-english-camp
+  - text: >
+      NPS quotes the Royal Marines describing the parade ground as a
+      shell bank about ten feet high, thirty-five to forty feet through,
+      and 120 yards long, and says they found a Coast Salish longhouse
+      that accommodated as many as 600 individuals, which they
+      disassembled for building materials.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-english-camp
+  - text: >
+      The park's two units, American Camp and English Camp, together
+      cover 2,141 acres. Visitors can see the parade ground, barracks,
+      blockhouse, commissary, and formal garden, and hike Young Hill to
+      the Royal Marines Cemetery.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-english-camp
+      - nps-sajh-basic
+
+sources:
+  - id: nps-english-camp
+    title: English Camp
+    publisher: National Park Service
+    url: https://www.nps.gov/sajh/planyourvisit/english-camp.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: nps-sajh-basic
+    title: Basic Information
+    publisher: National Park Service
+    url: https://www.nps.gov/sajh/planyourvisit/basicinfo.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/english-camp.jpg
+    mediaType: image
+    title: English Camp remains, Garrison Bay
+    creator: Historic American Buildings Survey
+    sourceUrl: https://commons.wikimedia.org/wiki/File:English_Camp_(Remains),_Garrison_Bay,_San_Juan_Island,_Friday_Harbor,_San_Juan_County,_WA_HABS_WASH,28-FRIHA,1-1.tif
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.loc.gov/pictures/collection/hh/
+    altText: Historic American Buildings Survey photograph of English Camp on Garrison Bay, San Juan Island.
+    creditLine: Photograph from the Historic American Buildings Survey. Public domain.
+
+relatedStories:
+  - slug: pig-war
+    relationshipType: same-arc
+  - slug: san-juan-islands-nwr
+    relationshipType: nearby
+  - slug: ebeys-landing
+    relationshipType: nearby
+  - slug: american-camp
+    relationshipType: same-park
+  - slug: island-marble-butterfly
+    relationshipType: nearby

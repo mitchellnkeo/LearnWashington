@@ -1,0 +1,101 @@
+slug: mcnary-nwr
+title: McNary National Wildlife Refuge
+hook: Fifteen thousand acres of sloughs and shrub-steppe were set aside in 1956 to replace habitat the dam drowned. More than half the Pacific Flyway's mallards winter in this basin.
+body: |
+  McNary National Wildlife Refuge was established in 1956 to replace
+  wildlife habitat lost to construction of McNary Dam downstream. It
+  covers 15,000 acres of sloughs, ponds, streams, and islands — riparian
+  and wetland habitat — as well as upland shrub-steppe and cliff-talus.
+
+  The refuge extends along the east bank of the Columbia River in
+  southeastern Washington, from the confluence of the Snake River to
+  the mouth of the Walla Walla River, and downstream into Oregon. It
+  sits around rural Burbank, close to the Tri-Cities.
+
+  FWS says few areas in North America support such dense concentrations
+  of waterfowl; more than half the mallards in the Pacific Flyway
+  overwinter at some time in this portion of the Columbia River Basin.
+  The refuge also supports raptors, mammals, and as many reptiles and
+  amphibians as can be found anywhere in the Columbia Basin. The source
+  below is the U.S. Fish and Wildlife Service refuge page.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1956-01-01"
+datePrecision: year
+dateLabel: "1956"
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: McNary National Wildlife Refuge
+  slug: mcnary-nwr
+  placeType: refuge
+  latitude: 46.2
+  longitude: -119.0
+  county: Walla Walla County
+  region: Columbia Basin
+
+categories:
+  - wildlife-ecology
+
+tags:
+  - refuge
+  - waterfowl
+  - columbia-river
+
+claims:
+  - text: >
+      FWS says McNary NWR was established in 1956 to replace wildlife
+      habitat lost to construction of McNary Dam. It covers 15,000 acres
+      of sloughs, ponds, streams, and islands as well as shrub-steppe
+      and cliff-talus habitat.
+    claimType: factual
+    confidence: verified
+    sources:
+      - fws-mcnary
+  - text: >
+      The refuge extends along the east bank of the Columbia from the
+      Snake River confluence to the mouth of the Walla Walla River and
+      downstream into Oregon, around Burbank near the Tri-Cities.
+    claimType: factual
+    confidence: verified
+    sources:
+      - fws-mcnary
+  - text: >
+      FWS says few areas in North America support such dense
+      concentrations of waterfowl, and that more than half the mallards
+      in the Pacific Flyway overwinter at some time in this portion of
+      the Columbia River Basin.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - fws-mcnary
+
+sources:
+  - id: fws-mcnary
+    title: McNary National Wildlife Refuge
+    publisher: U.S. Fish and Wildlife Service
+    url: https://www.fws.gov/refuge/mcnary
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/mcnary-nwr.jpg
+    mediaType: image
+    title: Walla Walla River at McNary National Wildlife Refuge
+    creator: U.S. Fish and Wildlife Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:McNary_National_Wildlife_Refuge,_Walla_Walla_River,_2021.jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.fws.gov/media/photo-use-information
+    altText: Wetland and river habitat along the Walla Walla River at McNary National Wildlife Refuge.
+    creditLine: Photograph by the U.S. Fish and Wildlife Service, 2021. Public domain.
+
+relatedStories:
+  - slug: mcnary-dam
+    relationshipType: nearby
+  - slug: ice-harbor-dam
+    relationshipType: nearby
+  - slug: columbia-chinook
+    relationshipType: same-arc
+  - slug: columbia-nwr
+    relationshipType: same-arc

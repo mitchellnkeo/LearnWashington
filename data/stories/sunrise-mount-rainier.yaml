@@ -1,0 +1,104 @@
+slug: sunrise-mount-rainier
+title: Sunrise
+hook: At 6,400 feet, this is the highest place a car can reach in Mount Rainier National Park, and it looks straight at Emmons Glacier.
+body: |
+  Sunrise, on the east side of Mount Rainier, is the highest point that
+  can be reached by vehicle in the park: 6,400 feet. In summer the
+  subalpine meadows fill with wildflowers. On clear days the view takes
+  in Mount Rainier and Emmons Glacier. Sunrise Point offers nearly
+  360-degree views of the surrounding valleys, Rainier, and other
+  Cascade volcanoes including Mount Adams.
+
+  Those views and the trail system make Sunrise the second most visited
+  location in the park. It is 60 miles northeast of the Nisqually
+  Entrance and 14 miles northwest of the Sunrise / White River turnoff
+  on State Route 410. The Sunrise Road usually opens in late June or
+  early July and closes in late September to early October.
+
+  The meadows around Sunrise are known collectively as Yakima Park.
+  NPS says that during the summers this area was a favorite of the
+  Yakama people for hunting and gathering, and that for thousands of
+  years these subalpine meadows have been important to Indigenous
+  people for their plant and animal resources. The source below is the
+  Mount Rainier National Park Sunrise page.
+status: PUBLISHED
+verificationStatus: VERIFIED
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Sunrise
+  slug: sunrise-mount-rainier
+  placeType: visitor-area
+  latitude: 46.914
+  longitude: -121.643
+  county: Pierce County
+  region: Cascades
+
+categories:
+  - geography-geology
+  - indigenous-history-place
+
+tags:
+  - mount-rainier
+  - meadows
+  - yakama
+
+claims:
+  - text: >
+      NPS says Sunrise is at 6,400 feet, the highest point reachable by
+      vehicle in Mount Rainier National Park, and the second most
+      visited location in the park. It is 60 miles northeast of the
+      Nisqually Entrance.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-sunrise
+  - text: >
+      On clear summer days Sunrise provides views of Mount Rainier and
+      Emmons Glacier. Sunrise Point offers nearly 360-degree views of
+      the surrounding valleys, Rainier, and other Cascade volcanoes
+      such as Mount Adams.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-sunrise
+  - text: >
+      NPS calls the meadows surrounding Sunrise Yakima Park and says
+      that during the summers this area was a favorite of the Yakama
+      people for hunting and gathering. For thousands of years these
+      subalpine meadows have been important to Indigenous people for
+      plant and animal resources.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-sunrise
+
+sources:
+  - id: nps-sunrise
+    title: Sunrise
+    publisher: National Park Service
+    url: https://www.nps.gov/mora/planyourvisit/sunrise.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/sunrise-mount-rainier.jpg
+    mediaType: image
+    title: Mount Rainier from Sunrise
+    creator: National Park Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Sunrise_(29194578774).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: Mount Rainier and Emmons Glacier seen from the Sunrise meadows.
+    creditLine: Photograph by the National Park Service. Public domain.
+
+relatedStories:
+  - slug: mount-rainier
+    relationshipType: same-park
+  - slug: paradise-mount-rainier
+    relationshipType: same-park
+  - slug: mount-rainier-glaciers
+    relationshipType: same-park
+  - slug: wonderland-trail
+    relationshipType: same-park

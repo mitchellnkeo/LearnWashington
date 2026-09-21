@@ -1,0 +1,110 @@
+slug: mount-rainier-glaciers
+title: Mount Rainier Glaciers
+hook: Twenty-eight major glaciers cover about 30 square miles of the mountain. Emmons is the largest in the Lower 48; Carbon ends the lowest.
+body: |
+  Mount Rainier holds 28 major glaciers and numerous unnamed snow or ice
+  patches, covering about 30 square miles (78 km²). They feed five major
+  river systems and are, NPS says, important indicators of climatic
+  change.
+
+  The Emmons Glacier has the largest area of any glacier in the
+  contiguous 48 states: 4.3 square miles. The Carbon Glacier has the
+  lowest terminus altitude, 3,600 feet. A 1963 rockslide off Little
+  Tahoma covers part of Emmons and, NPS says, insulates the ice and
+  slows its melt. The glacier also fills part of the scar of a collapse
+  on the northeast side of the mountain about 5,600 years ago.
+
+  Glacial outburst floods have sent debris flows down park valleys. A
+  flood from the South Tahoma Glacier created a debris flow along
+  Tahoma Creek on August 13, 2015. The sources below are Mount Rainier
+  National Park glacier and Sunrise geology pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+datePrecision: geologic
+dateLabel: northeast collapse about 5,600 years ago
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Emmons Glacier
+  slug: emmons-glacier
+  placeType: glacier
+  latitude: 46.853
+  longitude: -121.76
+  county: Pierce County
+  region: Cascades
+
+categories:
+  - geography-geology
+  - science-strange
+
+tags:
+  - glacier
+  - mount-rainier
+  - climate
+
+claims:
+  - text: >
+      NPS says Mount Rainier has 28 major glaciers and numerous unnamed
+      snow or ice patches covering about 30 square miles (78 km²). They
+      support five major river systems.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - nps-mora-glaciers
+  - text: >
+      Emmons Glacier has the largest area (4.3 square miles) and Carbon
+      Glacier has the lowest terminus altitude (3,600 feet) of all
+      glaciers in the contiguous 48 states.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - nps-mora-glaciers
+  - text: >
+      NPS says rock from a 1963 rockslide off Little Tahoma insulates
+      Emmons Glacier and slows the melting of the largest glacier in
+      the contiguous United States. A collapse about 5,600 years ago
+      left a scar on the northeast side that Emmons partly covers. A
+      glacial outburst flood from the South Tahoma Glacier created a
+      debris flow along Tahoma Creek on August 13, 2015.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - nps-mora-glaciers
+      - nps-sunrise-place
+
+sources:
+  - id: nps-mora-glaciers
+    title: Glaciers
+    publisher: National Park Service
+    url: https://www.nps.gov/mora/learn/nature/glaciers.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: nps-sunrise-place
+    title: Sunrise
+    publisher: National Park Service
+    url: https://www.nps.gov/places/sunrise.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/mount-rainier-glaciers.jpg
+    mediaType: image
+    title: Emmons Glacier terminus
+    creator: National Park Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Emmons_Glacier_Terminus_(dc0c2344-927e-4c6a-9232-20f20cd5b909).JPG
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: The debris-covered terminus of Emmons Glacier on the northeast side of Mount Rainier.
+    creditLine: Photograph by the National Park Service. Public domain.
+
+relatedStories:
+  - slug: mount-rainier
+    relationshipType: same-park
+  - slug: paradise-mount-rainier
+    relationshipType: same-park
+  - slug: sunrise-mount-rainier
+    relationshipType: same-park
+  - slug: wonderland-trail
+    relationshipType: same-park

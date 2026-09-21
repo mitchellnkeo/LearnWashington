@@ -119,3 +119,5 @@ relatedStories:
     relationshipType: nearby
   - slug: seattle-fault
     relationshipType: same-arc
+  - slug: puget-sound-earthquake-1965
+    relationshipType: same-arc

@@ -1,0 +1,99 @@
+slug: ginkgo-petrified-forest
+title: Ginkgo Petrified Forest
+hook: One of North America's most diverse fossil forests sits above the Columbia at Vantage — and petrified ginkgo turned up here in 1932.
+body: |
+  Ginkgo Petrified Forest State Park is a registered National Natural
+  Landmark on the Ice Age Floods National Geologic Trail. NPS calls it
+  one of the most diverse fossil forests in North America, famous for
+  rare petrified ginkgo discovered there in 1932. Petrified wood is
+  Washington's official state gem.
+
+  The interpretive center displays more than 30 varieties of petrified
+  wood, including rare ginkgo. The Trees of Stone Interpretive Trail
+  runs 1.25 miles past more than 20 petrified logs in their original
+  settings. The Trailside Museum was built by the Civilian Conservation
+  Corps in the 1930s. The site has 3 miles of hiking trails in all.
+
+  The state park covers 7,124 acres and 27,000 feet of freshwater
+  shoreline on Wanapum Lake. Ice Age floodwaters carved the Columbia
+  walls visible from the interpretive center. The sources below are
+  National Park Service Ice Age Floods pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1932-01-01"
+datePrecision: year
+dateLabel: ginkgo discovered 1932
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Ginkgo Petrified Forest
+  slug: ginkgo-petrified-forest
+  placeType: fossil_site
+  latitude: 46.95
+  longitude: -119.99
+  county: Kittitas County
+  region: Columbia Basin
+
+categories:
+  - geography-geology
+
+tags:
+  - ice-age-floods
+  - fossils
+  - columbia
+
+claims:
+  - text: >
+      NPS calls Ginkgo Petrified Forest one of the most diverse fossil
+      forests in North America, famous for rare petrified ginkgo
+      discovered in 1932. Petrified wood is Washington's official
+      state gem. The site is a National Natural Landmark.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-ginkgo-nnl
+  - text: >
+      The interpretive center features more than 30 varieties of
+      petrified wood. The Trees of Stone trail is 1.25 miles and
+      passes more than 20 petrified logs in their original settings.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-ginkgo-nnl
+  - text: >
+      The state park covers 7,124 acres and 27,000 feet of shoreline
+      on Wanapum Lake along the Columbia River.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-ginkgo-nnl
+
+sources:
+  - id: nps-ginkgo-nnl
+    title: Ginkgo Petrified Forest National Natural Landmark
+    publisher: National Park Service
+    url: https://www.nps.gov/places/ginkgo-petrified-forest-national-natural-landmark.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/ginkgo-petrified-forest.jpg
+    mediaType: image
+    title: Petrified wood at Ginkgo Petrified Forest
+    creator: Justin Bastow
+    sourceUrl: https://commons.wikimedia.org/wiki/File:PetrifiedWoodGPFSP.jpg
+    license: Public domain (author release)
+    licenseUrl: https://commons.wikimedia.org/wiki/File:PetrifiedWoodGPFSP.jpg
+    altText: A section of petrified wood at Ginkgo Petrified Forest State Park.
+    creditLine: Photograph by Justin Bastow, released to the public domain.
+
+relatedStories:
+  - slug: ice-age-floods
+    relationshipType: same-landscape
+  - slug: wallula-gap
+    relationshipType: same-landscape
+  - slug: dry-falls
+    relationshipType: same-landscape
+  - slug: grand-coulee-dam
+    relationshipType: nearby

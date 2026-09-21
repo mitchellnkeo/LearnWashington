@@ -122,3 +122,11 @@ relatedStories:
     relationshipType: same-arc
   - slug: glacier-peak
     relationshipType: same-arc
+  - slug: paradise-mount-rainier
+    relationshipType: same-park
+  - slug: sunrise-mount-rainier
+    relationshipType: same-park
+  - slug: mount-rainier-glaciers
+    relationshipType: same-park
+  - slug: wonderland-trail
+    relationshipType: same-park

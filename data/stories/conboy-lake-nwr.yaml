@@ -1,0 +1,104 @@
+slug: conboy-lake-nwr
+title: Conboy Lake National Wildlife Refuge
+hook: At the foot of Mount Adams, this valley holds Washington's only breeding greater sandhill cranes — about 25 pairs — and rare Oregon spotted frogs.
+body: |
+  Conboy Lake National Wildlife Refuge sits near the foot of Mount Adams
+  in the Cascades. FWS describes lush seasonal marshes and forested
+  uplands of oak, pine, and aspen, with wetlands, grassy prairies, and
+  streams.
+
+  The refuge supports Washington's largest and healthiest populations of
+  several rare plants, including Oregon coyote-thistle, rosy owl-clover,
+  Kellogg's rush, dwarf rush, and long-bearded sego lily. The rare
+  Oregon spotted frog breeds in wetlands throughout the refuge. Elk are
+  plentiful along refuge roads.
+
+  Conboy Lake also supports the only breeding population of greater
+  sandhill cranes in Washington, around 25 pairs. Settlers arrived in
+  the 1870s. The Whitcomb-Cole Hewn Log House still stands and is
+  listed on the National Register of Historic Places. The source below
+  is the U.S. Fish and Wildlife Service refuge page.
+status: PUBLISHED
+verificationStatus: VERIFIED
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Conboy Lake National Wildlife Refuge
+  slug: conboy-lake-nwr
+  placeType: refuge
+  latitude: 45.96
+  longitude: -121.62
+  county: Klickitat County
+  region: South Cascades
+
+categories:
+  - wildlife-ecology
+
+tags:
+  - refuge
+  - sandhill-crane
+  - mount-adams
+
+claims:
+  - text: >
+      FWS says Conboy Lake NWR is nestled near the foot of Mount Adams
+      and holds seasonal marshes and forested uplands of oak, pine, and
+      aspen, with wetlands, grassy prairies, and streams.
+    claimType: factual
+    confidence: verified
+    sources:
+      - fws-conboy
+      - fws-conboy-about
+  - text: >
+      The refuge supports Washington's largest and healthiest populations
+      of Oregon coyote-thistle, rosy owl-clover, Kellogg's rush, dwarf
+      rush, and long-bearded sego lily. Oregon spotted frogs breed in
+      wetlands throughout the refuge.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - fws-conboy-about
+  - text: >
+      Conboy Lake supports the only breeding population of greater
+      sandhill cranes in Washington, around 25 pairs. Settlers arrived
+      in the 1870s. The Whitcomb-Cole Hewn Log House is listed on the
+      National Register of Historic Places.
+    claimType: factual
+    confidence: verified
+    sources:
+      - fws-conboy-about
+
+sources:
+  - id: fws-conboy
+    title: Conboy Lake National Wildlife Refuge
+    publisher: U.S. Fish and Wildlife Service
+    url: https://www.fws.gov/refuge/conboy-lake
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: fws-conboy-about
+    title: Conboy Lake National Wildlife Refuge, About Us
+    publisher: U.S. Fish and Wildlife Service
+    url: https://www.fws.gov/refuge/conboy-lake/about-us
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/conboy-lake-nwr.jpg
+    mediaType: image
+    title: Ponderosa pine restoration at Conboy Lake
+    creator: USFWS Pacific Region
+    sourceUrl: https://commons.wikimedia.org/wiki/File:USFWS_Restoration_of_Ponderosa_Pine_Forest_(26498393031).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.fws.gov/media/photo-use-information
+    altText: Open ponderosa pine forest on Conboy Lake National Wildlife Refuge.
+    creditLine: Photograph by USFWS Pacific Region. Public domain.
+
+relatedStories:
+  - slug: mount-adams
+    relationshipType: nearby
+  - slug: columbia-nwr
+    relationshipType: same-arc
+  - slug: ridgefield-nwr
+    relationshipType: nearby

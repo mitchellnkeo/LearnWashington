@@ -1,0 +1,101 @@
+slug: copalis-ghost-forest
+title: Copalis Ghost Forest
+hook: Western red cedars at the Copalis River died between the 1699 and 1700 growing seasons — killed when Cascadia dropped the coast.
+body: |
+  A dead forest of western red cedar stands in a brackish tidal marsh
+  on the Copalis River. USGS says the trees were killed by rapid
+  subsidence during the most recent Cascadia megathrust earthquake.
+  Tree rings show they died sometime after the end of the A.D. 1699
+  growing season and before the beginning of the A.D. 1700 growing
+  season.
+
+  That timing matches a tsunami recorded in Japanese historical
+  records. USGS Fact Sheet 2025-3050 dates the last great Cascadia
+  earthquake to January 26, 1700, with an estimated magnitude between
+  8.7 and 9.2. Living forest behind the snags stands above the highest
+  tides.
+
+  The photograph below is by Brian Atwater of the U.S. Geological
+  Survey. The sources below are USGS pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1700-01-26"
+datePrecision: day
+dateLabel: January 26, 1700
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Copalis River ghost forest
+  slug: copalis-ghost-forest
+  placeType: estuary
+  latitude: 47.12
+  longitude: -124.17
+  county: Grays Harbor County
+  region: Pacific Coast
+
+categories:
+  - geography-geology
+  - science-strange
+
+tags:
+  - cascadia
+  - earthquake
+  - tsunami
+
+claims:
+  - text: >
+      USGS says a dead forest of western red cedar in a Copalis River
+      tidal marsh was killed by rapid subsidence in the most recent
+      Cascadia earthquake. Tree rings date the deaths to after the
+      1699 growing season and before the 1700 growing season.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - usgs-copalis-photo
+  - text: >
+      That age is consistent with a tsunami recorded in Japanese
+      historical records. USGS Fact Sheet 2025-3050 dates the last
+      great Cascadia earthquake to January 26, 1700, magnitude 8.7 to
+      9.2.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - usgs-copalis-photo
+      - usgs-fs-2025-3050
+
+sources:
+  - id: usgs-copalis-photo
+    title: Dead Red Cedar Forest
+    publisher: U.S. Geological Survey
+    url: https://www.usgs.gov/media/images/dead-red-cedar-forest
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: usgs-fs-2025-3050
+    title: Earthquake probabilities and hazards in the U.S. Pacific Northwest
+    publisher: U.S. Geological Survey
+    url: https://pubs.usgs.gov/publication/fs20253050/full
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/copalis-ghost-forest.jpg
+    mediaType: image
+    title: Dead western red cedars at the Copalis River
+    creator: Brian Atwater, U.S. Geological Survey
+    sourceUrl: https://www.usgs.gov/media/images/dead-red-cedar-forest
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+    altText: Dead western red cedar snags standing in a tidal marsh at the Copalis River.
+    creditLine: Photograph by Brian Atwater, U.S. Geological Survey. Public domain.
+
+relatedStories:
+  - slug: cascadia-subduction-zone
+    relationshipType: same-arc
+  - slug: olympic-coast-national-marine-sanctuary
+    relationshipType: nearby
+  - slug: grays-harbor-nwr
+    relationshipType: nearby
+  - slug: nisqually-earthquake-2001
+    relationshipType: same-arc

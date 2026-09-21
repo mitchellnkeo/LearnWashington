@@ -118,3 +118,7 @@ relatedStories:
     relationshipType: same-arc
   - slug: southern-resident-orcas
     relationshipType: nearby
+  - slug: english-camp
+    relationshipType: same-arc
+  - slug: american-camp
+    relationshipType: same-arc

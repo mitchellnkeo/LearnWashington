@@ -103,3 +103,5 @@ relatedStories:
     relationshipType: same-park
   - slug: lake-chelan
     relationshipType: same-park
+  - slug: cascade-pass
+    relationshipType: same-park

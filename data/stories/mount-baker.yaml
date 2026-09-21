@@ -113,3 +113,5 @@ relatedStories:
     relationshipType: same-arc
   - slug: diablo-lake
     relationshipType: nearby
+  - slug: artist-point
+    relationshipType: nearby

@@ -1,0 +1,99 @@
+slug: dismal-nitch
+title: Dismal Nitch
+hook: A November 1805 storm pinned the Corps of Discovery to a rocky Washington cove for six days — Clark called it “that dismal little nitch.”
+body: |
+  The Corps of Discovery followed the north shore of Grays Bay for two
+  days trying to round Point Ellice. A winter storm forced them off the
+  Columbia on November 10, 1805, and pinned them to a cove of jagged
+  rocks and steep hillside. William Clark named the spot “that dismal
+  little nitch.”
+
+  NPS says the party was trapped for six stormy days. For only the
+  second time on the expedition, Clark said he was concerned for the
+  safety of the Corps. On November 15 a break in the weather let them
+  load the canoes and round Point Ellice. They landed on a sandy beach
+  and established Station Camp.
+
+  The site later held a fish receiving station, a ferry landing, and a
+  train station. Washington demolished the ferry landing in 1968–1969
+  and built the Megler Rest Area. It was renamed the Dismal Nitch Rest
+  Area in 2005. The wayside is on SR 401, ten miles south of Naselle.
+  The sources below are National Park Service pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1805-11-10"
+datePrecision: day
+dateLabel: November 10–15, 1805
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Dismal Nitch
+  slug: dismal-nitch
+  placeType: historic_site
+  latitude: 46.25
+  longitude: -123.86
+  county: Pacific County
+  region: Columbia Mouth
+
+categories:
+  - history
+
+tags:
+  - lewis-and-clark
+  - columbia
+  - expedition
+
+claims:
+  - text: >
+      NPS says a storm forced the Corps off the Columbia on November
+      10, 1805, and pinned them to a rocky north-shore cove. Clark
+      named it “that dismal little nitch.”
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-dismal-nitch
+  - text: >
+      The party was trapped for six stormy days. On November 15 they
+      rounded Point Ellice and established Station Camp. For only the
+      second time on the expedition, Clark said he was concerned for
+      the Corps' safety.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-dismal-nitch
+  - text: >
+      Washington demolished the ferry landing in 1968 and 1969 and
+      built the Megler Rest Area, renamed Dismal Nitch Rest Area in
+      2005. The wayside is on SR 401, ten miles south of Naselle.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-dismal-nitch
+
+sources:
+  - id: nps-dismal-nitch
+    title: Dismal Nitch
+    publisher: National Park Service
+    url: https://www.nps.gov/places/dismal-nitch.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/dismal-nitch.jpg
+    mediaType: image
+    title: Astoria–Megler Bridge from the southern tower
+    creator: Historic American Engineering Record
+    sourceUrl: https://commons.wikimedia.org/wiki/File:View_from_southern_tower_-_Columbia_River_Gorge_Bridge_at_Astoria,_Spanning_Columbia_River_at_Oregon_Coast_Highway_(U.S._Route_101),_Astoria,_Clatsop_County,_OR_HAER_ORE,4-AST,1-1.tif
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.loc.gov/pictures/collection/hh/
+    altText: Looking across the Columbia River from the Astoria–Megler Bridge toward the Washington shore near Dismal Nitch.
+    creditLine: Photograph from the Historic American Engineering Record. Public domain.
+
+relatedStories:
+  - slug: cape-disappointment
+    relationshipType: nearby
+  - slug: columbia-chinook
+    relationshipType: same-arc
+  - slug: fort-vancouver
+    relationshipType: same-arc

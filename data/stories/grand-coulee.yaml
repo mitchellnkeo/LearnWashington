@@ -1,0 +1,93 @@
+slug: grand-coulee
+title: Grand Coulee
+hook: A dry canyon about 50 miles long holds the geologic story of a river that lost its channel — until people flooded part of it as Banks Lake.
+body: |
+  Grand Coulee is a National Natural Landmark on the Ice Age Floods
+  trail. NPS says this geologic feature is approximately 81 kilometers
+  (50 miles) long. From Dry Falls State Park, about 5 miles southwest
+  of Coulee City, visitors can see much of the evidence.
+
+  The landmark page walks through a series of events: the ancestral
+  Columbia flowed through a low range of granite mountains; lava built
+  the Columbia Plateau and diverted the river; ice advanced and
+  receded; a new course was cut; waterfalls formed and retreated; and
+  the Columbia returned to its present channel, leaving the Coulee high
+  and dry until part of it was turned into a reservoir by damming.
+
+  That reservoir is Banks Lake, behind Dry Falls Dam, fed from Grand
+  Coulee Dam. This card is the canyon. The dam and the lake are
+  separate cards. The source below is the National Park Service
+  landmark page.
+status: PUBLISHED
+verificationStatus: VERIFIED
+datePrecision: geologic
+dateLabel: Ice Age floods
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Grand Coulee
+  slug: grand-coulee
+  placeType: coulee
+  latitude: 47.62
+  longitude: -119.30
+  county: Grant County
+  region: Columbia Basin
+
+categories:
+  - geography-geology
+
+tags:
+  - ice-age-floods
+  - coulee
+  - scabland
+
+claims:
+  - text: >
+      NPS says Grand Coulee is approximately 81 kilometers (50 miles)
+      long. Dry Falls State Park, about 8 kilometers (5 miles)
+      southwest of Coulee City, shows much of the geologic evidence.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - nps-grand-coulee-nnl
+  - text: >
+      NPS describes a sequence of granite highlands, lava that built
+      the Columbia Plateau and diverted the ancestral Columbia, ice
+      advance and retreat, a new river course, waterfalls that formed
+      and retreated, and the Columbia's return to its present channel,
+      leaving the Coulee dry until part of it was dammed as a
+      reservoir.
+    claimType: scientific
+    confidence: verified
+    sources:
+      - nps-grand-coulee-nnl
+
+sources:
+  - id: nps-grand-coulee-nnl
+    title: Grand Coulee National Natural Landmark
+    publisher: National Park Service
+    url: https://www.nps.gov/places/grand-coulee-national-natural-landmark.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/grand-coulee.jpg
+    mediaType: image
+    title: Crescent Bay and Grand Coulee, about 1940
+    creator: National Park Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Crescent_Bay_and_Grand_Coulee._Circa_1940._(38b692b8-0f82-4d8a-8ca1-5273ce989bfe).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: The dry Grand Coulee and Crescent Bay before reservoir flooding, about 1940.
+    creditLine: Photograph from the National Park Service, NPGallery, circa 1940. Public domain.
+
+relatedStories:
+  - slug: dry-falls
+    relationshipType: nearby
+  - slug: banks-lake
+    relationshipType: nearby
+  - slug: grand-coulee-dam
+    relationshipType: nearby
+  - slug: ice-age-floods
+    relationshipType: same-landscape

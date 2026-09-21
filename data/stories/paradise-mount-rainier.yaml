@@ -1,0 +1,100 @@
+slug: paradise-mount-rainier
+title: Paradise
+hook: Martha Longmire called this 5,400-foot meadow a paradise, and the park still measures about 640 inches of snow here in an average winter.
+body: |
+  Paradise sits at 5,400 feet on the south side of Mount Rainier. When
+  James Longmire's daughter-in-law, Martha, first saw the site, she
+  exclaimed, "Oh, what a paradise!" The National Park Service keeps that
+  name. The Henry M. Jackson Memorial Visitor Center is in the upper
+  parking area. Paradise is 19 miles (30 km) east of the Nisqually
+  Entrance and 12 miles (19 km) east of Longmire.
+
+  It is the park's main winter-use area, receiving on average 640 inches
+  (53.6 feet / 16.2 meters) of snow a year. The road between Longmire
+  and Paradise is plowed in winter but closes at night. Summer trails
+  climb through fragile subalpine meadows. The Skyline Trail, 5.5 miles
+  (8.8 km), is the essential Paradise loop, with views of Rainier, the
+  Tatoosh Range, and on clear days Mount Adams and Mount St. Helens.
+
+  Snow can linger on the trails well into June or July. Pets are not
+  allowed on any trails. The sources below are Mount Rainier National
+  Park visitor pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Paradise
+  slug: paradise-mount-rainier
+  placeType: visitor-area
+  latitude: 46.866
+  longitude: -121.683
+  county: Pierce County
+  region: Cascades
+
+categories:
+  - geography-geology
+
+tags:
+  - mount-rainier
+  - meadows
+  - snow
+
+claims:
+  - text: >
+      NPS says Paradise is at 5,400 feet, 19 miles (30 km) east of the
+      Nisqually Entrance and 12 miles (19 km) east of Longmire. Martha
+      Longmire exclaimed, "Oh, what a paradise!" when she first saw the
+      site. The Jackson Memorial Visitor Center is in the upper parking
+      area.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-paradise
+  - text: >
+      Paradise is the park's primary winter-use area and receives on
+      average 640 inches (53.6 feet / 16.2 meters) of snow a year. The
+      Longmire-to-Paradise road is plowed but closes at night in winter.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-paradise
+  - text: >
+      The Skyline Trail is a 5.5-mile (8.8 km) loop through subalpine
+      meadows with views of Mount Rainier, glaciers, and the Tatoosh
+      Range, and glimpses of Mount Adams and Mount St. Helens on clear
+      days. Pets are not allowed on any trails.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-paradise
+
+sources:
+  - id: nps-paradise
+    title: Paradise
+    publisher: National Park Service
+    url: https://www.nps.gov/mora/planyourvisit/paradise.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/paradise-mount-rainier.jpg
+    mediaType: image
+    title: Mount Rainier from Paradise
+    creator: Mount Rainier National Park
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Mount_Rainier_from_Paradise_(33472882542).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: Snow-covered Mount Rainier rising above subalpine meadows at Paradise in spring.
+    creditLine: Photograph by Mount Rainier National Park, April 15, 2016. Public domain.
+
+relatedStories:
+  - slug: mount-rainier
+    relationshipType: same-park
+  - slug: sunrise-mount-rainier
+    relationshipType: same-park
+  - slug: wonderland-trail
+    relationshipType: same-park
+  - slug: mount-rainier-glaciers
+    relationshipType: same-park

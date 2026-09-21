@@ -1,0 +1,115 @@
+slug: american-camp
+title: American Camp
+hook: Lieutenant Colonel Silas Casey sited the U.S. camp in 1859 outside British naval range — for a Pig War that was never fought.
+body: |
+  The American Camp parade ground on San Juan Island was chosen by
+  Lieutenant Colonel Silas Casey. NPS says he arrived in 1859 with
+  reinforcements for the imminent — but never fought — Pig War. The
+  site sat outside the range of British naval artillery, had abundant
+  water, and offered some protection from the weather.
+
+  Compared with English Camp, American Camp was utilitarian. At its
+  peak it had a telegraph station, schoolhouse, infirmary, and
+  blockhouse. Two of the three surviving structures were relocated
+  after the park was created. Visitors can still see the original
+  officers' quarters, the Redoubt, and the Laundress Quarters.
+
+  San Juan Island National Historical Park covers 2,141 acres in two
+  units. Of roughly 700 acres of American Camp prairie grassland, NPS
+  says only about 30 acres can be considered true native prairie — some
+  of the last surviving native prairie in Washington, about 3 percent
+  of its original extent. The sources below are park pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1859-01-01"
+datePrecision: year
+dateLabel: "1859"
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: American Camp
+  slug: american-camp
+  placeType: historic_site
+  latitude: 48.464
+  longitude: -123.024
+  county: San Juan County
+  region: San Juan Islands
+
+categories:
+  - history
+
+tags:
+  - pig-war
+  - san-juan
+  - military
+
+claims:
+  - text: >
+      NPS says Lieutenant Colonel Silas Casey chose the American Camp
+      parade ground in 1859 for reinforcements in the Pig War, which
+      was never fought. The site was outside British naval artillery
+      range and had abundant water.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-american-camp
+  - text: >
+      Two of the three surviving structures were relocated after the
+      park was created. Visitors can still see the original officers'
+      quarters, the Redoubt, and the Laundress Quarters.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-american-camp
+  - text: >
+      The park covers 2,141 acres in two units. Of roughly 700 acres
+      of American Camp prairie grassland, about 30 acres are true
+      native prairie — some of the last surviving native prairie in
+      Washington, about 3 percent of its original extent.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-sajh-basic
+      - nps-sajh-prairies
+
+sources:
+  - id: nps-american-camp
+    title: American Camp
+    publisher: National Park Service
+    url: https://www.nps.gov/sajh/planyourvisit/american-camp.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: nps-sajh-basic
+    title: Basic Information
+    publisher: National Park Service
+    url: https://www.nps.gov/sajh/planyourvisit/basicinfo.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: nps-sajh-prairies
+    title: Prairies and Grasslands of San Juan Island
+    publisher: National Park Service
+    url: https://www.nps.gov/sajh/learn/nature/prairies-and-grasslands-of-san-juan-island.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/american-camp.jpg
+    mediaType: image
+    title: Officers' Quarters at American Camp
+    creator: Mike Vouri, National Park Service
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Officer%27s_Quarters_SJNHP.jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: The historic officers' quarters at American Camp on San Juan Island.
+    creditLine: Photograph by Mike Vouri, San Juan Island National Historical Park. Public domain.
+
+relatedStories:
+  - slug: english-camp
+    relationshipType: same-park
+  - slug: pig-war
+    relationshipType: same-arc
+  - slug: san-juan-islands-nwr
+    relationshipType: nearby

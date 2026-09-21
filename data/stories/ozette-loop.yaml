@@ -1,0 +1,105 @@
+slug: ozette-loop
+title: Ozette Loop
+hook: Three boardwalk and beach legs make a 9-mile triangle from Lake Ozette to Cape Alava and Sand Point.
+body: |
+  Trails at Ozette begin behind the ranger station. NPS lists Cape Alava
+  at 3.1 miles of trail, boardwalk, and stairs through prairie and
+  coastal forest to a rocky beach. Sand Point is 2.8 miles of mostly
+  boardwalk to a wide sandy beach. A 3.1-mile hike on sand and rock
+  connects them into a 9-mile loop.
+
+  As many as 130 homestead families lived at Lake Ozette in the early
+  1890s. Most left after the Olympic Forest Reserve was created in 1897.
+  A strip of coast and the Ozette area were added to Olympic National
+  Park in 1940. The campground has 15 sites.
+
+  A storm in 1970 exposed clay banks that held a Makah village buried
+  by mudslides. Archeologists excavated 300-year-old longhouses. Three
+  of five longhouses were fully unearthed and more than 50,000 artifacts
+  recovered. Bone, shell, and stone artifacts told of a sea-mammal
+  hunting culture dating back at least 2,000 years. Many artifacts are
+  at the Makah Museum in Neah Bay. The sources below are the Olympic
+  National Park Ozette brochure.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1940-01-01"
+datePrecision: year
+dateLabel: added to the park 1940
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Cape Alava
+  slug: cape-alava
+  placeType: coast
+  latitude: 48.166
+  longitude: -124.733
+  county: Clallam County
+  region: Olympic Coast
+
+categories:
+  - geography-geology
+  - indigenous-history-place
+
+tags:
+  - olympic
+  - coast
+  - makah
+
+claims:
+  - text: >
+      NPS lists the Cape Alava trail at 3.1 miles, Sand Point at 2.8
+      miles, and a 3.1-mile beach walk that closes a 9-mile loop.
+    claimType: factual
+    confidence: verified
+    sources:
+      - nps-ozette-brochure
+  - text: >
+      As many as 130 homestead families lived at Lake Ozette in the
+      early 1890s. Most left after the Olympic Forest Reserve was
+      created in 1897. The Ozette area was added to the park in 1940.
+      The campground has 15 sites.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-ozette-brochure
+  - text: >
+      NPS says a 1970 storm exposed a Makah village buried by
+      mudslides. Archeologists excavated 300-year-old longhouses.
+      Three of five were fully unearthed and more than 50,000
+      artifacts recovered, many now at the Makah Museum. Artifacts
+      told of a sea-mammal hunting culture dating back at least 2,000
+      years.
+    claimType: historical
+    confidence: verified
+    sources:
+      - nps-ozette-brochure
+
+sources:
+  - id: nps-ozette-brochure
+    title: Lake Ozette Area Brochure
+    publisher: National Park Service
+    url: https://www.nps.gov/olym/planyourvisit/lake-ozette-area-brochure.htm
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/ozette-loop.jpg
+    mediaType: image
+    title: Island near Cape Alava
+    creator: C. Bubar, Olympic National Park
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Island_near_cape_alava_wilderness_coastline_north_c_bubar_july_2014_(17313354431).jpg
+    license: Public domain (U.S. government work)
+    licenseUrl: https://www.nps.gov/aboutus/disclaimer.htm
+    altText: A sea stack and wilderness coastline north of Cape Alava.
+    creditLine: Photograph by C. Bubar, Olympic National Park, July 2014. Public domain.
+
+relatedStories:
+  - slug: olympic-coast-national-marine-sanctuary
+    relationshipType: nearby
+  - slug: olympic-national-park-1938
+    relationshipType: same-park
+  - slug: ruby-beach
+    relationshipType: nearby
+  - slug: kalaloch
+    relationshipType: nearby
