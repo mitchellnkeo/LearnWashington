@@ -26,7 +26,7 @@ export function SiteHeader() {
           </span>
         </Link>
         <nav aria-label="Primary" className="flex gap-5 text-sm font-bold">
-          <Link href="/" className="underline-offset-4 hover:underline">
+          <Link href="/explore" className="underline-offset-4 hover:underline">
             Map
           </Link>
           <Link href="/stories" className="underline-offset-4 hover:underline">

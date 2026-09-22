@@ -45,7 +45,7 @@ export function ExploreMap({
 
   const replaceQuery = useCallback(
     (next: Parameters<typeof writeMapView>[1]) => {
-      if (pathname !== "/") {
+      if (pathname !== "/explore") {
         return;
       }
       const query = writeMapView(searchParams, next);

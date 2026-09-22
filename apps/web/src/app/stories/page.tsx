@@ -178,7 +178,7 @@ export default async function StoriesPage({ searchParams }: PageProps) {
                     </ul>
                     <p className="mt-4">
                       <Link
-                        href={`/?story=${story.slug}`}
+                        href={`/explore?story=${story.slug}`}
                         className="btn btn-quiet text-sm"
                       >
                         Open on the map

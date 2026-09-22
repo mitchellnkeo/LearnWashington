@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import { Atkinson_Hyperlegible, Calistoga } from "next/font/google";
+import { Atkinson_Hyperlegible, Calistoga, Caveat } from "next/font/google";
 import "./globals.css";
 
 const display = Calistoga({
@@ -18,6 +18,13 @@ const sans = Atkinson_Hyperlegible({
   display: "swap",
 });
 
+const letter = Caveat({
+  subsets: ["latin"],
+  weight: ["500", "700"],
+  variable: "--font-letter",
+  display: "swap",
+});
+
 export const metadata: Metadata = {
   title: "From Washington To You",
   description: "Explore Washington, one story at a time.",
@@ -30,7 +37,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${display.variable} ${sans.variable}`}>
+    <html
+      lang="en"
+      className={`${display.variable} ${sans.variable} ${letter.variable}`}
+    >
       <body className="min-h-dvh antialiased">
         <a href="#main-content" className="skip-link">
           Skip to content
