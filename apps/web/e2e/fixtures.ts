@@ -10,6 +10,7 @@ export const mapStories = {
         id: "rainier",
         slug: "mount-rainier",
         title: "Mount Rainier",
+        hook: rainierPostcard.hook,
         category: "geography-geology",
         icon: "mountain",
         geometryType: "Point",

@@ -61,6 +61,7 @@ export type MapStoryFeature = {
     id: string;
     slug: string;
     title: string;
+    hook: string;
     category: string | null;
     icon: string | null;
     geometryType: string;
@@ -71,4 +72,15 @@ export type MapStoryFeature = {
 export type MapStoriesResponse = {
   type: "FeatureCollection";
   features: MapStoryFeature[];
+};
+
+export type StorySummary = {
+  slug: string;
+  title: string;
+  hook: string;
+  locationLabel: string;
+  dateLabel: string | null;
+  region: string | null;
+  categories: { slug: string; name: string }[];
+  image: { url: string; altText: string } | null;
 };

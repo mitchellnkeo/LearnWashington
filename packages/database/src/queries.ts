@@ -24,6 +24,7 @@ export type MapStoryFeature = {
     id: string;
     slug: string;
     title: string;
+    hook: string;
     category: string | null;
     icon: string | null;
     geometryType: string;
@@ -139,6 +140,7 @@ export async function listPublishedMapStories(
       id: string;
       slug: string;
       title: string;
+      hook: string;
       category: string | null;
       icon: string | null;
       geometry: GeoJsonPoint;
@@ -150,6 +152,7 @@ export async function listPublishedMapStories(
       s.id,
       s.slug,
       s.title,
+      s.hook,
       (
         select c.slug
         from story_categories sc
@@ -189,6 +192,7 @@ export async function listPublishedMapStories(
         id: row.id,
         slug: row.slug,
         title: row.title,
+        hook: row.hook,
         category: row.category,
         icon: row.icon,
         geometryType,

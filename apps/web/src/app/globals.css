@@ -188,6 +188,49 @@ h2,
   background: var(--khaki) !important;
 }
 
+.story-hover-popup.maplibregl-popup {
+  pointer-events: none;
+}
+
+.story-hover-popup .maplibregl-popup-content {
+  max-width: 16.5rem;
+  padding: 0;
+  border: 2px solid var(--ink);
+  border-radius: 0;
+  background: var(--card);
+  box-shadow: 0 12px 28px rgb(36 49 44 / 0.18);
+}
+
+.story-hover-popup .maplibregl-popup-tip {
+  border-top-color: var(--ink);
+}
+
+.story-hover-card {
+  padding: 0.7rem 0.8rem 0.75rem;
+}
+
+.story-hover-kicker {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--park-deep);
+}
+
+.story-hover-title {
+  margin-top: 0.15rem;
+  font-family: var(--font-display), ui-serif, Georgia, serif;
+  font-size: 1.15rem;
+  line-height: 1.15;
+}
+
+.story-hover-hook {
+  margin-top: 0.35rem;
+  font-size: 0.82rem;
+  line-height: 1.35;
+  color: var(--ink);
+}
+
 .skip-link {
   position: absolute;
   left: 0.75rem;

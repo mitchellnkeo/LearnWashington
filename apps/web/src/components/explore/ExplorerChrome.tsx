@@ -183,12 +183,20 @@ export function ExplorerChrome({
                   setOpen(false);
                   onSelectStory(slug);
                 }}
-                onSelectCategory={(slug) => onSelectCategory(slug)}
+                onSelectCategory={(slug) => {
+                  setOpen(false);
+                  onSelectCategory(slug);
+                }}
               />
               <CategoryFilter
                 wrap
                 category={category}
-                onSelect={onSelectCategory}
+                onSelect={(next) => {
+                  if (next) {
+                    setOpen(false);
+                  }
+                  onSelectCategory(next);
+                }}
               />
             </div>
           </section>

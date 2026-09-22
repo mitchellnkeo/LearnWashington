@@ -39,8 +39,30 @@ test("Surprise Me opens a postcard", async ({ page }) => {
 
 test("category filters update the URL", async ({ page }) => {
   await mockDiscovery(page);
+  await page.route("**/api/stories?*", async (route) => {
+    await route.fulfill({
+      json: {
+        stories: [
+          {
+            slug: "mount-rainier",
+            title: "Mount Rainier",
+            hook: rainierPostcard.hook,
+            locationLabel: rainierPostcard.locationLabel,
+            dateLabel: rainierPostcard.dateLabel,
+            region: "Cascades",
+            categories: rainierPostcard.categories,
+            image: null,
+          },
+        ],
+      },
+    });
+  });
   await page.goto("/explore");
   await page.getByRole("button", { name: "Explore" }).click();
   await page.getByRole("button", { name: "History", exact: true }).click();
+  await expect(page).toHaveURL(/category=history/);
+  await page.getByRole("button", { name: /Mount Rainier/ }).click();
+  await expect(page.getByRole("heading", { name: "Mount Rainier" })).toBeVisible();
+  await expect(page).toHaveURL(/story=mount-rainier/);
   await expect(page).toHaveURL(/category=history/);
 });

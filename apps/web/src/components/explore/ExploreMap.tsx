@@ -4,11 +4,16 @@ import { type MapBBox } from "@fwty/shared";
 import dynamic from "next/dynamic";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { CategoryResults } from "@/components/explore/CategoryResults";
 import { ExplorerChrome } from "@/components/explore/ExplorerChrome";
 import { PostcardDrawer } from "@/components/postcard/PostcardDrawer";
 import { trackEvent } from "@/lib/analytics";
 import { mapStoriesUrl, readMapView, writeMapView } from "@/lib/map-url";
-import type { MapStoriesResponse, StoryPostcard } from "@/lib/story-types";
+import type {
+  MapStoriesResponse,
+  StoryPostcard,
+  StorySummary,
+} from "@/lib/story-types";
 
 const WashingtonMap = dynamic(
   () =>
@@ -28,6 +33,8 @@ export function ExploreMap({
   const selectedSlug = view.story ?? null;
   const category = view.category;
   const [stories, setStories] = useState(initialStories);
+  const [categoryStories, setCategoryStories] = useState<StorySummary[]>([]);
+  const [categoryLoading, setCategoryLoading] = useState(false);
   const [loadedStory, setLoadedStory] = useState<StoryPostcard | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [viewport, setViewport] = useState<{ bbox?: MapBBox; zoom?: number }>({
@@ -75,6 +82,13 @@ export function ExploreMap({
     [replaceQuery],
   );
 
+  const selectListedStory = useCallback(
+    (slug: string) => {
+      replaceQuery({ story: slug });
+    },
+    [replaceQuery],
+  );
+
   useEffect(() => {
     const controller = new AbortController();
     fetch(
@@ -104,6 +118,41 @@ export function ExploreMap({
 
     return () => controller.abort();
   }, [category, viewport.bbox, viewport.zoom]);
+
+  useEffect(() => {
+    if (!category) {
+      setCategoryStories([]);
+      setCategoryLoading(false);
+      return;
+    }
+
+    const controller = new AbortController();
+    setCategoryLoading(true);
+    fetch(`/api/stories?category=${encodeURIComponent(category)}`, {
+      signal: controller.signal,
+    })
+      .then(async (response) => {
+        if (!response.ok) {
+          throw new Error("Could not load category stories.");
+        }
+        return (await response.json()) as { stories: StorySummary[] };
+      })
+      .then((payload) => {
+        setCategoryStories(payload.stories);
+        setCategoryLoading(false);
+        setError(null);
+      })
+      .catch((caught: unknown) => {
+        if (caught instanceof DOMException && caught.name === "AbortError") {
+          return;
+        }
+        setCategoryStories([]);
+        setCategoryLoading(false);
+        setError("Those stories could not be listed.");
+      });
+
+    return () => controller.abort();
+  }, [category]);
 
   useEffect(() => {
     if (!selectedSlug) {
@@ -183,6 +232,22 @@ export function ExploreMap({
           onViewChange={onViewChange}
         />
       </div>
+      {category ? (
+        <div
+          className={`pointer-events-none absolute inset-x-0 bottom-[4.75rem] z-30 md:inset-auto md:top-4 md:bottom-4 md:left-[6.25rem] ${
+            story ? "hidden md:block" : ""
+          }`}
+        >
+          <CategoryResults
+            category={category}
+            stories={categoryStories}
+            selectedSlug={selectedSlug}
+            loading={categoryLoading}
+            onSelectCategory={selectCategory}
+            onSelectStory={selectListedStory}
+          />
+        </div>
+      ) : null}
       <ExplorerChrome
         category={category}
         onSelectCategory={selectCategory}

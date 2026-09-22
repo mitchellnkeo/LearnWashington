@@ -8,6 +8,7 @@ import {
 import maplibregl, { type GeoJSONSource, type MapLayerMouseEvent } from "maplibre-gl";
 import { useEffect, useRef } from "react";
 import { debounce } from "@/lib/debounce";
+import { storyHoverHtml } from "@/lib/story-hover";
 import {
   DEFAULT_MAP_STYLE,
   WASHINGTON_BOUNDS,
@@ -89,6 +90,7 @@ export function WashingtonMap({
   const onViewChangeRef = useRef(onViewChange);
   const initialViewRef = useRef(initialView);
   const storiesRef = useRef(stories);
+  const selectedSlugRef = useRef(selectedSlug);
   const selectedOnMount = useRef(selectedSlug);
   const skipInitialFly = useRef(Boolean(selectedSlug));
 
@@ -103,6 +105,10 @@ export function WashingtonMap({
   useEffect(() => {
     storiesRef.current = stories;
   }, [stories]);
+
+  useEffect(() => {
+    selectedSlugRef.current = selectedSlug;
+  }, [selectedSlug]);
 
   useEffect(() => {
     const container = containerRef.current;
@@ -362,9 +368,17 @@ export function WashingtonMap({
         });
       });
 
+      const hoverPopup = new maplibregl.Popup({
+        closeButton: false,
+        closeOnClick: false,
+        offset: 18,
+        className: "story-hover-popup",
+      });
+
       function selectFromEvent(event: MapLayerMouseEvent) {
         const slug = event.features?.[0]?.properties?.slug;
         if (typeof slug === "string") {
+          hoverPopup.remove();
           onSelectRef.current(slug);
         }
       }
@@ -374,17 +388,50 @@ export function WashingtonMap({
       nextMap.on("click", "story-shapes-line", selectFromEvent);
       nextMap.on("click", "story-polygons-fill", selectFromEvent);
 
+      function showHover(event: MapLayerMouseEvent) {
+        const feature = event.features?.[0];
+        const properties = feature?.properties;
+        if (!feature || !properties || typeof properties.slug !== "string") {
+          return;
+        }
+        if (properties.slug === selectedSlugRef.current) {
+          hoverPopup.remove();
+          return;
+        }
+
+        const lngLat =
+          feature.geometry.type === "Point"
+            ? (feature.geometry.coordinates as [number, number])
+            : event.lngLat;
+        hoverPopup
+          .setLngLat(lngLat)
+          .setHTML(
+            storyHoverHtml({
+              title: String(properties.title ?? ""),
+              hook: typeof properties.hook === "string" ? properties.hook : null,
+              category:
+                typeof properties.category === "string"
+                  ? properties.category
+                  : null,
+            }),
+          )
+          .addTo(nextMap);
+      }
+
       for (const layer of [
         "story-points",
         "story-icons",
         "story-shapes-line",
         "story-polygons-fill",
       ]) {
-        nextMap.on("mouseenter", layer, () => {
+        nextMap.on("mouseenter", layer, (event) => {
           nextMap.getCanvas().style.cursor = "pointer";
+          showHover(event);
         });
+        nextMap.on("mousemove", layer, showHover);
         nextMap.on("mouseleave", layer, () => {
           nextMap.getCanvas().style.cursor = "";
+          hoverPopup.remove();
         });
       }
     }
