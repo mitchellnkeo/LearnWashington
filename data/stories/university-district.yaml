@@ -1,0 +1,153 @@
+slug: university-district
+title: University District
+hook: Brooklyn voted itself into Seattle in 1891. Four years later the University of Washington moved in, and the streetcar stop became University Station.
+body: |
+  A City of Seattle historic-resources survey says James A. Moore
+  platted the Brooklyn Addition in 1890, today’s University District
+  core. In 1891, a Department of Planning and Development existing-
+  conditions report says, settlers voted to bring Brooklyn into Seattle.
+  David Denny’s Rainier Power and Railway Company built the Latona
+  Bridge that year and, in 1892, extended a trolley north along
+  Columbus Avenue, now University Way.
+
+  In the fall of 1895 the University of Washington moved to its present
+  campus with 310 students. The University Store opened at 42nd and
+  Columbus the same year, and the streetcar stop at 42nd and Brooklyn
+  soon became University Station. By 1900 enrollment was 614 and the
+  census counted more than 400 people in the Brooklyn Addition. By 1910
+  enrollment reached 2,200, and the city survey says the district
+  contained the greatest concentration of commercial buildings outside
+  downtown.
+
+  The Alaska-Yukon-Pacific Exposition and the 1917 ship canal pulled
+  more growth north of Lake Union. The University Bridge opened in 1919
+  and made 10th Avenue NE, now Roosevelt Way, the main north-south
+  arterial. The 2015 city survey called the district home to more than
+  50,000 students, faculty, and staff and about 35,000 permanent
+  residents. The sources below are City of Seattle historic-preservation
+  and planning reports.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1895-01-01"
+datePrecision: year
+dateLabel: campus 1895
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: University District
+  slug: university-district
+  placeType: neighborhood
+  latitude: 47.6602778
+  longitude: -122.3116667
+  county: King County
+  region: Puget Sound
+
+categories:
+  - history
+  - science-strange
+
+tags:
+  - seattle
+  - university-district
+  - brooklyn
+
+claims:
+  - text: >
+      A City of Seattle historic-resources survey says James A. Moore
+      filed the plat for the Brooklyn Addition in 1890, that David
+      Denny built the Latona Bridge in 1891 for streetcar service to
+      Brooklyn, and that in 1892 the line was extended north along
+      Columbus Avenue, now University Way.
+    claimType: historical
+    confidence: verified
+    sources:
+      - seattle-university-park-survey
+  - text: >
+      A City of Seattle planning report says that in 1891 the first
+      settlers in the area voted to incorporate Brooklyn into Seattle,
+      and that the University of Washington was then relocated from
+      downtown to the Brownfield farm.
+    claimType: historical
+    confidence: verified
+    sources:
+      - seattle-udistrict-existing
+  - text: >
+      The city survey says that in the fall of 1895 the University of
+      Washington moved to its present campus with 310 students, that
+      the University Store opened at 42nd and Columbus the same year,
+      and that the streetcar stop at 42nd and Brooklyn Avenue soon
+      became known as University Station.
+    claimType: historical
+    confidence: verified
+    sources:
+      - seattle-university-park-survey
+  - text: >
+      The city survey says university enrollment reached 614 by 1900
+      and 2,200 by 1910, that the 1900 Census counted more than 400
+      people in the Brooklyn Addition, and that by 1910 the University
+      District contained the greatest concentration of commercial
+      buildings outside of downtown.
+    claimType: historical
+    confidence: verified
+    sources:
+      - seattle-university-park-survey
+  - text: >
+      The city survey says the University Bridge opened in 1919 and
+      established 10th Avenue NE, now Roosevelt Way, as the major
+      north-south arterial.
+    claimType: factual
+    confidence: verified
+    sources:
+      - seattle-university-park-survey
+  - text: >
+      USGS Geographic Names lists University District, a populated
+      place in King County, at 47.6602778° N, 122.3116667° W
+      (GNIS 2363534).
+    claimType: factual
+    confidence: verified
+    sources:
+      - usgs-gnis-university-district
+
+sources:
+  - id: seattle-university-park-survey
+    title: Historic Resources Survey Update 2014–15, University Park Neighborhood
+    publisher: City of Seattle Department of Neighborhoods, Historic Preservation Program
+    url: https://www.seattle.gov/documents/departments/neighborhoods/historicpreservation/historicresourcessurvey/contextuniversity%20park%20hri%202014-15%20survey%20update_final.pdf
+    sourceType: government
+    tier: S
+    publicationDate: "2015-02-01"
+    accessedAt: "2026-09-21"
+  - id: seattle-udistrict-existing
+    title: University District Urban Design Framework Existing Conditions Report
+    publisher: City of Seattle Department of Planning and Development
+    url: https://www.seattle.gov/documents/departments/opcd/ongoinginitiatives/udistricturbandesign/udistrictexistingconditionsreport.pdf
+    sourceType: government
+    tier: S
+    publicationDate: "2012-06-01"
+    accessedAt: "2026-09-21"
+  - id: usgs-gnis-university-district
+    title: University District (GNIS 2363534)
+    publisher: U.S. Geological Survey
+    url: https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/2363534
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/university-district.jpg
+    mediaType: image
+    title: University Congregational Church on Brooklyn Avenue
+    creator: unknown photographer
+    sourceUrl: https://commons.wikimedia.org/wiki/File:University_Congregational_Church,_Brooklyn_Ave_and_NE_43rd_St,_ca_1911_(SEATTLE_1849).jpg
+    license: Public domain
+    licenseUrl: https://commons.wikimedia.org/wiki/Template:PD-US
+    altText: University Congregational Church at Brooklyn Avenue and Northeast 43rd Street in the University District, about 1911.
+    creditLine: University of Washington Libraries, Seattle Photographs, about 1911. Public domain.
+
+relatedStories:
+  - slug: alaska-yukon-pacific-exposition
+    relationshipType: nearby
+  - slug: montlake-cut
+    relationshipType: nearby
+  - slug: friday-harbor-laboratories
+    relationshipType: same-arc

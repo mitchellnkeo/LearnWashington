@@ -1,0 +1,140 @@
+slug: harvard-belmont
+title: Harvard-Belmont
+hook: A 14-block Capitol Hill district of early-1900s estates, later protected after neighbors asked the city to make it a landmark.
+body: |
+  The City of Seattle says the Harvard-Belmont Landmark District sits
+  on the west slope of Capitol Hill, a well-preserved residential
+  neighborhood of fine homes built by the city’s leading financiers,
+  industrialists, merchants, and businessmen in the early twentieth
+  century. A city historic-districts brochure calls it a 14-block area
+  of tree-lined streets, well-maintained grounds, and distinctive
+  natural features.
+
+  From the flatter eastern edges at Broadway East and Harvard Avenue
+  East the land drops toward Lake Union and Queen Anne Hill. A wooded
+  ravine marks the north edge, separating the Sam Hill House from
+  properties around St. Mark’s Cathedral. East Roy Street is the south
+  edge, where apartments, institutions, and Broadway’s commercial
+  strip begin. The city says railroad builder H. C. Henry was the first
+  man of influence to settle here, and that his presence drew others
+  during the first decade of the twentieth century.
+
+  Residents initiated the preservation process. The district was
+  approved for designation in 1980 and written into city code as
+  SMC 25.22. The 1920s brought the Cornish School and the Woman’s
+  Century Club along the southern and western edges. The sources below
+  are City of Seattle historic-preservation pages.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1980-01-01"
+datePrecision: year
+dateLabel: district 1980
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Capitol Hill
+  slug: capitol-hill
+  placeType: historic_district
+  latitude: 47.62416667
+  longitude: -122.32083333
+  county: King County
+  region: Puget Sound
+
+categories:
+  - history
+  - music-culture
+
+tags:
+  - seattle
+  - capitol-hill
+  - landmark-district
+
+claims:
+  - text: >
+      The City of Seattle says the Harvard-Belmont Landmark District is
+      a well-preserved residential neighborhood on the west slope of
+      Capitol Hill, built by the city’s leading financiers,
+      industrialists, merchants, and businessmen in the early years of
+      the twentieth century.
+    claimType: factual
+    confidence: verified
+    sources:
+      - seattle-harvard-belmont
+  - text: >
+      A city historic-districts brochure says the district is a
+      14-block, predominantly residential area designated in 1980
+      (SMC 25.22) after residents initiated the landmark process.
+    claimType: factual
+    confidence: verified
+    sources:
+      - seattle-historic-districts-brochure
+      - seattle-harvard-belmont
+  - text: >
+      The city says railroad builder H. C. Henry was the first man of
+      influence to settle in the district, and that during the first
+      decade of the twentieth century merchants, bankers, lawyers,
+      engineers, lumber barons, and other entrepreneurs built
+      residences along Harvard Avenue East, Belmont Place East, and
+      neighboring streets.
+    claimType: historical
+    confidence: verified
+    sources:
+      - seattle-harvard-belmont
+  - text: >
+      The city says the 1920s brought the Spanish-style Hacienda
+      Apartments, Tudor-influenced Anhalt apartment groups, the Cornish
+      School, and the Woman’s Century Club along the southern and
+      western boundaries of the district.
+    claimType: historical
+    confidence: verified
+    sources:
+      - seattle-harvard-belmont
+  - text: >
+      USGS Geographic Names lists Capitol Hill, a populated place in
+      King County, at 47.62416667° N, 122.32083333° W (GNIS 1512065).
+    claimType: factual
+    confidence: verified
+    sources:
+      - usgs-gnis-capitol-hill
+
+sources:
+  - id: seattle-harvard-belmont
+    title: Harvard-Belmont Landmark District
+    publisher: City of Seattle Department of Neighborhoods
+    url: https://seattle.gov/neighborhoods/historic-preservation/historic-districts/harvard-belmont-landmark-district
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: seattle-historic-districts-brochure
+    title: Seattle Historic Districts
+    publisher: City of Seattle Department of Neighborhoods
+    url: https://www.seattle.gov/documents/departments/neighborhoods/historicpreservation/historicdistricts/seattle-historic-districts_brochure.pdf
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+  - id: usgs-gnis-capitol-hill
+    title: Capitol Hill (GNIS 1512065)
+    publisher: U.S. Geological Survey
+    url: https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1512065
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/harvard-belmont.jpg
+    mediaType: image
+    title: Residence of Samuel Hill, East Highland Drive
+    creator: Asahel Curtis
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Residence_of_Samuel_Hill_at_814_E_Highland_Dr,_Seattle,_1910_(CURTIS_1180).jpeg
+    license: Public domain
+    licenseUrl: https://commons.wikimedia.org/wiki/Template:PD-US
+    altText: The Samuel Hill house on East Highland Drive in 1910, at the north edge of today’s Harvard-Belmont Landmark District.
+    creditLine: Photograph by Asahel Curtis, 1910. University of Washington Libraries. Public domain.
+
+relatedStories:
+  - slug: pike-place-market
+    relationshipType: nearby
+  - slug: jimi-hendrix-seattle
+    relationshipType: nearby
+  - slug: queen-anne
+    relationshipType: nearby

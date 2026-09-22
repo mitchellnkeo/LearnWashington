@@ -1,0 +1,135 @@
+slug: queen-anne
+title: Queen Anne
+hook: Thomas Mercer called the hill Eden. By the mid-1880s real-estate ads sold it as Queen Anne Town, after the houses on the slope.
+body: |
+  A City of Seattle historic-context statement prepared for the
+  Department of Neighborhoods says Queen Anne is one of the city’s
+  oldest residential neighborhoods. Pioneer settler Thomas Mercer first
+  called the forested, water-lapped district Eden Hill. By the mid-1880s
+  the growing suburb had acquired the name Queen Anne Town, which the
+  city statement says was reportedly coined by the Rev. Daniel Bagley
+  for its showy Queen Anne–style houses.
+
+  The same city statement says Native habitation on Elliott Bay dates
+  back at least 3,000 years, and that the Duwamish occupied winter
+  villages on the bay. Baba’kwoh, meaning prairies, was the Native name
+  for a gathering place in the swale where Seattle Center now stands.
+  Lands between Lake Union and Interbay, from Denny Way to McGraw
+  Street, were annexed to Seattle in 1883. A cable car climbed
+  Temperance Street, now Queen Anne Avenue, to Highland Drive by 1888.
+  George and Angie Kinnear donated 11 acres for a park in 1887 and
+  added three more in 1897.
+
+  Community activism later tempered intensive development after World
+  War II,   including construction of the Century 21 world’s fair complex
+  in 1962 on lower Queen Anne. The city statement says the hill stands
+  nearly 400 feet above sea level. The sources below are the city’s
+  2005 Queen Anne historic-context statement.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1883-01-01"
+datePrecision: year
+dateLabel: annexed 1883
+lastReviewedAt: "2026-09-21"
+
+location:
+  name: Queen Anne
+  slug: queen-anne
+  placeType: neighborhood
+  latitude: 47.6359314
+  longitude: -122.366239
+  county: King County
+  region: Puget Sound
+
+categories:
+  - history
+  - indigenous-history-place
+
+tags:
+  - seattle
+  - queen-anne
+  - seattle-center
+
+claims:
+  - text: >
+      A City of Seattle historic-context statement says pioneer settler
+      Thomas Mercer first called the district Eden Hill, and that by
+      the mid-1880s the suburb had acquired the name Queen Anne Town in
+      reference to its showy domestic architecture.
+    claimType: historical
+    confidence: verified
+    sources:
+      - seattle-queen-anne-context
+  - text: >
+      The city statement says human habitation on the shores of Elliott
+      Bay dates back at least 3,000 years, that the Duwamish occupied
+      several large winter villages on the bay, and that Baba’kwoh
+      (prairies) was the Native name for a gathering place in the swale
+      where Seattle Center now stands.
+    claimType: historical
+    confidence: verified
+    sources:
+      - seattle-queen-anne-context
+  - text: >
+      The city statement says all lands between Lake Union and Interbay,
+      from Denny Way to McGraw Street, were annexed to the City of
+      Seattle in 1883, and that by 1888 residents could ride a cable
+      car from downtown up Temperance Street, now Queen Anne Avenue, as
+      far as Highland Drive.
+    claimType: historical
+    confidence: verified
+    sources:
+      - seattle-queen-anne-context
+  - text: >
+      The city statement says George and Angie Kinnear donated 11 acres
+      as a park in 1887 and added another three acres in 1897, and that
+      later community activism tempered intensive urban development
+      after World War II, including construction of the Century 21
+      world’s fair complex in 1962 on lower Queen Anne.
+    claimType: historical
+    confidence: verified
+    sources:
+      - seattle-queen-anne-context
+  - text: >
+      USGS Geographic Names lists Queen Anne, a populated place in King
+      County, at 47.6359314° N, 122.366239° W (GNIS 1512589).
+    claimType: factual
+    confidence: verified
+    sources:
+      - usgs-gnis-queen-anne
+
+sources:
+  - id: seattle-queen-anne-context
+    title: Queen Anne Historic Context Statement
+    publisher: City of Seattle Department of Neighborhoods, Historic Preservation Program
+    url: https://www.seattle.gov/documents/departments/neighborhoods/historicpreservation/historicresourcessurvey/context-queen-anne.pdf
+    sourceType: government
+    tier: S
+    publicationDate: "2005-10-01"
+    accessedAt: "2026-09-21"
+  - id: usgs-gnis-queen-anne
+    title: Queen Anne (GNIS 1512589)
+    publisher: U.S. Geological Survey
+    url: https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/1512589
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-21"
+
+media:
+  - url: /media/queen-anne.jpg
+    mediaType: image
+    title: Apartment building on Queen Anne Avenue
+    creator: Asahel Curtis
+    sourceUrl: https://commons.wikimedia.org/wiki/File:Apartment_building,_Queen_Anne_Ave_N_near_N_Roy_St,_Seattle_(CURTIS_1680).jpeg
+    license: Public domain
+    licenseUrl: https://commons.wikimedia.org/wiki/Template:PD-US
+    altText: The Leona Apartments on Queen Anne Avenue North, photographed by Asahel Curtis in 1909.
+    creditLine: Photograph by Asahel Curtis, 1909. University of Washington Libraries. Public domain.
+
+relatedStories:
+  - slug: alki-beach
+    relationshipType: same-arc
+  - slug: discovery-park
+    relationshipType: nearby
+  - slug: gas-works-park
+    relationshipType: nearby
