@@ -1,4 +1,9 @@
-import { MVP_CATEGORIES, QUALIFYING_SOURCE_TIERS } from "./enums";
+import {
+  MVP_CATEGORIES,
+  POP_CULTURE_CATEGORY,
+  POP_CULTURE_SOURCE_TIERS,
+  QUALIFYING_SOURCE_TIERS,
+} from "./enums";
 import { dateMatchesPrecision } from "./date-label";
 import { isInsideWashington, walkPositions } from "./geo";
 import { claimSourceId, type SeedStory } from "./seed-schema";
@@ -51,13 +56,19 @@ export function checkPublicationGates(story: SeedStory): ContentIssue[] {
     });
   }
 
+  const popCulture = story.categories.includes(POP_CULTURE_CATEGORY);
+  const qualifyingTiers = popCulture
+    ? POP_CULTURE_SOURCE_TIERS
+    : QUALIFYING_SOURCE_TIERS;
   const hasQualifyingSource = story.sources.some((source) =>
-    (QUALIFYING_SOURCE_TIERS as readonly string[]).includes(source.tier),
+    (qualifyingTiers as readonly string[]).includes(source.tier),
   );
   if (story.status === "PUBLISHED" && !hasQualifyingSource) {
     issues.push({
       code: "no-qualifying-source",
-      message: "A published story needs at least one Tier S, A, or B source.",
+      message: popCulture
+        ? "A published pop-culture story needs at least one Tier S, A, B, or C source."
+        : "A published story needs at least one Tier S, A, or B source.",
       level: "error",
     });
   }

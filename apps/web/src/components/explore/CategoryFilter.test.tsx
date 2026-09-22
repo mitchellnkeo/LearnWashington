@@ -15,6 +15,8 @@ describe("CategoryFilter", () => {
 
     await user.click(screen.getByRole("button", { name: "Music & Culture" }));
     expect(onSelect).toHaveBeenCalledWith("music-culture");
+    await user.click(screen.getByRole("button", { name: "Pop Culture" }));
+    expect(onSelect).toHaveBeenCalledWith("pop-culture");
   });
 
   it("marks the active category", () => {

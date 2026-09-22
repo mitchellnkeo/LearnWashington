@@ -1,0 +1,103 @@
+slug: fremont-troll
+title: The Fremont Troll
+hook: Neighbors voted a troll clutching a Volkswagen under the Aurora Bridge. City archives still have the ballots that said “Nice nose.”
+body: |
+  Seattle Municipal Archives say the Fremont Arts Council applied in 1989
+  for a Neighborhood Matching Fund grant for a project called Hall of
+  Giants — a sculptural environment under the north end of the Aurora
+  Bridge, then full of garbage and old mattresses. The goal was to clean
+  up what the council called a badly littered eyesore and build a focal
+  point for community pride. Forty proposals came in from around the
+  country. Residents voted on four finalist models at the Fremont Fair
+  in June 1990 and at the Fremont library: living-room furniture, a
+  recycling piece made of garbage, four stone musicians, and a troll
+  clutching a Volkswagen.
+
+  On July 19 the troll won. One voter wrote, “Nice nose.” September 29,
+  1990, was declared Troll Day. With community volunteers, the archives
+  say, the sculpture was finished later that year.
+
+  The University of Washington’s Neighborhood Design/Build Studio, led
+  by architect Steve Badanes, says the troll at North 36th Street and
+  Aurora Avenue North was designed and installed by Badanes, Will
+  Martin, Donna Walter, and Ross Whitehead. The pin is under the bridge,
+  where the bug still has not escaped.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1990-09-29"
+datePrecision: day
+dateLabel: Troll Day September 29, 1990
+lastReviewedAt: "2026-09-22"
+
+location:
+  name: Fremont Troll
+  slug: fremont-troll
+  placeType: sculpture
+  latitude: 47.6511
+  longitude: -122.3474
+  county: King County
+  region: Puget Sound
+
+categories:
+  - pop-culture
+
+tags:
+  - seattle
+  - fremont
+  - public-art
+
+claims:
+  - text: >
+      Seattle Municipal Archives say the Fremont Arts Council applied in
+      1989 for a Neighborhood Matching Fund grant for a Hall of Giants
+      sculptural project under the north end of the Aurora Bridge, then
+      full of garbage and old mattresses, to create a focal point for
+      community pride.
+    claimType: historical
+    confidence: verified
+    sources:
+      - seattle-archives-troll
+  - text: >
+      The archives say forty proposals were received, that Fremont
+      residents voted on four finalist models including a troll clutching
+      a Volkswagen, that the troll was announced as the winner on July 19,
+      1990, that September 29, 1990, was declared Troll Day, and that
+      community volunteers finished the sculpture later that year.
+    claimType: historical
+    confidence: verified
+    sources:
+      - seattle-archives-troll
+  - text: >
+      The University of Washington Neighborhood Design/Build Studio says
+      the Fremont Troll at North 36th Street and Aurora Avenue North was
+      collaboratively designed and installed by Steve Badanes, Will
+      Martin, Donna Walter, and Ross Whitehead.
+    claimType: factual
+    confidence: verified
+    sources:
+      - uw-fremont-troll
+
+sources:
+  - id: seattle-archives-troll
+    title: February Find of the Month — Fremont Troll
+    publisher: Seattle Municipal Archives
+    url: https://primarysources.seattle.gov/2026/02/02/february-find-of-the-month-fremont-troll/
+    sourceType: government
+    tier: S
+    publicationDate: "2026-02-02"
+    accessedAt: "2026-09-22"
+  - id: uw-fremont-troll
+    title: 1990 Fremont Troll
+    publisher: University of Washington Neighborhood Design/Build Studio
+    url: https://ndbs.be.uw.edu/project-archives/1990-fremont-troll/
+    sourceType: academic
+    tier: A
+    accessedAt: "2026-09-22"
+
+media: []
+
+relatedStories:
+  - slug: gas-works-park
+    relationshipType: nearby
+  - slug: jimi-hendrix-seattle
+    relationshipType: same-arc

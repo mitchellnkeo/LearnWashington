@@ -1,0 +1,97 @@
+slug: sleepless-in-seattle
+title: Sleepless in Seattle
+hook: Tom Hanks’s floating bachelor pad is a real Lake Union home. Visit Seattle says the insides were a soundstage — look from the water, not the dock.
+body: |
+  Visit Seattle, marking the 1993 rom-com’s 30th anniversary, says Sam’s
+  house — Tom Hanks’s floating bachelor pad — sits on Lake Union. The
+  home is privately owned. The city’s tourism page says a tour from the
+  water is the way to glimpse it, and that the interior shots were filmed
+  on a soundstage.
+
+  The same Visit Seattle page walks other Seattle stops. On New Year’s
+  Eve in the film, Sam watches fireworks from his balcony across the lake
+  at Gas Works Park. Jay, played by Rob Reiner, assesses Sam’s dating
+  prospects outside the Inn at the Market, then the two eat at the
+  Athenian inside Pike Place Market, where the page says a plaque marks
+  the seat. Annie later watches Sam and Jonah at Alki Beach from across
+  the street.
+
+  The Seattle Times, in 2010, said tourists were still slipping onto
+  Lake Union docks looking for the house seventeen years after the
+  movie. Please don’t. The pin is the lake, not someone’s front door.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1993-01-01"
+datePrecision: year
+dateLabel: released 1993
+lastReviewedAt: "2026-09-22"
+
+location:
+  name: Lake Union
+  slug: lake-union
+  placeType: lake
+  latitude: 47.639
+  longitude: -122.334
+  county: King County
+  region: Puget Sound
+
+categories:
+  - pop-culture
+
+tags:
+  - seattle
+  - movies
+  - lake-union
+
+claims:
+  - text: >
+      Visit Seattle says the floating home used as Sam’s house in
+      Sleepless in Seattle is on Lake Union, that it is privately owned,
+      that a tour from the water is the best way to see it, and that the
+      interior shots were filmed on a soundstage.
+    claimType: factual
+    confidence: verified
+    sources:
+      - visit-seattle-sleepless
+  - text: >
+      Visit Seattle says that in the film Sam watches New Year’s Eve
+      fireworks from his balcony toward Gas Works Park, that Jay and Sam
+      dine at the Athenian inside Pike Place Market, and that Annie
+      watches Sam and Jonah at Alki Beach.
+    claimType: factual
+    confidence: verified
+    sources:
+      - visit-seattle-sleepless
+  - text: >
+      The Seattle Times, in 2010, said tourists were still searching Lake
+      Union docks for the house seventeen years after the 1993 film.
+    claimType: historical
+    confidence: verified
+    sources:
+      - seattle-times-sleepless-house
+
+sources:
+  - id: visit-seattle-sleepless
+    title: Still Sleepless
+    publisher: Visit Seattle
+    url: https://visitseattle.org/things-to-do/sightseeing/still-sleepless/
+    sourceType: other
+    tier: C
+    accessedAt: "2026-09-22"
+  - id: seattle-times-sleepless-house
+    title: “Sleepless” house keeps drawing attention
+    publisher: The Seattle Times
+    url: https://www.seattletimes.com/seattle-news/sleepless-house-keeps-drawing-attention-2/
+    sourceType: journalism
+    tier: B
+    accessedAt: "2026-09-22"
+
+media: []
+
+relatedStories:
+  - slug: gas-works-park
+    relationshipType: nearby
+  - slug: pike-place-market
+    relationshipType: nearby
+  - slug: alki-beach
+    relationshipType: nearby

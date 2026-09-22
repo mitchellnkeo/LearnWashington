@@ -1,0 +1,91 @@
+slug: northern-exposure-roslyn
+title: Northern Exposure in Roslyn
+hook: Cicely, Alaska, was a former coal town in the Cascades. Some bar interiors were shot in Redmond.
+body: |
+  The Roslyn Historical Museum says the 1990–1995 television series
+  Northern Exposure used the former coal town because its early-1900s
+  architecture and heavy snow looked like a remote Alaskan village, and
+  because Roslyn was close enough to Seattle for studio interiors. Some
+  inside shots — including the Brick Tavern and Dr. Fleischman’s home —
+  were filmed at a studio in Redmond. Lake Cle Elum and the Easton
+  airport were filming sites as well.
+
+  The museum says the Roslyn Café mural predated the series; producers
+  added the apostrophe-s to make it fit Cicely. The Advisory Council on
+  Historic Preservation notes that the Roslyn Museum also preserves items
+  from the show, which was filmed in town.
+
+  The pin is Roslyn, still smaller than its fictional Alaskan twin on a
+  good tourist Saturday.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1990-01-01"
+datePrecision: year
+dateLabel: series 1990–1995
+lastReviewedAt: "2026-09-22"
+
+location:
+  name: Roslyn
+  slug: roslyn
+  placeType: town
+  latitude: 47.2234
+  longitude: -121.0028
+  county: Kittitas County
+  region: Cascades
+
+categories:
+  - pop-culture
+
+tags:
+  - roslyn
+  - television
+  - northern-exposure
+
+claims:
+  - text: >
+      The Roslyn Historical Museum says the 1990–1995 series used Roslyn
+      for its early-1900s architecture and snow, that some interiors
+      including the Brick Tavern and Dr. Fleischman’s home were filmed at
+      a studio in Redmond, and that Lake Cle Elum and the Easton airport
+      were also filming sites.
+    claimType: factual
+    confidence: verified
+    sources:
+      - roslyn-museum-exposure
+  - text: >
+      The museum says the Roslyn Café mural predated the series and that
+      producers added the apostrophe-s to make it fit their Cicely set.
+    claimType: factual
+    confidence: verified
+    sources:
+      - roslyn-museum-exposure
+  - text: >
+      The Advisory Council on Historic Preservation says the Roslyn
+      Museum preserves items relating to Northern Exposure, which was
+      filmed in Roslyn.
+    claimType: factual
+    confidence: verified
+    sources:
+      - achp-roslyn
+
+sources:
+  - id: roslyn-museum-exposure
+    title: Northern Exposure
+    publisher: Roslyn Historical Museum
+    url: https://www.roslynmuseum.com/northern-exposure.html
+    sourceType: museum
+    tier: B
+    accessedAt: "2026-09-22"
+  - id: achp-roslyn
+    title: Roslyn, Washington
+    publisher: Advisory Council on Historic Preservation
+    url: https://www.achp.gov/preserve-america/community/roslyn-washington
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-22"
+
+media: []
+
+relatedStories:
+  - slug: twin-peaks-snoqualmie
+    relationshipType: same-arc

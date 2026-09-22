@@ -1,0 +1,87 @@
+slug: twin-peaks-snoqualmie
+title: Twin Peaks in the Snoqualmie Valley
+hook: David Lynch filmed the town that was not a town — Snoqualmie, North Bend, and Fall City standing in for Twin Peaks.
+body: |
+  The City of Snoqualmie says Twin Peaks, the television mystery that ran
+  from 1990 to 1991, and the 1992 film Fire Walk With Me, directed by
+  David Lynch, were filmed in Snoqualmie and the neighboring towns of
+  North Bend and Fall City. After a 25-year hiatus, the city says, the
+  show returned to film in and around Snoqualmie in 2017.
+
+  Fans still come for the landmarks. The city lists Salish Lodge & Spa as
+  the Great Northern Hotel, Reinig Bridge as Ronette’s Bridge, DirtFish
+  Rally School as the Twin Peaks Sheriff’s Department, Twede’s Café in
+  North Bend as the Double R Diner, and the Roadhouse Restaurant & Inn in
+  Fall City. Original ink drawings by Lynch are on view at Snoqualmie
+  City Hall.
+
+  The city’s Twin Peaks page is the source below. The pin sits at
+  Snoqualmie Falls, the waterfall that opens the show.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1990-01-01"
+datePrecision: year
+dateLabel: series 1990–1991
+lastReviewedAt: "2026-09-22"
+
+location:
+  name: Snoqualmie Falls
+  slug: snoqualmie-falls
+  placeType: waterfall
+  latitude: 47.541944
+  longitude: -121.836944
+  county: King County
+  region: Cascades
+
+categories:
+  - pop-culture
+
+tags:
+  - twin-peaks
+  - snoqualmie
+  - television
+
+claims:
+  - text: >
+      The City of Snoqualmie says Twin Peaks (1990–1991) and the film Fire
+      Walk With Me (1992), directed by David Lynch, were filmed in
+      Snoqualmie and the neighboring communities of North Bend and Fall
+      City, and that after a 25-year hiatus the show returned for filming
+      in and around Snoqualmie in 2017.
+    claimType: factual
+    confidence: verified
+    sources:
+      - snoqualmie-twin-peaks
+  - text: >
+      The city lists Salish Lodge & Spa as the Great Northern Hotel,
+      Reinig Bridge as Ronette’s Bridge, DirtFish Rally School as the
+      Twin Peaks Sheriff’s Department, Twede’s Café in North Bend as the
+      Double R Diner, and the Roadhouse Restaurant & Inn in Fall City.
+    claimType: factual
+    confidence: verified
+    sources:
+      - snoqualmie-twin-peaks
+  - text: >
+      The city says original ink drawings by David Lynch celebrating Twin
+      Peaks are on view at Snoqualmie City Hall.
+    claimType: factual
+    confidence: verified
+    sources:
+      - snoqualmie-twin-peaks
+
+sources:
+  - id: snoqualmie-twin-peaks
+    title: Twin Peaks
+    publisher: City of Snoqualmie
+    url: https://snoqualmiewa.gov/379/Twin-Peaks
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-22"
+
+media: []
+
+relatedStories:
+  - slug: northern-exposure-roslyn
+    relationshipType: same-arc
+  - slug: sleepless-in-seattle
+    relationshipType: nearby

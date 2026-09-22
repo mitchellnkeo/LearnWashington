@@ -73,6 +73,29 @@ describe("checkPublicationGates", () => {
     );
   });
 
+  it("lets a pop-culture story publish with a Tier C source", () => {
+    const issues = checkPublicationGates(
+      story({
+        categories: ["pop-culture"],
+        sources: [
+          {
+            id: "times",
+            title: "A film location story",
+            publisher: "The Seattle Times",
+            url: "https://www.seattletimes.com/example",
+            sourceType: "journalism",
+            tier: "C",
+            accessedAt: "2026-09-22",
+          },
+        ],
+      }),
+    );
+
+    expect(issues.some((issue) => issue.code === "no-qualifying-source")).toBe(
+      false,
+    );
+  });
+
   it("requires a qualifying source for publication", () => {
     const issues = checkPublicationGates(
       story({

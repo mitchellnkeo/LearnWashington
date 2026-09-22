@@ -1,0 +1,97 @@
+slug: practical-magic-coupeville
+title: Practical Magic in Coupeville
+hook: Maria’s Island, Massachusetts, was Front Street on Whidbey. The Owens house was a shell on another island — and then it was gone.
+body: |
+  The Coupeville Chamber of Commerce calls the town the film home of
+  Practical Magic. The 1998 Sandra Bullock and Nicole Kidman movie, the
+  chamber says, prominently features historic downtown shops and Front
+  Street. Buildings were whitewashed for the cameras and later returned
+  to their original colors. Props and memorabilia from the shoot are on
+  view at the Coupeville Visitors Information Center.
+
+  The chamber’s walking tour maps the storefronts. The 1871 Sedge
+  Building — today’s Little Red Hen Bakery — was Sally’s Verbena
+  Botanicals, used for interior and exterior shots. Toby’s Tavern, in
+  the Whidbey Cash and Carry building since 1938, became the Catch and
+  Fry behind a two-story false front. A white picket fence built for
+  the movie still stands between those two buildings. The hanging ice
+  cream sign at what is now Kapaw’s Iskreme was a prop and is still
+  there.
+
+  The Owens house is nowhere on the island. The chamber says it was
+  only a shell, built in a county park on San Juan Island and torn down
+  after filming. The pin is Coupeville’s waterfront, the town that
+  played New England for a few weeks and then got its colors back.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1998-01-01"
+datePrecision: year
+dateLabel: released 1998
+lastReviewedAt: "2026-09-22"
+
+location:
+  name: Coupeville
+  slug: coupeville
+  placeType: town
+  latitude: 48.2203
+  longitude: -122.6865
+  county: Island County
+  region: Puget Sound
+
+categories:
+  - pop-culture
+
+tags:
+  - coupeville
+  - movies
+  - whidbey
+
+claims:
+  - text: >
+      The Coupeville Chamber of Commerce says the 1998 film Practical
+      Magic prominently features historic downtown Coupeville shops and
+      Front Street, that buildings were whitewashed for the movie and
+      later returned to their original colors, and that props and
+      memorabilia from filming are on view at the Coupeville Visitors
+      Information Center.
+    claimType: factual
+    confidence: verified
+    sources:
+      - coupeville-practical-magic
+  - text: >
+      The chamber says the 1871 Sedge Building, now the Little Red Hen
+      Bakery, was Sally’s Verbena Botanicals for interior and exterior
+      shots, and that Toby’s Tavern — in the Whidbey Cash and Carry
+      building since 1938 — was the Catch and Fry behind a two-story
+      façade built for the film.
+    claimType: factual
+    confidence: verified
+    sources:
+      - coupeville-practical-magic
+  - text: >
+      The chamber says a white picket fence constructed for the movie
+      remains between Toby’s and the Little Red Hen, that a hanging ice
+      cream sign built as a prop remains at what is now Kapaw’s Iskreme,
+      and that the Owens house was only a shell built in a county park
+      on San Juan Island and torn down after filming.
+    claimType: factual
+    confidence: verified
+    sources:
+      - coupeville-practical-magic
+
+sources:
+  - id: coupeville-practical-magic
+    title: Practically Magic
+    publisher: Coupeville Chamber of Commerce
+    url: https://coupevillechamber.com/practically-magic/
+    sourceType: other
+    tier: C
+    accessedAt: "2026-09-22"
+
+media: []
+
+relatedStories:
+  - slug: american-camp
+    relationshipType: nearby
+  - slug: ten-things-stadium-high
+    relationshipType: same-arc

@@ -103,7 +103,18 @@ export const MVP_CATEGORIES = [
     icon: "flask",
     color: "#5d82a0",
   },
+  {
+    slug: "pop-culture",
+    name: "Pop Culture",
+    icon: "clapper",
+    color: "#7a4f6d",
+  },
 ] as const;
+
+/** Pop-culture cards may publish with a Tier C source (journalism, tourism). */
+export const POP_CULTURE_CATEGORY = "pop-culture";
+
+export const POP_CULTURE_SOURCE_TIERS = ["S", "A", "B", "C"] as const;
 
 export const DEFAULT_CATEGORY_COLOR = "#4d6f5c";
 

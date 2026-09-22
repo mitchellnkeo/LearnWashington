@@ -21,6 +21,8 @@ describe("map category markers", () => {
     expect(expression[0]).toBe("match");
     expect(expression).toContain("wildlife-ecology");
     expect(expression).toContain("category-wildlife-ecology");
+    expect(expression).toContain("pop-culture");
+    expect(expression).toContain("category-pop-culture");
     expect(expression.at(-1)).toBe("category-default");
   });
 

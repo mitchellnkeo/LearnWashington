@@ -1,0 +1,107 @@
+slug: twilight-forks
+title: Twilight in Forks
+hook: The vampires are fictional. The town is real. Almost none of the first movie was shot here — and visitors came anyway.
+body: |
+  The Forks Chamber of Commerce still calls Forks home of the Twilight
+  Saga. It invites fans to photograph Bella’s trucks, pick up a
+  self-guided Twilight map, and see costumes and props from the films,
+  free, at the Rainforest Arts Center. The chamber’s Forever Twilight in
+  Forks Festival is held the weekend closest to Bella’s birthday,
+  September 13. For 2026 it listed September 10–13.
+
+  The Seattle Times, writing fifteen years after the first film, says
+  almost the entire book is set on the Olympic Peninsula — and that not
+  a single shot of the first Twilight movie was filmed in Forks. The
+  paper says the 2007 production was shot mostly around Portland, with
+  only two major Washington scenes: the exterior of “Forks High School”
+  at Kalama High School, and the Cullens’ backyard at Cape Horn. In
+  2007 Forks had just over 10,000 visitors. In 2009, after the movie,
+  the Times says that figure rose to 70,000.
+
+  The pin is the real Forks. The cameras mostly went to Oregon. The
+  fans still come here.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "2008-01-01"
+datePrecision: year
+dateLabel: first film 2008
+lastReviewedAt: "2026-09-22"
+
+location:
+  name: Forks
+  slug: forks
+  placeType: town
+  latitude: 47.9503
+  longitude: -124.3855
+  county: Clallam County
+  region: Olympic Peninsula
+
+categories:
+  - pop-culture
+
+tags:
+  - twilight
+  - forks
+  - movies
+
+claims:
+  - text: >
+      The Forks Chamber of Commerce calls Forks home of the Twilight
+      Saga, says fans can photograph Bella’s trucks and pick up a
+      self-guided Twilight map, and says costumes and props from the
+      films are on view free at the Rainforest Arts Center.
+    claimType: factual
+    confidence: verified
+    sources:
+      - forks-twilight
+  - text: >
+      The chamber says Forever Twilight in Forks Festival is held the
+      weekend closest to Bella’s birthday, September 13, and listed the
+      2026 dates as September 10–13.
+    claimType: factual
+    confidence: verified
+    sources:
+      - forks-twilight
+  - text: >
+      The Seattle Times says not a single shot of the first Twilight
+      movie was filmed in Forks, that the 2007 production was shot
+      mostly around Portland, and that only two major Washington scenes
+      were the Forks High School exterior at Kalama High School and the
+      Cullens’ backyard at Cape Horn.
+    claimType: factual
+    confidence: verified
+    sources:
+      - seattle-times-twilight
+  - text: >
+      The Seattle Times says Forks had just over 10,000 visitors in 2007
+      and 70,000 in 2009.
+    claimType: factual
+    confidence: verified
+    sources:
+      - seattle-times-twilight
+
+sources:
+  - id: forks-twilight
+    title: The Forks Washington Twilight Connection
+    publisher: Forks Chamber of Commerce
+    url: https://forkswa.com/twilight/
+    sourceType: other
+    tier: C
+    accessedAt: "2026-09-22"
+  - id: seattle-times-twilight
+    title: Twilight put Forks, Washington, on the map. Fifteen years later, the saga’s legacy endures
+    publisher: The Seattle Times
+    url: https://www.seattletimes.com/entertainment/books/twilight-put-forks-washington-on-the-map-fifteen-years-later-the-sagas-legacy-endures/
+    sourceType: journalism
+    tier: B
+    accessedAt: "2026-09-22"
+
+media: []
+
+relatedStories:
+  - slug: hoh-rain-forest
+    relationshipType: nearby
+  - slug: olympic-national-park-1938
+    relationshipType: nearby
+  - slug: twin-peaks-snoqualmie
+    relationshipType: same-arc

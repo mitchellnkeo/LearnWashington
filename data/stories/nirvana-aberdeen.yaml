@@ -1,0 +1,92 @@
+slug: nirvana-aberdeen
+title: Nirvana in Aberdeen
+hook: The city keeps a small park under the Young Street Bridge for the kid who hung out there — then rewrote rock.
+body: |
+  The City of Aberdeen lists Kurt Cobain Memorial Park as a small
+  neighborhood park at the base of the Young Street Bridge, “made famous
+  as one of Kurt Cobain’s hangouts while living in Aberdeen.” The city
+  says the park includes art statues and signs as a tribute, that it was
+  built and maintained by Tori and Marcia Kovach and Denny Jackson, and
+  that it was transferred to the city when the Kovaches moved away.
+
+  Washington’s Department of Enterprise Services later wrote about
+  Aberdeen residents Lee and Dani Bacon, who bought and restored
+  Cobain’s childhood home and in 2024 opened The Music Project, which
+  Dani Bacon called an interactive space where visitors can engage with
+  music and storytelling. DES calls Aberdeen the “birthplace of grunge”
+  in that account.
+
+  The pin is the city’s park on the Wishkah, not a private house. Come
+  as you are, and stay on public ground.
+status: PUBLISHED
+verificationStatus: VERIFIED
+lastReviewedAt: "2026-09-22"
+
+location:
+  name: Kurt Cobain Memorial Park
+  slug: kurt-cobain-memorial-park
+  placeType: park
+  latitude: 46.9786
+  longitude: -123.8175
+  county: Grays Harbor County
+  region: Coast
+
+categories:
+  - pop-culture
+  - music-culture
+
+tags:
+  - aberdeen
+  - nirvana
+  - grunge
+
+claims:
+  - text: >
+      The City of Aberdeen says Kurt Cobain Memorial Park is a small
+      neighborhood park at the base of the Young Street Bridge, made
+      famous as one of Kurt Cobain’s hangouts while living in Aberdeen,
+      and that it includes art statues and signs as a tribute.
+    claimType: factual
+    confidence: verified
+    sources:
+      - aberdeen-cobain-park
+  - text: >
+      The city says the park was built and maintained by Tori and Marcia
+      Kovach and Denny Jackson, and that it was transferred to the City
+      of Aberdeen when the Kovaches moved from the area.
+    claimType: factual
+    confidence: verified
+    sources:
+      - aberdeen-cobain-park
+  - text: >
+      The Washington Department of Enterprise Services says Aberdeen
+      residents Lee and Dani Bacon bought and restored Kurt Cobain’s
+      childhood home and in 2024 opened The Music Project, which Dani
+      Bacon described as an interactive space for music and storytelling.
+    claimType: factual
+    confidence: verified
+    sources:
+      - wa-des-music-project
+
+sources:
+  - id: aberdeen-cobain-park
+    title: Kurt Cobain Memorial Park
+    publisher: City of Aberdeen
+    url: https://www.aberdeenwa.gov/facilities/facility/details/cobainlanding-5
+    sourceType: government
+    tier: S
+    accessedAt: "2026-09-22"
+  - id: wa-des-music-project
+    title: How an Aberdeen couple used state surplus property to help tell the story of the “birthplace of grunge”
+    publisher: Washington State Department of Enterprise Services
+    url: https://des.wa.gov/about/news-success-stories/how-aberdeen-couple-used-state-surplus-property-help-tell-story-birthplace-grunge
+    sourceType: government
+    tier: S
+    publicationDate: "2026-08-26"
+    accessedAt: "2026-09-22"
+
+media: []
+
+relatedStories:
+  - slug: jimi-hendrix-seattle
+    relationshipType: same-arc

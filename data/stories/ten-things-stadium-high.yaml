@@ -1,0 +1,84 @@
+slug: ten-things-stadium-high
+title: 10 Things I Hate About You
+hook: Padua High was Stadium High. Heath Ledger’s Shakespeare rewrite pretended the brick castle in Tacoma was a Seattle school.
+body: |
+  The Seattle Times says Stadium High School in Tacoma was cast as Padua
+  High in the 1999 Heath Ledger Shakespeare-inspired teen romance 10 Things
+  I Hate About You, even though the movie is nominally set in Seattle.
+
+  The same Times piece says the building began as a French-château luxury
+  hotel in 1891, became Tacoma High School in 1906, gained Stadium Bowl in
+  1910, and took its present name in 1913. An interior remodel from 2004 to
+  2006 turned the cafeteria featured in the film into a library.
+
+  It is still a public high school. The Times notes that Pretty Gritty
+  Tours sometimes walks the halls when students are gone. The pin is the
+  castle above Commencement Bay, not a Seattle soundstage.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1999-01-01"
+datePrecision: year
+dateLabel: released 1999
+lastReviewedAt: "2026-09-22"
+
+location:
+  name: Stadium High School
+  slug: stadium-high-school
+  placeType: school
+  latitude: 47.26611
+  longitude: -122.44806
+  county: Pierce County
+  region: Puget Sound
+
+categories:
+  - pop-culture
+
+tags:
+  - tacoma
+  - movies
+  - stadium-high
+
+claims:
+  - text: >
+      The Seattle Times says Stadium High School in Tacoma was cast as
+      Padua High in the 1999 Heath Ledger Shakespeare-inspired teen romance
+      10 Things I Hate About You, even though the movie is nominally set
+      in Seattle.
+    claimType: factual
+    confidence: verified
+    sources:
+      - seattle-times-stadium
+  - text: >
+      The Seattle Times says construction of the building began in 1891 as
+      a French-château luxury hotel, that the Tacoma School District opened
+      it as Tacoma High School in 1906, that Stadium Bowl was built in 1910,
+      and that the school took the Stadium name in 1913.
+    claimType: historical
+    confidence: verified
+    sources:
+      - seattle-times-stadium
+  - text: >
+      The Seattle Times says an interior remodel from 2004 to 2006 turned
+      the cafeteria featured in the film into a library.
+    claimType: factual
+    confidence: verified
+    sources:
+      - seattle-times-stadium
+
+sources:
+  - id: seattle-times-stadium
+    title: Stadium High School in Tacoma gives you at least 10 things to love
+    publisher: The Seattle Times
+    url: https://www.seattletimes.com/pacific-nw-magazine/there-are-at-least-10-things-to-love-about-tacomas-stadium-high-school/
+    sourceType: journalism
+    tier: B
+    publicationDate: "2024-04-29"
+    accessedAt: "2026-09-22"
+
+media: []
+
+relatedStories:
+  - slug: sleepless-in-seattle
+    relationshipType: same-arc
+  - slug: tacoma-narrows-1940
+    relationshipType: nearby

@@ -1,0 +1,99 @@
+slug: officer-gentleman-port-townsend
+title: An Officer and a Gentleman
+hook: The Navy would not let Paramount shoot in Pensacola. Port Townsend said yes — and Fort Worden became Officer Candidate School.
+body: |
+  HistoryLink says a Paramount cast and crew of more than 100 arrived in
+  Port Townsend in late April 1981 to film An Officer and a Gentleman.
+  Taylor Hackford directed Richard Gere as a would-be Navy pilot, Debra
+  Winger as a local factory worker, and Louis Gossett Jr. as the drill
+  instructor. Scenes were shot at Fort Worden State Park, the Tides Inn,
+  the Town Tavern in the 1889 N. D. Hill Building, the Port Townsend
+  Paper Mill, and elsewhere around the historic city. Nearly all of the
+  movie was shot here, HistoryLink says, with only a few scenes on
+  Whidbey Island and at other Western Washington locations.
+
+  The town was a second choice. HistoryLink says Port Townsend was
+  selected after the U.S. Navy refused to let Paramount use the real
+  Aviation Officer Candidate School at Pensacola. About 400 residents —
+  8 percent of the town — answered a casting call for extras. The
+  filming, HistoryLink writes, pumped some three million dollars into
+  the local economy.
+
+  The film premiered in 1982. Gossett won the Oscar for best supporting
+  actor; Winger was nominated for best actress. HistoryLink says it
+  grossed more money than any 1982 film except E.T. In October 2006
+  Gossett came back to Fort Worden for a 25th-anniversary DVD interview.
+  The pin is the old coastal fort that played Navy school.
+status: PUBLISHED
+verificationStatus: VERIFIED
+startDate: "1981-04-01"
+datePrecision: month
+dateLabel: filmed April 1981
+lastReviewedAt: "2026-09-22"
+
+location:
+  name: Fort Worden
+  slug: fort-worden
+  placeType: park
+  latitude: 48.141
+  longitude: -122.767
+  county: Jefferson County
+  region: Olympic Peninsula
+
+categories:
+  - pop-culture
+
+tags:
+  - port-townsend
+  - movies
+  - fort-worden
+
+claims:
+  - text: >
+      HistoryLink says a Paramount cast and crew of more than 100 arrived
+      in Port Townsend in late April 1981 to film An Officer and a
+      Gentleman, directed by Taylor Hackford and starring Richard Gere,
+      Debra Winger, and Louis Gossett Jr., and that scenes were shot at
+      Fort Worden State Park, the Tides Inn, the Town Tavern, the Port
+      Townsend Paper Mill, and other locations around the city.
+    claimType: historical
+    confidence: verified
+    sources:
+      - historylink-officer-gentleman
+  - text: >
+      HistoryLink says nearly all of the movie was shot in Port Townsend,
+      with only a few scenes filmed on Whidbey Island and at other
+      Western Washington locations, and that the town was chosen after
+      the U.S. Navy refused to let Paramount use the Aviation Officer
+      Candidate School at Pensacola.
+    claimType: historical
+    confidence: verified
+    sources:
+      - historylink-officer-gentleman
+  - text: >
+      HistoryLink says about 400 residents, 8 percent of Port Townsend,
+      answered a casting call for extras, that filming pumped some three
+      million dollars into the local economy, that the 1982 film grossed
+      more than any other 1982 release except E.T., and that Louis
+      Gossett Jr. won the Oscar for best supporting actor.
+    claimType: historical
+    confidence: verified
+    sources:
+      - historylink-officer-gentleman
+
+sources:
+  - id: historylink-officer-gentleman
+    title: Paramount Pictures begins filming An Officer and a Gentleman in Port Townsend in April 1981
+    publisher: HistoryLink
+    url: https://www.historylink.org/File/8237
+    sourceType: journalism
+    tier: B
+    accessedAt: "2026-09-22"
+
+media: []
+
+relatedStories:
+  - slug: practical-magic-coupeville
+    relationshipType: same-arc
+  - slug: dungeness-spit
+    relationshipType: nearby
